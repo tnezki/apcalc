@@ -2044,250 +2044,1210 @@ def make_algebra_tiles(expression, filename='algebra_tiles.png'):
 # ─────────────────────────────────────────────────────────────────────────────
 
 
-# UNIT 1 BANK GRAPH-GENERATION BLOCKS (APPENDED BELOW FINAL MARKER)
+# UNIT 1 BANK FIGURE GENERATION - APPENDED BELOW FINAL APPROVED MARKER
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 1*(x-(2))+(3), 'deriv': lambda x: np.full_like(x,1,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: 1*(x-(2))+(3), 'deriv': lambda x: np.full_like(x,1,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,-1,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (2,2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_s1_note_ex02_limit_graph.png')
+# u1_s2_wtc01_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.35)*(x-(2))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.35), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(2))+(1), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(6), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_wtc01_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 1*(x-(1))+(2), 'deriv': lambda x: np.full_like(x,1,dtype=float), 'domain': (-10,1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: 0.5*(x-(1))+(-2), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,-2,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (1,1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_s2_note_ex02_one_sided_graph.png')
+# u1_s1_note_ex04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(1))+(3), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.3)*(x-(1))+(3), 'deriv': lambda x: np.zeros_like(x)+(-0.3), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(6), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_note_ex04_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(-1))+(4), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: 0.5*(x-(-1))+(4), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,0,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-1,-1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_s4_note_ex03_discontinuity_graph.png')
+# u1_s1_note_yti04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(-2))+(1), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, -2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.35)*(x-(-2))+(1), 'deriv': lambda x: np.zeros_like(x)+(0.35), 'domain': (-2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(-3), 'deriv': lambda x: np.zeros_like(x), 'domain': (-2, -2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_note_yti04_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_standard_graph(ax, [{'expr': lambda x: (1) + (3)/(x-(2)), 'deriv': lambda x: -(3)/(x-(2))**2, 'color': 'steelblue'}], title='')
-save_graph(fig, 'u1_s5_note_ex01_asymptote_graph.png')
+# u1_s2_note_ex01_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.3)*(x-(2))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(2))+(1), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(1), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_note_ex01_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.7*(x-(-2))+(2), 'deriv': lambda x: np.full_like(x,0.7,dtype=float), 'domain': (-10,-2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: 0.7*(x-(-2))+(2), 'deriv': lambda x: np.full_like(x,0.7,dtype=float), 'domain': (-2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,5,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-2,-2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_s1_ps1_c01_graph.png')
+# u1_s2_note_yti01_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.25)*(x-(-1))+(-2), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.2)*(x-(-1))+(3), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(3), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_note_yti01_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.7*(x-(1))+(-1), 'deriv': lambda x: np.full_like(x,0.7,dtype=float), 'domain': (-10,1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: 0.7*(x-(1))+(-1), 'deriv': lambda x: np.full_like(x,0.7,dtype=float), 'domain': (1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,4,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (1,1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_s1_ps2_c01_graph.png')
+# u1_s4_note_ex03_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(0))+(2), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 0), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.3)*(x-(0))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.3), 'domain': (0, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(5), 'deriv': lambda x: np.zeros_like(x), 'domain': (0, 0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_note_ex03_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.6*(x-(0))+(3), 'deriv': lambda x: np.full_like(x,0.6,dtype=float), 'domain': (-10,0), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.4*(x-(0))+(-1), 'deriv': lambda x: np.full_like(x,-0.4,dtype=float), 'domain': (0,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,3,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (0,0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_s2_ps1_c01_graph.png')
+# u1_s4_note_yti03_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.25)*(x-(3))+(-1), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(3))+(-1), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(4), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_note_yti03_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.6*(x-(2))+(-2), 'deriv': lambda x: np.full_like(x,0.6,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.4*(x-(2))+(1), 'deriv': lambda x: np.full_like(x,-0.4,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,-2,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (2,2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_s2_ps2_c01_graph.png')
+# u1_s1_ps1_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.23)*(x-(3))+(2), 'deriv': lambda x: np.zeros_like(x)+(0.23), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(3))+(2), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(5), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps1_q06_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: -0.5*(x-(3))+(-2), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-10,3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.5*(x-(3))+(-2), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (3,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,2,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (3,3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_s4_ps1_c01_graph.png')
+# u1_s1_ps1_q10_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(3))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(3))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps1_q10_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: -0.5*(x-(-2))+(3), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-10,-2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.5*(x-(-2))+(3), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,-1,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-2,-2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_s4_ps2_c01_graph.png')
+# u1_s1_ps1_q16_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.23)*(x-(-1))+(3), 'deriv': lambda x: np.zeros_like(x)+(0.23), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(-1))+(3), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(6), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps1_q16_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_standard_graph(ax, [{'expr': lambda x: (2) + (2)/(x-(-1)), 'deriv': lambda x: -(2)/(x-(-1))**2, 'color': 'steelblue'}], title='')
-save_graph(fig, 'u1_s5_ps1_c01_graph.png')
+# u1_s1_ps1_q20_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(-1))+(8), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(-1))+(8), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps1_q20_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_standard_graph(ax, [{'expr': lambda x: (-1) + (2)/(x-(2)), 'deriv': lambda x: -(2)/(x-(2))**2, 'color': 'steelblue'}], title='')
-save_graph(fig, 'u1_s5_ps2_c01_graph.png')
+# u1_s1_ps2_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.26)*(x-(-1))+(3), 'deriv': lambda x: np.zeros_like(x)+(0.26), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(-1))+(3), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(6), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps2_q06_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.6*(x-(-4))+(0), 'deriv': lambda x: np.full_like(x,0.6,dtype=float), 'domain': (-10,-4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.4*(x-(-4))+(0), 'deriv': lambda x: np.full_like(x,-0.4,dtype=float), 'domain': (-4,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,3,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-4,-4), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d2_01_v1_graph.png')
+# u1_s1_ps2_q10_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(-1))+(8), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(-1))+(8), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps2_q10_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.6*(x-(-3))+(3), 'deriv': lambda x: np.full_like(x,0.6,dtype=float), 'domain': (-10,-3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.4*(x-(-3))+(3), 'deriv': lambda x: np.full_like(x,-0.4,dtype=float), 'domain': (-3,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,6,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-3,-3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d2_01_v2_graph.png')
+# u1_s1_ps2_q16_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.26)*(x-(4))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.26), 'domain': (-10, 4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(4))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (4, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(7), 'deriv': lambda x: np.zeros_like(x), 'domain': (4, 4), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps2_q16_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.6*(x-(-2))+(6), 'deriv': lambda x: np.full_like(x,0.6,dtype=float), 'domain': (-10,-2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.4*(x-(-2))+(6), 'deriv': lambda x: np.full_like(x,-0.4,dtype=float), 'domain': (-2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,9,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-2,-2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d2_01_v3_graph.png')
+# u1_s1_ps2_q20_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(4))+(9), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(4))+(9), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (4, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps2_q20_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.6*(x-(-1))+(-4), 'deriv': lambda x: np.full_like(x,0.6,dtype=float), 'domain': (-10,-1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.4*(x-(-1))+(-2), 'deriv': lambda x: np.full_like(x,-0.4,dtype=float), 'domain': (-1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,-1,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-1,-1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d2_01_v4_graph.png')
+# u1_s1_ps3_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.29000000000000004)*(x-(4))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.29000000000000004), 'domain': (-10, 4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(4))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (4, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(7), 'deriv': lambda x: np.zeros_like(x), 'domain': (4, 4), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps3_q06_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.6*(x-(0))+(-1), 'deriv': lambda x: np.full_like(x,0.6,dtype=float), 'domain': (-10,0), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.4*(x-(0))+(-1), 'deriv': lambda x: np.full_like(x,-0.4,dtype=float), 'domain': (0,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,2,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (0,0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d2_01_v5_graph.png')
+# u1_s1_ps3_q10_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(4))+(9), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(4))+(9), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (4, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps3_q10_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.6*(x-(1))+(2), 'deriv': lambda x: np.full_like(x,0.6,dtype=float), 'domain': (-10,1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.4*(x-(1))+(2), 'deriv': lambda x: np.full_like(x,-0.4,dtype=float), 'domain': (1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,5,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (1,1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d2_01_v6_graph.png')
+# u1_s1_ps3_q16_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.29000000000000004)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.29000000000000004), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps3_q16_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.6*(x-(2))+(5), 'deriv': lambda x: np.full_like(x,0.6,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.4*(x-(2))+(5), 'deriv': lambda x: np.full_like(x,-0.4,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,8,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (2,2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d2_01_v7_graph.png')
+# u1_s1_ps3_q20_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(2))+(10), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(2))+(10), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_ps3_q20_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.6*(x-(3))+(-5), 'deriv': lambda x: np.full_like(x,0.6,dtype=float), 'domain': (-10,3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.4*(x-(3))+(-3), 'deriv': lambda x: np.full_like(x,-0.4,dtype=float), 'domain': (3,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,-2,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (3,3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d2_01_v8_graph.png')
+# u1_s1_xp_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.32)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.32), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_xp_q06_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(-4))+(4), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.3*(x-(-4))+(4), 'deriv': lambda x: np.full_like(x,-0.3,dtype=float), 'domain': (-4,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,8,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-4,-4), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d3_04_v1_graph.png')
+# u1_s1_xp_q10_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(2))+(10), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(2))+(10), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_xp_q10_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(-3))+(-6), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.3*(x-(-3))+(-6), 'deriv': lambda x: np.full_like(x,-0.3,dtype=float), 'domain': (-3,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,-2,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-3,-3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d3_04_v2_graph.png')
+# u1_s1_xp_q16_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.32)*(x-(3))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.32), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(3))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_xp_q16_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(-2))+(-3), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.3*(x-(-2))+(-1), 'deriv': lambda x: np.full_like(x,-0.3,dtype=float), 'domain': (-2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,1,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-2,-2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d3_04_v3_graph.png')
+# u1_s1_xp_q20_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(3))+(11), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(3))+(11), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s1_xp_q20_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(-1))+(0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.3*(x-(-1))+(0), 'deriv': lambda x: np.full_like(x,-0.3,dtype=float), 'domain': (-1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,4,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-1,-1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d3_04_v4_graph.png')
+# u1_s2_ps1_q02_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(2))+(3), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(7), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps1_q02_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(0))+(3), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,0), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.3*(x-(0))+(3), 'deriv': lambda x: np.full_like(x,-0.3,dtype=float), 'domain': (0,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,7,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (0,0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d3_04_v5_graph.png')
+# u1_s2_ps1_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.25)*(x-(2))+(3), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(2))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps1_q06_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(1))+(6), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.3*(x-(1))+(8), 'deriv': lambda x: np.full_like(x,-0.3,dtype=float), 'domain': (1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,10,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (1,1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d3_04_v6_graph.png')
+# u1_s2_ps1_q10_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(2))+(3), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(2))+(3), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(7), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps1_q10_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(2))+(-4), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.3*(x-(2))+(-4), 'deriv': lambda x: np.full_like(x,-0.3,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,0,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (2,2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d3_04_v7_graph.png')
+# u1_s2_ps1_q12_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(-2))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, -2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(-2))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (-2, -2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps1_q12_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(3))+(-1), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.3*(x-(3))+(-1), 'deriv': lambda x: np.full_like(x,-0.3,dtype=float), 'domain': (3,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,3,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (3,3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_fa_d3_04_v8_graph.png')
+# u1_s2_ps1_q16_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.25)*(x-(-2))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-10, -2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(-2))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (-2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps1_q16_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(-4))+(-3), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.5*(x-(-4))+(-3), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-4,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,0,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-4,-4), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_sum_v1_q03_graph.png')
+# u1_s2_ps1_q20_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(-2))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, -2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(-2))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (-2, -2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps1_q20_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(-3))+(-2), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.5*(x-(-3))+(0), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-3,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,1,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-3,-3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_sum_v2_q03_graph.png')
+# u1_s2_ps2_q02_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(-2))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, -2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(-2))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(6), 'deriv': lambda x: np.zeros_like(x), 'domain': (-2, -2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps2_q02_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(-2))+(-1), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.5*(x-(-2))+(-1), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,2,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-2,-2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_sum_v3_q03_graph.png')
+# u1_s2_ps2_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.25)*(x-(-2))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-10, -2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(-2))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (-2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps2_q06_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(-1))+(0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.5*(x-(-1))+(2), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,3,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (-1,-1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_sum_v4_q03_graph.png')
+# u1_s2_ps2_q10_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(-2))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, -2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(-2))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (-2, -2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps2_q10_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(0))+(1), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,0), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.5*(x-(0))+(1), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (0,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,4,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (0,0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_sum_v5_q03_graph.png')
+# u1_s2_ps2_q12_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(5), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps2_q12_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(1))+(2), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.5*(x-(1))+(4), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,5,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (1,1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_sum_v6_q03_graph.png')
+# u1_s2_ps2_q16_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.25)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(3))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps2_q16_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(2))+(3), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.5*(x-(2))+(3), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,6,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (2,2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_sum_v7_q03_graph.png')
+# u1_s2_ps2_q20_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(3))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps2_q20_limit_graph.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5,3.5))
-make_piecewise_graph(ax, [{'expr': lambda x: 0.5*(x-(3))+(4), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
-{'expr': lambda x: -0.5*(x-(3))+(6), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (3,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
-{'expr': lambda x: np.full_like(x,7,dtype=float), 'deriv': lambda x: np.zeros_like(x,dtype=float), 'domain': (3,3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}], title='')
-save_graph(fig, 'u1_sum_v8_q03_graph.png')
+# u1_s2_ps3_q02_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(3))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps3_q02_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_ps3_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.25)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(3))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps3_q06_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_ps3_q10_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps3_q10_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_ps3_q12_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(10), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps3_q12_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_ps3_q16_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.25)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(1))+(8), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps3_q16_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_ps3_q20_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(10), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_ps3_q20_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_xp_q02_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(1))+(8), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_xp_q02_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_xp_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.25)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(1))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_xp_q06_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_xp_q10_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(1))+(8), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(10), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_xp_q10_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_xp_q12_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(2))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(2))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(7), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_xp_q12_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_xp_q16_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.25)*(x-(2))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(2))+(9), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_xp_q16_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_xp_q20_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(2))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(2))+(9), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(11), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_xp_q20_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps1_q03_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(2))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(2))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps1_q03_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps1_q08_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(2))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(2))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(6), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps1_q08_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps1_q13_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps1_q13_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps1_q18_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(-1))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(7), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps1_q18_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps2_q03_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(-1))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps2_q03_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps2_q08_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(5), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps2_q08_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps2_q13_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(3))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(3))+(8), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(10), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps2_q13_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps2_q18_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(3))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(3))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(6), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps2_q18_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps3_q03_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(3))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(3))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(10), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps3_q03_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps3_q08_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(3))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(3))+(8), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps3_q08_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps3_q13_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(1))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(1))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(11), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps3_q13_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_ps3_q18_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(1))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(1))+(9), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_ps3_q18_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_xp_q03_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(1))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(1))+(9), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(11), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_xp_q03_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_xp_q08_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(1))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(1))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(7), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_xp_q08_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_xp_q13_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(2))+(8), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(2))+(10), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(12), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_xp_q13_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_xp_q18_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(2))+(8), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(2))+(8), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_xp_q18_limit_graph.png')
+plt.close(fig)
+
+# u1_s5_ps1_q03_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (-1) + (2)/(x-(2)), 'deriv': lambda x: -(2)/(x-(2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps1_q03_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps1_q08_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (-1) + (-2)/(x-(2)), 'deriv': lambda x: -(-2)/(x-(2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps1_q08_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps1_q13_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (3) + (3)/(x-(-2)), 'deriv': lambda x: -(3)/(x-(-2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps1_q13_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps1_q18_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (3) + (-3)/(x-(-2)), 'deriv': lambda x: -(-3)/(x-(-2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps1_q18_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps2_q03_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (3) + (2)/(x-(-2)), 'deriv': lambda x: -(2)/(x-(-2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps2_q03_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps2_q08_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (3) + (-2)/(x-(-2)), 'deriv': lambda x: -(-2)/(x-(-2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps2_q08_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps2_q13_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (1) + (3)/(x-(3)), 'deriv': lambda x: -(3)/(x-(3))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps2_q13_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps2_q18_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (1) + (-3)/(x-(3)), 'deriv': lambda x: -(-3)/(x-(3))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps2_q18_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps3_q03_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (1) + (2)/(x-(3)), 'deriv': lambda x: -(2)/(x-(3))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps3_q03_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps3_q08_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (1) + (-2)/(x-(3)), 'deriv': lambda x: -(-2)/(x-(3))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps3_q08_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps3_q13_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (2) + (3)/(x-(1)), 'deriv': lambda x: -(3)/(x-(1))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps3_q13_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_ps3_q18_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (2) + (-3)/(x-(1)), 'deriv': lambda x: -(-3)/(x-(1))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_ps3_q18_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_xp_q03_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (2) + (2)/(x-(1)), 'deriv': lambda x: -(2)/(x-(1))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_xp_q03_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_xp_q08_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (2) + (-2)/(x-(1)), 'deriv': lambda x: -(-2)/(x-(1))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_xp_q08_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_xp_q13_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (-1) + (3)/(x-(2)), 'deriv': lambda x: -(3)/(x-(2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_xp_q13_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_xp_q18_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (-1) + (-3)/(x-(2)), 'deriv': lambda x: -(-3)/(x-(2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_xp_q18_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s2_cyu_q05_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(1))+(8), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_cyu_q05_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_wu2_utd02_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(5), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_wu2_utd02_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_wu2_utd04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.32)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.32), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_wu2_utd04_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_wu3_utd02_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(3))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(5), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_wu3_utd02_limit_graph.png')
+plt.close(fig)
+
+# u1_s2_wu3_utd04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.32)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.32), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s2_wu3_utd04_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_cyu_q03_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.25)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(5), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_cyu_q03_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_wu2_utd03_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_wu2_utd03_limit_graph.png')
+plt.close(fig)
+
+# u1_s4_wu3_utd03_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_s4_wu3_utd03_limit_graph.png')
+plt.close(fig)
+
+# u1_s5_cyu_q03_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (3) + (-2)/(x-(-2)), 'deriv': lambda x: -(-2)/(x-(-2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_cyu_q03_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_wu2_utd02_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (3) + (3)/(x-(-2)), 'deriv': lambda x: -(3)/(x-(-2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_wu2_utd02_asymptote_graph.png')
+plt.close(fig)
+
+# u1_s5_wu3_utd02_asymptote_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+functions = [{'expr': lambda x: (3) + (3)/(x-(-2)), 'deriv': lambda x: -(3)/(x-(-2))**2, 'color': 'steelblue', 'label': None}]
+make_standard_graph(ax, functions, title='')
+save_graph(fig, 'u1_s5_wu3_utd02_asymptote_graph.png')
+plt.close(fig)
+
+# u1_fa_d1_02_v2_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(-1))+(3), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(-1))+(3), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(3), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d1_02_v2_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d1_02_v4_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(2))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(5), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d1_02_v4_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d1_02_v6_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(4))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(4))+(8), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (4, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (4, 4), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d1_02_v6_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d1_02_v8_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(6))+(9), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 6), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(6))+(9), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (6, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (6, 6), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d1_02_v8_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d2_01_v1_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(-2))+(3), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, -2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(-2))+(3), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(7), 'deriv': lambda x: np.zeros_like(x), 'domain': (-2, -2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d2_01_v1_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d2_01_v2_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(-1))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(-1))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d2_01_v2_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d2_01_v3_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(1))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(1))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d2_01_v3_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d2_01_v4_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(2))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(2))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(10), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d2_01_v4_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d2_01_v5_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(3))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(3))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(11), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d2_01_v5_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d2_01_v6_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(4))+(8), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(4))+(10), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (4, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(12), 'deriv': lambda x: np.zeros_like(x), 'domain': (4, 4), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d2_01_v6_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d2_01_v7_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(5))+(9), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 5), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(5))+(9), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (5, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(13), 'deriv': lambda x: np.zeros_like(x), 'domain': (5, 5), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d2_01_v7_limit_graph.png')
+plt.close(fig)
+
+# u1_fa_d2_01_v8_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.25)*(x-(6))+(10), 'deriv': lambda x: np.zeros_like(x)+(0.25), 'domain': (-10, 6), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.2)*(x-(6))+(10), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (6, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(14), 'deriv': lambda x: np.zeros_like(x), 'domain': (6, 6), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_fa_d2_01_v8_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v1_q04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(-2))+(4), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, -2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(-2))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(7), 'deriv': lambda x: np.zeros_like(x), 'domain': (-2, -2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v1_q04_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v1_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(-2))+(3), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, -2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(-2))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (-2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(5), 'deriv': lambda x: np.zeros_like(x), 'domain': (-2, -2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v1_q06_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v2_q04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(-1))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v2_q04_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v2_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(-1))+(4), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, -1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(-1))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (-1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(6), 'deriv': lambda x: np.zeros_like(x), 'domain': (-1, -1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v2_q06_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v3_q04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(1))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v3_q04_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v3_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(1))+(5), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(1))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (1, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(7), 'deriv': lambda x: np.zeros_like(x), 'domain': (1, 1), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v3_q06_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v4_q04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(2))+(7), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(2))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(10), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v4_q04_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v4_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(2))+(6), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(2))+(8), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (2, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(8), 'deriv': lambda x: np.zeros_like(x), 'domain': (2, 2), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v4_q06_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v5_q04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(3))+(8), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(3))+(8), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(11), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v5_q04_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v5_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(3))+(7), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(3))+(9), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (3, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(9), 'deriv': lambda x: np.zeros_like(x), 'domain': (3, 3), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v5_q06_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v6_q04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(4))+(9), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(4))+(9), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (4, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(12), 'deriv': lambda x: np.zeros_like(x), 'domain': (4, 4), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v6_q04_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v6_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(4))+(8), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(4))+(10), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (4, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(10), 'deriv': lambda x: np.zeros_like(x), 'domain': (4, 4), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v6_q06_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v7_q04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(5))+(10), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 5), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(5))+(10), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (5, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(13), 'deriv': lambda x: np.zeros_like(x), 'domain': (5, 5), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v7_q04_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v7_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(5))+(9), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 5), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(5))+(11), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (5, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(11), 'deriv': lambda x: np.zeros_like(x), 'domain': (5, 5), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v7_q06_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v8_q04_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (0.2)*(x-(6))+(11), 'deriv': lambda x: np.zeros_like(x)+(0.2), 'domain': (-10, 6), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (-0.25)*(x-(6))+(11), 'deriv': lambda x: np.zeros_like(x)+(-0.25), 'domain': (6, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(14), 'deriv': lambda x: np.zeros_like(x), 'domain': (6, 6), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v8_q04_limit_graph.png')
+plt.close(fig)
+
+# u1_sum_v8_q06_limit_graph.png
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+pieces = [
+    {'expr': lambda x: (-0.2)*(x-(6))+(10), 'deriv': lambda x: np.zeros_like(x)+(-0.2), 'domain': (-10, 6), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: (0.3)*(x-(6))+(12), 'deriv': lambda x: np.zeros_like(x)+(0.3), 'domain': (6, 10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True},
+    {'expr': lambda x: np.zeros_like(x)+(12), 'deriv': lambda x: np.zeros_like(x), 'domain': (6, 6), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False},
+]
+make_piecewise_graph(ax, pieces, title='')
+save_graph(fig, 'u1_sum_v8_q06_limit_graph.png')
 plt.close(fig)

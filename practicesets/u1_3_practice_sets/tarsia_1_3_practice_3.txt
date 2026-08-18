@@ -1,0 +1,18 @@
+Evaluate $\lim_{x\to-1}(x^3-2x+4)$., $5$ by direct substitution
+Evaluate $\lim_{x\to4}\frac{x^2-9x+20}{x-4}$., $-1$
+If $-x^2\le h(x)\le x^2$ near|$0$ find the limit., $0$ by Squeeze Theorem
+First step for $\frac{\sqrt{x+2}-\sqrt3}{x-1}$ as $x\to1$?, Multiply by the conjugate
+If $\lim f=4$ and $\lim g=2$|find $\lim(2f-3g)$., $2$
+Left limit $-1$; right limit|$4$. Two-sided limit?, DNE
+Right-side data only. Enough|for two-sided limit?, No; left-side behavior is also needed.
+Left limit $-5$; right limit|$-2$. Which is larger?, The right-hand limit $-2$
+Right values near $x=3$|approach $6$. Right limit?, $6$
+Data with $x\gt-3$ estimate|which one-sided limit?, The right-hand limit
+Solve $(x-5)(x-4)=0$., $x=4$ and $x=5$
+Secant slope of $r(x)=5/x$|from $1$ to $4$?, $-\frac54$
+Evaluate $\log_3 81$., $4$
+If $p(x)=7$ for $x\lt-1$ find|$p(-2)$., $7$
+Average rate of change of|$2x^2+4x$ on $[-2,4]$?, $8$
+If $g(x)=\frac{5x+2}{x+1}$|find $g(3)$., $\frac{17}{4}$
+Zeros of $y=(x-2)(x+2)$?, $x=-2$ and $x=2$
+Solve $(x-3)(x-5)=0$., $x=3$ and $x=5$

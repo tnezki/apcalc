@@ -1,0 +1,18 @@
+If $f(1)=6$ and $\lim_{x\to1}f(x)=6$|continuous at $1$?, Yes; the limit equals $f(1)$
+Hole at $x=-3$ and jump at|$x=0$. Name both types., Removable at $-3$; jump at $0$
+Continuity at $3$: besides|$f(3)$ what is needed?, The limit exists and equals $f(3)$
+If $f(-2)=-2$ but the limit|is $3$ continuous at $-2$?, No; the limit is not $f(-2)$
+Hole at $x=0$ and jump at|$x=3$. Name both types., Removable at $0$; jump at $3$
+Best method for $\lim_{x\to1}\frac{x^2-1}{x-1}$?, Factor then cancel
+Evaluate $\lim_{x\to4}\frac{x^2-16}{x-4}$., $8$
+First substitution in|$\frac{x^2-16}{x-4}$ as|$x\to4$ gives?, $0/0$
+Evaluate $\lim_{x\to2}\frac{x^3-8}{x-2}$., $12$
+Evaluate $\lim_{x\to0}\frac{1-\cos(3x)}{x}$., $0$
+Evaluate $\log_5 25$., $2$
+If $p(x)=-3$ for $x\ge0$ find|$p(1)$., $-3$
+Factor $x^2-36$., $(x-6)(x+6)$
+If $g(x)=\frac{4x+3}{x+1}$|find $g(1)$., $\frac72$
+Zeros of $y=(x-5)(x+4)$?, $x=-4$ and $x=5$
+Solve $(x-3)(x+3)=0$., $x=-3$ and $x=3$
+Secant slope of $r(x)=7/x$|from $1$ to $3$?, $-\frac73$
+Evaluate $\log_5 625$., $4$

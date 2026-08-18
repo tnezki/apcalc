@@ -1,102 +1,96 @@
-UNIT 1 CANONICAL BANK MAINTENANCE REPORT
-==================================================
-Repair scope: add canonical WTC01 for every section; strengthen Notes Example/YTI concept bundles; preserve all unrelated bank content.
-Total bank items: 872
-Item count by destination:
+UNIT 1 BANK BUILD REPORT
+========================================================================
+COURSE_FAMILY: MATH
+COURSE_PROFILE: MATH_AP_CALCULUS
+Total bank items: 977
+Figure count: 118
+
+ITEM COUNT BY DESTINATION
   whats_to_come: 5
-  notes: 40
+  notes_example: 20
+  notes_yti: 20
   practice_set_1: 100
   practice_set_2: 100
   practice_set_3: 100
+  math_tarsia: 90
   extra_practice: 100
   cyu: 30
-  warm_up: 45
-  exit_ticket: 60
-  performance: 4
+  warm_up_1: 20
+  warm_up_2: 20
+  warm_up_3: 20
+  exit_ticket_a: 20
+  exit_ticket_b: 20
+  exit_ticket_c: 20
+  performance_task: 4
   formative_assessment: 128
   summative_assessment: 160
-Item count by section:
-  1.1: 140
-  1.2: 157
-  1.3: 180
-  1.4: 189
-  1.5: 206
-Spiral-role counts: current=195, last=140, mastery=240, n-a=229, performance=36, unit-synthesis=32
-Observed DOK counts: DOK 1=374, DOK 2=368, DOK 3=94, DOK 4=36
-Formative families: 40; total formative items: 128
-Summative versions: 8; items per version: 20; total summative items: 160
-Figure count: 36
-Notes Examples using explicit multi-part concept bundles: 20/20
-Exact duplicate student question bodies: 0
 
-PASS 1 - SOURCE / SCOPE
-  Bank PM v3 maintenance rules followed: YES
-  Unit 1 Assessment Plan read and used as authority: YES
-  Current graph_tool.py inspected; existing generate_graphs.py preserves it byte-for-byte as prefix: YES
-  Optional AP-topic PDFs text-extracted/consulted for task-form and rigor reference: YES
-  No unauthorized Unit 2+ content added: YES
-PASS 2 - DESTINATION COMPLETENESS
-  Exactly one WTC01 for each of Sections 1.1-1.5: PASS (5/5)
-  WTC01 rows and HTML items match: PASS
-  Notes inventory remains complete: PASS (40/40)
-  Notes Examples use coherent multi-part bundles where useful: PASS (20/20 examples)
-  Unrelated skills stapled together merely to save slots: NONE
-  All other destination counts preserved except addition of WTC: PASS
-PASS 3 - CURRENT / LAST / MASTERY
-  Existing practice/CYU/warm-up/exit spiral routing preserved: YES
-  WTC spiral_role = n-a for all sections: YES
-PASS 4 - UNIQUENESS / QUALITY
-  Exact duplicate student-facing bodies: 0
-  WTC exact duplicates of formative/summative items: 0
-  WTC remains separate from genuine PERF items: YES
-  Notes Example/YTI pairs now align to the same concept bundle: YES
-PASS 5 - DOK HONESTY
-  DOK updated only where revised cognitive demand changed: YES
-  Multi-part structure did not automatically inflate DOK: YES
-  DOK 3 Notes items require strategy/theorem/critique reasoning: YES
-PASS 6 - FIGURES
-  Referenced figures present: PASS (36 references; 36 unique)
+ITEM COUNT BY SECTION
+  1.1: 177
+  1.2: 194
+  1.3: 193
+  1.4: 194
+  1.5: 219
+
+RETRIEVAL ROLE COUNTS
+  current-section: 676
+  n-a: 5
+  performance: 36
+  prior-knowledge: 20
+  unit-synthesis: 160
+  unit-to-date: 80
+
+OBSERVED DOK COUNTS
+  DOK 1: 156
+  DOK 2: 603
+  DOK 3: 182
+  DOK 4: 36
+
+ASSESSMENT COUNTS
+  Formative families: 16
+  Versions per formative family: 8
+  Formative items: 128
+  Summative versions: 8
+  Items per summative version: 20
+  Summative items: 160
+
+DUPLICATE CHECK
+  Exact literal duplicate question bodies: 0
+  Near-similarity automated review candidates: 0
+  Assessment items reused verbatim in instruction/practice: 0
+
+QA RESULTS
+  Framework fully read: YES
+  Assessment Plan fully read: YES
+  graph_tool.py fully read: YES
+  Optional AP topic sources processed in full: YES
+  Every assessment-plan section represented: YES
+  Unauthorized topic added: NO
+  Exactly one WTC01 per section: YES
+  Each practice set has 20 full section-focused items: YES
+  Exactly 18 dedicated Tarsia items per section: YES
+  Tarsia C/L/M split imposed: NO
+  CYU has 6 items per section: YES
+  WU1 has 4 prerequisite items per section: YES
+  WU2/WU3 have 4 unit-to-date items per section: YES
+  Each exit ticket has 2 current + 2 unit-to-date: YES
+  Future-section content in WU/ET: NO
+  Forced Last/Mastery categories: 0
+  Formative assessment ideas represented: YES
+  Summative source inventory complete: YES
+  DOK quota used: NO
+  Conventional DOK 4 items: 0
+  Graph tool source lines modified: NO
+  generate_graphs.py run without error: YES
   Missing referenced PNGs: 0
   Unreferenced accidental PNGs: 0
-  No new figure design required by this repair: YES
-  Existing generate_graphs.py retained and current graph_tool prefix verified: YES
-  generate_graphs.py executed successfully during maintenance QA: YES
-PASS 7 - MAPPING / TRACEABILITY
-  HTML bank IDs unique: YES (872)
-  Mapping rows = bank items: YES (872 = 872)
-  Exactly one destination=whats_to_come row per section: YES
-  WTC IDs follow U1-S#-WTC01: YES
-  Existing Bank IDs preserved for all revised Notes Example/YTI items: YES
-PASS 8 - HTML HEAD / CSS / MATHJAX / CORRUPTION
-  base.css href exactly ../../css/base.css: YES
-  bank.css href exactly ../../css/bank.css: YES
-  CSS link order base.css then bank.css: YES
-  embedded <style> block: NO
+  Mapping rows equal bank items: YES
+  HTML bank IDs unique: YES
+  CSS hrefs exact: YES
+  Embedded style block: NO
   MathJax config before CDN: YES
-  form_feed/carriage_return/corrupt_rac/wrong delimiters/raw comparisons in math: 0
-PASS 9 - PACKAGE
-  .DS_Store / __MACOSX / AppleDouble debris removed from repaired Unit 1 package: YES
-  Required HTML / mapping / generate_graphs.py / figures / BUILD_REPORT present: YES
-
-MAINTENANCE CHANGES
-  Added: U1-S1-WTC01 through U1-S5-WTC01 (one canonical Notes preview per section).
-  Preserved: U1-S2-PERF01, U1-S4-PERF01, U1-S5-PERF01, U1-S5-PERF02 as genuine performance tasks.
-  Revised: all 20 Notes Example/YTI pairs so each pair targets the same concept bundle; concept-heavy sections use multi-part examples to cover related cases efficiently.
-  Preserved: all Practice Sets, Extra Practice, CYU, Warm-Ups, Exit Tickets, Formatives, Summatives, and unrelated figures/content.
-OVERALL: PASS - repaired Unit 1 bank ready for Notes PM v3 test.
-
-
-=== TARSIA-SAFETY MAINTENANCE REPAIR ===
-Date: 2026-08-18
-Scope: Unit 1 Math Practice Set 3 canonical Bank items
-Changed items: 100 PS3 items across Sections 1.1-1.5
-Reason: enforce dual-use Practice Set 3 + Tarsia edge safety before downstream assembly.
-Rules enforced:
-- concise single-target question/answer pairs
-- no comma outside math in question text (generator delimiter safety)
-- no figures or tables
-- short exact answers
-- unique canonical answers within each section
-- all 5 Current + all 5 Last remain usable; any 8 Mastery can be selected for the 18-edge puzzle
-- other destinations preserved unchanged
-QA: PASS
+  Corruption scan: PASS
+  Correct ZIP name: YES
+  Correct root folder: YES
+  No __MACOSX/.DS_Store debris: YES
+  ZIP integrity check: PASS

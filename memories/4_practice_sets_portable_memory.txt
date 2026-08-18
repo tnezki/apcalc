@@ -1,4 +1,4 @@
-GENERIC MATH / SCIENCE PRACTICE SETS PORTABLE MEMORY — v1.0
+GENERIC MATH / SCIENCE PRACTICE SETS PORTABLE MEMORY — v8.0
 =======================================================================
 
 PURPOSE
@@ -27,7 +27,7 @@ The Practice Set stage is responsible for:
   • clean student HTML
   • workspace placement
   • copying approved Bank figures
-  • Math Tarsia export OR Science Blooket export
+  • Math Tarsia TXT export OR Science Blooket export
   • traceability
   • packaging
   • QA
@@ -54,8 +54,7 @@ When sources conflict, follow this order:
      • Bank generate_graphs.py = canonical figure provenance
 4. Current Unit Assessment Plan — alignment/title sanity check only.
 5. Current uploaded graph_tool.py — authoritative graph-tool source.
-6. Current Tarsia generator template — Math export shell only.
-7. Older Algebra / Physics practice-set PMs — historical reference only.
+6. Older Algebra / Physics practice-set PMs — historical reference only.
 
 HARD RULE:
 If the Bank and Assessment Plan disagree about a practice question, do NOT
@@ -75,12 +74,25 @@ Do not guess from a single question if mapping identifies the family.
 COURSE-FAMILY EXPORT:
 
 MATH:
-  • Practice Set 3 remains a normal 20-question HTML practice set.
-  • Also create a PRELOADED TARSIA GENERATOR HTML for Practice Set 3.
+  • Practice Set 3 is a normal 20-question HTML practice set assembled from
+    the canonical PS3 Bank destination. It is NOT constrained by Tarsia and
+    may be used as ordinary practice or Activity 2.
+  • Render Math PS3 exactly as another full practice form. Preserve all Bank
+    figures, tables, multi-part structure, context, reasoning prompts, and
+    workspace needs just as you do for PS1, PS2, and Extra Practice.
+  • Do not simplify PS3 during assembly. Do not turn a rich PS3 Bank item into
+    a short answer-only prompt merely because a Tarsia file is also being
+    produced.
+  • If Math PS3 appears to be mostly shortened/padded versions of TAR items,
+    STOP and report a Bank-maintenance problem rather than assembling it.
+  • Also create a PASTE-READY TARSIA TEXT FILE from the separate canonical
+    TAR Bank destination.
+  • Do NOT generate or modify a Tarsia HTML file downstream. The teacher uses
+    the stable master Tarsia generator separately.
   • Do NOT create a Tarsia CSV by default.
-  • Tarsia generator uses 18 of the 20 canonical PS3 Bank items because the
-    supplied 16-triangle generator has exactly 18 interior question/answer
-    edges.
+  • The Tarsia TXT uses exactly 18 dedicated TAR items: 5 Current,
+    5 Last, and 8 Mastery.
+  • Never shorten or rewrite PS3 to make the puzzle fit.
 
 SCIENCE:
   • Practice Set 3 is exactly 20 four-choice multiple-choice questions,
@@ -88,8 +100,8 @@ SCIENCE:
   • Also create a Blooket CSV that is an exact content mirror of PS3.
   • No Tarsia file.
 
-If a course family does not satisfy its Bank-side PS3 requirements, STOP and
-report the Bank IDs that require repair.
+If a course family does not satisfy its Bank-side export requirements, STOP
+and report the missing or invalid Bank IDs that require repair.
 
 =======================================================================
 REQUIRED INPUTS
@@ -101,8 +113,6 @@ NORMAL FULL UNIT BUILD:
 2. Current Unit Bank ZIP.
 3. Current Unit Assessment Plan.
 4. Current graph_tool.py.
-5. MATH ONLY: current tarsia_generator.html template.
-
 Nothing else is normally required.
 
 Do NOT require:
@@ -131,9 +141,8 @@ READ ORDER — BEFORE WRITING HTML
    CYU Bank ID, its body, choices/tables/figures, and canonical answer.
 5. Inspect the Bank figures referenced by Practice Sets/CYU.
 6. Read the current graph_tool.py completely.
-7. MATH ONLY: read the Tarsia generator template completely.
-8. Complete the PRIVATE UNIT BUILD PLAN.
-9. Only then write output files.
+7. Complete the PRIVATE UNIT BUILD PLAN.
+8. Only then write output files.
 
 Do not draft questions while reading. There is no question-authoring stage here.
 
@@ -224,9 +233,12 @@ Allowed downstream-only transformations:
   • add workspace
   • copy canonical figures to local figures/
   • add hidden traceability attributes
-  • Tarsia only: add | line breaks without changing mathematical content
-  • Tarsia only: strip HTML wrappers to create concise edge text when the
-    underlying words/math stay identical
+  • Tarsia TXT only: add | line breaks outside math without changing academic content
+  • Tarsia TXT only: strip HTML wrappers to plain text while preserving the
+    underlying words/math
+  • Tarsia TXT only: normalize legacy raw mathematical vertical bars to semantic
+    LaTeX such as \lvert...\rvert or \mid so the paste-ready text does not
+    collide with the generator's | line-break marker
 
 If a mapped Bank problem is malformed, unsuitable, wrong, duplicated, or cannot
 be rendered, STOP and identify it for Bank maintenance.
@@ -500,82 +512,91 @@ Even if no figures are used in a section:
   • include generate_graphs.py as the current graph tool copy
 
 =======================================================================
-MATH BRANCH — TARSIA GENERATOR HTML
+MATH BRANCH — TARSIA PASTE-READY TXT
 =======================================================================
 
+MATH DOES NOT OUTPUT OR MODIFY A TARSIA GENERATOR HTML.
 MATH DOES NOT OUTPUT A TARSIA CSV BY DEFAULT.
 
 Output:
-  tarsia_[U]_[S]_practice_3.html
+  tarsia_[U]_[S]_practice_3.txt
 
-This is a section-specific, self-contained copy of the supplied
-`tarsia_generator.html` template with the Practice Set 3 pairs PRELOADED.
-
-The teacher opens the file and the puzzle is already populated. The generator's
-Generate / Print / Shuffle controls remain available.
+This file is a simple UTF-8 text export of the section's 18 dedicated canonical
+TAR Bank pairs. It is designed to be copied/pasted into the teacher's stable,
+separately maintained master Tarsia generator.
 
 WHY 18 PAIRS:
-The approved 16-triangle generator has exactly 18 interior shared edges.
-Therefore one puzzle can use exactly 18 question/answer pairs.
-Practice Set 3 still contains all 20 Bank questions in its normal HTML.
+The approved 16-triangle Tarsia puzzle has exactly 18 interior shared edges.
+Therefore the Bank provides exactly 18 dedicated Tarsia pairs per Math section.
+Practice Set 3 remains completely independent and still contains its normal 20
+canonical PS3 questions.
 
-DEFAULT 18-ITEM TARSIA SELECTION:
-  • all 5 Current PS3 items
-  • all 5 Last PS3 items
-  • 8 of the 10 Mastery PS3 items
+REQUIRED TARSIA INVENTORY PER SECTION:
+  • U[U]-S[S]-TAR-C01 ... C05  = 5 Current
+  • U[U]-S[S]-TAR-L01 ... L05  = 5 Last
+  • U[U]-S[S]-TAR-M01 ... M08  = 8 Mastery
 
-Select the 8 Mastery items deliberately for:
-  • broadest prerequisite coverage
-  • clearest single answer
-  • concise edge text
-  • variety
-  • minimal redundancy
+TXT FORMAT — EXACTLY ONE PAIR PER LINE:
+  question, answer
 
-Do not automatically use M01-M08 if M09/M10 create better breadth.
-Record the 18 selected source IDs in the generator JavaScript as:
+Examples:
+  Evaluate $\log_2 8$., $3$
+  Solve $\lvert x-7\rvert=3$., $x=4$ or $x=10$
+  Expand:|$\log(xy)$, $\log x+\log y$
 
-const TARSIA_SOURCE_IDS = [
-  "U1-S1-PS3-C01",
-  ...
-];
+FORMAT CONTRACT:
+  • Exactly 18 nonblank lines. No header row. No comments. No Bank IDs.
+  • Each line contains one question and one answer separated by the FIRST comma
+    OUTSIDE $...$ math.
+  • Question and answer come from the SAME canonical TAR Bank item.
+  • Preserve canonical wording, values, mathematical target, and canonical answer.
+  • Use normal LaTeX inside $...$.
+  • A literal | OUTSIDE math is reserved for an intentional visual line break in
+    the master Tarsia generator.
+  • Mathematical vertical-bar notation in TAR content must use semantic LaTeX
+    such as \lvert...\rvert, \mid, or \begin{vmatrix}...\end{vmatrix}; do
+    not export raw mathematical | characters that the master generator could
+    interpret as line breaks.
+  • Target about 25 displayed characters per visual line where practical.
+  • Do not add quotation marks around lines merely because commas occur inside math.
+  • UTF-8 plain text only.
 
-This is hidden traceability, not visible puzzle text.
+ALLOWED DOWNSTREAM NORMALIZATION:
+The Practice Set builder may insert a | OUTSIDE math solely to create a sensible
+visual line break. It may also normalize a mathematically equivalent raw vertical
+bar to the semantic LaTeX command required by this TXT contract when an older Bank
+item predates the rule. Do not otherwise rewrite, shorten, simplify, or alter the
+canonical TAR item. Report repeated normalization as a Bank-maintenance issue so
+future Banks are authored correctly.
 
-TARSIA CONTENT RULES:
-  • Question and answer come from the SAME canonical PS3 Bank item.
-  • Use the canonical Bank solution/answer — do not independently solve and
-    substitute a different form.
-  • Do not change numbers, operations, wording, or mathematical target.
-  • `|` may be inserted to force a visual line break.
-  • Target about 25 characters per visual line.
-  • Use `$...$` for math.
-  • Avoid figure-dependent items.
-  • Avoid multiple-answer prompts.
-  • Avoid long explanations as answers.
+HARD BANK BLOCKER:
+If any of the 18 required TAR items is missing, ambiguous, duplicated, requires a
+figure/table, is genuinely too long for the puzzle, lacks one canonical answer, or
+cannot be represented safely as one `question, answer` line without academic
+rewriting, STOP and list the exact Bank IDs for Bank maintenance.
 
-If fewer than 18 PS3 items are genuinely Tarsia-suitable:
-  STOP and list the unsuitable Bank IDs. This is a Bank maintenance issue.
+NOT A BANK BLOCKER:
+  • no Tarsia HTML exists in the output — that is now intentional
+  • the teacher's local/master generator is separate from the curriculum package
 
-TARSIA GENERATOR TEMPLATE RULE:
-Use the supplied generator as the UI/geometry authority.
-Do not redesign the puzzle.
+TXT QA — REQUIRED FOR EVERY MATH SECTION:
+  1. File exists with exact required filename.
+  2. Exactly 18 nonblank lines.
+  3. Inventory = 5 Current + 5 Last + 8 Mastery.
+  4. Every mapped TAR Bank ID appears exactly once in the export plan.
+  5. Every line parses into nonblank question + nonblank answer at the first comma
+     outside math.
+  6. No extra outside-math comma appears in the question before the delimiter.
+  7. No raw mathematical | survives inside $...$; semantic LaTeX vertical-bar
+     notation is used instead.
+  8. Any | outside math is intentional line-break formatting only.
+  9. No figure/table/HTML markup is present.
+ 10. All 18 canonical answers remain unique within the section.
+ 11. The file opens as normal UTF-8 text and can be pasted directly into the
+     stable master Tarsia generator.
 
-Replace only:
-  • title-input default value
-  • DEFAULT_CSV / pair-data block
-  • TARSIA_SOURCE_IDS block if template includes it
-
-The corrected generic generator should store pair data with a raw JavaScript
-string so LaTeX backslashes survive:
-
-const DEFAULT_CSV = String.raw`Question, Answer
-Question, Answer`;
-
-Do NOT place LaTeX such as `\tfrac` in a normal JavaScript string with an
-unescaped backslash. In a normal JS string, `\t` becomes a tab and corrupts
-`\tfrac`. String.raw avoids that failure.
-
-Do not output a separate Tarsia CSV unless the user explicitly requests one.
+Do not output a Tarsia HTML or separate Tarsia CSV unless the user explicitly
+requests one.
 
 =======================================================================
 SCIENCE BRANCH — BLOOKET CSV
@@ -649,7 +670,7 @@ Example Unit 1 MATH:
     practice_set_1_1_3.html
     extra_practice_1_1.html
     cyu_1_1.html
-    tarsia_1_1_practice_3.html
+    tarsia_1_1_practice_3.txt
     generate_graphs.py
     figures/
 
@@ -691,7 +712,8 @@ PS2
 PS3
   same
   Science: confirm all 20 = 4-choice MC, figure-free
-  Math: confirm all 20 = Tarsia-friendly candidates
+  Math: confirm PS3 is normal full practice comparable to PS1/PS2/Extra; separately confirm 18 TAR items exist
+  Math: confirm PS3 preserves mapped figures/tables/multi-part prompts and is not a padded TAR form
 
 EXTRA
   same
@@ -702,12 +724,11 @@ CYU
   2 Mastery IDs
 
 MATH TARSIA
-  selected 5 Current
-  selected 5 Last
-  selected 8 Mastery
-  excluded 2 Mastery + reason
+  5 dedicated Current TAR IDs
+  5 dedicated Last TAR IDs
+  8 dedicated Mastery TAR IDs
   all 18 question/answer pairs checked
-  line-break plan
+  TXT line-break plan
 
 SCIENCE BLOOKET
   20 source IDs
@@ -730,7 +751,6 @@ PASS 1 — SOURCE / ROUTING
   Bank mapping read completely: YES/NO
   Bank HTML resolved for every routed item: YES/NO
   Current graph tool read completely: YES/NO
-  Math Tarsia template read completely: YES/NO/N-A
   Correct course family identified: YES/NO
   RESULT: PASS/FAIL
 
@@ -780,22 +800,26 @@ PASS 5 — FIGURES / GRAPH TOOL
   generate_graphs.py matches current graph_tool.py byte-for-byte: YES/NO
   RESULT: PASS/FAIL
 
-PASS 6A — MATH TARSIA
-  Exactly one Tarsia generator HTML per section: YES/NO
+PASS 6A — MATH TARSIA TXT
+  Exactly one Tarsia TXT per section: YES/NO
+  No Tarsia HTML generated or modified downstream: YES/NO
   Practice Set 3 HTML still contains all 20 items: YES/NO
-  Tarsia uses exactly 18 PS3 items: YES/NO
+  Math PS3 visibly functions as a full parallel form, not a Tarsia-like concise list: YES/NO/N-A
+  Math PS3 preserves all Bank representations and multi-part structure: YES/NO/N-A
+  TXT uses exactly 18 dedicated TAR items: YES/NO
   All 5 Current included: YES/NO
   All 5 Last included: YES/NO
   Exactly 8 Mastery included: YES/NO
-  Selected Mastery items chosen for breadth, not simply first 8: YES/NO
-  All 18 have canonical single answers: YES/NO
-  No figure-dependent pair: YES/NO
-  `|` line breaks do not change content: YES/NO
-  approx 25 chars/visual line where practical: YES/NO
-  Pair data uses String.raw or equivalently safe escaping: YES/NO
-  No `\tfrac`→tab corruption: YES/NO
-  TARSIA_SOURCE_IDS contains exact 18 Bank IDs: YES/NO
-  Generator opens and auto-renders successfully: YES/NO
+  Exactly 18 nonblank `question, answer` lines: YES/NO
+  Every line parses at first comma outside math: YES/NO
+  All questions and answers nonblank: YES/NO
+  No figure/table/HTML dependency: YES/NO
+  No raw mathematical | inside $...$: YES/NO
+  Any | outside math is intentional line-break formatting: YES/NO/N-A
+  Canonical answers remain unique within section: YES/NO
+  Approx. 25 chars/visual line where practical: YES/NO
+  UTF-8 plain text: YES/NO
+  Paste-ready for stable master Tarsia generator: YES/NO
   RESULT: PASS/FAIL/N-A
 
 PASS 6B — SCIENCE BLOOKET
@@ -868,7 +892,8 @@ WORKFLOW:
      • broken local path
      • title
      • ZIP packaging
-     • Tarsia `|` line break
+     • Tarsia TXT `|` line-break placement outside math
+     • Tarsia TXT plain-text/LaTeX normalization
      • Tarsia pair order
      → fix Practice package directly.
 
@@ -881,7 +906,7 @@ WORKFLOW:
      • Current/Last/Mastery routing
      • canonical figure
      • missing Bank item
-     • Tarsia unsuitability of a PS3 Math item
+     • missing/invalid dedicated TAR Math item
      • Science PS3 not valid for Blooket
      → STOP and request/use Bank PM to repair Bank first.
 
@@ -892,10 +917,10 @@ WORKFLOW:
 8. Briefly report what changed and which Bank IDs were affected.
 
 TARSIA DEPENDENCY:
-If one selected PS3 Math Bank item changes, update:
-  • Practice Set 3 HTML
-  • Tarsia generator if that Bank ID is among the 18 selected
-  • TARSIA_SOURCE_IDS remains synchronized.
+PS3 and Tarsia are independent Math destinations.
+If a PS3 Math Bank item changes, update Practice Set 3 HTML only.
+If a TAR Bank item changes, regenerate the section Tarsia TXT from the updated
+canonical TAR destination. Never propagate a TAR-only repair into PS3.
 
 BLOOKET DEPENDENCY:
 If any Science PS3 item changes, update BOTH:
@@ -922,17 +947,26 @@ COMMON FAILURE MODES
 13. Rebuilding a figure at Practice stage instead of repairing Bank.
 14. Shipping empty figures when HTML references images.
 15. Embedding CSS or using wrong relative CSS paths.
-16. Returning a Tarsia CSV by habit for Math.
+16. Returning a Tarsia HTML or CSV by habit for Math instead of the paste-ready TXT.
 17. Trying to force all 20 PS3 Math items into an 18-edge Tarsia puzzle.
-18. Selecting 18 Tarsia items with no coverage logic.
-19. Rewriting Tarsia questions to make them fit instead of flagging Bank issue.
-20. JavaScript escape corruption such as `\tfrac` becoming a tab + `frac`.
+18. Pulling Tarsia from PS3 instead of the dedicated TAR destination.
+19. Exporting raw mathematical `|` inside `$...$` instead of semantic LaTeX vertical-bar notation such as `\lvert...\rvert`.
+18b. Flattening Math PS3 into short exact-answer prompts or dropping its figures/tables/multi-part structure during assembly.
+18c. Proceeding when Math PS3 is clearly a padded copy of TAR rather than a full parallel practice form.
+19b. Rewriting TAR questions academically downstream instead of limiting changes to allowed TXT formatting normalization or flagging a Bank issue.
+20. Adding HTML/JavaScript machinery to a deliverable that should be plain UTF-8 text.
 21. Science Blooket drifting from Practice Set 3.
 22. Science PS3 containing figure-dependent items.
 23. Wrong Blooket correct-answer number.
 24. Missing generate_graphs.py or figures/ folder.
 25. Extra ZIP wrapper directory.
 26. Claiming QA PASS without checking counts/content/exports.
+27. Shipping a Math Tarsia TXT with fewer or more than 18 nonblank pair lines.
+28. Adding headers, comments, IDs, or other non-pair lines to the Tarsia TXT.
+29. Exporting a Tarsia line that cannot be parsed at the first comma outside math.
+30. Reintroducing section-specific Tarsia HTML generation.
+31. Declaring Tarsia PASS without validating all 18 TXT lines against the canonical TAR mapping.
+32. Treating the teacher's separate master generator as a required Practice Set build input.
 
 =======================================================================
 TEST PROMPT
@@ -948,11 +982,10 @@ Upload:
   (2) current graph_tool.py
   (3) Unit 1 Assessment Plan
   (4) Unit 1 Bank ZIP
-  (5) MATH ONLY — tarsia_generator.html
 
 If Unit 1 passes, use the same PM to test Unit 2 independently before batch
 production.
 
 =======================================================================
-END GENERIC MATH / SCIENCE PRACTICE SETS PORTABLE MEMORY — v1.0
+END GENERIC MATH / SCIENCE PRACTICE SETS PORTABLE MEMORY — v8.0
 =======================================================================

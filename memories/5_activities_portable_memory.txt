@@ -1,0 +1,945 @@
+GENERIC MATH / SCIENCE ACTIVITIES BUILD — PORTABLE MEMORY v1
+================================================================
+
+PURPOSE
+-------
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR GENERIC MATH / SCIENCE ACTIVITY BUILDS.
+
+The activity system is a flexible classroom menu, not a prescribed daily calendar.
+Each section gets ONE reusable directions shell and TWO interchangeable canonical question sets:
+
+  Set 1 = the section's approved Practice Set 2 Bank destination
+  Set 2 = the section's approved Practice Set 3 Bank destination
+
+The Bank is the canonical content authority. The activity build does NOT rewrite, adapt, simplify,
+number-swap, or independently author the practice questions.
+
+The activity package exists to transform the same approved Bank questions into useful classroom
+structures:
+  • projectable question / worked-solution decks
+  • printable Stations
+  • printable Find Someone Who worksheets
+  • a reusable directions shell that links to either question set
+
+The finished course is a rich menu of options. Resource existence does not mean the teacher must
+use every activity, every section, or every day.
+
+"BUILD," "CREATE," "MAKE," "GENERATE," "REBUILD," OR "REPAIR" means complete the full workflow
+for the requested scope. A plan, partial HTML, or question list is not a completed build.
+
+================================================================
+MODE 1 — FULL BUILD / PRODUCTION
+================================================================
+
+NORMAL INPUTS — EXACTLY THESE FOUR
+----------------------------------
+For a normal unit build, the user supplies:
+
+  1. THIS portable memory
+  2. Current authoritative graph_tool.py
+  3. Current Unit Assessment Plan
+  4. Current Unit Bank ZIP
+
+No other file is normally required.
+
+DO NOT require:
+  • Practice Set ZIPs or Practice Set HTML
+  • Notes
+  • Formative or Summative assessment files
+  • Framework
+  • Activity-and-Investigation directions DOCX
+  • Tarsia generator HTML
+  • Tarsia TXT
+  • Blooket CSV
+
+WHY THESE ARE NOT REQUIRED:
+The Bank already contains the canonical Practice Set 2 and Practice Set 3 content, answers,
+routing/mapping, and canonical task figures. The Assessment Plan supplies section titles,
+course-family context, and alignment checks. This PM contains the reusable activity directions.
+
+If an optional approved source is supplied, inspect it, but do not let it override canonical Bank
+question wording or this PM's architecture.
+
+================================================================
+SOURCE PRIORITY
+================================================================
+
+When sources conflict, follow this order:
+
+  1. User's explicit current-conversation instructions
+  2. THIS portable memory
+  3. Current Unit Assessment Plan
+  4. Current Unit Bank mapping / routing
+  5. Current Unit Bank HTML / canonical answers / canonical figures
+  6. Current Bank generate_graphs.py and authoritative graph_tool.py
+  7. Generic inference only for non-canonical teacher-facing wording
+
+The Assessment Plan may confirm intent, section title, and appropriateness. It does NOT authorize
+rewriting a canonical Bank question during an activity build.
+
+================================================================
+COURSE FAMILY
+================================================================
+
+Resolve COURSE_FAMILY from the Assessment Plan / Bank:
+
+  COURSE_FAMILY = MATH
+  COURSE_FAMILY = SCIENCE
+
+If genuinely ambiguous, STOP and ask which family applies.
+
+Common architecture is shared across both families.
+
+MATH branch:
+  • Practice Set 3 remains a full normal practice form.
+  • Tarsia is a separate canonical Bank destination and separate dashboard/export resource.
+  • The activity build does NOT create, embed, or modify Tarsia HTML or Tarsia TXT.
+  • Optional directions may tell the teacher to use the section's Tarsia TXT from the dashboard.
+
+SCIENCE branch:
+  • Practice Set 3 may be the Blooket-ready form if that is how the Bank authored it.
+  • The activity build still copies Practice Set 3 exactly.
+  • The activity build does NOT create or modify the Blooket CSV.
+  • Optional directions may tell the teacher to use the section's Blooket export from the dashboard.
+
+================================================================
+READ ORDER — COMPLETE BEFORE WRITING HTML
+================================================================
+
+1. Read THIS PM completely.
+2. Read the Unit Assessment Plan completely enough to identify:
+     • course family
+     • unit title
+     • all five section titles
+     • section learning targets / intended content
+3. Inspect the entire Bank ZIP structure.
+4. Read the Bank mapping / routing completely.
+5. Read all Bank items routed to Practice Set 2 and Practice Set 3 for all five sections.
+6. Read the canonical answer / solution for every routed item.
+7. Inventory every figure referenced by those items.
+8. Read the authoritative graph_tool.py and compare it to any Bank graph-generation source when
+   graph regeneration/validation is needed.
+9. Complete the private ACTIVITY CONTENT PLAN.
+10. Only then write HTML.
+
+================================================================
+PRE-BUILD SCAN — HARD STOP RULES
+================================================================
+
+For EACH of the five sections, confirm:
+
+  Set 1 / Practice Set 2:
+    • exactly 20 mapped canonical Bank items
+    • every ID exists in Bank HTML
+    • every item has an answer / solution sufficient to build the solution deck
+
+  Set 2 / Practice Set 3:
+    • exactly 20 mapped canonical Bank items
+    • every ID exists in Bank HTML
+    • every item has an answer / solution sufficient to build the solution deck
+
+  Figures:
+    • every referenced canonical figure exists in the Bank package OR can be reproduced exactly
+      from the Bank's canonical generation source
+
+If any required PS2/PS3 mapping, item, answer, or canonical figure is missing:
+
+  ══ STOP — BANK MAINTENANCE REQUIRED ══
+
+List the exact missing IDs/assets and do not invent replacements downstream.
+
+================================================================
+BANK-FIRST CONTENT CONTRACT
+================================================================
+
+ACTIVITY SET 1
+--------------
+Set 1 is assembled from the Bank destination for Practice Set 2.
+
+Use exactly:
+  • all 20 mapped PS2 items
+  • exact mapping order
+  • exact question wording
+  • exact answer choices and answer-choice order
+  • exact table content
+  • exact figure content / filename intent
+  • exact multi-part structure
+
+ACTIVITY SET 2
+--------------
+Set 2 is assembled from the Bank destination for Practice Set 3.
+
+Use exactly:
+  • all 20 mapped PS3 items
+  • exact mapping order
+  • exact question wording
+  • exact answer choices and answer-choice order
+  • exact table content
+  • exact figure content / filename intent
+  • exact multi-part structure
+
+For Math, PS3 must remain the full normal Practice Set 3 content. Do NOT substitute TAR items.
+For Science, preserve the approved PS3 form exactly even when it is all multiple-choice.
+
+NO DOWNSTREAM ADAPTATION
+------------------------
+Do not:
+  • paraphrase
+  • shorten
+  • number-swap
+  • context-swap
+  • change the asked-for representation
+  • remove parts
+  • add parts
+  • convert open response to MC
+  • convert MC to open response
+  • replace a PS3 item with a Tarsia item
+  • replace a canonical figure
+
+Allowed wrapper normalization:
+  • remove Bank metadata not shown to students
+  • remove practice-set workspace in projector decks / Stations
+  • add activity page wrappers/classes
+  • display MC labels as uppercase A, B, C, D, E while preserving choice order
+  • retain a nonvisible data-source-id for maintenance traceability
+
+================================================================
+UNIT-LEVEL DELIVERY PACKAGE — HARD RULE
+================================================================
+
+For a full Unit U build:
+
+ZIP name:
+  unit[U]_activities.zip
+
+ZIP ROOT contains the five section folders DIRECTLY — no extra unit wrapper:
+
+  u[U]_1_act1/
+  u[U]_2_act1/
+  u[U]_3_act1/
+  u[U]_4_act1/
+  u[U]_5_act1/
+
+Each section folder contains EXACTLY:
+
+  u[U]_[S]_act1.html
+  u[U]_[S]_act1_questions_solutions.html
+  u[U]_[S]_act1_stations.html
+  u[U]_[S]_act1_find_someone_who.html
+  u[U]_[S]_act2_questions_solutions.html
+  u[U]_[S]_act2_stations.html
+  u[U]_[S]_act2_find_someone_who.html
+  figures/
+
+There is NO separate u[U]_[S]_act2.html.
+Both question sets use the same directions shell.
+
+DO NOT package:
+  • generate_graphs.py
+  • graph_tool.py
+  • exit tickets
+  • Tarsia HTML
+  • Tarsia TXT
+  • Blooket CSV
+  • embedded/local CSS
+  • PDFs
+  • screenshots
+  • QA debris
+  • nested duplicate section folders
+
+================================================================
+CSS / HTML — SHARED EXTERNAL CSS ONLY
+================================================================
+
+MAIN DIRECTIONS SHELL:
+  <link rel="stylesheet" href="../../css/base.css"/>
+  <link rel="stylesheet" href="../../css/activities.css"/>
+
+QUESTION / SOLUTION DECKS:
+  <link rel="stylesheet" href="../../css/base.css"/>
+  <link rel="stylesheet" href="../../css/activities.css"/>
+
+STATIONS:
+  <link rel="stylesheet" href="../../css/base.css"/>
+  <link rel="stylesheet" href="../../css/activities/activity_stations.css"/>
+
+FIND SOMEONE WHO:
+  <link rel="stylesheet" href="../../css/base.css"/>
+  <link rel="stylesheet" href="../../css/practice_set.css"/>
+
+No embedded <style> blocks.
+Do not invent CSS classes when an existing shared class already serves the purpose.
+
+MATHJAX — CONFIG BEFORE CDN
+---------------------------
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$']],
+    displayMath: [['$$','$$']],
+    processEscapes: true
+  }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+Use only $...$ and $$...$$ delimiters.
+
+================================================================
+MAIN DIRECTIONS SHELL — DIRECTIONS ONLY
+================================================================
+
+File:
+  u[U]_[S]_act1.html
+
+This file contains activity directions only. It does NOT contain the 20 questions.
+
+Keep 14 direction pages in this order:
+
+CORE STRUCTURES
+  1. Whiteboard Indy
+  2. Whiteboard Partners
+  3. Rally Coach
+  4. Whiteboard Partners
+  5. Speed Dating Math        [MATH]
+     Speed Dating             [SCIENCE]
+  6. Showdown
+  7. Think, Trade, Agree
+  8. Round Table
+  9. Stations
+ 10. Find Someone Who
+
+Then insert a visible "Additional Activity Options" divider/break.
+
+ADDITIONAL OPTIONS
+ 11. Tarsia Puzzle            [MATH]
+     Blooket / Game Review    [SCIENCE]
+ 12. Mathematical Hot Seat    [MATH]
+     Concept Hot Seat         [SCIENCE]
+ 13. Rally Coach II
+ 14. Desmos / Digital Math Activity     [MATH]
+     Simulation / Digital Science Activity [SCIENCE]
+
+The duplicate Whiteboard Partners page at positions 2 and 4 is intentional.
+
+QUESTION-DECK LINK RULE
+-----------------------
+On pages 1–8, 12, and 13 where the structure uses projected questions, include BOTH links:
+
+  Set 1 — u[U]_[S]_act1_questions_solutions.html
+  Set 2 — u[U]_[S]_act2_questions_solutions.html
+
+Stations page links to BOTH:
+  Set 1 — u[U]_[S]_act1_stations.html
+  Set 2 — u[U]_[S]_act2_stations.html
+
+Find Someone Who page links to BOTH:
+  Set 1 — u[U]_[S]_act1_find_someone_who.html
+  Set 2 — u[U]_[S]_act2_find_someone_who.html
+
+Do NOT link the question decks from page 11 or page 14.
+
+Page 11 teacher note:
+  MATH: "Use the section's Tarsia TXT from the dashboard with the separate master Tarsia generator."
+  SCIENCE: "Use the section's Blooket export from the dashboard when a game-format review fits the lesson."
+
+Page 14 teacher note:
+  This is an optional teacher-selected digital activity. Do not invent a course-specific URL.
+
+================================================================
+LOCKED CORE DIRECTION WORDING
+================================================================
+
+Use the following wording as the reusable generic direction source. Update only the unit/section,
+section title, and course-family labels where required.
+
+WHITEBOARD INDY
+Structure: Individual -> Independent practice
+Setup: Each student gets a whiteboard and one marker.
+Directions:
+1. Notes are welcome.
+2. Try something.
+3. Write large and clearly — your work should be readable from across the room.
+4. Use your resources: ask your partner first, then the teacher. Do not copy.
+5. Mistakes are part of learning — fix them and discuss what went wrong.
+Goal: Individual accountability + low-stakes problem entry
+
+WHITEBOARD PARTNERS
+Structure: Fast partner practice
+Setup: Work with your partner. One whiteboard and one marker between you.
+Directions:
+1. Work with a partner.
+2. Both students stay engaged.
+3. Alternate who writes.
+4. Write clearly and large.
+5. Stay focused and collaborate.
+6. Fix mistakes and discuss.
+Goal: Engagement + quick feedback
+
+RALLY COACH
+Structure: Partner explanation + alternating roles
+Setup: Sit with your partner. Each person needs one whiteboard and one marker.
+Directions:
+1. Work with a partner.
+2. Partner A explains while Partner B writes.
+3. Switch roles.
+4. Check answers when directed by the teacher.
+5. Rotate partners when directed.
+Goal: Verbal reasoning + procedural / conceptual accuracy
+
+SPEED DATING
+Structure: Paired practice -> Timed rotation -> Strategy sharing
+Setup: Partners. One whiteboard or blank paper for each person.
+Directions:
+1. Work with a partner on the projected problem — both students write on their own board or paper.
+2. Compare strategies, evidence, representations, or methods before rotating.
+3. After 3–4 minutes, one row shifts one seat to create a new pairing.
+4. Bring your previous work and share your reasoning with your new partner.
+5. Repeat across multiple problems and partner pairings.
+Goal: Multiple representations + collaborative problem solving
+
+SHOWDOWN
+Structure: Indy -> Group comparison -> Consensus
+Setup: Groups of 4. Each person has a whiteboard. Rotate the Captain each round.
+Directions:
+1. Each student solves the problem individually.
+2. When prompted, students Showdown — reveal answers at the same time.
+3. Discuss differences and justify reasoning.
+4. The group agrees on a correct final answer or explanation.
+5. Repeat.
+Goal: Accountability + justification
+
+THINK, TRADE, AGREE
+Structure: Indy -> Group comparison -> Consensus
+Setup: Groups of 4. Each person has a whiteboard.
+Directions:
+1. Teacher presents a problem.
+2. Each student works independently first.
+3. When everyone is ready, exchange boards with another student.
+4. Discuss differences and justify reasoning.
+5. Come to an agreement or ask the teacher for help.
+6. Repeat the exchange with someone different.
+Goal: Accountability + justification
+
+ROUND TABLE
+Structure: One step / contribution per student
+Setup: Groups of 4. One whiteboard and one marker per group.
+Directions:
+1. Groups of 4 use one whiteboard and marker.
+2. Each student completes one meaningful step, representation, observation, or reasoning move, then passes the board.
+3. Rotate until the problem is complete.
+4. Compare when the solution is shown.
+5. Make sure every group member can explain the final reasoning.
+Goal: Sequential reasoning + shared responsibility
+
+STATIONS
+Structure: Timed rotations
+Setup: 8 stations around the room. Pick up a record sheet or work paper before you begin.
+Directions:
+1. Choose a starting station with no more than 4 students.
+2. Work on the questions at that station.
+3. Rotate when the teacher signals.
+4. Do not all move to the same next station.
+5. Keep your own record of work and corrections.
+Goal: Repetition + varied problem exposure
+
+FIND SOMEONE WHO
+Structure: Movement + peer interaction
+Setup: Keep your worksheet and pencil with you as you move around the room.
+Directions:
+1. Work alone first: skim every problem, then begin any problem you can solve.
+2. Find a partner who is ready to share. Compare completed answers and discuss any that do not match.
+3. Choose one problem that either of you left incomplete. Work through it together. Both partners record the reasoning on their own sheet.
+4. Thank your partner and repeat with a different person.
+5. Return to your seat with every problem completed and understood — not merely filled in.
+Goal: Exposure to multiple explanations
+
+MATHEMATICAL / CONCEPT HOT SEAT
+Structure: Verbal description only -> Blind solving -> Role rotation
+Setup: Groups. One whiteboard and one marker per member.
+Directions:
+1. One student per team sits facing away from the screen — the Hot Seat.
+2. The teacher projects a problem that only teammates can see.
+3. Teammates describe the problem using words only — no gestures and no copying the displayed work.
+4. The Hot Seat student solves or explains based solely on the verbal description.
+5. After solving, the student turns around and compares to the original problem.
+6. Rotate the Hot Seat for each round.
+Goal: Precise academic vocabulary + communication
+
+RALLY COACH II
+Structure: One teammate states the plan while the other group members record and execute it
+Setup: Group of 4. Each person needs one whiteboard and one marker.
+Directions:
+1. Choose a Starter.
+2. The Starter states the next step or reasoning move; teammates record and carry it out.
+3. Group members may question or clarify the reasoning before moving on.
+4. Check answers when directed by the teacher.
+5. Rotate Starter.
+Goal: Verbal reasoning + procedural / conceptual accuracy
+
+MATH — TARSIA PUZZLE
+Structure: Matching puzzle (self-checking)
+Setup: Groups of 4. Use a teacher-prepared Tarsia puzzle generated from the section's Tarsia TXT.
+Directions:
+1. Match questions, expressions, representations, or answers on adjoining puzzle edges.
+2. Continue until the pieces form the complete intended shape.
+3. If the puzzle does not fit, locate and discuss the mismatch rather than forcing pieces together.
+Goal: Error detection + pattern recognition
+
+SCIENCE — BLOOKET / GAME REVIEW
+Structure: Fast selected-response review
+Setup: Individual devices or teacher-led team play using the section's Blooket export.
+Directions:
+1. Join the teacher's game when instructed.
+2. Answer independently before discussing when the format permits.
+3. Use missed questions as prompts for explanation, not just scorekeeping.
+4. Pause for class discussion when a distractor reveals a common misconception.
+Goal: Retrieval + misconception checking
+
+MATH — DESMOS / DIGITAL MATH ACTIVITY
+Structure: Individual or Partners -> Teacher-paced digital investigation
+Setup: Individual or partner work on a computer/iPad.
+Directions:
+1. Open the teacher-selected activity using the posted link or code.
+2. Read each prompt carefully; screens may ask you to type, sketch, move sliders, or plot points.
+3. Work at the pace set by the teacher.
+4. Stop and look up when the teacher pauses the class for discussion.
+5. Show your thinking honestly in the activity responses.
+Goal: Conceptual exploration + interactive sense-making
+
+SCIENCE — SIMULATION / DIGITAL SCIENCE ACTIVITY
+Structure: Individual or Partners -> Teacher-paced digital investigation
+Setup: Individual or partner work on a computer/iPad using a teacher-selected simulation or digital model.
+Directions:
+1. Open the teacher-selected simulation or digital activity using the posted link or code.
+2. Change only the variables or controls requested by the teacher or activity prompt.
+3. Record observations, patterns, evidence, or measurements as directed.
+4. Stop and look up when the teacher pauses the class for discussion.
+5. Use the digital model as evidence; do not treat animation alone as an explanation.
+Goal: Model-based exploration + evidence-based sense-making
+
+================================================================
+DIRECTION PAGE CONTENT RULES
+================================================================
+
+Each direction page should show:
+  • structure name
+  • section title
+  • Structure
+  • Setup
+  • Directions
+  • Goal
+  • 3 "Looks Like Success" bullets
+  • 3 "Doesn't Look Like" bullets
+  • relevant Set 1 / Set 2 links when applicable
+
+Looks Like / Doesn't Look Like bullets are teacher-facing and may be generated during the build.
+They must be specific to the mechanics of the structure, not generic behavior slogans.
+
+Examples:
+  GOOD: "Every student reveals a completed board at the same Showdown signal."
+  BAD:  "Students are engaged."
+
+================================================================
+QUESTION / SOLUTION DECKS
+================================================================
+
+Files:
+  Set 1: u[U]_[S]_act1_questions_solutions.html
+  Set 2: u[U]_[S]_act2_questions_solutions.html
+
+Each deck contains exactly 40 content pages:
+
+  Problem 1
+  Solution 1
+  Problem 2
+  Solution 2
+  ...
+  Problem 20
+  Solution 20
+
+QUESTION PAGE
+-------------
+Copy canonical Bank question body exactly.
+Remove only student workspace.
+Preserve:
+  • all prompt text
+  • all parts
+  • all answer choices
+  • all tables
+  • all canonical figures
+  • all mathematical/scientific notation
+
+Retain source traceability as a nonvisible data-source-id.
+
+SOLUTION PAGE
+-------------
+Repeat the exact question, then provide a useful teacher-facing worked solution/rationale.
+
+Solution rules:
+  • final answer must match canonical Bank answer
+  • numerical items show substitutions/arithmetic/units as useful
+  • algebra/calculus items show the key transformation, theorem, derivative/integral work, or reasoning
+  • vector/science calculations show useful arithmetic/vector combination
+  • conceptual items explain why the answer follows from the relevant idea/evidence/model
+  • DOK 3 items explain the strategic reasoning, not merely the conclusion
+  • multiple-choice items show the correct uppercase letter + answer text + useful rationale
+  • avoid excessive essay-length solutions on projector pages
+
+Question page remains white with the shared question header style.
+Solution page remains white with the shared solution-page header style.
+Do not tint entire pages.
+
+================================================================
+MULTIPLE-CHOICE DISPLAY STANDARD
+================================================================
+
+All MC choices DISPLAY with uppercase letters:
+  A, B, C, D
+or
+  A, B, C, D, E
+
+Preserve canonical choice wording and order.
+Do not let browser-default ordered lists display 1, 2, 3, 4.
+
+This applies to:
+  • Set 1 question/solution deck
+  • Set 2 question/solution deck
+  • both Stations files
+  • both Find Someone Who files
+
+================================================================
+STATIONS — TWO INTERCHANGEABLE SETS
+================================================================
+
+Files:
+  Set 1: u[U]_[S]_act1_stations.html
+  Set 2: u[U]_[S]_act2_stations.html
+
+Each Stations file uses all 20 canonical questions exactly once across 8 station fronts:
+
+  Station 1 = Q1–Q3
+  Station 2 = Q4–Q5
+  Station 3 = Q6–Q7
+  Station 4 = Q8–Q10
+  Station 5 = Q11–Q12
+  Station 6 = Q13–Q15
+  Station 7 = Q16–Q18
+  Station 8 = Q19–Q20
+
+Duplex front/back order is HARD LOCKED:
+
+  Station 1 question front
+  Station 1 answer back
+  Station 2 question front
+  Station 2 answer back
+  ...
+  Station 8 question front
+  Station 8 answer back
+
+Total = 16 pages per Stations HTML.
+
+Station rules:
+  • landscape format comes from shared activity_stations.css
+  • both question fronts and answer backs stay white
+  • no blank workspaces on station cards
+  • preserve exact question wording / choices / tables / figures
+  • answer backs include compact but useful work/rationale
+  • canonical figures may be resized by existing CSS only; do not redraw/relabel
+
+================================================================
+FIND SOMEONE WHO — TWO INTERCHANGEABLE SETS
+================================================================
+
+Files:
+  Set 1: u[U]_[S]_act1_find_someone_who.html
+  Set 2: u[U]_[S]_act2_find_someone_who.html
+
+Build a practice-set-style worksheet from the same canonical Bank routing.
+
+Preserve:
+  • all 20 questions
+  • exact question wording
+  • exact question order
+  • exact answer choices and order
+  • all tables and canonical figures
+  • DOK metadata where student-facing in the approved practice architecture
+  • workspace behavior consistent with the Practice Sets PM
+
+Workspace rule:
+  • reconstruct the same intended workspace size the current Practice Sets PM would use
+  • do not invent larger spaces simply because an activity is Find Someone Who
+  • preserve graph/table-as-workspace logic where applicable
+
+Change only the document title / H1 to identify:
+  Find Someone Who — Set 1 — Section U.S: [Section Title]
+or
+  Find Someone Who — Set 2 — Section U.S: [Section Title]
+
+Do not add exit tickets.
+
+================================================================
+FIGURES — CANONICAL BANK FIGURES ONLY
+================================================================
+
+Activities do not invent new teaching figures.
+They reuse canonical figures attached to PS2/PS3 Bank items.
+
+For each section:
+  1. Collect all unique figure references used by Set 1 or Set 2.
+  2. Copy those exact PNG/assets into the section's figures/ folder.
+  3. Preserve canonical filenames where possible.
+  4. Use the same figure in question deck, Stations, and FSW whenever the same Bank item uses it.
+  5. Do not crop, recolor, relabel, annotate, redraw, or replace the canonical figure.
+
+If a canonical Bank figure PNG is missing but the Bank contains its approved generation code:
+  • verify the Bank graph source against the current authoritative graph_tool.py
+  • regenerate the exact canonical figure for QA / packaging
+  • do not change styling or graph content
+
+If the figure cannot be reproduced exactly from the canonical Bank source:
+  ══ STOP — BANK MAINTENANCE REQUIRED ══
+
+No generate_graphs.py is included in the final Activities ZIP.
+
+Science diagrams that are canonical Bank assets are copied exactly; do not force them through
+coordinate graph functions.
+
+================================================================
+PRIVATE ACTIVITY CONTENT PLAN — REQUIRED
+================================================================
+
+Before writing HTML, privately record for each section:
+
+SECTION U.S
+  title:
+  Set 1 mapping count: 20 / FAIL
+  Set 2 mapping count: 20 / FAIL
+  Set 1 IDs in order:
+  Set 2 IDs in order:
+  figures needed:
+  MC items / choice counts:
+  solution source completeness:
+  any blocker:
+
+Do not expose private reasoning. A concise QA summary may be delivered after completion.
+
+================================================================
+QA — REQUIRED BEFORE DELIVERY
+================================================================
+
+PASS 1 — BANK ROUTING / FIDELITY
+-------------------------------
+For all five sections:
+[ ] exactly 20 PS2 IDs
+[ ] exactly 20 PS3 IDs
+[ ] every ID found
+[ ] exact mapped order preserved
+[ ] question bodies match Bank verbatim
+[ ] choices / tables / multipart structure preserved
+[ ] Math Set 2 uses PS3, never TAR
+[ ] no Formative/Summative items substituted
+RESULT: PASS / FAIL
+
+PASS 2 — MAIN DIRECTIONS SHELL
+------------------------------
+For all five sections:
+[ ] exactly 14 direction pages
+[ ] duplicate Whiteboard Partners page retained
+[ ] Additional Activity Options break exists after Find Someone Who
+[ ] Set 1 + Set 2 deck links on all eligible structure pages
+[ ] Stations links to both station files
+[ ] Find Someone Who links to both worksheet files
+[ ] page 11 and page 14 do not link to question decks
+[ ] Math/Science labels branch correctly
+[ ] no question/solution pages embedded in main shell
+[ ] no embedded CSS
+RESULT: PASS / FAIL
+
+PASS 3 — QUESTION / SOLUTION DECKS
+----------------------------------
+For every section and both sets:
+[ ] exactly 20 problem pages
+[ ] exactly 20 solution pages
+[ ] strict Problem 1 -> Solution 1 ... Problem 20 -> Solution 20 order
+[ ] problem pages remove only workspace
+[ ] every solution matches canonical answer
+[ ] solutions contain useful work/rationale
+[ ] MC labels display uppercase letters
+[ ] figures/tables resolve
+[ ] no exit tickets
+RESULT: PASS / FAIL
+
+PASS 4 — STATIONS
+-----------------
+For every section and both sets:
+[ ] exactly 8 question fronts + 8 answer backs
+[ ] grouping = 1-3 / 4-5 / 6-7 / 8-10 / 11-12 / 13-15 / 16-18 / 19-20
+[ ] each answer back immediately follows its front
+[ ] all 20 questions used exactly once
+[ ] fronts and backs remain white
+[ ] compact useful solutions
+[ ] no workspaces
+[ ] exact question wording preserved
+RESULT: PASS / FAIL
+
+PASS 5 — FIND SOMEONE WHO
+-------------------------
+For every section and both sets:
+[ ] separate FSW HTML exists
+[ ] exactly 20 canonical questions
+[ ] exact order and wording preserved
+[ ] workspace behavior matches Practice Set standard
+[ ] figures / tables / choices preserved
+[ ] title/H1 correctly identifies Set 1 or Set 2
+[ ] no exit ticket
+RESULT: PASS / FAIL
+
+PASS 6 — FIGURES / MATHJAX / HTML
+---------------------------------
+[ ] every HTML figure path resolves locally
+[ ] figures/ contains all and only needed canonical assets
+[ ] no canonical figure altered
+[ ] MathJax config precedes CDN
+[ ] processEscapes:true
+[ ] no wrong delimiters \(...\) or \[...\]
+[ ] no corrupted \rac
+[ ] currency dollar signs safe in prose
+[ ] no embedded <style> blocks
+[ ] correct CSS paths/order
+RESULT: PASS / FAIL
+
+PASS 7 — UNIT ZIP STRUCTURE
+---------------------------
+[ ] ZIP = unit[U]_activities.zip
+[ ] ZIP root has u[U]_1_act1 through u[U]_5_act1 directly
+[ ] each section folder contains exactly 7 HTML files + figures/
+[ ] no separate act2 directions HTML
+[ ] no generate_graphs.py
+[ ] no exit-ticket files
+[ ] no Tarsia/Blooket export files
+[ ] no CSS copies
+[ ] no nested duplicate folder
+[ ] no __MACOSX / .DS_Store / AppleDouble / temp files
+[ ] ZIP integrity passes
+RESULT: PASS / FAIL
+
+================================================================
+QA LOG — FINAL CHAT SUMMARY
+================================================================
+
+QA LOG — Unit [U] Activities
+
+  PASS 1 — Bank routing / fidelity:      PASS / FAIL
+  PASS 2 — Directions / links:           PASS / FAIL
+  PASS 3 — Question / solution decks:    PASS / FAIL
+  PASS 4 — Stations:                     PASS / FAIL
+  PASS 5 — Find Someone Who:             PASS / FAIL
+  PASS 6 — Figures / MathJax / HTML:     PASS / FAIL
+  PASS 7 — ZIP/package:                  PASS / FAIL
+
+  Bank-maintenance blockers: [NONE or exact IDs/assets]
+  Issues repaired during build: [NONE or concise list]
+  OVERALL: PASS — ZIP assembled / FAIL — blocker
+
+================================================================
+COMMON FAILURE MODES — DO NOT REPEAT
+================================================================
+
+1. Asking for Practice Set HTML when the Bank already provides canonical PS2/PS3 routing.
+2. Rewriting Bank questions in the activity layer.
+3. Using TAR items as Math Activity Set 2 instead of the real PS3 items.
+4. Building a separate act2 directions HTML.
+5. Putting questions inside the main directions shell.
+6. Omitting one of the two question-set links on eligible direction pages.
+7. Linking question decks from Tarsia/Blooket or digital-activity pages.
+8. Replacing a canonical figure with a newly drawn activity figure.
+9. Adding exit tickets.
+10. Adding generate_graphs.py to the activity package.
+11. Making station answer backs red or otherwise tinted.
+12. Breaking duplex station front/back order.
+13. Using fewer/more than 20 questions in either canonical set.
+14. Losing multipart structure, tables, choices, or figures while converting wrappers.
+15. Letting MC choices display as 1/2/3/4 instead of A/B/C/D.
+16. Writing answer-only solution pages without useful rationale/work.
+17. Inventing a Desmos/simulation URL.
+18. Embedding CSS or copying shared CSS into the ZIP.
+19. Packaging an outer unit wrapper when the ZIP root should contain the five section folders.
+20. Treating flexible activity resources as a mandatory instructional calendar.
+
+================================================================
+MODE 2 — MAINTENANCE / REVISION
+================================================================
+
+Every maintenance request begins by inspecting the existing activity package and identifying
+whether the requested change belongs at the Activity layer or upstream in the Bank.
+
+ACTIVITY-LAYER CHANGES
+----------------------
+May be repaired directly when they do not alter canonical Bank content, for example:
+  • broken internal links
+  • wrong CSS path
+  • missing direction page
+  • direction wording / generic structure wording revision
+  • Looks Like / Doesn't Look Like revision
+  • wrong section title
+  • question/solution page wrapper/layout issue
+  • missing workspace in FSW when Bank question itself is unchanged
+  • station grouping / duplex order issue
+  • solution explanation improvement when canonical answer is unchanged
+  • missing copied canonical figure when source asset already exists
+  • packaging / folder structure problem
+
+BANK-LAYER CHANGES
+------------------
+If the request changes any canonical PS2/PS3 question, answer, figure, mapping, destination,
+or choice order, repair the Bank first.
+
+Examples:
+  • "Replace Activity 2 Question 6" -> resolve its PS3 Bank ID -> Bank maintenance first
+  • "This activity question is wrong" -> Bank maintenance first
+  • "Use a different graph in Set 1 Q8" -> Bank maintenance first if the graph is canonical
+  • "Practice Set 3 should assess a different case" -> Bank maintenance first
+
+Do not silently patch the activity copy and leave the Bank inconsistent.
+
+MAINTENANCE WORKFLOW
+--------------------
+1. Inspect the existing unit/section package.
+2. Recover affected source IDs from data-source-id / mapping.
+3. Classify each requested change as Activity-layer or Bank-layer.
+4. Ask only for genuinely missing upstream artifacts.
+5. Preserve every unaffected file/content block.
+6. Apply the smallest correct change.
+7. Propagate the change to all affected activity representations:
+     • question/solution deck
+     • Stations
+     • Find Someone Who
+     • figure copies
+8. Rerun the same QA passes as a full build for the affected scope.
+9. Return a complete replacement ZIP/folder, not snippets.
+10. Give a concise change report.
+
+If a canonical Bank repair occurred, rebuild every downstream activity representation that uses
+that Bank ID. Do not leave stale copies in another set/file.
+
+================================================================
+RECOMMENDED USER PROMPT
+================================================================
+
+For a full unit build:
+
+  "Carefully read the PM and create the activities ZIP folder for Unit 1."
+
+Upload:
+  1. Activities PM
+  2. current graph tool
+  3. Unit 1 Assessment Plan
+  4. Unit 1 Bank ZIP
+
+No Tarsia generator is needed.
+No Practice Set ZIP is needed.
+
+================================================================
+END GENERIC MATH / SCIENCE ACTIVITIES BUILD — PORTABLE MEMORY v1
+================================================================
