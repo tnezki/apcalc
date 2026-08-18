@@ -1,0 +1,958 @@
+GENERIC MATH / SCIENCE PRACTICE SETS PORTABLE MEMORY — v1.0
+=======================================================================
+
+PURPOSE
+-------
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR GENERIC MATH / SCIENCE
+PRACTICE-SET BUILDS.
+
+This PM is for Math and Science courses. STEM courses are separate.
+
+The Bank is canonical. Practice Sets are a DOWNSTREAM ASSEMBLY stage.
+The Practice Set builder does NOT author, rewrite, simplify, improve,
+parallelize, or substitute academic questions. It locates the mapped Bank
+items and copies their student-facing content VERBATIM.
+
+The Bank has already authored:
+  • Practice Set 1 — 20 unique items per section
+  • Practice Set 2 — 20 unique items per section
+  • Practice Set 3 — 20 unique items per section
+  • Extra Practice — 20 unique items per section
+  • CYU — 6 dedicated unique items per section
+  • all canonical figures used by those items
+  • all answers / solutions used for QA and exports
+
+The Practice Set stage is responsible for:
+  • correct routing
+  • clean student HTML
+  • workspace placement
+  • copying approved Bank figures
+  • Math Tarsia export OR Science Blooket export
+  • traceability
+  • packaging
+  • QA
+
+NO EXIT TICKETS ARE INCLUDED IN PRACTICE SETS.
+Exit Tickets are built by a separate PM and separate resource.
+
+BUILD ORDER IS NOT A TEACHING CALENDAR.
+The existence of Practice Set 1, 2, 3, Extra Practice, or CYU does not mean
+all resources must be used in class. They are a rich menu of options.
+
+=======================================================================
+SOURCE PRIORITY
+=======================================================================
+
+When sources conflict, follow this order:
+
+1. Current user instruction.
+2. THIS Practice Sets PM.
+3. Current Unit Bank ZIP:
+     • unit[#]_mapping.csv = routing authority
+     • unit[#]_bank.html = canonical student-facing item text + solutions
+     • figures/ = canonical figure assets
+     • Bank generate_graphs.py = canonical figure provenance
+4. Current Unit Assessment Plan — alignment/title sanity check only.
+5. Current uploaded graph_tool.py — authoritative graph-tool source.
+6. Current Tarsia generator template — Math export shell only.
+7. Older Algebra / Physics practice-set PMs — historical reference only.
+
+HARD RULE:
+If the Bank and Assessment Plan disagree about a practice question, do NOT
+silently repair the question in the Practice Set. Treat it as a Bank
+maintenance issue.
+
+=======================================================================
+COURSE FAMILY
+=======================================================================
+
+Determine COURSE_FAMILY from unit Bank mapping:
+  MATH
+  SCIENCE
+
+Do not guess from a single question if mapping identifies the family.
+
+COURSE-FAMILY EXPORT:
+
+MATH:
+  • Practice Set 3 remains a normal 20-question HTML practice set.
+  • Also create a PRELOADED TARSIA GENERATOR HTML for Practice Set 3.
+  • Do NOT create a Tarsia CSV by default.
+  • Tarsia generator uses 18 of the 20 canonical PS3 Bank items because the
+    supplied 16-triangle generator has exactly 18 interior question/answer
+    edges.
+
+SCIENCE:
+  • Practice Set 3 is exactly 20 four-choice multiple-choice questions,
+    already authored that way in the Bank.
+  • Also create a Blooket CSV that is an exact content mirror of PS3.
+  • No Tarsia file.
+
+If a course family does not satisfy its Bank-side PS3 requirements, STOP and
+report the Bank IDs that require repair.
+
+=======================================================================
+REQUIRED INPUTS
+=======================================================================
+
+NORMAL FULL UNIT BUILD:
+
+1. This Practice Sets PM.
+2. Current Unit Bank ZIP.
+3. Current Unit Assessment Plan.
+4. Current graph_tool.py.
+5. MATH ONLY: current tarsia_generator.html template.
+
+Nothing else is normally required.
+
+Do NOT require:
+  • Framework
+  • Notes
+  • prior-unit Banks
+  • formative assessment ZIPs
+  • summative assessment ZIPs
+  • Exit Ticket resources
+  • Activities
+
+The current Unit Bank already contains the intentionally authored Current,
+Last, and Mastery items needed by its practice sets.
+
+If a genuinely necessary Bank item or canonical figure is missing, STOP and
+report the exact Bank ID / filename. Do not ask for unrelated files.
+
+=======================================================================
+READ ORDER — BEFORE WRITING HTML
+=======================================================================
+
+1. Read this PM completely.
+2. Read the Unit Assessment Plan completely.
+3. Open the Unit Bank ZIP and read unit[#]_mapping.csv completely.
+4. Read unit[#]_bank.html completely enough to resolve every practice-set and
+   CYU Bank ID, its body, choices/tables/figures, and canonical answer.
+5. Inspect the Bank figures referenced by Practice Sets/CYU.
+6. Read the current graph_tool.py completely.
+7. MATH ONLY: read the Tarsia generator template completely.
+8. Complete the PRIVATE UNIT BUILD PLAN.
+9. Only then write output files.
+
+Do not draft questions while reading. There is no question-authoring stage here.
+
+=======================================================================
+BANK ROUTING CONTRACT
+=======================================================================
+
+Use unit[#]_mapping.csv, not visual guessing from Bank headings.
+
+Per section the Bank must provide:
+
+PRACTICE SET 1
+  destination = practice_set_1
+  destination_group = ps1
+  20 mapped rows:
+    C01-C05 = Current
+    L01-L05 = Last
+    M01-M10 = Mastery
+
+PRACTICE SET 2
+  destination = practice_set_2
+  destination_group = ps2
+  same 5 Current / 5 Last / 10 Mastery structure
+
+PRACTICE SET 3
+  destination = practice_set_3
+  destination_group = ps3
+  same 5 Current / 5 Last / 10 Mastery structure
+
+EXTRA PRACTICE
+  destination = extra_practice
+  destination_group = xp
+  same 5 Current / 5 Last / 10 Mastery structure
+
+CYU
+  destination = cyu
+  6 dedicated items:
+    C01-C02 = Current
+    L01-L02 = Last
+    M01-M02 = Mastery
+
+If destination naming differs slightly in a future Bank version, use the mapping
+semantics and exact Bank IDs, but do not infer missing inventory.
+
+HARD INVENTORY CHECK PER SECTION:
+  PS1 = 20
+  PS2 = 20
+  PS3 = 20
+  Extra Practice = 20
+  CYU = 6
+
+If any count fails, STOP and report the missing/duplicate route(s) before HTML.
+
+=======================================================================
+VERBATIM BANK RULE
+=======================================================================
+
+Every Practice Set and CYU problem is copied VERBATIM from its mapped Bank item.
+
+Copy the STUDENT-FACING body only:
+  • prompt paragraphs
+  • lists / problem parts
+  • answer choices
+  • table.values
+  • figure references / graph blocks
+  • claim/data/context material students need
+
+Do NOT copy into student HTML:
+  • visible Bank ID labels
+  • Bank metadata blocks
+  • solution / answer blocks
+  • teacher notes
+  • source_basis text
+
+Do NOT:
+  • paraphrase
+  • change values
+  • swap context
+  • shorten wording
+  • add a new part
+  • remove a part
+  • convert format
+  • repair a distractor downstream
+
+Allowed downstream-only transformations:
+  • renumber visible problem number 1-20 / 1-6
+  • wrap content in the locked Practice Set HTML shell
+  • add workspace
+  • copy canonical figures to local figures/
+  • add hidden traceability attributes
+  • Tarsia only: add | line breaks without changing mathematical content
+  • Tarsia only: strip HTML wrappers to create concise edge text when the
+    underlying words/math stay identical
+
+If a mapped Bank problem is malformed, unsuitable, wrong, duplicated, or cannot
+be rendered, STOP and identify it for Bank maintenance.
+
+=======================================================================
+TRACEABILITY — REQUIRED
+=======================================================================
+
+Students do not need to see Bank IDs.
+
+Every problem <section> must include machine-readable attributes:
+
+  data-source-id="U1-S2-PS1-C03"
+  data-spiral-role="current"
+  data-dok="2"
+
+Example:
+
+<section class="problem" id="q01"
+         data-source-id="U1-S2-PS1-C03"
+         data-spiral-role="current"
+         data-dok="2">
+
+This enables:
+  finished practice question → Bank ID → mapping → canonical Bank item.
+
+Do not display the Bank ID in visible student text.
+
+=======================================================================
+PRACTICE SET CONTENT STRUCTURE
+=======================================================================
+
+Every main Practice Set contains exactly 20 canonical Bank items.
+
+Order:
+  Questions 1-5   = Current
+  Questions 6-10  = Last
+  Questions 11-20 = Mastery
+
+Use visible section labels:
+  Current — Section [U].[S]: [SECTION TITLE]
+  Last Learning
+  Mastery Spiral
+
+Do not reorder Bank slots inside a role unless the user explicitly requests it.
+
+DOK:
+  • preserve the Bank DOK as hidden data-dok
+  • do not create a DOK quota
+  • do not visibly group the worksheet by DOK
+  • do not inflate workspace because a number says DOK 3
+
+The 5/5/10 Current/Last/Mastery distribution is a Bank routing contract, not a
+DOK distribution.
+
+=======================================================================
+WORKSPACE RULES
+=======================================================================
+
+Use the current shared practice_set.css.
+
+DEFAULT:
+  non-multiple-choice problem → <div class="workspace ws-80"></div>
+  multiple-choice problem     → <div class="workspace ws-10"></div>
+
+ws-80 remains the default even for higher-DOK open response.
+
+Increase beyond ws-80 only when the canonical problem clearly requires more
+room, such as:
+  • multi-part calculation
+  • substantial written justification
+  • student-drawn graph/model
+  • large table completion
+  • extended response
+
+If an included blank graph/table is itself the primary workspace, use minimal
+additional workspace unless student writing is still required.
+
+Never shrink a genuine written-response task merely to save pages.
+
+=======================================================================
+HTML / CSS CONTRACT
+=======================================================================
+
+CSS is shared at the course level. Do not include CSS in normal unit ZIPs.
+
+Every Practice Set HTML links exactly, in this order:
+
+<link rel="stylesheet" href="../../css/base.css"/>
+<link rel="stylesheet" href="../../css/practice_set.css"/>
+
+No <style> block.
+No student inline style.
+
+MathJax exactly:
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$']],
+    displayMath: [['$$','$$']],
+    processEscapes: true
+  }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+Use the clean single-column Practice Set flow.
+
+Core classes:
+  dok-section
+  problem
+  problem-body
+  qnum
+  workspace
+  ws-10
+  ws-80 and other existing ws-N classes only when needed
+  ps-figure
+  ps-diagram
+  wu-img-250 / 300 / 350 / 400 / 450 / 500 / 550 / 600
+  values
+  lower-alpha
+  section-label
+
+Do not introduce obsolete visible problem-meta labels.
+Do not use two-column problem grids.
+Do not add an Exit Ticket block.
+
+=======================================================================
+MAIN PRACTICE HTML SHELL
+=======================================================================
+
+Use for Practice Set 1, Practice Set 2, Practice Set 3, and Extra Practice.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>[PRACTICE TITLE] — Section [U].[S]</title>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$']],
+    displayMath: [['$$','$$']],
+    processEscapes: true
+  }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../css/base.css"/>
+<link rel="stylesheet" href="../../css/practice_set.css"/>
+</head>
+<body>
+
+<h1>[PRACTICE TITLE] — Section [U].[S]: [SECTION TITLE]</h1>
+
+<div class="section-label">Current — Section [U].[S]: [SECTION TITLE]</div>
+<section class="dok-section">
+  [QUESTIONS 1-5]
+</section>
+
+<div class="section-label">Last Learning</div>
+<section class="dok-section">
+  [QUESTIONS 6-10]
+</section>
+
+<div class="section-label">Mastery Spiral</div>
+<section class="dok-section">
+  [QUESTIONS 11-20]
+</section>
+
+</body>
+</html>
+
+Problem skeleton:
+
+<section class="problem" id="q01"
+         data-source-id="[BANK_ID]"
+         data-spiral-role="[current|last|mastery]"
+         data-dok="[DOK]">
+  <div class="problem-body">
+    <p><span class="qnum">1.</span> [BANK PROMPT CONTENT]</p>
+    [OTHER VERBATIM BANK CONTENT]
+    <div class="workspace ws-80"></div>
+  </div>
+</section>
+
+If Bank content begins with a list/table/figure rather than a simple paragraph,
+preserve semantic order. The visible qnum must still precede the first prompt text.
+
+=======================================================================
+CYU — CHECK YOUR UNDERSTANDING
+=======================================================================
+
+CYU uses its SIX DEDICATED Bank items. It does NOT reuse Extra Practice.
+
+Order:
+  Q1-Q2 = Current
+  Q3-Q4 = Last
+  Q5-Q6 = Mastery
+
+Use the same clean single-column style, not an Exit Ticket grid.
+
+CYU shell uses the same MathJax/CSS head as Practice Sets.
+
+Title:
+  Check Your Understanding — Section [U].[S]: [SECTION TITLE]
+
+Visible labels:
+  Current
+  Last Learning
+  Mastery Spiral
+
+Workspace:
+  same format-based rule as Practice Sets:
+    non-MC = ws-80 default
+    MC = ws-10
+
+No DOK4 quota.
+No invented question.
+No extra reflection cells.
+No Exit Ticket content.
+
+=======================================================================
+FIGURES / DIAGRAMS
+=======================================================================
+
+Bank figures are canonical.
+
+Practice Set stage NEVER redesigns or regenerates a different version of an
+approved Bank figure.
+
+For every mapped Bank item:
+  1. read figure_files from mapping
+  2. confirm each file exists in Bank figures/
+  3. inspect the actual figure for correct match to the Bank item
+  4. copy the exact approved file into the section Practice Set figures/ folder
+  5. update the HTML image path to figures/[filename] if necessary
+
+Do not hot-link to Bank paths.
+Do not rename a figure unless the Bank mapping is updated first.
+
+If a figure is referenced but absent from the Bank ZIP:
+  STOP — Bank maintenance blocker.
+
+If a figure reveals an answer:
+  STOP — Bank maintenance blocker.
+
+=======================================================================
+GRAPH TOOL PACKAGING
+=======================================================================
+
+Every section Practice Set folder contains:
+  generate_graphs.py
+  figures/
+
+For this downstream Practice Set stage:
+  • generate_graphs.py is a BYTE-FOR-BYTE copy of the currently uploaded
+    authoritative graph_tool.py.
+  • Do NOT append new Practice-Set-only graph-generation code.
+  • The actual approved PNGs/visuals are copied from the Bank figures/ folder.
+  • If a canonical Bank figure needs to be changed or regenerated, repair the
+    Bank first using the Bank PM and its Bank generate_graphs.py.
+
+This preserves the graph tool in the section package without creating a second,
+competing source of figure truth.
+
+Even if no figures are used in a section:
+  • include figures/ as an empty folder
+  • include generate_graphs.py as the current graph tool copy
+
+=======================================================================
+MATH BRANCH — TARSIA GENERATOR HTML
+=======================================================================
+
+MATH DOES NOT OUTPUT A TARSIA CSV BY DEFAULT.
+
+Output:
+  tarsia_[U]_[S]_practice_3.html
+
+This is a section-specific, self-contained copy of the supplied
+`tarsia_generator.html` template with the Practice Set 3 pairs PRELOADED.
+
+The teacher opens the file and the puzzle is already populated. The generator's
+Generate / Print / Shuffle controls remain available.
+
+WHY 18 PAIRS:
+The approved 16-triangle generator has exactly 18 interior shared edges.
+Therefore one puzzle can use exactly 18 question/answer pairs.
+Practice Set 3 still contains all 20 Bank questions in its normal HTML.
+
+DEFAULT 18-ITEM TARSIA SELECTION:
+  • all 5 Current PS3 items
+  • all 5 Last PS3 items
+  • 8 of the 10 Mastery PS3 items
+
+Select the 8 Mastery items deliberately for:
+  • broadest prerequisite coverage
+  • clearest single answer
+  • concise edge text
+  • variety
+  • minimal redundancy
+
+Do not automatically use M01-M08 if M09/M10 create better breadth.
+Record the 18 selected source IDs in the generator JavaScript as:
+
+const TARSIA_SOURCE_IDS = [
+  "U1-S1-PS3-C01",
+  ...
+];
+
+This is hidden traceability, not visible puzzle text.
+
+TARSIA CONTENT RULES:
+  • Question and answer come from the SAME canonical PS3 Bank item.
+  • Use the canonical Bank solution/answer — do not independently solve and
+    substitute a different form.
+  • Do not change numbers, operations, wording, or mathematical target.
+  • `|` may be inserted to force a visual line break.
+  • Target about 25 characters per visual line.
+  • Use `$...$` for math.
+  • Avoid figure-dependent items.
+  • Avoid multiple-answer prompts.
+  • Avoid long explanations as answers.
+
+If fewer than 18 PS3 items are genuinely Tarsia-suitable:
+  STOP and list the unsuitable Bank IDs. This is a Bank maintenance issue.
+
+TARSIA GENERATOR TEMPLATE RULE:
+Use the supplied generator as the UI/geometry authority.
+Do not redesign the puzzle.
+
+Replace only:
+  • title-input default value
+  • DEFAULT_CSV / pair-data block
+  • TARSIA_SOURCE_IDS block if template includes it
+
+The corrected generic generator should store pair data with a raw JavaScript
+string so LaTeX backslashes survive:
+
+const DEFAULT_CSV = String.raw`Question, Answer
+Question, Answer`;
+
+Do NOT place LaTeX such as `\tfrac` in a normal JavaScript string with an
+unescaped backslash. In a normal JS string, `\t` becomes a tab and corrupts
+`\tfrac`. String.raw avoids that failure.
+
+Do not output a separate Tarsia CSV unless the user explicitly requests one.
+
+=======================================================================
+SCIENCE BRANCH — BLOOKET CSV
+=======================================================================
+
+Output:
+  blooket_[U]_[S]_practice_3.csv
+
+The Science Bank must already provide exactly 20 PS3 items, each with exactly
+four answer choices and one clearly best answer.
+
+The Blooket CSV is an EXACT CONTENT MIRROR of PS3:
+  • same 20 question texts
+  • same four answer choices
+  • same answer order
+  • same correct answer
+  • no alternate wording
+  • no figure-dependent questions
+
+CSV structure:
+
+Row 1:
+  first cell = "Blooket\nImport Template"
+  remaining cells blank
+
+Row 2 columns:
+  Question #
+  Question Text
+  Answer 1
+  Answer 2
+  Answer 3 (Optional)
+  Answer 4 (Optional)
+  Time Limit (sec) (Max: 300 seconds)
+  Correct Answer(s) (Only include Answer #)
+
+Rows 3-22:
+  PS3 questions 1-20
+
+Preserve blank template rows through Question #100 when using the established
+Blooket import structure.
+
+TIME LIMIT:
+  DOK 1 → 30 sec
+  DOK 2 → 45 sec
+  DOK 3 → 60 sec
+  higher authentic reasoning → 60 sec unless clearly more time is needed
+
+Correct Answer field = answer number only:
+  1 / 2 / 3 / 4
+
+If any Science PS3 Bank item is not four-choice, is figure-dependent, has no
+single correct answer, or has malformed distractors:
+  STOP and identify Bank ID(s) for repair.
+
+=======================================================================
+FILE / ZIP STRUCTURE
+=======================================================================
+
+Default build = ONE WHOLE UNIT at a time.
+
+ZIP name:
+  unit[U]_practice_sets.zip
+
+ZIP root contains section folders DIRECTLY. No outer practicesets/ wrapper.
+
+Example Unit 1 MATH:
+
+  u1_1_practice_sets/
+    practice_set_1_1.html
+    practice_set_1_1_2.html
+    practice_set_1_1_3.html
+    extra_practice_1_1.html
+    cyu_1_1.html
+    tarsia_1_1_practice_3.html
+    generate_graphs.py
+    figures/
+
+  u1_2_practice_sets/
+    ...
+
+  through all sections in the Unit Assessment Plan / Bank.
+
+Example Unit 1 SCIENCE replaces Tarsia with:
+  blooket_1_1_practice_3.csv
+
+No CSS files in the normal ZIP.
+No Exit Ticket file.
+No Bank HTML/mapping copied into the Practice ZIP.
+No Assessment Plan copied into the Practice ZIP.
+No extra parent wrapper.
+No __MACOSX / .DS_Store / temp QA files.
+
+=======================================================================
+PRIVATE UNIT BUILD PLAN — REQUIRED
+=======================================================================
+
+Before writing HTML, record privately for every section:
+
+SECTION
+  section number/title
+  course family
+  Learning Target (sanity check only)
+
+PS1
+  5 Current IDs
+  5 Last IDs
+  10 Mastery IDs
+  figure files
+
+PS2
+  same
+
+PS3
+  same
+  Science: confirm all 20 = 4-choice MC, figure-free
+  Math: confirm all 20 = Tarsia-friendly candidates
+
+EXTRA
+  same
+
+CYU
+  2 Current IDs
+  2 Last IDs
+  2 Mastery IDs
+
+MATH TARSIA
+  selected 5 Current
+  selected 5 Last
+  selected 8 Mastery
+  excluded 2 Mastery + reason
+  all 18 question/answer pairs checked
+  line-break plan
+
+SCIENCE BLOOKET
+  20 source IDs
+  correct answer positions
+  time limits
+
+FIGURES
+  unique files needed by all 5 HTML resources
+  each exists in Bank figures/
+
+If any required route/answer/figure is missing, STOP before HTML.
+
+=======================================================================
+QA — ALL MUST PASS
+=======================================================================
+
+PASS 1 — SOURCE / ROUTING
+  PM fully read: YES/NO
+  Unit Assessment Plan read: YES/NO
+  Bank mapping read completely: YES/NO
+  Bank HTML resolved for every routed item: YES/NO
+  Current graph tool read completely: YES/NO
+  Math Tarsia template read completely: YES/NO/N-A
+  Correct course family identified: YES/NO
+  RESULT: PASS/FAIL
+
+PASS 2 — INVENTORY
+For EVERY section:
+  PS1 = exactly 20: YES/NO
+  PS2 = exactly 20: YES/NO
+  PS3 = exactly 20: YES/NO
+  Extra = exactly 20: YES/NO
+  CYU = exactly 6 dedicated items: YES/NO
+  Each main set = 5 Current + 5 Last + 10 Mastery: YES/NO
+  CYU = 2 Current + 2 Last + 2 Mastery: YES/NO
+  No Exit Ticket resource/content: YES/NO
+  RESULT: PASS/FAIL
+
+PASS 3 — BANK FIDELITY
+  Every student problem copied verbatim: YES/NO
+  No rewritten/paraphrased problem: YES/NO
+  No invented replacement problem: YES/NO
+  No Bank solution exposed in student HTML: YES/NO
+  Every problem has hidden data-source-id: YES/NO
+  DOK preserved in data-dok: YES/NO
+  spiral_role preserved: YES/NO
+  RESULT: PASS/FAIL
+
+PASS 4 — HTML / WORKSPACE / MATHJAX
+  base.css first, practice_set.css second: YES/NO
+  No <style> blocks: YES/NO
+  MathJax config before CDN: YES/NO
+  processEscapes:true: YES/NO
+  No wrong delimiters \(...\) / \[...\]: YES/NO
+  No raw < or > inside math: YES/NO
+  Fractions valid (no \rac corruption): YES/NO
+  Non-MC defaults to ws-80: YES/NO
+  MC defaults to ws-10: YES/NO
+  Larger workspace used only where actually needed: YES/NO
+  Single-column clean flow: YES/NO
+  RESULT: PASS/FAIL
+
+PASS 5 — FIGURES / GRAPH TOOL
+  Every mapped figure exists in Bank: YES/NO/N-A
+  Every HTML figure copied locally: YES/NO/N-A
+  No figure recreated or altered downstream: YES/NO/N-A
+  No answer-revealing figure issue: YES/NO/N-A
+  figures/ exists in every section folder: YES/NO
+  generate_graphs.py exists in every section folder: YES/NO
+  generate_graphs.py matches current graph_tool.py byte-for-byte: YES/NO
+  RESULT: PASS/FAIL
+
+PASS 6A — MATH TARSIA
+  Exactly one Tarsia generator HTML per section: YES/NO
+  Practice Set 3 HTML still contains all 20 items: YES/NO
+  Tarsia uses exactly 18 PS3 items: YES/NO
+  All 5 Current included: YES/NO
+  All 5 Last included: YES/NO
+  Exactly 8 Mastery included: YES/NO
+  Selected Mastery items chosen for breadth, not simply first 8: YES/NO
+  All 18 have canonical single answers: YES/NO
+  No figure-dependent pair: YES/NO
+  `|` line breaks do not change content: YES/NO
+  approx 25 chars/visual line where practical: YES/NO
+  Pair data uses String.raw or equivalently safe escaping: YES/NO
+  No `\tfrac`→tab corruption: YES/NO
+  TARSIA_SOURCE_IDS contains exact 18 Bank IDs: YES/NO
+  Generator opens and auto-renders successfully: YES/NO
+  RESULT: PASS/FAIL/N-A
+
+PASS 6B — SCIENCE BLOOKET
+  Exactly one Blooket CSV per section: YES/NO
+  20 questions: YES/NO
+  exactly four choices each: YES/NO
+  PS3 figure-free: YES/NO
+  CSV question text exactly mirrors PS3: YES/NO
+  CSV choices/order exactly mirror PS3: YES/NO
+  correct-answer numbers match canonical Bank answers: YES/NO
+  time limits follow DOK defaults: YES/NO
+  CSV parses correctly: YES/NO
+  RESULT: PASS/FAIL/N-A
+
+PASS 7 — ZIP
+  ZIP name correct: YES/NO
+  Section folders directly at ZIP root: YES/NO
+  All sections present: YES/NO
+  Each section has 5 required HTML practice files: YES/NO
+  Correct family export exists: YES/NO
+  Wrong family export absent: YES/NO
+  generate_graphs.py + figures/ present per section: YES/NO
+  No CSS duplicated: YES/NO
+  No extra wrapper / junk files: YES/NO
+  ZIP integrity passes: YES/NO
+  RESULT: PASS/FAIL
+
+=======================================================================
+QA LOG — DELIVERY
+=======================================================================
+
+QA LOG — Unit [U] Practice Sets / Build date: [DATE]
+
+PASS 1 — Source / routing:        PASS / FAIL
+PASS 2 — Inventory:               PASS / FAIL
+PASS 3 — Bank fidelity:           PASS / FAIL
+PASS 4 — HTML / workspace:        PASS / FAIL
+PASS 5 — Figures / graph tool:    PASS / FAIL
+PASS 6 — Tarsia or Blooket:       PASS / FAIL
+PASS 7 — ZIP:                     PASS / FAIL
+
+Course family: MATH / SCIENCE
+Sections built: [list]
+Bank blockers repaired during this run: NONE — Bank changes require Bank PM
+Issues fixed at Practice layer: [list or NONE]
+OVERALL: PASS — ZIP assembled / FAIL — [blocker]
+
+=======================================================================
+MAINTENANCE / REVISION MODE
+=======================================================================
+
+Every Practice Sets PM must support targeted repair.
+
+Use Maintenance Mode when the user says things such as:
+  • "Replace Practice Set 2 question 8."
+  • "The workspace on 3.4 question 6 is too small."
+  • "The Tarsia puzzle has a bad pair."
+  • "The Blooket answer is wrong."
+  • "This graph does not match the question."
+
+WORKFLOW:
+
+1. Inspect the existing Practice Set package first.
+2. Resolve the affected visible problem to data-source-id.
+3. Decide whether the defect is:
+
+   PRACTICE-LAYER ONLY
+     • workspace size
+     • numbering
+     • broken local path
+     • title
+     • ZIP packaging
+     • Tarsia `|` line break
+     • Tarsia pair order
+     → fix Practice package directly.
+
+   BANK-CANONICAL
+     • question wording/content
+     • values
+     • answer/solution
+     • distractors
+     • DOK
+     • Current/Last/Mastery routing
+     • canonical figure
+     • missing Bank item
+     • Tarsia unsuitability of a PS3 Math item
+     • Science PS3 not valid for Blooket
+     → STOP and request/use Bank PM to repair Bank first.
+
+4. Preserve every unaffected file/question.
+5. After a Bank repair, rebuild only logically affected Practice artifacts.
+6. Run the same QA passes.
+7. Return a COMPLETE replacement ZIP, not a patch snippet.
+8. Briefly report what changed and which Bank IDs were affected.
+
+TARSIA DEPENDENCY:
+If one selected PS3 Math Bank item changes, update:
+  • Practice Set 3 HTML
+  • Tarsia generator if that Bank ID is among the 18 selected
+  • TARSIA_SOURCE_IDS remains synchronized.
+
+BLOOKET DEPENDENCY:
+If any Science PS3 item changes, update BOTH:
+  • Practice Set 3 HTML
+  • Blooket CSV
+because the CSV must be an exact mirror.
+
+=======================================================================
+COMMON FAILURE MODES
+=======================================================================
+
+1. Writing new practice questions instead of using Bank items verbatim.
+2. Adapting or "improving" a canonical Bank problem downstream.
+3. Adding Exit Tickets to Practice Sets.
+4. Reusing Extra Practice items as CYU instead of dedicated CYU Bank IDs.
+5. Pulling prior-unit Bank files even though current Bank authored Last/Mastery.
+6. Treating DOK as a quota.
+7. Using DOK to automatically enlarge workspace.
+8. Showing Bank IDs visibly to students.
+9. Omitting hidden source traceability.
+10. Wrong 5 Current / 5 Last / 10 Mastery inventory.
+11. Wrong CYU 2/2/2 inventory.
+12. Missing canonical Bank figure.
+13. Rebuilding a figure at Practice stage instead of repairing Bank.
+14. Shipping empty figures when HTML references images.
+15. Embedding CSS or using wrong relative CSS paths.
+16. Returning a Tarsia CSV by habit for Math.
+17. Trying to force all 20 PS3 Math items into an 18-edge Tarsia puzzle.
+18. Selecting 18 Tarsia items with no coverage logic.
+19. Rewriting Tarsia questions to make them fit instead of flagging Bank issue.
+20. JavaScript escape corruption such as `\tfrac` becoming a tab + `frac`.
+21. Science Blooket drifting from Practice Set 3.
+22. Science PS3 containing figure-dependent items.
+23. Wrong Blooket correct-answer number.
+24. Missing generate_graphs.py or figures/ folder.
+25. Extra ZIP wrapper directory.
+26. Claiming QA PASS without checking counts/content/exports.
+
+=======================================================================
+TEST PROMPT
+=======================================================================
+
+Recommended first test:
+
+"Carefully read the PM and build the complete Practice Sets package as a
+unit-level ZIP for Unit 1."
+
+Upload:
+  (1) Practice Sets PM
+  (2) current graph_tool.py
+  (3) Unit 1 Assessment Plan
+  (4) Unit 1 Bank ZIP
+  (5) MATH ONLY — tarsia_generator.html
+
+If Unit 1 passes, use the same PM to test Unit 2 independently before batch
+production.
+
+=======================================================================
+END GENERIC MATH / SCIENCE PRACTICE SETS PORTABLE MEMORY — v1.0
+=======================================================================

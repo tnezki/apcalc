@@ -84,3 +84,19 @@ MAINTENANCE CHANGES
   Revised: all 20 Notes Example/YTI pairs so each pair targets the same concept bundle; concept-heavy sections use multi-part examples to cover related cases efficiently.
   Preserved: all Practice Sets, Extra Practice, CYU, Warm-Ups, Exit Tickets, Formatives, Summatives, and unrelated figures/content.
 OVERALL: PASS - repaired Unit 1 bank ready for Notes PM v3 test.
+
+
+=== TARSIA-SAFETY MAINTENANCE REPAIR ===
+Date: 2026-08-18
+Scope: Unit 1 Math Practice Set 3 canonical Bank items
+Changed items: 100 PS3 items across Sections 1.1-1.5
+Reason: enforce dual-use Practice Set 3 + Tarsia edge safety before downstream assembly.
+Rules enforced:
+- concise single-target question/answer pairs
+- no comma outside math in question text (generator delimiter safety)
+- no figures or tables
+- short exact answers
+- unique canonical answers within each section
+- all 5 Current + all 5 Last remain usable; any 8 Mastery can be selected for the 18-edge puzzle
+- other destinations preserved unchanged
+QA: PASS

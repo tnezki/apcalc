@@ -1,4 +1,4 @@
-GENERIC MATH / SCIENCE BANK BUILD PROMPT — v3
+GENERIC MATH / SCIENCE BANK BUILD PROMPT — v4
 ════════════════════════════════════════════════════════════════
 
 PURPOSE
@@ -467,14 +467,71 @@ PS3 COURSE-FAMILY BRANCH:
   PM requests that structure. Choices must be A-D and genuinely
   plausible.
 
-  MATH — author all 20 items so they are Tarsia-friendly when the
-  later Practice PM requests a Tarsia export: concise prompt,
-  unambiguous target answer, and no dependence on long surrounding
-  text. Multiple choice is not required unless the content naturally
-  calls for it.
+  MATH — Practice Set 3 is a DUAL-USE destination:
+      (1) normal Practice Set 3 HTML, and
+      (2) source pool for the 16-triangle Tarsia generator.
 
-This branch may be refined when the generic Practice PM is written.
-Do not alter the core question after it has been approved in the bank.
+  Therefore ALL 20 Math PS3 items must be authored from the start as
+  TARSIA-SAFE canonical question/answer pairs. Do not write a normal
+  long worksheet question and assume the Practice PM can shorten it.
+  Downstream wording remains verbatim except for inserting | line
+  breaks and removing HTML wrappers.
+
+  MATH PS3 TARSIA-SAFETY CONTRACT — EVERY ITEM MUST PASS:
+    • one concise single-target question
+    • one short unambiguous canonical answer
+    • no figure dependence
+    • no table dependence
+    • no multi-part prompt
+    • no multiple-answer prompt
+    • no long explanation required as the answer
+    • no comma OUTSIDE $...$ in the question text because the supplied
+      Tarsia generator uses the first comma outside math as the
+      question/answer delimiter
+    • use MathJax $...$ for mathematical notation
+    • target no more than about 50 displayed characters for the
+      question before Tarsia line breaks are inserted
+    • target no more than about 40 displayed characters for the answer
+      whenever mathematically reasonable
+    • wording must be able to fit in roughly two visual lines of about
+      25 characters each; a third very short line is acceptable only
+      when the mathematical notation itself forces it
+    • the item must still read naturally as an ordinary PS3 practice
+      question outside the puzzle
+
+  TARSIA PUZZLE UNIQUENESS:
+    The 16-triangle generator uses 18 interior question/answer edges.
+    The later Practice PM uses all 5 Current items + all 5 Last items +
+    8 of the 10 Mastery items. To avoid ambiguous edge matches, author
+    all 20 Math PS3 items with UNIQUE canonical answers within the
+    section whenever possible. Exact duplicate answers inside a section
+    are prohibited unless mathematical necessity makes them unavoidable;
+    if unavoidable, redesign the prompt/answer representation so the
+    puzzle edge text is still uniquely matchable.
+
+  MATH PS3 QUALITY EXAMPLES:
+    GOOD:  Evaluate $\log_2 8$.
+           Answer: $3$
+
+    GOOD:  Left limit $-1$; right limit $4$. Two-sided limit?
+           Answer: DNE
+
+    BAD:   A student examines a graph and a table and then explains in
+           several sentences why the two representations disagree...
+           [too long for a Tarsia edge]
+
+    BAD:   Use the table below to determine...
+           [table-dependent]
+
+    BAD:   State and justify your answer in two or three sentences.
+           [answer is too long]
+
+  A Math Bank FULL BUILD must stop before delivery if ANY PS3 item fails
+  the Tarsia-safety contract. A later Practice build should never be the
+  first place this problem is discovered.
+
+Do not alter the core PS3 question downstream after it has been approved in
+the Bank. If it is not Tarsia-safe, repair the Bank item first.
 
 ────────────────────────────────────────────────────────────────
 D. CYU — CHECK YOUR UNDERSTANDING
@@ -1074,6 +1131,12 @@ PASS 2 — DESTINATION COMPLETENESS
   PS1 inventory complete: YES/NO
   PS2 inventory complete: YES/NO
   PS3 inventory complete: YES/NO
+  If MATH — all 20 PS3 items per section pass Tarsia-safety contract: YES/NO/N-A
+  If MATH — all PS3 questions contain no comma outside math: YES/NO/N-A
+  If MATH — PS3 question/answer text is edge-length appropriate: YES/NO/N-A
+  If MATH — no PS3 item depends on a figure/table: YES/NO/N-A
+  If MATH — canonical PS3 answers are unique within each section: YES/NO/N-A
+  If SCIENCE — all 20 PS3 items are valid 4-choice Blooket items: YES/NO/N-A
   Extra Practice inventory complete: YES/NO
   CYU inventory complete: YES/NO
   Warm-Up academic inventory complete: YES/NO
@@ -1292,44 +1355,51 @@ COMMON FAILURE MODES — DO NOT DO THESE
 3. Wasting multiple Notes Example slots on closely related subtypes that
    belong together in one coherent multi-part Example.
 4. Combining unrelated skills into a multi-part Example just to save slots.
-5. Organizing primarily by DOK instead of destination.
-6. Forcing DOK 3/4 quotas.
-7. Treating DOK 4 as ordinary worksheet questions.
-8. Ignoring Current / Last / Mastery.
-9. Using random old topics as "Mastery."
-10. Reusing the same question in Notes, Practice, Warm-Up, Exit Ticket,
+5. For Math, writing long ordinary PS3 questions and expecting the Practice
+   PM to shorten or rewrite them for Tarsia.
+6. For Math, allowing commas outside math in PS3 question text and breaking
+   the supplied Tarsia question/answer parser.
+7. For Math, using table-dependent, figure-dependent, multi-part, or long-
+   explanation PS3 items.
+8. For Math, creating duplicate canonical PS3 answers that make Tarsia edge
+   matching ambiguous.
+9. Organizing primarily by DOK instead of destination.
+10. Forcing DOK 3/4 quotas.
+11. Treating DOK 4 as ordinary worksheet questions.
+12. Ignoring Current / Last / Mastery.
+13. Using random old topics as "Mastery."
+14. Reusing the same question in Notes, Practice, Warm-Up, Exit Ticket,
     CYU, formative, or summative.
-11. Calling a number swap a genuinely new destination item.
-12. Allowing summative/formative assessment leakage into practice.
-13. Writing downstream exit-ticket questions later instead of bank
+15. Calling a number swap a genuinely new destination item.
+16. Allowing summative/formative assessment leakage into practice.
+17. Writing downstream exit-ticket questions later instead of bank
     authoring them now.
-14. Reusing Extra Practice questions for CYU instead of dedicated CYU
+18. Reusing Extra Practice questions for CYU instead of dedicated CYU
     items.
-15. Creating graphs later in each downstream PM.
-16. Delivering an empty figures folder after the Bank build.
-17. Modifying graph_tool.py source.
-18. Drawing unsupported figures ad hoc instead of stopping when the
+19. Creating graphs later in each downstream PM.
+20. Delivering an empty figures folder after the Bank build.
+21. Modifying graph_tool.py source.
+22. Drawing unsupported figures ad hoc instead of stopping when the
     graph tool lacks the needed type.
-19. Graph title/labels revealing the answer.
-20. Pre-answered tables.
-21. Matching choices in obvious positional order.
-22. Cross-referencing other questions.
-23. Template-only performance tasks.
-24. Implausible scientific/mathematical contexts.
-25. Copying published AP/textbook questions verbatim by default.
-26. Missing answers/solutions in the canonical bank.
-27. Missing mapping rows or duplicate Bank IDs.
-28. Omitting source IDs from downstream traceability metadata.
-29. Asking for optional topic-question files when none were supplied.
-30. Asking for prior banks when Framework + Assessment Plan provide
+23. Graph title/labels revealing the answer.
+24. Pre-answered tables.
+25. Matching choices in obvious positional order.
+26. Cross-referencing other questions.
+27. Template-only performance tasks.
+28. Implausible scientific/mathematical contexts.
+29. Copying published AP/textbook questions verbatim by default.
+30. Missing answers/solutions in the canonical bank.
+31. Missing mapping rows or duplicate Bank IDs.
+32. Omitting source IDs from downstream traceability metadata.
+33. Asking for optional topic-question files when none were supplied.
+34. Asking for prior banks when Framework + Assessment Plan provide
     enough prior-learning information.
-31. Treating optional Day 3 framework language as a required calendar.
-32. Rebuilding unrelated content during a maintenance request.
-33. Delivering loose corrected files instead of the complete updated
+35. Treating optional Day 3 framework language as a required calendar.
+36. Rebuilding unrelated content during a maintenance request.
+37. Delivering loose corrected files instead of the complete updated
     bank ZIP.
 
 ════════════════════════════════════════════════════════════════
-
 DELIVERY RESPONSE
 ════════════════════════════════════════════════════════════════
 
@@ -1342,5 +1412,5 @@ MAINTENANCE:
 Do not provide long build narration unless the user asks for it.
 
 ════════════════════════════════════════════════════════════════
-END GENERIC MATH / SCIENCE BANK PM — v3
+END GENERIC MATH / SCIENCE BANK PM — v4
 ════════════════════════════════════════════════════════════════
