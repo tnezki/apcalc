@@ -1,4 +1,4 @@
-GENERIC MATH / SCIENCE BANK BUILD PROMPT — v2
+GENERIC MATH / SCIENCE BANK BUILD PROMPT — v3
 ════════════════════════════════════════════════════════════════
 
 PURPOSE
@@ -306,19 +306,72 @@ possible.
 
 ════════════════════════════════════════════════════════════════
 
-DESTINATION INVENTORY — GENERIC v1 DEFAULTS
+DESTINATION INVENTORY — GENERIC DEFAULTS
 ════════════════════════════════════════════════════════════════
 
-These are v1 authoring defaults. Later component PMs may refine their
+These are generic authoring defaults. Later component PMs may refine their
 presentation, but they should not rewrite bank questions.
 
 ────────────────────────────────────────────────────────────────
-A. NOTES — EXAMPLES / YOU TRY ITS
+A. WHAT'S TO COME — REQUIRED NOTES PREVIEW TASK
+────────────────────────────────────────────────────────────────
+
+Create EXACTLY ONE canonical What's To Come task for EVERY section.
+This is a required Notes-preview destination, not a synonym for a
+performance task and not an assessment-security item.
+
+ID:
+  U[#]-S[#]-WTC01
+
+Mapping:
+  destination       = whats_to_come
+  destination_group = notes
+  destination_slot  = WTC01
+  spiral_role       = n-a
+  dok               = natural DOK of the task; NEVER forced to DOK 4
+
+Purpose:
+  • preview important learning that will become accessible later in
+    the same section
+  • give students something meaningful to annotate, notice, and revisit
+  • reveal useful words, symbols, graphs, diagrams, data, conditions,
+    or representations without teaching the answer in advance
+  • connect to the section's Learning Target / I-cans and culminating
+    understanding
+
+The task should feel challenging or partially unfamiliar at the start
+of the section but reasonable after the section's instruction.
+It may be multi-part when the section naturally combines several
+related ideas or representations.
+
+What's To Come does NOT have to be:
+  • DOK 4
+  • a long project
+  • a performance task
+  • the hardest item in the section
+  • reused later as an assessment item
+
+ASSESSMENT SECURITY:
+A What's To Come task must be unique from formative and summative
+assessment items. Do not preview an exact secure assessment question.
+
+PERFORMANCE SEPARATION:
+If a section also needs a genuine performance task, keep that task in
+the separate Performance inventory with its own PERF ID. WTC01 and
+PERF01 are different destinations even if they target related ideas.
+
+FULL-BUILD HARD STOP:
+A unit bank is incomplete if any section lacks exactly one WTC01 row
+and one matching WTC01 HTML item.
+
+────────────────────────────────────────────────────────────────
+B. NOTES — EXAMPLES / YOU TRY ITS
 ────────────────────────────────────────────────────────────────
 
 Per section:
   Up to 4 Example / You Try It pairs.
-  Use fewer when the content genuinely does not need four.
+  Four is the MAXIMUM, not a quota. Use fewer when the content does
+  not need four.
 
 Each pair contains TWO unique bank items:
   Example — complete student-facing problem/task + worked solution
@@ -326,9 +379,52 @@ Each pair contains TWO unique bank items:
 
 Both are CURRENT items.
 
-The Example and You Try It should assess the same micro-skill or idea
-while varying values/context/representation enough that the You Try It
-requires actual thinking rather than copying the Example.
+IMPORTANT — USE EACH EXAMPLE SLOT EFFICIENTLY:
+A Notes Example does NOT need to be one tiny one-part question.
+When a concept contains several closely related types, cases,
+representations, or decisions, prefer a coherent MULTI-PART Example
+that teaches the family of ideas together rather than consuming two
+or three Example slots on narrow variations of the same concept.
+
+Good reasons for a multi-part Example include:
+  • classify several related cases
+  • compare multiple representations of the same idea
+  • apply one theorem/rule under several conditions
+  • distinguish common subtypes or failure modes
+  • progress from direct identification to interpretation/justification
+  • connect symbolic, graphical, numerical, diagrammatic, or contextual
+    forms of one concept
+
+Example:
+A continuity Example may present several functions/graphs and ask
+students to identify and distinguish removable, jump, and infinite
+behavior in PARTS A-C rather than spending three separate Example
+slots on those three related cases.
+
+Do NOT create a multi-part item by stapling unrelated skills together.
+All parts must form one coherent instructional concept bundle.
+
+MULTI-PART DESIGN RULES:
+  • usually 2-5 meaningful parts when multi-part structure is useful
+  • label parts clearly: (a), (b), (c), etc.
+  • provide complete worked solutions/answers for every part
+  • include all needed tables/graphs/diagrams with the canonical item
+  • the paired YTI should cover comparable conceptual breadth, but it
+    must remain a unique task rather than a pure number/context swap
+  • do not make every Example multi-part if a single focused task is
+    pedagogically stronger
+  • do not inflate DOK merely because an item has several parts
+
+DOK FOR MULTI-PART ITEMS:
+Record the natural overall/dominant cognitive demand of the task.
+Several routine parts do not make an item DOK 3. A strategic subpart
+only raises the item's overall DOK when strategic reasoning is central
+to the task rather than a token add-on.
+
+The Example and You Try It should assess the same concept bundle or
+micro-skill family while varying values/context/representation enough
+that the You Try It requires actual thinking rather than copying the
+Example.
 
 IDs:
   U[#]-S[#]-NOTE-EX01
@@ -336,7 +432,7 @@ IDs:
   ...
 
 ────────────────────────────────────────────────────────────────
-B. PRACTICE SETS — FOUR SETS, 20 QUESTIONS EACH
+C. PRACTICE SETS — FOUR SETS, 20 QUESTIONS EACH
 ────────────────────────────────────────────────────────────────
 
 Per section create:
@@ -345,7 +441,7 @@ Per section create:
   Practice Set 3 — 20 unique items
   Extra Practice — 20 unique items
 
-GENERIC v1 SPIRAL DEFAULT PER 20-QUESTION SET:
+GENERIC SPIRAL DEFAULT PER 20-QUESTION SET:
   5 Current
   5 Last
   10 Mastery
@@ -381,7 +477,7 @@ This branch may be refined when the generic Practice PM is written.
 Do not alter the core question after it has been approved in the bank.
 
 ────────────────────────────────────────────────────────────────
-C. CYU — CHECK YOUR UNDERSTANDING
+D. CYU — CHECK YOUR UNDERSTANDING
 ────────────────────────────────────────────────────────────────
 
 Per section create 6 DEDICATED unique items:
@@ -398,10 +494,10 @@ IDs:
   U[#]-S[#]-CYU-M01 / M02
 
 ────────────────────────────────────────────────────────────────
-D. WARM-UP ACADEMIC CONTENT
+E. WARM-UP ACADEMIC CONTENT
 ────────────────────────────────────────────────────────────────
 
-Generic v1 reserves 3 optional warm-ups per section.
+Generic default reserves 3 optional warm-ups per section.
 Each warm-up receives 3 academic bank items:
   1 Current
   1 Last
@@ -422,7 +518,7 @@ The existence of three optional warm-ups does NOT require the teacher
 to spend three days on the section.
 
 ────────────────────────────────────────────────────────────────
-E. EXIT TICKETS
+F. EXIT TICKETS
 ────────────────────────────────────────────────────────────────
 
 Per section create 3 optional Exit Tickets.
@@ -442,7 +538,7 @@ These are authored in the bank. They are NOT AI-invented later during
 Practice Set or Exit Ticket assembly.
 
 ────────────────────────────────────────────────────────────────
-F. PERFORMANCE / FUTURE TASK INVENTORY
+G. PERFORMANCE TASK INVENTORY
 ────────────────────────────────────────────────────────────────
 
 Create performance-oriented tasks only where the Assessment Plan and
@@ -470,7 +566,7 @@ IDs:
   U[#]-S[#]-PERF01 ...
 
 ────────────────────────────────────────────────────────────────
-G. FORMATIVE ASSESSMENT SOURCE CONTENT
+H. FORMATIVE ASSESSMENT SOURCE CONTENT
 ────────────────────────────────────────────────────────────────
 
 The Assessment Plan normally identifies formative assessment ideas
@@ -480,7 +576,7 @@ Create the exact source content for EVERY formative assessment idea in
 the plan.
 
 If the plan specifies a version count, use it.
-If no version count is specified, GENERIC v1 DEFAULT = 8 parallel
+If no version count is specified, GENERIC DEFAULT = 8 parallel
 versions per formative assessment idea.
 
 Each version is a unique bank task targeting the same intended
@@ -513,7 +609,7 @@ These bank entries are the canonical source for the eventual
 formative HTML. The later assembly must use them verbatim.
 
 ────────────────────────────────────────────────────────────────
-H. SUMMATIVE ASSESSMENT SOURCE CONTENT
+I. SUMMATIVE ASSESSMENT SOURCE CONTENT
 ────────────────────────────────────────────────────────────────
 
 Build the complete source content needed for the unit summative.
@@ -522,10 +618,10 @@ If the Assessment Plan specifies format, count, calculator rules,
 selected-response/constructed-response expectations, use them.
 
 If it does NOT specify question count:
-  GENERIC v1 DEFAULT = 20 items per version.
+  GENERIC DEFAULT = 20 items per version.
 
 If it does NOT specify version count:
-  GENERIC v1 DEFAULT = 8 parallel versions.
+  GENERIC DEFAULT = 8 parallel versions.
 
 All summative items must be unique from instructional/practice items.
 Parallel versions target equivalent evidence but should not be pure
@@ -570,7 +666,7 @@ Set 3 content. The Activities PM should pull those bank-authored items
 verbatim.
 
 Demo and Investigation PMs may use the Assessment Plan, Notes, and
-Performance/Future Task inventory as anchors. Do not force every Demo
+Performance Task inventory as anchors. Do not force every Demo
 or Investigation to be a copied bank question if the nature of the
 resource is experiential rather than question-based.
 
@@ -599,6 +695,9 @@ For each section list:
   • likely DOK 1-2 item forms
   • natural DOK 3 opportunities
   • natural DOK 4 performance opportunities
+  • What's To Come focus and representation for WTC01
+  • Notes Example concept bundles: which related cases/types should be
+    combined into multi-part Examples rather than fragmented across slots
 
 Then map all destination slots before authoring.
 
@@ -671,11 +770,34 @@ Suggested card:
   </div>
 </article>
 
+MULTI-PART NOTES EXAMPLE / YTI HTML:
+When one Notes item intentionally covers several related cases, keep it
+as ONE Bank ID and ONE mapping row. Use ordinary semantic HTML:
+
+  <p>[shared setup / directions]</p>
+  <ol type="a">
+    <li>[related case / representation 1]</li>
+    <li>[related case / representation 2]</li>
+    <li>[related case / representation 3]</li>
+  </ol>
+  <div class="solution">
+    <strong>Answer / Solution:</strong>
+    <ol type="a">
+      <li>[answer / reasoning for part a]</li>
+      <li>[answer / reasoning for part b]</li>
+      <li>[answer / reasoning for part c]</li>
+    </ol>
+  </div>
+
+Do not create separate Bank IDs for the subparts unless they are truly
+independent downstream items. The Notes builder copies the entire
+student-facing multi-part body verbatim as one Example or YTI.
+
 If bank.css does not contain .solution, use ordinary semantic HTML
 without inventing complex styling. Readability matters more than
 visual polish.
 
-PERFORMANCE ITEMS additionally include:
+PERFORMANCE TASK ITEMS additionally include:
   • expected evidence
   • scoring criteria / rubric notes
   • estimated student time when useful
@@ -684,17 +806,18 @@ The bank may use headings by DESTINATION because downstream extraction
 is the priority.
 
 Recommended top-level order:
-  1. Notes Example / You Try It
-  2. Practice Set 1
-  3. Practice Set 2
-  4. Practice Set 3
-  5. Extra Practice
-  6. CYU
-  7. Warm-Up Academic Content
-  8. Exit Tickets
-  9. Performance / Future Tasks
-  10. Formative Assessment Source Content
-  11. Summative Assessment Source Content
+  1. What's To Come
+  2. Notes Example / You Try It
+  3. Practice Set 1
+  4. Practice Set 2
+  5. Practice Set 3
+  6. Extra Practice
+  7. CYU
+  8. Warm-Up Academic Content
+  9. Exit Tickets
+  10. Performance Tasks
+  11. Formative Assessment Source Content
+  12. Summative Assessment Source Content
 
 Within each destination, order by section then slot.
 
@@ -942,7 +1065,12 @@ PASS 1 — SOURCE / SCOPE
   No unauthorized topic added: YES/NO
 
 PASS 2 — DESTINATION COMPLETENESS
+  Exactly one WTC01 item exists for EVERY section: YES/NO
+  Every WTC01 has mapping row + matching HTML item: YES/NO
   Notes Example/YTI inventory complete: YES/NO
+  Notes Examples use multi-part concept bundles where they prevent
+    avoidable fragmentation of closely related cases/types: YES/NO
+  No Notes Example combines unrelated skills merely to save slots: YES/NO
   PS1 inventory complete: YES/NO
   PS2 inventory complete: YES/NO
   PS3 inventory complete: YES/NO
@@ -950,7 +1078,7 @@ PASS 2 — DESTINATION COMPLETENESS
   CYU inventory complete: YES/NO
   Warm-Up academic inventory complete: YES/NO
   Exit Ticket inventory complete: YES/NO
-  Performance/Future tasks aligned: YES/NO
+  Performance tasks aligned where naturally supported: YES/NO
   Every formative assessment idea represented: YES/NO
   Summative source inventory complete: YES/NO
 
@@ -971,6 +1099,9 @@ PASS 4 — UNIQUENESS / QUALITY
   Near-duplicate pure number swaps across different destinations:
     0 unless intentionally documented
   Assessment item duplicated in instructional resource: 0 required
+  WTC01 duplicated from a formative/summative item: 0 required
+  WTC01 is distinct from PERF01 unless intentionally converted during
+    maintenance with dependency check: YES/NO
   Answer-revealing figure labels/titles: 0 required
   Pre-answered student tables: 0 required
   Cross-references between items: 0 required
@@ -998,6 +1129,8 @@ PASS 6 — FIGURES
   Duplicate numbered blank figures: 0 required
 
 PASS 7 — MAPPING / TRACEABILITY
+  Exactly one destination=whats_to_come row per section: YES/NO
+  WTC IDs follow U[#]-S[#]-WTC01 convention: YES/NO
   HTML bank IDs unique: YES/NO
   Mapping rows = bank items: YES/NO
   Every bank item has mapping row: YES/NO
@@ -1063,6 +1196,21 @@ Do NOT automatically ask for all of them.
 Inspect the bank ZIP first.
 The bank itself should contain enough traceability to resolve most
 repairs.
+
+SPECIAL WTC MAINTENANCE RULE:
+If an older bank lacks WTC01 for one or more sections, repair the bank
+before rebuilding Notes. For EVERY section, ensure exactly one canonical
+WTC01 exists and is mapped to destination=whats_to_come,
+destination_group=notes.
+
+If an older PERF01 had been serving as the Notes preview:
+  • inspect whether any true performance resource depends on PERF01
+  • if PERF01 is only a mislabeled preview item, it may be converted to
+    WTC01 while preserving its student-facing content when appropriate
+  • if PERF01 is independently needed as a performance task, KEEP it and
+    author a unique WTC01 instead
+  • never create duplicate WTC/PERF tasks merely by copying the exact body
+    into two IDs
 
 MAINTENANCE WORKFLOW:
 
@@ -1139,40 +1287,45 @@ COMMON FAILURE MODES — DO NOT DO THESE
 
 1. Building a generic question pool instead of destination-mapped
    content.
-2. Organizing primarily by DOK instead of destination.
-3. Forcing DOK 3/4 quotas.
-4. Treating DOK 4 as ordinary worksheet questions.
-5. Ignoring Current / Last / Mastery.
-6. Using random old topics as "Mastery."
-7. Reusing the same question in Notes, Practice, Warm-Up, Exit Ticket,
-   CYU, formative, or summative.
-8. Calling a number swap a genuinely new destination item.
-9. Allowing summative/formative assessment leakage into practice.
-10. Writing downstream exit-ticket questions later instead of bank
+2. Omitting WTC01 from any section or using PERF01 as an automatic
+   substitute for What's To Come.
+3. Wasting multiple Notes Example slots on closely related subtypes that
+   belong together in one coherent multi-part Example.
+4. Combining unrelated skills into a multi-part Example just to save slots.
+5. Organizing primarily by DOK instead of destination.
+6. Forcing DOK 3/4 quotas.
+7. Treating DOK 4 as ordinary worksheet questions.
+8. Ignoring Current / Last / Mastery.
+9. Using random old topics as "Mastery."
+10. Reusing the same question in Notes, Practice, Warm-Up, Exit Ticket,
+    CYU, formative, or summative.
+11. Calling a number swap a genuinely new destination item.
+12. Allowing summative/formative assessment leakage into practice.
+13. Writing downstream exit-ticket questions later instead of bank
     authoring them now.
-11. Reusing Extra Practice questions for CYU instead of dedicated CYU
+14. Reusing Extra Practice questions for CYU instead of dedicated CYU
     items.
-12. Creating graphs later in each downstream PM.
-13. Delivering an empty figures folder after the Bank build.
-14. Modifying graph_tool.py source.
-15. Drawing unsupported figures ad hoc instead of stopping when the
+15. Creating graphs later in each downstream PM.
+16. Delivering an empty figures folder after the Bank build.
+17. Modifying graph_tool.py source.
+18. Drawing unsupported figures ad hoc instead of stopping when the
     graph tool lacks the needed type.
-16. Graph title/labels revealing the answer.
-17. Pre-answered tables.
-18. Matching choices in obvious positional order.
-19. Cross-referencing other questions.
-20. Template-only performance tasks.
-21. Implausible scientific/mathematical contexts.
-22. Copying published AP/textbook questions verbatim by default.
-23. Missing answers/solutions in the canonical bank.
-24. Missing mapping rows or duplicate Bank IDs.
-25. Omitting source IDs from downstream traceability metadata.
-26. Asking for optional topic-question files when none were supplied.
-27. Asking for prior banks when Framework + Assessment Plan provide
+19. Graph title/labels revealing the answer.
+20. Pre-answered tables.
+21. Matching choices in obvious positional order.
+22. Cross-referencing other questions.
+23. Template-only performance tasks.
+24. Implausible scientific/mathematical contexts.
+25. Copying published AP/textbook questions verbatim by default.
+26. Missing answers/solutions in the canonical bank.
+27. Missing mapping rows or duplicate Bank IDs.
+28. Omitting source IDs from downstream traceability metadata.
+29. Asking for optional topic-question files when none were supplied.
+30. Asking for prior banks when Framework + Assessment Plan provide
     enough prior-learning information.
-28. Treating optional Day 3 framework language as a required calendar.
-29. Rebuilding unrelated content during a maintenance request.
-30. Delivering loose corrected files instead of the complete updated
+31. Treating optional Day 3 framework language as a required calendar.
+32. Rebuilding unrelated content during a maintenance request.
+33. Delivering loose corrected files instead of the complete updated
     bank ZIP.
 
 ════════════════════════════════════════════════════════════════
@@ -1189,5 +1342,5 @@ MAINTENANCE:
 Do not provide long build narration unless the user asks for it.
 
 ════════════════════════════════════════════════════════════════
-END GENERIC MATH / SCIENCE BANK PM — v1
+END GENERIC MATH / SCIENCE BANK PM — v3
 ════════════════════════════════════════════════════════════════
