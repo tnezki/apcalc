@@ -1,0 +1,4 @@
+Generic Math/Science course skeleton. Rename the top-level course folder for deployment.
+All content files are placeholders that state their resource name and relative location.
+Python utilities are consolidated at root. memories/ contains only the authoritative graph tool.
+Science dashboard uses Blooket; Math swaps that button to the included matching Tarsia CSV.

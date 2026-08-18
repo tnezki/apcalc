@@ -1,0 +1,1072 @@
+GENERIC MATH / SCIENCE ASSESSMENT PLAN PORTABLE MEMORY — v1.0
+===============================================================
+
+PURPOSE
+=======
+
+This portable memory builds or revises ONE unit assessment plan for a Math or Science course.
+It is designed for the generic Math/Science course structure and is NOT for STEM courses.
+
+The Assessment Plan is the first detailed unit-level contract downstream from the Course Framework.
+It must give the later Bank build enough information to create the complete course content inventory:
+practice, warm-ups, exit tickets, notes examples/You Try Its, formative assessments, summative assessment,
+figures, and later spiral work.
+
+This PM has TWO operating modes:
+
+  MODE 1 — FULL BUILD
+    Build one unit assessment plan from the Course Framework.
+
+  MODE 2 — MAINTENANCE / REVISION
+    Inspect an existing assessment plan, revise only what is required, preserve unaffected content,
+    run the same QA, and return a complete replacement artifact.
+
+The classroom is NOT required to follow a fixed Day 1 / Day 2 / Day 3 schedule.
+The framework may describe a preferred instructional arc, but the Assessment Plan must treat demos,
+investigations, notes, practice, activities, quizzes, discourse, and assessment as teacher-selectable options.
+Readiness is expressed by SECTION, not by a fixed number of days.
+
+
+===============================================================
+PART 1 — SOURCE OF TRUTH AND INPUTS
+===============================================================
+
+SOURCE PRIORITY
+---------------
+
+1. THIS portable memory — structure, formatting, build, revision, and QA rules.
+2. The uploaded Course Framework — course content, unit sequence, section sequence, terminology,
+   standards/topics, pacing guidance, instructional philosophy, prerequisite information, and course-specific constraints.
+3. An existing assessment plan — ONLY in Maintenance / Revision Mode.
+4. User-requested changes in the current conversation.
+
+Do not silently add outside standards, textbook sections, AP topics, NGSS codes, mathematical practices,
+or course requirements that are not supported by the framework or explicitly requested by the user.
+If the framework names a standard/topic system, preserve its terminology.
+
+FULL BUILD — REQUIRED INPUTS
+----------------------------
+
+Required:
+  1. This portable memory.
+  2. The complete Course Framework.
+  3. A request naming ONE unit to build.
+
+Example:
+  "Read the PM and framework, then build the Unit 2 assessment plan."
+
+Do NOT require notes, bank, practice sets, activities, graph tool, or prior assessment plans.
+The Assessment Plan is upstream from those resources.
+
+MAINTENANCE / REVISION — REQUIRED INPUTS
+----------------------------------------
+
+Required:
+  1. This portable memory.
+  2. The existing assessment plan artifact that needs revision.
+  3. The user's requested change.
+
+Request the Course Framework ONLY when the requested change cannot be resolved reliably from the existing
+assessment plan itself or when the user explicitly asks for framework realignment.
+
+Never make the user reconstruct the original build session.
+Ask only for genuinely missing information that is necessary to make the requested change correctly.
+
+
+===============================================================
+PART 2 — COURSE FAMILY INFERENCE
+===============================================================
+
+Infer COURSE FAMILY from the framework:
+
+  MATH
+    Examples: Algebra, Geometry, Precalculus, Statistics, Calculus.
+
+  SCIENCE
+    Examples: Physics, Chemistry, Biology, Earth Science, Environmental Science.
+
+  STEM
+    OUT OF SCOPE for this portable memory. Stop and tell the user the generic Math/Science PM is not the STEM PM.
+
+Record the inferred course family in the HTML comment block.
+
+Do not force Math-specific language into Science or Science-specific language into Math.
+Use the framework's own terminology whenever possible.
+
+For generic fields use:
+  "Practice Focus" rather than "Math Practice" or "Science Practice"
+unless the framework explicitly names a formal practice system that should be preserved.
+
+
+===============================================================
+PART 3 — BUILD PHILOSOPHY
+===============================================================
+
+A. BUILD ORDER IS NOT A TEACHING CALENDAR
+------------------------------------------
+
+The course may have a preferred instructional arc such as:
+  conceptual hook / prior knowledge -> instruction / notes -> investigation / modeling -> practice / discourse -> assessment
+
+But the teacher may compress, expand, reorder, replace, or omit components because of:
+  assemblies, snow days, reteaching, pacing, AP testing deadlines, student needs, shortened periods, quizzes, or other realities.
+
+The Assessment Plan must therefore define:
+  - what students need to learn,
+  - what evidence would demonstrate learning,
+  - when an assessment becomes eligible by SECTION,
+  - what prerequisite/spiral knowledge should remain active,
+without prescribing a fixed daily schedule.
+
+B. DOK IS DESCRIPTIVE, NOT A QUOTA
+-----------------------------------
+
+Assign DOK based on the actual cognitive demand of the task.
+Do not inflate DOK because of task length, vocabulary, number of steps, or an explanation prompt.
+Do not manufacture DOK 3 or DOK 4 simply to fill a quota.
+
+General interpretation:
+
+  DOK 1 — recall, recognition, direct routine execution, reading a representation.
+  DOK 2 — applying a concept/skill, translating representations, routine multi-step reasoning,
+          interpreting or selecting a method when the path is reasonably clear.
+  DOK 3 — strategic reasoning, non-routine method selection, critique, justification, comparison,
+          constraint analysis, explanation of why, or synthesis across representations when reasoning is substantive.
+  DOK 4 — extended/performance-oriented modeling, design, investigation, synthesis, or transfer across conditions.
+
+DOK 4 should primarily live in PERFORMANCE EVIDENCE rather than ordinary question-bank problems.
+DOK 3 may also be performance-oriented when that is the natural fit.
+Conventional paper/digital questions should use DOK 3 or 4 only when the cognitive demand truly warrants it.
+
+C. CURRENT / LAST / MASTERY IS A REQUIRED SPIRAL SYSTEM
+--------------------------------------------------------
+
+Every section must include a "Spiral Planning" block because the downstream Bank will create resources
+using the Current / Last / Mastery pattern.
+
+Definitions:
+
+  CURRENT
+    The learning target(s) and essential knowledge of the current section.
+
+  LAST
+    The immediately preceding section's learning that should remain active.
+    For the first section of a unit, LAST may come from the prior unit's final section or an explicit prerequisite
+    named by the framework.
+
+  MASTERY
+    Earlier prerequisite or previously taught learning that should continue to be retrieved across time.
+    Mastery items should support long-term retention and transfer, not random review.
+
+For every section provide:
+  - Current Focus: one concise statement.
+  - Last Focus: one concise statement.
+  - Mastery Priorities: 2-4 concise prior skills/concepts when supported by the framework.
+
+If the framework does not provide enough information to identify specific prior-course mastery content,
+do not invent a detailed prior curriculum. Use broad prerequisite language supported by the framework,
+such as "function notation and graph interpretation" or "measurement and proportional reasoning" only when the framework supports it.
+
+D. ASSESSMENT PLAN MUST PREPARE THE BANK
+----------------------------------------
+
+The Bank will receive BOTH the Framework and the Assessment Plan.
+The Assessment Plan must therefore make downstream content production easier by clearly identifying:
+
+  - unit essential standard / enduring understanding,
+  - section learning targets,
+  - exactly 3 I-can statements per section,
+  - important vocabulary/notation when central to evidence,
+  - key representations,
+  - likely misconceptions / failure points,
+  - Current / Last / Mastery spiral priorities,
+  - DOK-aligned evidence opportunities,
+  - formative assessment families,
+  - summative assessment priorities,
+  - performance evidence that belongs outside conventional question sets.
+
+Do NOT write actual bank questions in the Assessment Plan.
+The next Bank PM will author those questions/tasks and figures.
+
+
+===============================================================
+PART 4 — LOCKED COURSE TEMPLATE PATHS
+===============================================================
+
+The generic course template uses this assessment-plan location:
+
+  zjghtvassessmentplans/unit[#]_assessment_plan/unit[#]_assessment_plan.html
+
+Example:
+  zjghtvassessmentplans/unit2_assessment_plan/unit2_assessment_plan.html
+
+CSS links from the assessment-plan HTML are exactly:
+
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/assessment_plan.css">
+
+Do not embed a <style> block.
+
+FORMATIVE PLACEHOLDER PATHS
+---------------------------
+
+The generic course template currently reserves four formative artifacts per DOK level:
+
+  ../../zssgrefwformativeassessments/unit_[#]_formative_assessments/u0[#]-dok1-1.html
+  ../../zssgrefwformativeassessments/unit_[#]_formative_assessments/u0[#]-dok1-2.html
+  ...
+  ../../zssgrefwformativeassessments/unit_[#]_formative_assessments/u0[#]-dok4-4.html
+
+For units 1-8 use zero-padded unit tokens in formative filenames:
+  Unit 1 -> u01
+  Unit 2 -> u02
+  ...
+  Unit 8 -> u08
+
+SUMMATIVE PLACEHOLDER PATH
+--------------------------
+
+  ../../zzfjnvkesummativeassessments/unit[#]_summative_assessment/unit[#]_summative_assessment.html
+
+The Assessment Plan links describe planned future resources.
+Those resources are built later during the Bank stage.
+
+
+===============================================================
+PART 5 — HTML / MATHJAX RULES
+===============================================================
+
+HEAD ORDER — LOCKED
+-------------------
+
+1. meta charset
+2. viewport
+3. title
+4. MathJax configuration
+5. MathJax CDN script
+6. base.css
+7. assessment_plan.css
+
+Use MathJax 3:
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$']],
+    displayMath: [['$$','$$']],
+    processEscapes: true
+  }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+MATH RULES
+----------
+
+- Inline math: $...$
+- Display math: $$...$$
+- Never use \(...\) or \[...\].
+- Currency in prose: use \$5, not $5.
+- Fractions: use \frac{a}{b}.
+- Scan for corrupted \rac.
+- Do not place raw HTML < or > inside math delimiters; use \lt and \gt.
+
+
+===============================================================
+PART 6 — ASSESSMENT PLAN CONTENT STRUCTURE
+===============================================================
+
+The HTML must contain these sections IN THIS ORDER:
+
+  1. Course / Unit Header
+  2. Essential Standard / Enduring Understanding
+  3. Unit Source Alignment
+  4. Section Outline — five section cards when the framework has five sections
+  5. Unit Themes / Throughlines
+  6. Learning Ladder
+  7. Progress Tracking
+  8. Assessment Methods by DOK Level
+  9. Summative Assessment Plan
+ 10. Holistic Rubric
+
+The plan ends after the Holistic Rubric.
+Do not add a Bank section.
+Do not add actual questions.
+Do not add graphs.
+
+If the framework has a different number of sections, preserve the framework rather than forcing five.
+The generic course template is designed around five sections, but source truth wins for the course framework.
+
+
+===============================================================
+PART 7 — SECTION CARD REQUIREMENTS
+===============================================================
+
+Each section card must include:
+
+A. Section number and title
+B. Learning Target — preserve framework wording when provided
+C. Exactly 3 I Can Statements
+D. Key Vocabulary / Notation
+E. Key Representations
+F. Common Misconceptions / Failure Points
+G. Modeling / Application Opportunities
+H. Spiral Planning
+
+I-CAN RULES
+-----------
+
+Exactly 3 per section.
+
+I-cans must collectively cover the important learning target rather than force a mechanical verb quota.
+Use natural, student-facing language.
+
+Prefer strong verbs such as:
+  analyze, apply, calculate, classify, connect, construct, critique, determine, distinguish,
+  estimate, formulate, graph, interpret, justify, model, predict, represent, select, solve,
+  translate, use, verify.
+
+Do not artificially make every section contain modeling or justification if the content does not support it.
+Do not inflate complexity to make an I-can sound advanced.
+
+For MATH:
+  Preserve precision in notation, representations, procedures, interpretation, reasoning, and strategy selection.
+
+For SCIENCE:
+  Preserve conceptual models, evidence, data/graphs, causal reasoning, quantitative relationships,
+  system behavior, experimental interpretation, and scientific explanation as appropriate to the framework.
+
+KEY VOCABULARY / NOTATION
+-------------------------
+
+List 3-8 items when genuinely important.
+Do not force vocabulary for a section that is primarily procedural/representational.
+Use framework terminology.
+
+KEY REPRESENTATIONS
+-------------------
+
+List 3-6 important representations when appropriate.
+Examples may include:
+  equations, graphs, tables, diagrams, verbal descriptions, data sets, symbolic notation,
+  particle models, force diagrams, circuit diagrams, geometric figures, rate tables, slope fields.
+
+COMMON MISCONCEPTIONS / FAILURE POINTS
+--------------------------------------
+
+List 2-5 specific likely errors or misunderstandings that the future Bank should intentionally sample.
+Prefer content-specific misconceptions over generic statements such as "students may make calculation errors."
+
+MODELING / APPLICATION OPPORTUNITIES
+------------------------------------
+
+List 2-4 concise opportunities where the learning can be applied, modeled, interpreted, or connected.
+These are possibilities, not required classroom days.
+
+SPIRAL PLANNING
+---------------
+
+Use this exact internal structure:
+
+  <h3>Spiral Planning</h3>
+  <p><strong>Current Focus:</strong> ...</p>
+  <p><strong>Last Focus:</strong> ...</p>
+  <p><strong>Mastery Priorities:</strong> ...</p>
+
+The future Bank uses this block to plan Current / Last / Mastery question inventory.
+
+
+===============================================================
+PART 8 — UNIT SOURCE ALIGNMENT
+===============================================================
+
+Immediately after Essential Standard / Enduring Understanding, include a source-alignment block.
+
+Preserve whatever the framework actually supplies, such as:
+  - AP Topics
+  - standards
+  - textbook sections
+  - course objectives
+  - unit themes
+  - laboratory/phenomenon references
+
+Do not invent missing formal standards.
+
+Suggested structure:
+
+<section class="outline-card">
+<div class="outline-card-title">Unit Source Alignment</div>
+<ul>
+  <li><strong>Framework Topics / Standards:</strong> ...</li>
+  <li><strong>Course-Specific Emphasis:</strong> ...</li>
+  <li><strong>Pacing Guidance:</strong> ...</li>
+</ul>
+</section>
+
+Pacing language must remain flexible.
+Example:
+  "The framework suggests approximately 10-11 instructional days for the unit, but individual sections may be compressed,
+   extended, reordered, or supported with optional resources as needed."
+
+Do not convert pacing guidance into mandatory daily lesson plans.
+
+
+===============================================================
+PART 9 — UNIT THEMES / THROUGHLINES
+===============================================================
+
+Create 4-6 unit-wide themes that the Bank and later resources should revisit.
+
+Examples of theme types:
+  - representations that recur,
+  - reasoning habits,
+  - interpretation expectations,
+  - modeling relationships,
+  - use of units / notation,
+  - evidence / data reasoning,
+  - connections among sections.
+
+These are unit throughlines, not activities.
+
+
+===============================================================
+PART 10 — LEARNING LADDER
+===============================================================
+
+Create an 8-rung learning ladder, highest to lowest.
+The ladder describes progression of evidence, not a required sequence of daily instruction.
+
+Use two rungs per DOK level:
+
+  Rungs 8-7: DOK 4 — Above / Extended Performance
+  Rungs 6-5: DOK 3 — Essential / Strategic Reasoning
+  Rungs 4-3: DOK 2 — Essential / Application
+  Rungs 2-1: DOK 1 — Essential / Foundational
+
+IMPORTANT:
+DOK 4 rungs should describe performance, modeling, design, investigation, or extended synthesis evidence.
+They are not promises that ordinary worksheets or summative question sets must contain DOK 4 questions.
+
+DOK 3 rungs should be genuinely strategic/non-routine.
+Do not create DOK 3 merely by adding "explain" to a routine task.
+
+Use the generic column heading:
+  Practice Focus
+
+Suggested practice-focus vocabulary:
+  Representation, Modeling, Strategy, Reasoning, Justification, Communication,
+  Interpretation, Precision, Data Analysis, Evidence, Experimental Reasoning, Transfer.
+
+Do not invent formal MP/SEP numbers unless the framework explicitly provides or requests them.
+
+HTML table:
+
+<table class="ladder-table">
+<tr><th>Rung</th><th>I Can Statement</th><th>Practice Focus</th><th>DOK</th><th>Level</th></tr>
+<tr class="dok4"><td>8</td><td>[UNIT-SPECIFIC]</td><td>[FOCUS]</td><td>DOK 4</td><td>Above / Performance</td></tr>
+<tr class="dok4"><td>7</td><td>[UNIT-SPECIFIC]</td><td>[FOCUS]</td><td>DOK 4</td><td>Above / Performance</td></tr>
+<tr class="dok3"><td>6</td><td>[UNIT-SPECIFIC]</td><td>[FOCUS]</td><td>DOK 3</td><td>Essential</td></tr>
+<tr class="dok3"><td>5</td><td>[UNIT-SPECIFIC]</td><td>[FOCUS]</td><td>DOK 3</td><td>Essential</td></tr>
+<tr class="dok2"><td>4</td><td>[UNIT-SPECIFIC]</td><td>[FOCUS]</td><td>DOK 2</td><td>Essential</td></tr>
+<tr class="dok2"><td>3</td><td>[UNIT-SPECIFIC]</td><td>[FOCUS]</td><td>DOK 2</td><td>Essential</td></tr>
+<tr class="dok1"><td>2</td><td>[UNIT-SPECIFIC]</td><td>[FOCUS]</td><td>DOK 1</td><td>Essential</td></tr>
+<tr class="dok1"><td>1</td><td>[UNIT-SPECIFIC]</td><td>[FOCUS]</td><td>DOK 1</td><td>Essential</td></tr>
+</table>
+
+No two adjacent rungs should be redundant restatements of the same skill.
+
+
+===============================================================
+PART 11 — PROGRESS TRACKING
+===============================================================
+
+Use the same three-status structure:
+
+<h2>Progress Tracking</h2>
+<div class="progress-tracker">
+<div class="progress-box"><strong>Not Yet:</strong> I need more instruction and practice.</div>
+<div class="progress-box"><strong>Getting There:</strong> I understand most of it but need more practice.</div>
+<div class="progress-box"><strong>Got It!:</strong> I can do this independently.</div>
+</div>
+
+Do not build the separate Progress Tracker artifact here.
+This is only the assessment-plan reference section.
+
+
+===============================================================
+PART 12 — ASSESSMENT METHODS BY DOK LEVEL
+===============================================================
+
+The generic course structure reserves 4 formative assessment families at each DOK level.
+The Assessment Plan should propose four assessment ideas for each level, but the NATURE of those ideas must honor DOK.
+
+This is NOT a demand that every later question bank contain equal numbers of DOK 1/2/3/4 questions.
+
+DOK 1 — FOUNDATIONAL EVIDENCE
+-----------------------------
+
+Typical formats:
+  brief proficiency check, recognition/classification, direct computation, vocabulary/notation check,
+  reading a graph/table/diagram, short exit-style check.
+
+Four ideas.
+Each idea gets:
+  - task name,
+  - formative link,
+  - Eligible After Section [#.#],
+  - concise description,
+  - what the evidence tells the teacher.
+
+DOK 2 — APPLICATION EVIDENCE
+----------------------------
+
+Typical formats:
+  multi-representation task, applied computation, short modeling setup, data interpretation,
+  routine method selection, graph/table construction, compare representations where reasoning is moderate.
+
+Four ideas.
+
+DOK 3 — STRATEGIC / REASONING EVIDENCE
+---------------------------------------
+
+Typical formats:
+  constructed response, non-routine strategy selection, critique, justification, theorem/condition reasoning,
+  model comparison, constraint analysis, representation synthesis, short performance task.
+
+Four ideas.
+Do not default all four to error analysis.
+Do not inflate routine questions to DOK 3 merely because students write a sentence.
+
+DOK 4 — PERFORMANCE EVIDENCE
+----------------------------
+
+Typical formats:
+  modeling performance task, investigation, design-and-test task, data/model synthesis,
+  multi-condition analysis, extended transfer, critique-and-revise performance.
+
+Four ideas.
+These should primarily be PERFORMANCE TASKS, not ordinary test questions.
+They may be brief classroom performance tasks rather than large projects.
+They can support demos, investigations, discourse, modeling, or other extended evidence later.
+
+FORMATIVE LINK PATTERN
+----------------------
+
+For Unit U, DOK D, formative number N:
+
+  ../../zssgrefwformativeassessments/unit_U_formative_assessments/u0U-dokD-N.html
+
+Example Unit 2 DOK 3 #4:
+  ../../zssgrefwformativeassessments/unit_2_formative_assessments/u02-dok3-4.html
+
+TIMING LABEL
+------------
+
+Use:
+  Eligible After Section [#.#]
+
+Do not use fixed Day 1 / Day 2 / Day 3 labels.
+
+
+===============================================================
+PART 13 — SUMMATIVE ASSESSMENT PLAN
+===============================================================
+
+The summative section plans the future summative but does not write the questions.
+
+Include:
+  1. Link to the reserved summative file.
+  2. Recommended timing based on the framework/course structure.
+  3. Course-appropriate assessment format.
+  4. Major evidence priorities.
+  5. Representation / reasoning / interpretation expectations.
+  6. Spiral statement.
+  7. Clear statement that DOK 4 performance evidence normally lives outside the conventional summative question set.
+
+Do not force "45-minute paper-only" unless the framework/user requires it.
+
+For AP / externally tested courses:
+  honor the framework's testing style, calculator expectations, notation, justification, or question families when supplied.
+  Do not invent proprietary/restricted assessment content.
+
+For conventional summatives:
+  DOK 1-3 questions may be used when they naturally fit.
+  DOK 4 is normally represented through separate performance evidence rather than forced into a conventional test item.
+
+SUMMATIVE LINK PATTERN
+----------------------
+
+  ../../zzfjnvkesummativeassessments/unit[#]_summative_assessment/unit[#]_summative_assessment.html
+
+
+===============================================================
+PART 14 — HOLISTIC RUBRIC
+===============================================================
+
+Use four levels:
+
+  A — Highly Proficient
+  B — Proficient
+  C — Developing Proficiency
+  Not Yet — Insufficient Evidence
+
+Keep the rubric generic enough to work across Math and Science while making the FIRST SENTENCE of each level unit-specific.
+
+Locked common language:
+
+A — Highly Proficient
+[UNIT-SPECIFIC FIRST SENTENCE.] Work is accurate, well-organized, and supported by clear reasoning. The student connects relevant representations, concepts, evidence, or models and communicates conclusions with precision and independence.
+
+B — Proficient
+[UNIT-SPECIFIC FIRST SENTENCE.] Most work is accurate, and the student can complete standard and moderately complex tasks independently. Reasoning and communication are generally clear, though they may lack some precision, flexibility, or depth.
+
+C — Developing Proficiency
+[UNIT-SPECIFIC FIRST SENTENCE.] The student can complete many routine tasks but may need support with reasoning, representations, notation, evidence, modeling, or multi-step problem solving. Work may contain errors or incomplete explanations, but there is sufficient evidence of developing understanding of the central ideas.
+
+Not Yet — Insufficient Evidence
+[UNIT-SPECIFIC FIRST SENTENCE.] Work shows major misconceptions, significant procedural or conceptual errors, weak reasoning, or difficulty connecting the representations, evidence, or models required by the unit. Additional instruction, practice, feedback, or reassessment may be needed before proficiency is demonstrated.
+
+
+===============================================================
+PART 15 — FULL HTML SKELETON
+===============================================================
+
+Use this shell. Add or remove section cards only to match the Framework's actual unit structure.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+GENERIC MATH / SCIENCE ASSESSMENT PLAN
+Course:         [COURSE NAME]
+Course Family:  [MATH / SCIENCE]
+Unit:           [UNIT NUMBER AND TITLE]
+Framework:      [FRAMEWORK TITLE]
+Build Mode:     [FULL BUILD / MAINTENANCE]
+-->
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>[COURSE NAME] — Unit [#] Assessment Plan</title>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$']],
+    displayMath: [['$$','$$']],
+    processEscapes: true
+  }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/assessment_plan.css">
+</head>
+<body>
+<div class="container">
+
+<h1>[COURSE NAME] — Unit [#]: [UNIT TITLE]</h1>
+
+<h2>Essential Standard / Enduring Understanding</h2>
+<div class="essential-standard">[UNIT-SPECIFIC BROAD STATEMENT]</div>
+
+<h2>Unit Source Alignment</h2>
+<section class="outline-card">
+<div class="outline-card-title">Framework Alignment</div>
+<ul>
+<li><strong>Framework Topics / Standards:</strong> [SOURCE-SUPPORTED]</li>
+<li><strong>Course-Specific Emphasis:</strong> [SOURCE-SUPPORTED]</li>
+<li><strong>Pacing Guidance:</strong> [FLEXIBLE, SOURCE-SUPPORTED]</li>
+</ul>
+</section>
+
+<h2>Section Outline</h2>
+
+<!-- REPEAT ONE CARD FOR EACH FRAMEWORK SECTION -->
+<section class="outline-card">
+<div class="outline-card-title">Section [#.1]: [TITLE]</div>
+<p><strong>Learning Target:</strong> [FRAMEWORK WORDING WHEN PROVIDED]</p>
+
+<h3>I Can Statements</h3>
+<ul>
+<li>I can [STATEMENT 1].</li>
+<li>I can [STATEMENT 2].</li>
+<li>I can [STATEMENT 3].</li>
+</ul>
+
+<h3>Key Vocabulary / Notation</h3>
+<ul>
+<li>[ITEM]</li>
+</ul>
+
+<h3>Key Representations</h3>
+<ul>
+<li>[REPRESENTATION]</li>
+</ul>
+
+<h3>Common Misconceptions / Failure Points</h3>
+<ul>
+<li>[MISCONCEPTION]</li>
+</ul>
+
+<h3>Modeling / Application Opportunities</h3>
+<ul>
+<li>[OPPORTUNITY]</li>
+</ul>
+
+<h3>Spiral Planning</h3>
+<p><strong>Current Focus:</strong> [CURRENT SECTION]</p>
+<p><strong>Last Focus:</strong> [IMMEDIATELY PRECEDING LEARNING]</p>
+<p><strong>Mastery Priorities:</strong> [2-4 EARLIER PRIORITIES]</p>
+</section>
+
+<h2>Unit Themes / Throughlines</h2>
+<section class="outline-card">
+<div class="outline-card-title">Unit Themes / Throughlines</div>
+<ul>
+<li>[THEME 1]</li>
+<li>[THEME 2]</li>
+<li>[THEME 3]</li>
+<li>[THEME 4]</li>
+</ul>
+</section>
+
+<h2>Learning Ladder</h2>
+<table class="ladder-table">
+<tr><th>Rung</th><th>I Can Statement</th><th>Practice Focus</th><th>DOK</th><th>Level</th></tr>
+<tr class="dok4"><td>8</td><td>[DOK 4 PERFORMANCE]</td><td>[FOCUS]</td><td>DOK 4</td><td>Above / Performance</td></tr>
+<tr class="dok4"><td>7</td><td>[DOK 4 PERFORMANCE]</td><td>[FOCUS]</td><td>DOK 4</td><td>Above / Performance</td></tr>
+<tr class="dok3"><td>6</td><td>[DOK 3 STRATEGIC]</td><td>[FOCUS]</td><td>DOK 3</td><td>Essential</td></tr>
+<tr class="dok3"><td>5</td><td>[DOK 3 STRATEGIC]</td><td>[FOCUS]</td><td>DOK 3</td><td>Essential</td></tr>
+<tr class="dok2"><td>4</td><td>[DOK 2 APPLICATION]</td><td>[FOCUS]</td><td>DOK 2</td><td>Essential</td></tr>
+<tr class="dok2"><td>3</td><td>[DOK 2 APPLICATION]</td><td>[FOCUS]</td><td>DOK 2</td><td>Essential</td></tr>
+<tr class="dok1"><td>2</td><td>[DOK 1 FOUNDATIONAL]</td><td>[FOCUS]</td><td>DOK 1</td><td>Essential</td></tr>
+<tr class="dok1"><td>1</td><td>[DOK 1 FOUNDATIONAL]</td><td>[FOCUS]</td><td>DOK 1</td><td>Essential</td></tr>
+</table>
+
+<h2>Progress Tracking</h2>
+<div class="progress-tracker">
+<div class="progress-box"><strong>Not Yet:</strong> I need more instruction and practice.</div>
+<div class="progress-box"><strong>Getting There:</strong> I understand most of it but need more practice.</div>
+<div class="progress-box"><strong>Got It!:</strong> I can do this independently.</div>
+</div>
+
+<h2>Assessment Methods by DOK Level</h2>
+
+<!-- DOK 1 -->
+<div class="dok-bar">DOK 1 — Foundational Evidence</div>
+<section class="dok-method-card">
+<p><strong>Format:</strong> [COURSE-APPROPRIATE FORMATS]</p>
+<p><strong>Purpose:</strong> [WHAT DOK 1 REVEALS IN THIS UNIT]</p>
+<h3>Assessment Ideas</h3>
+<ol class="assessment-ideas">
+<li><a href="../../zssgrefwformativeassessments/unit_[#]_formative_assessments/u0[#]-dok1-1.html">[TASK NAME]</a> <span class="timing-label">Eligible After Section [#.#]</span> — [DESCRIPTION].</li>
+<li><a href="../../zssgrefwformativeassessments/unit_[#]_formative_assessments/u0[#]-dok1-2.html">[TASK NAME]</a> <span class="timing-label">Eligible After Section [#.#]</span> — [DESCRIPTION].</li>
+<li><a href="../../zssgrefwformativeassessments/unit_[#]_formative_assessments/u0[#]-dok1-3.html">[TASK NAME]</a> <span class="timing-label">Eligible After Section [#.#]</span> — [DESCRIPTION].</li>
+<li><a href="../../zssgrefwformativeassessments/unit_[#]_formative_assessments/u0[#]-dok1-4.html">[TASK NAME]</a> <span class="timing-label">Eligible After Section [#.#]</span> — [DESCRIPTION].</li>
+</ol>
+<div class="what-tells"><strong>What this tells the teacher:</strong><br>[UNIT-SPECIFIC]</div>
+</section>
+
+<!-- Repeat equivalent blocks for DOK 2, DOK 3, and DOK 4.
+     DOK 4 descriptions MUST be performance-oriented. -->
+
+<h2>Summative Assessment Plan</h2>
+<section class="summative-card">
+<p><a href="../../zzfjnvkesummativeassessments/unit[#]_summative_assessment/unit[#]_summative_assessment.html">Unit [#] Summative Assessment</a> <span class="timing-label">[TIMING]</span></p>
+<p>[COURSE-APPROPRIATE FORMAT AND LENGTH]</p>
+<p>[MAJOR EVIDENCE PRIORITIES]</p>
+<p>[REPRESENTATION / REASONING / INTERPRETATION EXPECTATIONS]</p>
+<p>Conventional summative questions should use DOK levels that naturally fit the assessed content. DOK 4 evidence is normally collected through performance-oriented modeling, investigation, design, synthesis, or transfer tasks rather than forced into ordinary test questions.</p>
+<p>[SPIRAL / RETENTION STATEMENT]</p>
+</section>
+
+<h2>Holistic Rubric</h2>
+<section class="rubric-card"><div class="rubric-level">A — Highly Proficient</div><p>[UNIT-SPECIFIC FIRST SENTENCE.] Work is accurate, well-organized, and supported by clear reasoning. The student connects relevant representations, concepts, evidence, or models and communicates conclusions with precision and independence.</p></section>
+<section class="rubric-card"><div class="rubric-level">B — Proficient</div><p>[UNIT-SPECIFIC FIRST SENTENCE.] Most work is accurate, and the student can complete standard and moderately complex tasks independently. Reasoning and communication are generally clear, though they may lack some precision, flexibility, or depth.</p></section>
+<section class="rubric-card"><div class="rubric-level">C — Developing Proficiency</div><p>[UNIT-SPECIFIC FIRST SENTENCE.] The student can complete many routine tasks but may need support with reasoning, representations, notation, evidence, modeling, or multi-step problem solving. Work may contain errors or incomplete explanations, but there is sufficient evidence of developing understanding of the central ideas.</p></section>
+<section class="rubric-card"><div class="rubric-level">Not Yet — Insufficient Evidence</div><p>[UNIT-SPECIFIC FIRST SENTENCE.] Work shows major misconceptions, significant procedural or conceptual errors, weak reasoning, or difficulty connecting the representations, evidence, or models required by the unit. Additional instruction, practice, feedback, or reassessment may be needed before proficiency is demonstrated.</p></section>
+
+</div>
+</body>
+</html>
+
+
+===============================================================
+PART 16 — CONTENT PLAN BEFORE WRITING HTML
+===============================================================
+
+Before writing line 1 of HTML, privately complete a content plan containing:
+
+1. Course name and family.
+2. Requested unit number/title.
+3. Framework source topics/standards.
+4. Unit essential standard / enduring understanding.
+5. Section titles in exact framework order.
+6. Learning target for each section.
+7. Three I-cans per section.
+8. Vocabulary/notation by section.
+9. Representations by section.
+10. Misconceptions/failure points by section.
+11. Modeling/application opportunities by section.
+12. Current / Last / Mastery spiral plan for every section.
+13. Unit themes/throughlines.
+14. Eight learning-ladder rungs with honest DOK.
+15. Four formative ideas per DOK level.
+16. Eligibility section for all 16 formative families.
+17. Summative priorities and timing.
+18. Rubric first sentence for each level.
+
+Do not begin HTML until the plan is internally coherent.
+
+
+===============================================================
+PART 17 — QA PASSES
+===============================================================
+
+Run ALL passes before delivery.
+Fix every failure that can be fixed from the supplied sources.
+
+PASS 1 — SOURCE FIDELITY
+------------------------
+
+[ ] Course name matches framework.
+[ ] Unit number/title matches framework.
+[ ] Section order matches framework.
+[ ] Framework learning-target/topic terminology is preserved.
+[ ] No unsupported external standards/topics were invented.
+[ ] Pacing language is flexible, not converted to fixed daily scheduling.
+
+PASS 2 — FILE / CSS / MATHJAX
+-----------------------------
+
+[ ] Correct filename: unit[#]_assessment_plan.html
+[ ] No <style> block.
+[ ] CSS links exactly ../../css/base.css then ../../css/assessment_plan.css.
+[ ] MathJax config precedes CDN.
+[ ] processEscapes: true.
+[ ] No wrong delimiters \(...\) or \[...\].
+[ ] No corrupted \rac.
+[ ] Currency escaped correctly.
+
+PASS 3 — SECTION STRUCTURE
+--------------------------
+
+For every section:
+[ ] Learning Target present.
+[ ] Exactly 3 I-cans.
+[ ] Vocabulary/Notation present when relevant.
+[ ] Key Representations present.
+[ ] 2-5 specific misconceptions/failure points.
+[ ] 2-4 modeling/application opportunities.
+[ ] Spiral Planning present.
+[ ] Current Focus accurate.
+[ ] Last Focus accurate.
+[ ] Mastery Priorities meaningful and source-supported.
+
+PASS 4 — DOK HONESTY
+--------------------
+
+[ ] DOK reflects cognitive demand, not verbs or task length.
+[ ] DOK 3 is genuinely strategic/non-routine.
+[ ] DOK 4 is performance-oriented.
+[ ] No conventional question is promoted to DOK 4 merely to fill a slot.
+[ ] Assessment descriptions do not falsely inflate DOK.
+[ ] Four DOK 4 formative ideas are performance evidence, not ordinary question prompts.
+
+PASS 5 — LEARNING LADDER
+------------------------
+
+[ ] Exactly 8 rungs.
+[ ] 2 rungs per DOK level.
+[ ] Rows ordered 8 -> 1.
+[ ] DOK 4 rungs explicitly represent performance/extended evidence.
+[ ] Adjacent rungs are not redundant.
+[ ] Practice Focus terminology is course-appropriate.
+[ ] No invented formal practice codes unless supported by framework.
+
+PASS 6 — FORMATIVE PLAN
+-----------------------
+
+[ ] 4 ideas at DOK 1.
+[ ] 4 ideas at DOK 2.
+[ ] 4 ideas at DOK 3.
+[ ] 4 ideas at DOK 4.
+[ ] All links use correct unit and DOK numbers.
+[ ] All use "Eligible After Section" timing.
+[ ] Eligibility respects prerequisite sequence.
+[ ] DOK 3 formats are varied.
+[ ] DOK 4 formats are performance-oriented and varied.
+
+PASS 7 — SUMMATIVE / RUBRIC
+---------------------------
+
+[ ] Summative link correct.
+[ ] Format is course-appropriate and not blindly copied from Algebra.
+[ ] Evidence priorities match unit.
+[ ] Conventional summative does not force DOK 4 questions.
+[ ] Spiral/retention statement included.
+[ ] Four rubric levels present.
+[ ] First sentence of each rubric level is unit-specific.
+[ ] Shared rubric language unchanged.
+
+PASS 8 — BANK READINESS
+-----------------------
+
+Ask: "Could the next Bank build use this plan plus the Framework to author and route the complete unit inventory?"
+
+[ ] Every section has clear Current focus.
+[ ] Every section has clear Last focus.
+[ ] Every section has meaningful Mastery priorities.
+[ ] Misconceptions are specific enough to generate diagnostic questions.
+[ ] Representations are specific enough to plan item variety.
+[ ] Formative families are clear enough to build later.
+[ ] Summative priorities are clear enough to reserve assessment-only content later.
+[ ] DOK 4 performance evidence is distinguishable from conventional question content.
+
+If any answer is NO, improve the plan before delivery.
+
+
+===============================================================
+PART 18 — MODE 1 DELIVERY
+===============================================================
+
+FULL BUILD output:
+
+  unit[#]_assessment_plan.html
+
+One HTML file.
+No ZIP.
+No figures folder.
+No graph script.
+No bank file.
+
+After the file, give a concise QA report:
+
+QA LOG — [COURSE] Unit [#] Assessment Plan
+Pass 1 — Source fidelity: PASS / FAIL
+Pass 2 — File/CSS/MathJax: PASS / FAIL
+Pass 3 — Section structure: PASS / FAIL
+Pass 4 — DOK honesty: PASS / FAIL
+Pass 5 — Learning ladder: PASS / FAIL
+Pass 6 — Formative plan: PASS / FAIL
+Pass 7 — Summative/rubric: PASS / FAIL
+Pass 8 — Bank readiness: PASS / FAIL
+Issues fixed: [brief list or NONE]
+OVERALL: PASS / FAIL
+
+Do not build multiple unit plans unless the user explicitly requests multiple units.
+Default workflow is ONE UNIT AT A TIME.
+
+
+===============================================================
+PART 19 — MODE 2: MAINTENANCE / REVISION
+===============================================================
+
+TRIGGER
+-------
+
+Use Maintenance / Revision Mode when the user says things such as:
+
+  "I don't like the Unit 3 assessment plan. Rebuild it."
+  "Change the I-can statements in 2.4."
+  "The DOK 4 tasks in Unit 5 are too much. Fix them."
+  "Replace the formative idea for DOK 3-2."
+  "The spiral plan for 4.1 is wrong."
+  "Update Unit 6 to match the framework better."
+
+WORKFLOW
+--------
+
+1. Read this PM completely.
+2. Inspect the existing assessment plan completely.
+3. Identify the smallest requested change and all sections it logically affects.
+4. Determine whether the Framework is actually needed.
+   - If the existing plan contains enough authoritative information, proceed without asking.
+   - If the change requires source realignment or missing upstream facts, ask only for the Framework.
+5. Preserve everything not affected by the request.
+6. Make the requested change.
+7. Propagate internal dependencies inside the assessment plan.
+
+Examples of internal propagation:
+  - If a section learning target changes, check its I-cans, ladder, formative eligibility, summative priorities, rubric sentence, and spiral planning.
+  - If a section is reordered, update Last Focus and any formative eligibility labels.
+  - If a DOK classification changes, update the relevant DOK assessment idea and ladder language if necessary.
+  - If a mastery priority changes, update only the affected Spiral Planning blocks unless broader alignment requires more.
+
+8. Run all 8 QA passes.
+9. Return the COMPLETE replacement assessment-plan HTML, not a patch or isolated snippet.
+10. Briefly report what changed.
+
+DOWNSTREAM IMPACT
+-----------------
+
+The Assessment Plan is upstream of the Bank and later resources.
+If a revision would logically affect already-built downstream artifacts, report the impact succinctly.
+
+Example:
+  "This change alters the Section 3.4 Current Focus and DOK 3 formative intent, so the Unit 3 Bank/formative package should be regenerated when we reach that maintenance step."
+
+Do NOT automatically rebuild downstream resources under this PM unless the user explicitly asks and provides the relevant downstream PM/artifacts.
+
+MAINTENANCE DELIVERY
+--------------------
+
+Return the same artifact type as a full build:
+  unit[#]_assessment_plan.html
+
+Then report:
+  - requested change,
+  - sections changed,
+  - internal dependencies updated,
+  - downstream resources potentially affected,
+  - QA result.
+
+
+===============================================================
+PART 20 — COMMON FAILURE MODES
+===============================================================
+
+1. Treating framework Day 1 / Day 2 / Day 3 language as a mandatory teaching calendar.
+2. Building more than one unit when only one was requested.
+3. Asking for notes/bank/practice files during a full assessment-plan build.
+4. Inventing formal standards or topic codes not supplied by the Framework.
+5. Forcing Math terminology into Science or Science terminology into Math.
+6. Omitting Current / Last / Mastery spiral planning.
+7. Treating Mastery as random old content instead of deliberate retrieval priorities.
+8. Assigning DOK by verb alone.
+9. Making a routine multi-step question DOK 3 simply because it has several steps.
+10. Creating ordinary DOK 4 test questions just to satisfy a distribution.
+11. Making all DOK 3 tasks error analysis.
+12. Making DOK 4 a conventional worksheet category rather than performance evidence.
+13. Writing actual Bank questions in the Assessment Plan.
+14. Building graphs in the Assessment Plan.
+15. Using old Algebra-only 45-minute paper-only summative language when the course framework indicates something else.
+16. Hard-coding "Math Practice" in a Science plan.
+17. Using MP or SEP codes without a source/request.
+18. Missing formative links or wrong zero-padded formative unit token.
+19. Wrong CSS depth.
+20. Rebuilding the entire plan in Maintenance Mode when a targeted revision would preserve approved content.
+21. Asking the user to re-upload every original build source for a small revision.
+22. Returning a patch instead of the complete replacement HTML.
+23. Failing to report downstream impact after changing an upstream plan.
+24. Claiming QA PASS without running the checks.
+
+
+===============================================================
+PART 21 — QUICK TEST COMMAND
+===============================================================
+
+For a new chat, upload:
+  1. This portable memory.
+  2. The Course Framework.
+
+Then say:
+
+  "Read the PM and framework, then build the Unit 1 assessment plan."
+
+After reviewing Unit 1, a useful second test is:
+
+  "Read the PM and framework, then build the Unit 2 assessment plan."
+
+Only after the PM behaves correctly across those unit types should it be trusted for a multi-unit batch build.
+
+END OF PORTABLE MEMORY

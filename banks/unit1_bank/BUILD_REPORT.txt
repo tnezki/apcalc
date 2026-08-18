@@ -1,0 +1,87 @@
+UNIT 1 CANONICAL BANK BUILD REPORT
+==================================================
+Total bank items: 867
+Item count by destination:
+  notes: 40
+  practice_set_1: 100
+  practice_set_2: 100
+  practice_set_3: 100
+  extra_practice: 100
+  cyu: 30
+  warm_up: 45
+  exit_ticket: 60
+  performance: 4
+  formative_assessment: 128
+  summative_assessment: 160
+Item count by section:
+  1.1: 139
+  1.2: 156
+  1.3: 179
+  1.4: 188
+  1.5: 205
+Spiral-role counts: current=195, last=140, mastery=240, n-a=224, performance=36, unit-synthesis=32
+Observed DOK counts: DOK 1=390, DOK 2=354, DOK 3=87, DOK 4=36
+Formative families: 16; versions per family: 8; total formative items: 128
+Summative versions: 8; items per version: 20; total summative items: 160
+Figure count: 36
+Exact duplicate student question bodies: 0
+Heuristic pure-number skeleton collisions across different destinations: 0
+
+PASS 1 - SOURCE / SCOPE
+  Bank PM fully read: YES
+  Framework fully read: YES
+  Unit 1 Assessment Plan fully read: YES
+  graph_tool.py fully inspected and preserved: YES
+  Optional AP-topic PDFs fully rendered and text-extracted for task-form/rigor reference: YES
+  Every Unit 1 section represented: YES
+  No unauthorized Unit 2+ content intentionally added: YES
+PASS 2 - DESTINATION COMPLETENESS
+  notes: 40/40 PASS
+  practice_set_1: 100/100 PASS
+  practice_set_2: 100/100 PASS
+  practice_set_3: 100/100 PASS
+  extra_practice: 100/100 PASS
+  cyu: 30/30 PASS
+  warm_up: 45/45 PASS
+  exit_ticket: 60/60 PASS
+  performance: 4/4 PASS
+  formative_assessment: 128/128 PASS
+  summative_assessment: 160/160 PASS
+PASS 3 - CURRENT / LAST / MASTERY
+  Practice/CYU spiral-pattern validation: PASS
+  Section 1.1 Last uses prerequisite functions/graphs/rates rather than fictional prior calculus: YES
+  Mastery uses deliberate readiness priorities from the Assessment Plan: YES
+PASS 4 - UNIQUENESS / QUALITY
+  Exact duplicates: PASS
+  Heuristic pure-number swaps across destinations: PASS
+  Assessment items are authored independently from instructional items: YES
+  Cross-item references intentionally used: NONE
+  Student tables pre-answered for requested unknowns: NONE
+PASS 5 - DOK HONESTY
+  DOK counts are observed, not quota-generated: YES
+  DOK 4 confined to performance-oriented items/formative performance evidence: YES
+  DOK 3 tasks use critique, method choice, theorem conditions, or synthesis: YES
+PASS 6 - FIGURES
+  Required/referenced figures generated: 36
+  Missing referenced PNGs: 0
+  Unreferenced accidental PNGs: 0
+  graph_tool source prefix hash preserved: YES
+  Answer-revealing graph titles: 0 (all generated titles are blank/neutral)
+PASS 7 - MAPPING / TRACEABILITY
+  HTML bank IDs unique: YES
+  Mapping rows = bank items: 867 = 867
+  Every HTML item mapped: YES
+PASS 8 - MATHJAX / CORRUPTION
+  form_feed: 0
+  carriage_return: 0
+  corrupt_rac: 0
+  wrong_inline_delim: 0
+  wrong_display_delim: 0
+  bare_currency: 0
+  MathJax config before CDN: YES
+  CDN correct (cdn.jsdelivr.net): YES
+PASS 9 - ZIP / PACKAGE
+  Correct ZIP name: unit1_bank.zip
+  Correct root folder: unit1_bank/
+  Required files present: unit1_bank.html, unit1_mapping.csv, generate_graphs.py, figures/, BUILD_REPORT.txt
+  Source/OS debris excluded from package: YES

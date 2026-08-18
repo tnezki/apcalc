@@ -1,0 +1,1193 @@
+GENERIC MATH / SCIENCE BANK BUILD PROMPT — v2
+════════════════════════════════════════════════════════════════
+
+PURPOSE
+════════════════════════════════════════════════════════════════
+
+This portable memory has TWO equal purposes.
+
+PURPOSE 1 — FULL BUILD
+Build the complete canonical content bank for ONE unit.
+The bank is created before Notes, Practice Sets, Activities,
+Warm-Ups, Exit Tickets, Demos/Investigations, Reviews, Progress
+Trackers, and Discourse/Reflection resources.
+
+The bank is not a loose collection of possible questions.
+It is the MASTER CONTENT INVENTORY for downstream resources.
+Every downstream question/task that this PM assigns is authored
+here first, in its final student-facing wording, with its answer,
+solution, scoring notes, metadata, and figures.
+
+Downstream builders are expected to copy bank content VERBATIM.
+They should assemble and format; they should not invent replacement
+questions unless a later maintenance request explicitly changes the
+bank.
+
+PURPOSE 2 — MAINTENANCE / REVISION
+Repair, replace, revise, or rebuild one item or one destination block
+inside an existing bank with the least possible input from the user.
+Trace the affected item through the mapping, preserve everything not
+requested to change, update only necessary dependencies, run QA, and
+return the complete corrected ZIP.
+
+Never require the user to recreate the original build session.
+Inspect the existing bank package first and ask only for a genuinely
+missing authoritative source when the revision cannot be resolved
+from the package itself.
+
+════════════════════════════════════════════════════════════════
+
+CORE PHILOSOPHY
+════════════════════════════════════════════════════════════════
+
+BUILD ORDER IS NOT TEACHING ORDER.
+
+The bank supports a flexible course in which Notes, Practice,
+Activities, Warm-Ups, Exit Tickets, Demos, Investigations, quizzes,
+performance tasks, and other resources are OPTIONS for a section.
+The teacher may compress, extend, reorder, skip, substitute, or
+combine resources because of pacing, reteaching, assemblies, snow
+days, AP pacing, or student need.
+
+The bank therefore creates a rich, coherent menu without hard-coding
+a Day 1 / Day 2 / Day 3 calendar.
+
+The preferred instructional arc may be conceptual hook / prior
+knowledge → instruction → representation/modeling/investigation →
+practice/collaboration → assessment/reflection, but the teacher is
+never required to use every component or use them in that order.
+
+════════════════════════════════════════════════════════════════
+
+READ ORDER — MANDATORY BEFORE ANY CONTENT IS WRITTEN
+════════════════════════════════════════════════════════════════
+
+1. Read THIS portable memory completely.
+2. Read the full COURSE FRAMEWORK.
+3. Read the full UNIT ASSESSMENT PLAN.
+4. Read graph_tool.py completely, including every function and its
+   opening workflow comments.
+5. Read ALL optional supporting content sources that were uploaded
+   for this unit.
+6. Complete the private UNIT COVERAGE PLAN and DESTINATION MAP.
+7. Only then write bank item 1.
+
+Do not write partial output while still reading sources.
+Do not show samples unless the user explicitly asks for a sample.
+When the user says build/create/make the bank, complete the full
+unit bank and deliver the ZIP.
+
+════════════════════════════════════════════════════════════════
+
+FILES / INPUTS
+════════════════════════════════════════════════════════════════
+
+NORMAL FULL-BUILD INPUTS
+
+REQUIRED:
+  1. This Bank PM
+  2. graph_tool.py
+  3. Course Framework
+  4. Current Unit Assessment Plan
+
+OPTIONAL SUPPORTING SOURCES:
+  5. AP Topic Questions
+  6. Textbook sections or extracts
+  7. Teacher-created question collections
+  8. Released/example items that the user is permitted to provide
+  9. Reference notes, curriculum guides, standards documents,
+     laboratory resources, data sets, diagrams, or other unit sources
+
+Optional sources strengthen authenticity, coverage, terminology,
+representation variety, and rigor. They are NOT required for the bank
+to build.
+
+If no optional source is supplied, build from the Framework +
+Assessment Plan.
+
+Do NOT stop merely because AP Topic Questions, a textbook, or a prior
+bank was not uploaded.
+
+A prior-unit bank is NOT required. Last and Mastery items may be newly
+authored from the prerequisite / prior-learning information contained
+in the Framework and Assessment Plan.
+
+════════════════════════════════════════════════════════════════
+
+SOURCE AUTHORITY
+════════════════════════════════════════════════════════════════
+
+Use this hierarchy:
+
+1. THIS PM controls workflow, packaging, routing, uniqueness, QA,
+   maintenance, and bank behavior.
+2. UNIT ASSESSMENT PLAN is the immediate authority for learning
+   targets, I-can statements, section emphasis, misconceptions,
+   representations, DOK evidence, assessment ideas, and explicit
+   Current / Last / Mastery planning.
+3. COURSE FRAMEWORK is the authority for course scope, sequence,
+   standards/AP-topic alignment, pacing priorities, prerequisite
+   relationships, and course-specific instructional emphasis.
+4. OPTIONAL SOURCES are supporting references for terminology,
+   authentic task forms, common representations, rigor, and coverage.
+
+If optional sources conflict with the Assessment Plan or Framework,
+follow the Assessment Plan / Framework.
+
+Do not silently add content outside the authorized course scope.
+
+COPYRIGHT / SOURCE-USE RULE:
+Optional published/released sources are references for scope, rigor,
+format, terminology, and idea generation. Do NOT copy their question
+text verbatim unless the user explicitly owns/provides the content and
+has specifically instructed that it be reused verbatim. Default to
+new, original questions that assess the same authorized content.
+
+The bank's OWN downstream items are different: once created and
+approved in the bank, downstream course resources reuse those bank
+items VERBATIM.
+
+════════════════════════════════════════════════════════════════
+
+COURSE FAMILY
+════════════════════════════════════════════════════════════════
+
+Infer:
+  COURSE_FAMILY = MATH or SCIENCE
+
+Do not ask if it is obvious from the Framework / Assessment Plan.
+
+Shared rules apply to both families.
+Course-family differences should be handled only when they naturally
+matter to the destination or content.
+
+MATH examples may include:
+  equations, symbolic procedures, graphs, tables, multiple
+  representations, theorem conditions, proof/justification,
+  estimation, modeling, calculator/no-calculator reasoning.
+
+SCIENCE examples may include:
+  concepts, equations, data, graphs, diagrams, models, experiments,
+  CER/evidence reasoning, measurements, calculations, physical
+  scenarios, error/uncertainty, and phenomenon-based reasoning.
+
+Never force a Math-style task into Science or a Science lab structure
+into Math simply for symmetry.
+
+════════════════════════════════════════════════════════════════
+
+THE BANK IS DESTINATION-FIRST
+════════════════════════════════════════════════════════════════
+
+Do NOT build a generic DOK 1 / DOK 2 / DOK 3 / DOK 4 pile and hope
+later PMs can use it.
+
+Every item is written for an eventual destination and position.
+
+The bank must know BEFORE authoring an item:
+  • which downstream resource will use it
+  • section / skill / target
+  • destination slot
+  • Current / Last / Mastery role when applicable
+  • natural DOK level
+  • representation / format
+  • whether it requires a figure
+  • answer / solution / scoring expectations
+
+The bank therefore serves BOTH as:
+  A. canonical content source
+  B. curriculum-routing / sequencing system
+
+════════════════════════════════════════════════════════════════
+
+NON-NEGOTIABLE CURRENT / LAST / MASTERY PATTERN
+════════════════════════════════════════════════════════════════
+
+Any destination that uses spiral practice must honor these roles.
+
+CURRENT
+  Learning from the section currently being taught.
+
+LAST
+  The immediately preceding section or the most recent prerequisite
+  learning identified by the Assessment Plan.
+  For the first section of Unit 1, use the Framework's prerequisite /
+  readiness learning rather than inventing a fictional prior section.
+
+MASTERY
+  Earlier durable learning deliberately retrieved for retention and
+  transfer. Use the Assessment Plan's Mastery Priorities and the
+  Framework's prerequisite / earlier-course relationships.
+  Mastery is NOT random review.
+
+Rules:
+  • Current, Last, and Mastery items are independently authored.
+  • Do not reuse the exact same student question in multiple roles.
+  • Do not disguise repeats by merely changing numbers.
+  • Last should normally be distinct from Mastery in the same set.
+  • If a course or first unit has limited prior content, use genuine
+    prerequisite/readiness skills rather than unrelated filler.
+  • Mapping metadata must record the role for every spiral item.
+
+════════════════════════════════════════════════════════════════
+
+DOK PHILOSOPHY — NATURAL FIT, NEVER QUOTA FILLING
+════════════════════════════════════════════════════════════════
+
+DOK describes the cognitive demand of the task that naturally belongs
+there. DOK does NOT create a quota that must be filled.
+
+Do not manufacture DOK 3 or DOK 4 questions simply to achieve a ratio.
+
+General interpretation:
+  DOK 1 — recall, recognition, direct reading, direct execution
+  DOK 2 — routine application, procedure, representation connection,
+          interpretation, multi-step routine work
+  DOK 3 — strategic reasoning, method choice, critique, justification,
+          non-routine comparison, theorem-condition reasoning
+  DOK 4 — performance-oriented modeling, investigation, design,
+          synthesis, transfer, critique-and-revise over extended work
+
+DOK 4 PRINCIPLE:
+DOK 4 belongs primarily in the PERFORMANCE-TASK world rather than in a
+conventional worksheet/question-bank world.
+
+A conventional Practice Set, Warm-Up, Exit Ticket, CYU, or ordinary
+summative question should contain DOK 4 only if the task genuinely and
+naturally functions that way. Usually it should not.
+
+DOK 3 also belongs in conventional question sets only when the task
+truly requires strategic reasoning. Do not label a routine multi-step
+calculation DOK 3 merely because it has several steps.
+
+MULTI-STEP DEFINITION:
+A true multi-step problem normally requires determining an
+intermediate quantity needed to obtain ONE final answer, not merely
+using two formulas and reporting two unrelated answers.
+
+════════════════════════════════════════════════════════════════
+
+UNIQUENESS — HARD RULE
+════════════════════════════════════════════════════════════════
+
+Each destination receives unique student-facing questions/tasks.
+
+Examples:
+  Practice Set 1 Question 1 and Practice Set 2 Question 1 may assess
+  the same skill, but they are different questions.
+
+  A Notes Example and its You Try It are parallel instructional tasks,
+  but not the same problem with only one number changed.
+
+  A Warm-Up item may retrieve the same concept as an Exit Ticket item,
+  but the wording, values, context, representation, or reasoning route
+  should differ.
+
+  A formative or summative assessment item must not be a verbatim item
+  students already saw in Notes, Practice, Warm-Ups, Exit Tickets, or
+  CYU.
+
+Use learned variation techniques:
+  • standard/givens-first wording
+  • inverted/action-first wording
+  • context-rich real-world wording when appropriate
+  • equations, graphs, tables, diagrams, verbal descriptions
+  • representation changes
+  • different data structures
+  • different error/critique structures
+  • different method-selection decisions
+
+Avoid Mad-Lib question families where only nouns/numbers change.
+
+Parallel assessment versions may target the exact same evidence, but
+should vary naturally in values, wording, representation, context, or
+reasoning structure rather than existing as pure number swaps whenever
+possible.
+
+════════════════════════════════════════════════════════════════
+
+DESTINATION INVENTORY — GENERIC v1 DEFAULTS
+════════════════════════════════════════════════════════════════
+
+These are v1 authoring defaults. Later component PMs may refine their
+presentation, but they should not rewrite bank questions.
+
+────────────────────────────────────────────────────────────────
+A. NOTES — EXAMPLES / YOU TRY ITS
+────────────────────────────────────────────────────────────────
+
+Per section:
+  Up to 4 Example / You Try It pairs.
+  Use fewer when the content genuinely does not need four.
+
+Each pair contains TWO unique bank items:
+  Example — complete student-facing problem/task + worked solution
+  You Try It — parallel but unique problem/task + answer/solution
+
+Both are CURRENT items.
+
+The Example and You Try It should assess the same micro-skill or idea
+while varying values/context/representation enough that the You Try It
+requires actual thinking rather than copying the Example.
+
+IDs:
+  U[#]-S[#]-NOTE-EX01
+  U[#]-S[#]-NOTE-YTI01
+  ...
+
+────────────────────────────────────────────────────────────────
+B. PRACTICE SETS — FOUR SETS, 20 QUESTIONS EACH
+────────────────────────────────────────────────────────────────
+
+Per section create:
+  Practice Set 1 — 20 unique items
+  Practice Set 2 — 20 unique items
+  Practice Set 3 — 20 unique items
+  Extra Practice — 20 unique items
+
+GENERIC v1 SPIRAL DEFAULT PER 20-QUESTION SET:
+  5 Current
+  5 Last
+  10 Mastery
+
+This preserves the former 25% / 25% / 50% spiral proportions while
+moving to 20-question practice sets.
+
+Do NOT force DOK counts inside the 20.
+Most conventional practice will naturally be DOK 1-2.
+Use DOK 3 where it genuinely fits.
+Do not force DOK 4 into ordinary practice.
+
+IDs example:
+  U1-S3-PS1-C01 ... C05
+  U1-S3-PS1-L01 ... L05
+  U1-S3-PS1-M01 ... M10
+
+Repeat with PS2, PS3, XP.
+
+PS3 COURSE-FAMILY BRANCH:
+  SCIENCE — author all 20 items so they can be used directly as a
+  four-choice multiple-choice Blooket source when the later Practice
+  PM requests that structure. Choices must be A-D and genuinely
+  plausible.
+
+  MATH — author all 20 items so they are Tarsia-friendly when the
+  later Practice PM requests a Tarsia export: concise prompt,
+  unambiguous target answer, and no dependence on long surrounding
+  text. Multiple choice is not required unless the content naturally
+  calls for it.
+
+This branch may be refined when the generic Practice PM is written.
+Do not alter the core question after it has been approved in the bank.
+
+────────────────────────────────────────────────────────────────
+C. CYU — CHECK YOUR UNDERSTANDING
+────────────────────────────────────────────────────────────────
+
+Per section create 6 DEDICATED unique items:
+  2 Current
+  2 Last
+  2 Mastery
+
+Do NOT simply reuse Extra Practice items.
+The CYU should be concise, representative, and independently usable.
+
+IDs:
+  U[#]-S[#]-CYU-C01 / C02
+  U[#]-S[#]-CYU-L01 / L02
+  U[#]-S[#]-CYU-M01 / M02
+
+────────────────────────────────────────────────────────────────
+D. WARM-UP ACADEMIC CONTENT
+────────────────────────────────────────────────────────────────
+
+Generic v1 reserves 3 optional warm-ups per section.
+Each warm-up receives 3 academic bank items:
+  1 Current
+  1 Last
+  1 Mastery
+
+Total academic warm-up items per section: 9.
+
+A separate Warm-Up PM may add a brain teaser, puzzle, rebus, or other
+non-course opener. That non-academic opener does not need to live in
+this content bank.
+
+IDs:
+  U[#]-S[#]-WU1-C01 / L01 / M01
+  U[#]-S[#]-WU2-C01 / L01 / M01
+  U[#]-S[#]-WU3-C01 / L01 / M01
+
+The existence of three optional warm-ups does NOT require the teacher
+to spend three days on the section.
+
+────────────────────────────────────────────────────────────────
+E. EXIT TICKETS
+────────────────────────────────────────────────────────────────
+
+Per section create 3 optional Exit Tickets.
+Each ticket contains 4 unique concise items:
+  2 Current
+  1 Last
+  1 Mastery
+
+Total Exit Ticket items per section: 12.
+
+IDs:
+  U[#]-S[#]-ET-A-C01 / C02 / L01 / M01
+  U[#]-S[#]-ET-B-C01 / C02 / L01 / M01
+  U[#]-S[#]-ET-C-C01 / C02 / L01 / M01
+
+These are authored in the bank. They are NOT AI-invented later during
+Practice Set or Exit Ticket assembly.
+
+────────────────────────────────────────────────────────────────
+F. PERFORMANCE / FUTURE TASK INVENTORY
+────────────────────────────────────────────────────────────────
+
+Create performance-oriented tasks only where the Assessment Plan and
+Framework naturally support them.
+
+This is where DOK 3-4 may appropriately live.
+Possible purposes:
+  • modeling / design
+  • investigation
+  • critique-and-revise
+  • theorem / evidence synthesis
+  • data analysis
+  • CER / scientific explanation
+  • multi-representation performance
+  • transfer task
+
+No fixed quota per section.
+Follow the Assessment Plan's DOK 3 / DOK 4 evidence ideas.
+
+Tasks must be concrete and student-usable, not template shells.
+Include all data, context, representations, constraints, and scoring
+criteria required to carry out the task.
+
+IDs:
+  U[#]-S[#]-PERF01 ...
+
+────────────────────────────────────────────────────────────────
+G. FORMATIVE ASSESSMENT SOURCE CONTENT
+────────────────────────────────────────────────────────────────
+
+The Assessment Plan normally identifies formative assessment ideas
+by DOK and eligibility timing.
+
+Create the exact source content for EVERY formative assessment idea in
+the plan.
+
+If the plan specifies a version count, use it.
+If no version count is specified, GENERIC v1 DEFAULT = 8 parallel
+versions per formative assessment idea.
+
+Each version is a unique bank task targeting the same intended
+evidence.
+
+DOK 1-2 formative versions may be conventional short tasks.
+DOK 3 versions must genuinely require strategic reasoning.
+DOK 4 versions must be performance-oriented tasks when DOK 4 is the
+natural fit; do not turn them into ordinary short questions simply to
+create versions.
+
+Suggested IDs:
+  U1-FA-D1-01-V1 ... V8
+  U1-FA-D1-02-V1 ... V8
+  ...
+  U1-FA-D4-04-V1 ... V8
+
+Each formative family must record:
+  • assessment-plan title
+  • eligibility timing
+  • target / I-can
+  • section(s)
+  • natural DOK
+  • version number
+  • student task
+  • answer / solution or scoring criteria
+  • figure(s)
+
+These bank entries are the canonical source for the eventual
+formative HTML. The later assembly must use them verbatim.
+
+────────────────────────────────────────────────────────────────
+H. SUMMATIVE ASSESSMENT SOURCE CONTENT
+────────────────────────────────────────────────────────────────
+
+Build the complete source content needed for the unit summative.
+
+If the Assessment Plan specifies format, count, calculator rules,
+selected-response/constructed-response expectations, use them.
+
+If it does NOT specify question count:
+  GENERIC v1 DEFAULT = 20 items per version.
+
+If it does NOT specify version count:
+  GENERIC v1 DEFAULT = 8 parallel versions.
+
+All summative items must be unique from instructional/practice items.
+Parallel versions target equivalent evidence but should not be pure
+number swaps whenever richer variation is possible.
+
+DOK is natural, not quota-driven.
+Conventional summatives are usually dominated by DOK 1-2 with DOK 3
+where strategic reasoning genuinely fits.
+DOK 4 should normally remain in performance evidence unless the
+Assessment Plan explicitly calls for a performance-based summative.
+
+For AP-style courses, honor the Assessment Plan's AP-style selected
+response / constructed response / FRQ-like expectations, notation,
+calculator conditions, theorem language, units, and interpretation.
+Do not imitate copyrighted AP questions verbatim.
+
+Suggested IDs:
+  U1-SUM-V1-Q01 ... Q20
+  ...
+  U1-SUM-V8-Q01 ... Q20
+
+Every summative item records:
+  • version and question number
+  • section / target
+  • natural DOK
+  • Current / Last / Mastery / Unit-Synthesis role where relevant
+  • item type
+  • student question
+  • choices if selected response
+  • correct answer
+  • worked solution / scoring notes
+  • figure(s)
+
+════════════════════════════════════════════════════════════════
+
+ACTIVITIES AND OTHER DOWNSTREAM RESOURCES
+════════════════════════════════════════════════════════════════
+
+Activities do not require a separate duplicate question inventory when
+the established activity architecture uses Practice Set 2 / Practice
+Set 3 content. The Activities PM should pull those bank-authored items
+verbatim.
+
+Demo and Investigation PMs may use the Assessment Plan, Notes, and
+Performance/Future Task inventory as anchors. Do not force every Demo
+or Investigation to be a copied bank question if the nature of the
+resource is experiential rather than question-based.
+
+Reviews, Progress Trackers, and Discourse/Reflection are built later
+from the completed unit ecosystem and do not require large dedicated
+question blocks here unless a later PM explicitly defines them.
+
+════════════════════════════════════════════════════════════════
+
+UNIT COVERAGE PLAN — REQUIRED PRIVATE PRE-BUILD STEP
+════════════════════════════════════════════════════════════════
+
+Before writing item 1, create a private coverage plan.
+
+For each section list:
+  • learning target
+  • I-can statements
+  • vocabulary / notation
+  • key representations
+  • common misconceptions
+  • current focus
+  • last focus
+  • mastery priorities
+  • framework/AP/standard alignment
+  • calculator / measurement / data / lab restrictions if any
+  • likely DOK 1-2 item forms
+  • natural DOK 3 opportunities
+  • natural DOK 4 performance opportunities
+
+Then map all destination slots before authoring.
+
+The plan must prove there are no accidental scope gaps and no forced
+DOK inflation.
+
+════════════════════════════════════════════════════════════════
+
+BANK ITEM ID AND TRACEABILITY — HARD RULE
+════════════════════════════════════════════════════════════════
+
+Every item receives a permanent unique Bank ID.
+
+The ID must survive downstream use.
+Downstream HTML should eventually preserve it in a machine-readable
+attribute or HTML comment even when students do not see the ID.
+
+Preferred downstream pattern:
+  data-source-id="U1-S2-PS1-C03"
+
+Figures should also retain the source ID when practical.
+
+This traceability enables:
+  finished resource → Bank ID → mapping → canonical item → solution
+
+Never remove traceability during maintenance.
+
+════════════════════════════════════════════════════════════════
+
+BANK HTML — SIMPLE AUTHORING FORMAT
+════════════════════════════════════════════════════════════════
+
+This bank is an AUTHORING / MAINTENANCE document, not a printed student
+worksheet.
+
+NO WORKSPACE BOXES.
+NO page-break engineering.
+NO decorative student handout layout.
+
+Use a simple searchable HTML structure.
+
+Head — CSS PATHS ARE LOCKED:
+  MathJax config before CDN
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/bank.css">
+  no embedded <style> block
+
+CSS PATH RULE:
+  Both shared CSS files are exactly TWO levels up from the bank HTML.
+  Use ../../css/ for BOTH links.
+  Do NOT use ../../../css/ or ../../../../css/.
+  Do NOT copy the CSS files into the bank ZIP.
+
+Suggested card:
+
+<article class="assessment-card"
+         id="U1-S2-PS1-C03"
+         data-source-id="U1-S2-PS1-C03"
+         data-section="1.2"
+         data-destination="practice_set_1"
+         data-spiral="current"
+         data-dok="2">
+  <div class="problem-number">U1-S2-PS1-C03</div>
+  <div class="problem-meta">Section 1.2 | Practice Set 1 | Current | DOK 2</div>
+  <p>[FINAL STUDENT-FACING QUESTION]</p>
+  [TABLE / FIGURE / CHOICES IF NEEDED]
+  <div class="solution">
+    <strong>Answer / Solution:</strong>
+    [FINAL ANSWER + CONCISE WORKED REASONING]
+  </div>
+</article>
+
+If bank.css does not contain .solution, use ordinary semantic HTML
+without inventing complex styling. Readability matters more than
+visual polish.
+
+PERFORMANCE ITEMS additionally include:
+  • expected evidence
+  • scoring criteria / rubric notes
+  • estimated student time when useful
+
+The bank may use headings by DESTINATION because downstream extraction
+is the priority.
+
+Recommended top-level order:
+  1. Notes Example / You Try It
+  2. Practice Set 1
+  3. Practice Set 2
+  4. Practice Set 3
+  5. Extra Practice
+  6. CYU
+  7. Warm-Up Academic Content
+  8. Exit Tickets
+  9. Performance / Future Tasks
+  10. Formative Assessment Source Content
+  11. Summative Assessment Source Content
+
+Within each destination, order by section then slot.
+
+════════════════════════════════════════════════════════════════
+
+MAPPING CSV — REQUIRED
+════════════════════════════════════════════════════════════════
+
+Create:
+  unit[#]_mapping.csv
+
+This file is mandatory. It is the machine-readable routing layer for
+all later PMs.
+
+Required columns:
+  bank_id
+  course_family
+  unit
+  section
+  destination
+  destination_group
+  destination_slot
+  spiral_role
+  dok
+  learning_target
+  i_can
+  framework_alignment
+  item_type
+  answer_type
+  figure_files
+  source_basis
+  notes
+
+Rules:
+  • one row per bank item
+  • bank_id unique
+  • destination_slot exact
+  • spiral_role = current / last / mastery / unit-synthesis /
+    performance / n-a
+  • figure_files may contain multiple filenames separated by |
+  • source_basis records Assessment Plan / Framework / optional-source
+    topic alignment, not copied question text
+  • mapping must match the HTML exactly
+
+This CSV is what later PMs should use to locate content quickly.
+
+════════════════════════════════════════════════════════════════
+
+QUESTION / TASK QUALITY RULES
+════════════════════════════════════════════════════════════════
+
+1. SELF-CONTAINED
+Every item must include the information needed to solve it.
+No cross-reference such as "use Question 3" or "as shown above."
+
+2. ANSWER NOT REVEALED
+Figures, titles, captions, labels, answer choices, tables, and metadata
+must not reveal a response students are expected to determine.
+
+3. FIGURE LABELING TASKS
+If students must identify, label, classify, critique, or infer a
+feature, do not pre-label that feature in the figure.
+
+4. MATCHING / SORTING
+Shuffle options. Never allow correct Match 1→Option 1, 2→2, 3→3 by
+position.
+
+5. TABLES
+Use HTML table.values for data tables.
+Do not convert ordinary tables to images.
+Do not pre-fill cells students are supposed to determine.
+
+6. REAL-WORLD PLAUSIBILITY
+Values, units, scales, and contexts must be plausible for the stated
+situation.
+
+7. NO TEMPLATE SHELLS
+A task must contain the exact equation, data, scenario, approaches,
+claim, flawed work, graph, table, or constraints needed for actual
+student work.
+
+8. DOK 3 QUALITY
+Do not default every DOK 3 item to error analysis.
+Vary strategic method selection, reasonableness, critique, theorem
+conditions, representation synthesis, structure analysis, and
+justification as natural to the course.
+
+9. DOK 4 QUALITY
+Performance task, not a renamed worksheet question.
+Concrete data/constraints/output required.
+Avoid multi-day projects unless the Assessment Plan explicitly asks
+for one.
+
+10. SENTENCE VARIETY
+Avoid repeating one Mad-Lib sentence template.
+Across a large bank, use a healthy mix of givens-first,
+action-first/inverted, and context-rich wording where appropriate.
+
+11. MULTIPLE CHOICE
+Distractors must represent plausible misconceptions, arithmetic
+errors, interpretation errors, notation errors, or strategy errors.
+Never use joke distractors or obviously impossible answers.
+
+12. ASSESSMENT SECURITY
+Never place an exact formative/summative item into instructional
+practice or Notes before the assessment.
+
+13. REPRESENTATION VARIETY
+Use graphs, tables, equations, diagrams, text, data, symbolic work,
+contexts, and models when those representations are authorized by the
+Assessment Plan. Do not add a graph merely to satisfy a quota.
+
+════════════════════════════════════════════════════════════════
+
+GRAPH TOOL — AUTHORITATIVE FIGURE SOURCE
+════════════════════════════════════════════════════════════════
+
+Read graph_tool.py completely before planning figures.
+
+Do not modify, refactor, restyle, simplify, optimize, or rewrite the
+graph tool.
+
+For each bank build:
+  1. Copy graph_tool.py byte-for-byte as generate_graphs.py.
+  2. Append graph-generation blocks only below the FINAL approved
+     append marker.
+  3. Use existing graph-tool functions only.
+  4. Never draw an ad hoc matplotlib figure outside graph_tool.py.
+  5. Never use inline SVG as a substitute for a supported graph type.
+  6. If a required figure type does not exist in graph_tool.py, STOP
+     and tell the user exactly which figure type is missing.
+
+NEW GENERIC BANK RULE:
+FIGURES ARE CREATED DURING THE BANK BUILD.
+
+Unlike older workflows that delivered an empty figures folder, the
+bank build must RUN generate_graphs.py and include the generated PNGs
+in figures/ after successful QA.
+
+Downstream PMs COPY/REUSE the approved bank figure; they do not redraw
+it independently.
+
+Include generate_graphs.py in the ZIP for reproducibility.
+
+BLANK FIGURE REUSE:
+Structurally identical blank graphs/number lines may share one image.
+Evidence figures containing plotted content should be unique unless
+the exact same neutral evidence is intentionally needed.
+
+FIGURE FILE NAMING:
+  [bank_id lowered and sanitized]_[descriptor].png
+
+Example:
+  u1_s2_ps1_c03_limit_graph.png
+
+GRAPH TITLES:
+Never reveal the answer in title=, labels, annotations, guides, or
+captions.
+Use title='' or a neutral descriptor when students must infer the
+mathematical/scientific feature.
+
+All mathematical graph labels use valid LaTeX strings as required by
+the graph tool.
+
+════════════════════════════════════════════════════════════════
+
+MATHJAX / HTML SAFETY
+════════════════════════════════════════════════════════════════
+
+Use MathJax 3.
+Config BEFORE CDN script.
+CDN: cdn.jsdelivr.net.
+processEscapes: true.
+
+Use:
+  $...$ inline
+  $$...$$ display
+
+Never use:
+  \(...\)
+  \[...\]
+
+Currency in prose:
+  \$12, not bare $12.
+
+Fractions:
+  \frac{a}{b}
+Scan for corrupted \rac.
+
+Inside math delimiters use LaTeX comparisons where HTML parsing could
+interfere:
+  \lt and \gt
+
+Run corruption scans before delivery.
+
+════════════════════════════════════════════════════════════════
+
+FULL-BUILD OUTPUT PACKAGE
+════════════════════════════════════════════════════════════════
+
+Build ONE unit at a time.
+
+ZIP:
+  unit[#]_bank.zip
+
+Folder inside ZIP:
+  unit[#]_bank/
+
+Required contents:
+  unit[#]_bank.html
+  unit[#]_mapping.csv
+  generate_graphs.py
+  figures/
+    [ALL generated bank figures]
+  BUILD_REPORT.txt
+
+Do NOT include CSS files in every bank ZIP. The course uses shared CSS.
+The bank HTML must link them with ../../css/base.css and ../../css/bank.css.
+Do NOT include the original Framework, Assessment Plan, or optional
+source files in the ZIP unless the user explicitly requests them.
+
+BUILD_REPORT.txt contains concise machine/teacher-readable counts:
+  • total bank items
+  • item count by destination
+  • item count by section
+  • Current / Last / Mastery counts
+  • DOK counts as OBSERVED, not quotas
+  • formative family/version counts
+  • summative version/item counts
+  • figure count
+  • duplicate check
+  • QA results
+
+════════════════════════════════════════════════════════════════
+
+FULL-BUILD QA — ALL MUST PASS
+════════════════════════════════════════════════════════════════
+
+PASS 1 — SOURCE / SCOPE
+  Framework fully read: YES/NO
+  Assessment Plan fully read: YES/NO
+  graph_tool.py fully read: YES/NO
+  Optional sources fully read if provided: YES/NO/N-A
+  Every section in Assessment Plan represented: YES/NO
+  No unauthorized topic added: YES/NO
+
+PASS 2 — DESTINATION COMPLETENESS
+  Notes Example/YTI inventory complete: YES/NO
+  PS1 inventory complete: YES/NO
+  PS2 inventory complete: YES/NO
+  PS3 inventory complete: YES/NO
+  Extra Practice inventory complete: YES/NO
+  CYU inventory complete: YES/NO
+  Warm-Up academic inventory complete: YES/NO
+  Exit Ticket inventory complete: YES/NO
+  Performance/Future tasks aligned: YES/NO
+  Every formative assessment idea represented: YES/NO
+  Summative source inventory complete: YES/NO
+
+Record actual counts, not merely PASS.
+
+PASS 3 — CURRENT / LAST / MASTERY
+  Practice sets follow mapped 5 Current / 5 Last / 10 Mastery
+    default unless explicitly overridden: YES/NO
+  CYU has 2 Current / 2 Last / 2 Mastery: YES/NO
+  Each warm-up academic block has Current / Last / Mastery: YES/NO
+  Each exit ticket has 2 Current / 1 Last / 1 Mastery: YES/NO
+  Last content truly reflects most recent learning: YES/NO
+  Mastery content reflects deliberate durable retrieval: YES/NO
+  Random unrelated review found: NONE / list
+
+PASS 4 — UNIQUENESS / QUALITY
+  Duplicate student question bodies: 0 required
+  Near-duplicate pure number swaps across different destinations:
+    0 unless intentionally documented
+  Assessment item duplicated in instructional resource: 0 required
+  Answer-revealing figure labels/titles: 0 required
+  Pre-answered student tables: 0 required
+  Cross-references between items: 0 required
+  Trivial/malformed distractors: 0 required
+  Template-only tasks: 0 required
+  Implausible contexts: 0 required
+
+PASS 5 — DOK HONESTY
+  DOK counts listed by destination and unit.
+  No DOK quota was used to generate items: YES/NO
+  Routine multi-step problems mislabeled DOK 3: 0 required
+  Conventional questions mislabeled DOK 4: 0 required
+  DOK 3 items have genuine strategic reasoning: YES/NO
+  DOK 4 items are performance-oriented when present: YES/NO
+
+PASS 6 — FIGURES
+  Every item requiring a figure has one: YES/NO
+  Every figure is generated with graph_tool.py: YES/NO
+  graph_tool source lines modified: NO required
+  generate_graphs.py runs without error: YES/NO
+  PNGs generated during build: YES/NO
+  Missing referenced PNGs: 0 required
+  Unreferenced accidental PNGs: 0 preferred
+  Answer-revealing graph title/labels: 0 required
+  Duplicate numbered blank figures: 0 required
+
+PASS 7 — MAPPING / TRACEABILITY
+  HTML bank IDs unique: YES/NO
+  Mapping rows = bank items: YES/NO
+  Every bank item has mapping row: YES/NO
+  Every mapping row has HTML item: YES/NO
+  destination_slot collisions: 0 required
+  spiral_role valid: YES/NO
+  figure filenames match mapping: YES/NO
+
+PASS 8 — HTML HEAD / CSS / MATHJAX / CORRUPTION
+  base.css href exactly ../../css/base.css: YES
+  bank.css href exactly ../../css/bank.css: YES
+  CSS link order base.css then bank.css: YES
+  embedded <style> block: NO
+  \x0c hits: 0
+  \x0d hits: 0
+  \rac hits: 0
+  wrong delimiters: 0
+  bare currency $[digit] in prose: 0
+  raw < or > inside math: 0
+  MathJax config before CDN: YES
+  CDN correct: YES
+
+PASS 9 — ZIP / PACKAGE
+  Correct ZIP name: YES/NO
+  Correct root folder: YES/NO
+  HTML present: YES/NO
+  mapping CSV present: YES/NO
+  generate_graphs.py present: YES/NO
+  figures folder contains generated required PNGs: YES/NO
+  BUILD_REPORT.txt present: YES/NO
+  No __MACOSX / .DS_Store / AppleDouble debris: YES/NO
+  ZIP integrity check passes: YES/NO
+
+Do not deliver until all required checks pass.
+
+════════════════════════════════════════════════════════════════
+
+MAINTENANCE / REVISION MODE
+════════════════════════════════════════════════════════════════
+
+TRIGGER EXAMPLES:
+  "Replace question 7 on formative 2."
+  "I don't like U3-S4-PS1-C03. Rebuild it."
+  "Question 12 is too easy."
+  "The graph on this item gives away the answer."
+  "Replace this summative question but keep the target."
+  "Rebuild the Section 3.4 CYU block."
+
+GOAL:
+Fix the smallest authoritative source while preserving the rest of the
+approved bank.
+
+NORMAL MAINTENANCE INPUT:
+  Existing unit bank ZIP + user's requested change.
+
+Optional additional inputs:
+  affected downstream resource ZIP
+  Assessment Plan
+  Framework
+  graph_tool.py
+
+Do NOT automatically ask for all of them.
+Inspect the bank ZIP first.
+The bank itself should contain enough traceability to resolve most
+repairs.
+
+MAINTENANCE WORKFLOW:
+
+1. INSPECT
+   Open the existing bank HTML, mapping CSV, graph script, figures,
+   and build report.
+
+2. LOCATE
+   Resolve the requested visible question/slot to its Bank ID.
+   If a downstream artifact is provided, use data-source-id / comments
+   / mapping to trace it back.
+
+3. PRESERVE INTENT
+   Identify:
+     • learning target / I-can
+     • destination
+     • destination slot
+     • Current/Last/Mastery role
+     • natural DOK
+     • representation / item type
+     • assessment family/version if applicable
+
+4. DETERMINE SCOPE OF CHANGE
+   Decide whether the item is:
+     A. a correction to the same intended item
+     B. a full replacement preserving the same role
+     C. a mapping/routing change
+     D. a figure-only correction
+
+5. REVISE CANONICAL BANK FIRST
+   The bank is always updated before any dependent artifact.
+
+6. ID RULE
+   If fixing/replacing the item while preserving the exact destination
+   slot and intent, KEEP the existing Bank ID.
+   If the item is moved to a different destination/role, create a new
+   Bank ID and update mapping.
+
+7. FIGURE RULE
+   Regenerate only affected figure(s), using the unchanged graph tool.
+   Do not regenerate unrelated figures merely because the ZIP is being
+   rebuilt.
+
+8. PROPAGATE WHEN PROVIDED / REQUIRED
+   If affected downstream artifacts are supplied, update the exact
+   mapped occurrence(s) there using the revised bank content verbatim.
+   Preserve all unrelated content.
+
+9. QA
+   Re-run the relevant full-build QA passes and a package integrity
+   check. For a single-item replacement, still run uniqueness,
+   mapping, DOK honesty, figure, and MathJax checks across the complete
+   bank so the repair does not create a collision.
+
+10. DELIVER
+   Return the complete updated ZIP, not loose replacement snippets.
+   Briefly state:
+     • Bank ID(s) changed
+     • what was changed
+     • dependent files changed, if any
+     • QA result
+
+MINIMAL-INPUT RULE:
+Only ask the user for a missing Assessment Plan / Framework / graph
+tool when the existing package does not contain enough information to
+make a safe, aligned repair.
+
+Never make the user re-upload unrelated build sources.
+
+════════════════════════════════════════════════════════════════
+
+COMMON FAILURE MODES — DO NOT DO THESE
+════════════════════════════════════════════════════════════════
+
+1. Building a generic question pool instead of destination-mapped
+   content.
+2. Organizing primarily by DOK instead of destination.
+3. Forcing DOK 3/4 quotas.
+4. Treating DOK 4 as ordinary worksheet questions.
+5. Ignoring Current / Last / Mastery.
+6. Using random old topics as "Mastery."
+7. Reusing the same question in Notes, Practice, Warm-Up, Exit Ticket,
+   CYU, formative, or summative.
+8. Calling a number swap a genuinely new destination item.
+9. Allowing summative/formative assessment leakage into practice.
+10. Writing downstream exit-ticket questions later instead of bank
+    authoring them now.
+11. Reusing Extra Practice questions for CYU instead of dedicated CYU
+    items.
+12. Creating graphs later in each downstream PM.
+13. Delivering an empty figures folder after the Bank build.
+14. Modifying graph_tool.py source.
+15. Drawing unsupported figures ad hoc instead of stopping when the
+    graph tool lacks the needed type.
+16. Graph title/labels revealing the answer.
+17. Pre-answered tables.
+18. Matching choices in obvious positional order.
+19. Cross-referencing other questions.
+20. Template-only performance tasks.
+21. Implausible scientific/mathematical contexts.
+22. Copying published AP/textbook questions verbatim by default.
+23. Missing answers/solutions in the canonical bank.
+24. Missing mapping rows or duplicate Bank IDs.
+25. Omitting source IDs from downstream traceability metadata.
+26. Asking for optional topic-question files when none were supplied.
+27. Asking for prior banks when Framework + Assessment Plan provide
+    enough prior-learning information.
+28. Treating optional Day 3 framework language as a required calendar.
+29. Rebuilding unrelated content during a maintenance request.
+30. Delivering loose corrected files instead of the complete updated
+    bank ZIP.
+
+════════════════════════════════════════════════════════════════
+
+DELIVERY RESPONSE
+════════════════════════════════════════════════════════════════
+
+FULL BUILD:
+  Deliver unit[#]_bank.zip and a compact QA summary.
+
+MAINTENANCE:
+  Deliver the complete updated ZIP and a compact change summary + QA.
+
+Do not provide long build narration unless the user asks for it.
+
+════════════════════════════════════════════════════════════════
+END GENERIC MATH / SCIENCE BANK PM — v1
+════════════════════════════════════════════════════════════════
