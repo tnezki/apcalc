@@ -2043,3 +2043,919 @@ def make_algebra_tiles(expression, filename='algebra_tiles.png'):
 # PASTE YOUR GRAPH CODE BELOW THIS LINE
 # ─────────────────────────────────────────────────────────────────────────────
 
+
+# ============================================================================
+# UNIT 8 BANK GENERATED FIGURES - APPENDED BELOW FINAL APPROVED MARKER
+# ============================================================================
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=0.6666666666666666, b=-5.0: m*x+b, 'deriv': lambda x, m=0.6666666666666666: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.3333333333333333, b=-4.0: m*x+b, 'deriv': lambda x, m=0.3333333333333333: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=2.0, b=-14.0: m*x+b, 'deriv': lambda x, m=2.0: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_fa_d4_01_v1_fa_motion.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-3.5, b=5.0: m*x+b, 'deriv': lambda x, m=-3.5: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=3.0, b=-8.0: m*x+b, 'deriv': lambda x, m=3.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.5, b=2.0: m*x+b, 'deriv': lambda x, m=0.5: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_fa_d4_01_v2_fa_motion.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-1.0, b=5.0: m*x+b, 'deriv': lambda x, m=-1.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-3.0, b=9.0: m*x+b, 'deriv': lambda x, m=-3.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.5, b=-5.0: m*x+b, 'deriv': lambda x, m=0.5: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_fa_d4_01_v3_fa_motion.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=9.0, b=-4.0: m*x+b, 'deriv': lambda x, m=9.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,1.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-7.0, b=12.0: m*x+b, 'deriv': lambda x, m=-7.0: np.zeros_like(x,dtype=float)+m, 'domain': (1.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=7.0, b=-16.0: m*x+b, 'deriv': lambda x, m=7.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,3.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_fa_d4_01_v4_fa_motion.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-1.0, b=5.0: m*x+b, 'deriv': lambda x, m=-1.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-1.3333333333333333, b=6.0: m*x+b, 'deriv': lambda x, m=-1.3333333333333333: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-0.6666666666666666, b=2.0: m*x+b, 'deriv': lambda x, m=-0.6666666666666666: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_fa_d4_01_v5_fa_motion.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-3.0, b=3.0: m*x+b, 'deriv': lambda x, m=-3.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.0, b=-3.0: m*x+b, 'deriv': lambda x, m=0.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.5, b=-5.0: m*x+b, 'deriv': lambda x, m=0.5: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_fa_d4_01_v6_fa_motion.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=2.6666666666666665, b=-5.0: m*x+b, 'deriv': lambda x, m=2.6666666666666665: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-2.0, b=9.0: m*x+b, 'deriv': lambda x, m=-2.0: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-0.6666666666666666, b=1.0: m*x+b, 'deriv': lambda x, m=-0.6666666666666666: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_fa_d4_01_v7_fa_motion.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=8.0, b=-5.0: m*x+b, 'deriv': lambda x, m=8.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,1.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=1.0, b=2.0: m*x+b, 'deriv': lambda x, m=1.0: np.zeros_like(x,dtype=float)+m, 'domain': (1.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-8.0, b=20.0: m*x+b, 'deriv': lambda x, m=-8.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,3.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_fa_d4_01_v8_fa_motion.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 4.0, 5.0], x), 'deriv': lambda x: np.polyval([2.0, 4.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(5.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_02_v1_fa_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, 4.5, 4.75], x), 'deriv': lambda x: np.polyval([1.5, 4.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(1.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_02_v2_fa_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, 6.0, 9.0], x), 'deriv': lambda x: np.polyval([3.0, 6.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(4.5), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_02_v3_fa_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, 1.5, 2.75], x), 'deriv': lambda x: np.polyval([1.5, 1.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(3.171875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_02_v4_fa_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.5, 0.0, 1.0], x), 'deriv': lambda x: np.polyval([1.0, 0.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.53125), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_02_v5_fa_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.5, 2.0, 3.0], x), 'deriv': lambda x: np.polyval([1.0, 2.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(1.78125), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_02_v6_fa_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, -6.0, 2.0], x), 'deriv': lambda x: np.polyval([3.0, -6.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(-1.65625), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_02_v7_fa_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, -4.5, 7.75], x), 'deriv': lambda x: np.polyval([1.5, -4.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.171875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_02_v8_fa_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.5, 2.0, 2.0], x), 'deriv': lambda x: np.polyval([1.0, 2.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(0.5), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_03_v1_fa_cross.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, -2.0, 3.0], x), 'deriv': lambda x: np.polyval([2.0, -2.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(4.25), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_03_v2_fa_cross.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, 4.5, 5.75], x), 'deriv': lambda x: np.polyval([1.5, 4.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(1.296875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_03_v3_fa_cross.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, 1.5, 2.75], x), 'deriv': lambda x: np.polyval([1.5, 1.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(4.296875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_03_v4_fa_cross.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, -2.0, -3.0], x), 'deriv': lambda x: np.polyval([2.0, -2.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(-1.75), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_03_v5_fa_cross.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, -6.0, 5.0], x), 'deriv': lambda x: np.polyval([3.0, -6.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(0.5), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_03_v6_fa_cross.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 2.0, -3.0], x), 'deriv': lambda x: np.polyval([2.0, 2.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(-3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_03_v7_fa_cross.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, 4.5, 9.75], x), 'deriv': lambda x: np.polyval([1.5, 4.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(6.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_fa_d4_03_v8_fa_cross.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 0.0, 1.0], x), 'deriv': lambda x: np.polyval([2.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-2.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_fa_d4_04_v1_fa_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([2.0, 0.0, 3.0], x), 'deriv': lambda x: np.polyval([4.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-2.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_fa_d4_04_v2_fa_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([3.0, 0.0, 1.0], x), 'deriv': lambda x: np.polyval([6.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-2.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_fa_d4_04_v3_fa_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 0.0, 2.0], x), 'deriv': lambda x: np.polyval([2.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_fa_d4_04_v4_fa_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([3.0, 0.0, 1.0], x), 'deriv': lambda x: np.polyval([6.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_fa_d4_04_v5_fa_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([3.0, 1.0], x), 'deriv': lambda x: np.polyval([3.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-2.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_fa_d4_04_v6_fa_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([2.0, 2.0], x), 'deriv': lambda x: np.polyval([2.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_fa_d4_04_v7_fa_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([2.0, 0.0, 2.0], x), 'deriv': lambda x: np.polyval([4.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-2.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_fa_d4_04_v8_fa_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=4.5, b=-4.0: m*x+b, 'deriv': lambda x, m=4.5: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-1.5, b=8.0: m*x+b, 'deriv': lambda x, m=-1.5: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.0, b=2.0: m*x+b, 'deriv': lambda x, m=0.0: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_s2_et_a_c01_velocity_graph.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-3.0, b=4.0: m*x+b, 'deriv': lambda x, m=-3.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=2.3333333333333335, b=-12.0: m*x+b, 'deriv': lambda x, m=2.3333333333333335: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=1.0, b=-4.0: m*x+b, 'deriv': lambda x, m=1.0: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_s2_note_yti04_velocity_graph.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-2.3333333333333335, b=4.0: m*x+b, 'deriv': lambda x, m=-2.3333333333333335: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.0, b=-3.0: m*x+b, 'deriv': lambda x, m=0.0: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=2.3333333333333335, b=-17.0: m*x+b, 'deriv': lambda x, m=2.3333333333333335: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_s2_ps1_c04_velocity_graph.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=2.6666666666666665, b=-5.0: m*x+b, 'deriv': lambda x, m=2.6666666666666665: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-0.3333333333333333, b=4.0: m*x+b, 'deriv': lambda x, m=-0.3333333333333333: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.0, b=2.0: m*x+b, 'deriv': lambda x, m=0.0: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_s2_ps2_c03_velocity_graph.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-0.3333333333333333, b=3.0: m*x+b, 'deriv': lambda x, m=-0.3333333333333333: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.0, b=2.0: m*x+b, 'deriv': lambda x, m=0.0: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-1.3333333333333333, b=10.0: m*x+b, 'deriv': lambda x, m=-1.3333333333333333: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_s2_wu2_c01_velocity_graph.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-3.0, b=3.0: m*x+b, 'deriv': lambda x, m=-3.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.5, b=-4.0: m*x+b, 'deriv': lambda x, m=0.5: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=2.0, b=-10.0: m*x+b, 'deriv': lambda x, m=2.0: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_s2_xp_c01_velocity_graph.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.25, 2.5, 1.25], x), 'deriv': lambda x: np.polyval([2.5, 2.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(1.953125), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s3_et_a_c01_bounded_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, -6.0, 6.0], x), 'deriv': lambda x: np.polyval([3.0, -6.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(1.5), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s3_note_yti04_bounded_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 0.0, 0.0], x), 'deriv': lambda x: np.polyval([2.0, 0.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(4.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s3_ps1_c04_bounded_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=0.0, b=5.0: m*x+b, 'deriv': lambda x, m=0.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-1.5, b=8.0: m*x+b, 'deriv': lambda x, m=-1.5: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-2.0, b=10.0: m*x+b, 'deriv': lambda x, m=-2.0: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_s3_ps1_l01_velocity_graph.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.25, 5.0, 4.0], x), 'deriv': lambda x: np.polyval([2.5, 5.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.828125), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s3_ps2_c03_bounded_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 2.0, 0.0], x), 'deriv': lambda x: np.polyval([2.0, 2.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.0625), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s3_wu2_c01_bounded_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, 9.0, 9.5], x), 'deriv': lambda x: np.polyval([3.0, 9.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(-2.5), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s3_xp_c01_bounded_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=2.0, b=-4.0: m*x+b, 'deriv': lambda x, m=2.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,1.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=6.0, b=-8.0: m*x+b, 'deriv': lambda x, m=6.0: np.zeros_like(x,dtype=float)+m, 'domain': (1.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-9.0, b=22.0: m*x+b, 'deriv': lambda x, m=-9.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,3.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_s3_xp_l04_velocity_graph.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.5, 0.0, -3.0], x), 'deriv': lambda x: np.polyval([1.0, 0.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(-1.875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s4_et_a_c01_base_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 0.0, -4.0], x), 'deriv': lambda x: np.polyval([2.0, 0.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(-3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s4_note_yti04_base_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.5, 1.0, -1.5], x), 'deriv': lambda x: np.polyval([1.0, 1.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(0.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s4_ps1_c04_base_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, -4.0, 6.0], x), 'deriv': lambda x: np.polyval([2.0, -4.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(6.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s4_ps1_l01_bounded_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.5, 3.0, 3.5], x), 'deriv': lambda x: np.polyval([1.0, 3.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(-0.21875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s4_ps2_c03_base_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, -6.0, 7.0], x), 'deriv': lambda x: np.polyval([2.0, -6.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(0.25), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s4_wu2_c01_base_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, -4.5, 6.75], x), 'deriv': lambda x: np.polyval([1.5, -4.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(0.75), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s4_xp_c01_base_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.25, 7.5, 14.25], x), 'deriv': lambda x: np.polyval([2.5, 7.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(4.953125), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s4_xp_l04_bounded_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 0.0, 1.0], x), 'deriv': lambda x: np.polyval([2.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-1.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_s5_et_a_c01_rotation_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([2.0, 0.0, 1.0], x), 'deriv': lambda x: np.polyval([4.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(0.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_s5_note_yti04_rotation_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 3.0], x), 'deriv': lambda x: np.polyval([1.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-1.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_s5_ps1_c04_rotation_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.25, -2.5, 3.25], x), 'deriv': lambda x: np.polyval([2.5, -2.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(3.953125), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s5_ps1_l01_base_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 0.0, 2.0], x), 'deriv': lambda x: np.polyval([2.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-2.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_s5_ps2_c03_rotation_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([2.0, 0.0, 4.0], x), 'deriv': lambda x: np.polyval([4.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_s5_wu2_c01_rotation_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([2.0, 3.0], x), 'deriv': lambda x: np.polyval([2.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_s5_xp_c01_rotation_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, 0.0, -1.0], x), 'deriv': lambda x: np.polyval([1.5, 0.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(1.296875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_s5_xp_l04_base_region.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=1.0, b=-4.0: m*x+b, 'deriv': lambda x, m=1.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,1.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=6.0, b=-9.0: m*x+b, 'deriv': lambda x, m=6.0: np.zeros_like(x,dtype=float)+m, 'domain': (1.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-1.0, b=5.0: m*x+b, 'deriv': lambda x, m=-1.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,3.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v1_q07_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=2.3333333333333335, b=-5.0: m*x+b, 'deriv': lambda x, m=2.3333333333333335: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.6666666666666666, b=0.0: m*x+b, 'deriv': lambda x, m=0.6666666666666666: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.0, b=4.0: m*x+b, 'deriv': lambda x, m=0.0: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v1_q08_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, 3.0, -1.0], x), 'deriv': lambda x: np.polyval([1.5, 3.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(-3.25), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v1_q11_sum_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.5, -1.0, 3.5], x), 'deriv': lambda x: np.polyval([1.0, -1.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(5.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v1_q15_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.5, 2.0, 3.0], x), 'deriv': lambda x: np.polyval([1.0, 2.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.53125), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v1_q16_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([2.0, 0.0, 2.0], x), 'deriv': lambda x: np.polyval([4.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-1.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_sum_v1_q20_sum_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=0.5, b=-3.0: m*x+b, 'deriv': lambda x, m=0.5: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=2.0, b=-6.0: m*x+b, 'deriv': lambda x, m=2.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-3.5, b=16.0: m*x+b, 'deriv': lambda x, m=-3.5: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v2_q07_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-1.0, b=4.0: m*x+b, 'deriv': lambda x, m=-1.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,1.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-5.0, b=8.0: m*x+b, 'deriv': lambda x, m=-5.0: np.zeros_like(x,dtype=float)+m, 'domain': (1.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=7.0, b=-16.0: m*x+b, 'deriv': lambda x, m=7.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,3.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v2_q08_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, 6.0, 5.0], x), 'deriv': lambda x: np.polyval([3.0, 6.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(5.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v2_q11_sum_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, 0.0, 3.0], x), 'deriv': lambda x: np.polyval([3.0, 0.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(9.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v2_q15_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, 0.0, 1.0], x), 'deriv': lambda x: np.polyval([3.0, 0.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(5.59375), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v2_q16_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 0.0, 1.0], x), 'deriv': lambda x: np.polyval([2.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_sum_v2_q20_sum_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=3.5, b=-4.0: m*x+b, 'deriv': lambda x, m=3.5: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.5, b=2.0: m*x+b, 'deriv': lambda x, m=0.5: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-4.0, b=20.0: m*x+b, 'deriv': lambda x, m=-4.0: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v3_q07_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-1.0, b=-4.0: m*x+b, 'deriv': lambda x, m=-1.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,1.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=7.0, b=-12.0: m*x+b, 'deriv': lambda x, m=7.0: np.zeros_like(x,dtype=float)+m, 'domain': (1.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-7.0, b=16.0: m*x+b, 'deriv': lambda x, m=-7.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,3.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v3_q08_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, -4.0, 5.0], x), 'deriv': lambda x: np.polyval([2.0, -4.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v3_q11_sum_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.25, -7.5, 9.25], x), 'deriv': lambda x: np.polyval([2.5, -7.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(0.8125), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v3_q15_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.5, -2.0, 3.0], x), 'deriv': lambda x: np.polyval([1.0, -2.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.125), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v3_q16_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([2.0, 0.0, 3.0], x), 'deriv': lambda x: np.polyval([4.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(0.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_sum_v3_q20_sum_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=10.0, b=-5.0: m*x+b, 'deriv': lambda x, m=10.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,1.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-8.0, b=13.0: m*x+b, 'deriv': lambda x, m=-8.0: np.zeros_like(x,dtype=float)+m, 'domain': (1.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=7.0, b=-17.0: m*x+b, 'deriv': lambda x, m=7.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,3.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v4_q07_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=0.3333333333333333, b=4.0: m*x+b, 'deriv': lambda x, m=0.3333333333333333: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-0.6666666666666666, b=7.0: m*x+b, 'deriv': lambda x, m=-0.6666666666666666: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-2.3333333333333335, b=17.0: m*x+b, 'deriv': lambda x, m=-2.3333333333333335: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v4_q08_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, -3.0, -0.5], x), 'deriv': lambda x: np.polyval([3.0, -3.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(1.375), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v4_q11_sum_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, 0.0, 1.0], x), 'deriv': lambda x: np.polyval([1.5, 0.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.6875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v4_q15_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, -4.5, 9.75], x), 'deriv': lambda x: np.polyval([1.5, -4.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(4.6875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v4_q16_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([2.0, 4.0], x), 'deriv': lambda x: np.polyval([2.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-2.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_sum_v4_q20_sum_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-2.6666666666666665, b=5.0: m*x+b, 'deriv': lambda x, m=-2.6666666666666665: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.0, b=-3.0: m*x+b, 'deriv': lambda x, m=0.0: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-0.3333333333333333, b=-1.0: m*x+b, 'deriv': lambda x, m=-0.3333333333333333: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v5_q07_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-0.5, b=4.0: m*x+b, 'deriv': lambda x, m=-0.5: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-0.5, b=4.0: m*x+b, 'deriv': lambda x, m=-0.5: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-2.0, b=10.0: m*x+b, 'deriv': lambda x, m=-2.0: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v5_q08_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, -4.5, 5.75], x), 'deriv': lambda x: np.polyval([1.5, -4.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(1.296875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v5_q11_sum_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, 3.0, 4.5], x), 'deriv': lambda x: np.polyval([3.0, 3.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(4.5), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v5_q15_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, -1.5, -0.25], x), 'deriv': lambda x: np.polyval([1.5, -1.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v5_q16_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 2.0], x), 'deriv': lambda x: np.polyval([1.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-1.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_sum_v5_q20_sum_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=3.0, b=-5.0: m*x+b, 'deriv': lambda x, m=3.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,1.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=4.0, b=-6.0: m*x+b, 'deriv': lambda x, m=4.0: np.zeros_like(x,dtype=float)+m, 'domain': (1.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-6.0, b=14.0: m*x+b, 'deriv': lambda x, m=-6.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,3.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v6_q07_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=1.0, b=-3.0: m*x+b, 'deriv': lambda x, m=1.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,1.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=5.0, b=-7.0: m*x+b, 'deriv': lambda x, m=5.0: np.zeros_like(x,dtype=float)+m, 'domain': (1.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-1.0, b=5.0: m*x+b, 'deriv': lambda x, m=-1.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,3.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v6_q08_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, 3.0, 6.0], x), 'deriv': lambda x: np.polyval([1.5, 3.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(5.296875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v6_q11_sum_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, 6.0, 4.0], x), 'deriv': lambda x: np.polyval([3.0, 6.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.59375), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v6_q15_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, -2.0, 1.0], x), 'deriv': lambda x: np.polyval([2.0, -2.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(4.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v6_q16_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([3.0, 0.0, 4.0], x), 'deriv': lambda x: np.polyval([6.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_sum_v6_q20_sum_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-2.6666666666666665, b=5.0: m*x+b, 'deriv': lambda x, m=-2.6666666666666665: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,3.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.3333333333333333, b=-4.0: m*x+b, 'deriv': lambda x, m=0.3333333333333333: np.zeros_like(x,dtype=float)+m, 'domain': (3.0,6.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-1.0, b=4.0: m*x+b, 'deriv': lambda x, m=-1.0: np.zeros_like(x,dtype=float)+m, 'domain': (6.0,9.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v7_q07_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-3.5, b=4.0: m*x+b, 'deriv': lambda x, m=-3.5: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=3.5, b=-10.0: m*x+b, 'deriv': lambda x, m=3.5: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=-4.0, b=20.0: m*x+b, 'deriv': lambda x, m=-4.0: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v7_q08_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, 4.0, 7.0], x), 'deriv': lambda x: np.polyval([2.0, 4.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(5.25), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v7_q11_sum_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([0.75, -1.5, 2.75], x), 'deriv': lambda x: np.polyval([1.5, -1.5], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(3.171875), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v7_q15_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, 0.0, -4.0], x), 'deriv': lambda x: np.polyval([3.0, 0.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(2.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v7_q16_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([3.0, 0.0, 3.0], x), 'deriv': lambda x: np.polyval([6.0, 0.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(-3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_sum_v7_q20_sum_rotation.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=3.5, b=-5.0: m*x+b, 'deriv': lambda x, m=3.5: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=1.0, b=0.0: m*x+b, 'deriv': lambda x, m=1.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,4.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=0.0, b=4.0: m*x+b, 'deriv': lambda x, m=0.0: np.zeros_like(x,dtype=float)+m, 'domain': (4.0,6.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v8_q07_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_piecewise_graph(ax, [
+    {'expr': lambda x, m=-8.0, b=3.0: m*x+b, 'deriv': lambda x, m=-8.0: np.zeros_like(x,dtype=float)+m, 'domain': (0.0,1.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=1.0, b=-6.0: m*x+b, 'deriv': lambda x, m=1.0: np.zeros_like(x,dtype=float)+m, 'domain': (1.0,2.0), 'include_left': True, 'include_right': False, 'arrow_left': False, 'arrow_right': False},
+    {'expr': lambda x, m=6.0, b=-16.0: m*x+b, 'deriv': lambda x, m=6.0: np.zeros_like(x,dtype=float)+m, 'domain': (2.0,3.0), 'include_left': True, 'include_right': True, 'arrow_left': False, 'arrow_right': False}
+], title='', dot_scale=0)
+save_graph(fig, 'u8_sum_v8_q08_sum_velocity.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.0, -6.0, 8.0], x), 'deriv': lambda x: np.polyval([2.0, -6.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(3.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v8_q11_sum_area.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, 9.0, 16.5], x), 'deriv': lambda x: np.polyval([3.0, 9.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(4.5), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v8_q15_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([1.5, -9.0, 12.5], x), 'deriv': lambda x: np.polyval([3.0, -9.0], x), 'color': 'steelblue', 'label': 'g'},
+    {'expr': lambda x: (0.0)*x+(3.59375), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': 'f'}
+], title='')
+save_graph(fig, 'u8_sum_v8_q16_sum_base.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5, 3.5))
+make_standard_graph(ax, [
+    {'expr': lambda x: np.polyval([2.0, 2.0], x), 'deriv': lambda x: np.polyval([2.0], x), 'color': 'steelblue', 'label': 'f'},
+    {'expr': lambda x: (0.0)*x+(0.0), 'deriv': lambda x: np.zeros_like(x,dtype=float)+(0.0), 'color': 'firebrick', 'label': None}
+], title='')
+save_graph(fig, 'u8_sum_v8_q20_sum_rotation.png')
+plt.close(fig)
