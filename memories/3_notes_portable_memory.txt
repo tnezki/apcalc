@@ -1,0 +1,1821 @@
+GENERIC MATH / SCIENCE NOTES BUILD - PORTABLE MEMORY v1
+======================================================================
+
+PURPOSE
+======================================================================
+
+This portable memory has TWO equal purposes.
+
+PURPOSE 1 - FULL BUILD
+Build a complete unit of student and teacher notes from the approved
+upstream Assessment Plan and canonical Bank.
+
+PURPOSE 2 - MAINTENANCE / REVISION
+Repair, replace, revise, or rebuild one part of an existing notes
+resource with the smallest necessary input, preserve everything the
+user did not ask to change, run the same QA rules, and return the
+complete updated replacement ZIP.
+
+This PM is generic for:
+  COURSE_FAMILY = MATH
+  COURSE_FAMILY = SCIENCE
+
+The same file/folder architecture is used for both course families.
+Instructional content and representation choices branch naturally by
+subject.
+
+This PM assumes the course has already been built in this dependency
+order:
+  Framework -> Assessment Plan -> Bank -> Notes
+
+The Notes build does NOT normally need the Framework again. The
+Assessment Plan and Bank have already inherited the upstream alignment.
+
+IMPORTANT PHILOSOPHY:
+  Build order is not a classroom calendar.
+  Notes are one instructional option in a rich course menu.
+  Do not hard-code a teacher into a fixed Day 1 / Day 2 / Day 3 rhythm.
+
+
+======================================================================
+PART 1 - SOURCE OF TRUTH / REQUIRED INPUTS
+======================================================================
+
+THIS FILE IS THE NOTES BUILD CONTRACT.
+
+If a prior notes PM, saved habit, prior conversation, generic template,
+or another course's workflow conflicts with this file, follow this file.
+
+NORMAL FULL-BUILD INPUTS
+----------------------------------------------------------------------
+
+The user will normally provide:
+
+  1. This PM
+  2. The current authoritative graph_tool.py
+  3. The Unit Assessment Plan
+  4. The Unit Bank package
+
+The Unit Bank package should contain:
+  - unit[#]_bank.html
+  - unit[#]_mapping.csv
+  - generate_graphs.py
+  - figures/
+  - BUILD_REPORT.txt when available
+
+Nothing else is required for a normal build.
+
+Do NOT automatically ask for:
+  - Framework
+  - AP Topic Questions
+  - textbook extracts
+  - old notes packages
+  - CSS files
+  - practice sets
+  - activities
+  - formative or summative packages
+
+Those resources already did their job upstream unless the user
+explicitly supplies them for comparison or asks for a special rebuild.
+
+OPTIONAL SOURCES
+----------------------------------------------------------------------
+
+If the user voluntarily supplies a textbook extract, teacher resource,
+source-image package, or another approved content source, it may be used
+to strengthen explanatory reading only when it does not conflict with
+the Assessment Plan or Bank.
+
+Optional sources never override:
+  1. this PM
+  2. the Assessment Plan
+  3. the canonical Bank / mapping
+
+Do not require optional sources.
+
+SOURCE PRIORITY
+----------------------------------------------------------------------
+
+Highest to lowest:
+
+  1. This Notes PM - workflow, structure, QA, packaging
+  2. Assessment Plan - learning target, I-cans, section scope,
+     vocabulary/notation, representations, misconceptions, modeling
+  3. Bank mapping + Bank HTML - canonical student tasks, order,
+     solutions, destination routing, figures
+  4. Bank figure assets + Bank generation script - approved visuals
+  5. Uploaded authoritative graph_tool.py - graph implementation source
+  6. Optional approved supporting content supplied by the user
+  7. Generic instructional inference only where sources are silent
+
+Do not silently expand the section beyond the Assessment Plan.
+
+
+======================================================================
+PART 2 - READ ORDER / BUILD MEANS BUILD
+======================================================================
+
+READ ORDER - COMPLETE BEFORE WRITING STUDENT HTML
+----------------------------------------------------------------------
+
+1. Read this PM completely.
+2. Read the entire Unit Assessment Plan.
+3. Read unit[#]_mapping.csv completely enough to understand all Notes,
+   Performance/Future Task, and Exit Ticket routing for every section.
+4. Read the complete Notes and Performance/Future Task blocks in the
+   Bank HTML for the unit.
+5. Read the complete Bank items that will be used as the Notes exit
+   ticket under the routing rule in this PM.
+6. Inspect every Bank figure referenced by those items.
+7. Read the Bank generate_graphs.py enough to locate the generation
+   blocks for every reused Notes figure.
+8. Read the uploaded authoritative graph_tool.py completely, including
+   every public function signature and the FINAL append marker.
+9. Complete the private UNIT NOTES PLAN and per-section CONTENT PLAN.
+10. Only then write student HTML.
+11. Run student QA.
+12. Build teacher HTML from the final student HTML.
+13. Run teacher/package QA.
+14. Assemble the exact ZIP.
+
+When the user says BUILD / CREATE / GENERATE / MAKE / COMPLETE NOTES,
+execute the entire workflow. Do not stop after an outline or preview.
+
+The ZIP is the normal endpoint.
+
+
+======================================================================
+PART 3 - COURSE-FAMILY BRANCH
+======================================================================
+
+DETERMINE COURSE FAMILY
+----------------------------------------------------------------------
+
+Prefer an explicit Assessment Plan declaration such as:
+  Course Family: MATH
+  Course Family: SCIENCE
+
+If absent, infer only when the course is obvious. If genuinely
+ambiguous, ask one short clarifying question.
+
+MATH EMPHASIS
+----------------------------------------------------------------------
+
+Math notes should emphasize:
+  - definitions and notation
+  - symbolic structure
+  - representation connections
+  - equations / tables / graphs
+  - worked reasoning
+  - method selection
+  - interpretation
+  - justification
+  - common algebraic/procedural misconceptions
+
+Do not turn the reading into a dry procedure list. Explain why a method,
+representation, theorem condition, or relationship works.
+
+SCIENCE EMPHASIS
+----------------------------------------------------------------------
+
+Science notes should emphasize:
+  - concepts and mechanisms
+  - evidence and models
+  - variables and relationships
+  - diagrams / graphs / tables
+  - observations vs. inferences when relevant
+  - scientific explanation
+  - quantitative relationships only when the Assessment Plan supports
+    them
+  - units, assumptions, and interpretation
+  - common conceptual misconceptions
+
+Do not force unnecessary calculation into conceptual science sections.
+
+VISIBLE NOTES-LABEL BRANCH
+----------------------------------------------------------------------
+
+Use the existing CSS class math-notes for both families.
+
+MATH visible label:
+  Math Notes
+
+SCIENCE visible label:
+  Model Notes
+
+The CSS class name is a legacy presentation class. It does not change
+the subject family.
+
+TITLE IDEA LABEL
+----------------------------------------------------------------------
+
+MATH:
+  Mathematical idea:
+
+SCIENCE:
+  Scientific idea:
+
+
+======================================================================
+PART 4 - READING LEVEL / INSTRUCTIONAL DESIGN
+======================================================================
+
+DEFAULT READING LEVEL
+----------------------------------------------------------------------
+
+Target an approximately 11th-grade reading level unless the user or
+course materials clearly specify a different level.
+
+This does NOT mean making prose artificially dense.
+Use mature, direct academic language with:
+  - correct discipline vocabulary
+  - clear sentences
+  - meaningful transitions
+  - enough explanation to support independent rereading
+  - no unnecessary jargon
+  - no childish simplification
+
+For especially technical AP / advanced courses, preserve the exact
+technical language students must learn.
+
+GENERIC GOLD-STANDARD FLOW
+----------------------------------------------------------------------
+
+Use the Physics-style INTERLEAVED architecture for BOTH Math and Science:
+
+  Learning Target
+      -> Vocabulary
+      -> Preview / skim
+      -> What's To Come future task when the Bank supplies one
+      -> Reading / Instruction Cycle 1
+      -> Stop and Discuss
+      -> Math Notes / Model Notes if needed
+      -> Bank Example 1
+      -> Bank You Try It 1
+      -> Reading / Instruction Cycle 2
+      -> Stop and Discuss
+      -> Notes block if needed
+      -> Bank Example 2
+      -> Bank You Try It 2
+      -> repeat as needed
+      -> Vocabulary Definitions
+      -> Summary
+      -> Common Mistakes
+      -> Exit Ticket
+
+There is NO automatic Stop and Discuss after a You Try It.
+Stop and Discuss belongs to the reading / representation / evidence
+cycle, where students process meaning before application.
+
+NUMBER OF CYCLES
+----------------------------------------------------------------------
+
+The Bank mapping controls the number of Notes Example/YTI pairs.
+
+Use:
+  - 1 cycle if the Bank has 1 pair
+  - 2 cycles if the Bank has 2 pairs
+  - 3 cycles if the Bank has 3 pairs
+  - 4 cycles if the Bank has 4 pairs
+
+Do not invent a fifth pair.
+Do not drop a mapped pair merely to shorten the notes.
+
+If the Bank intentionally has fewer than four pairs, that is valid.
+
+READING DENSITY
+----------------------------------------------------------------------
+
+Each normal instructional cycle should usually contain:
+  - 3 to 5 short paragraphs
+  - about 2 to 5 sentences per paragraph
+  - equations, tables, or approved figures where useful
+  - one clear conceptual focus that prepares students for the paired
+    Bank Example/YTI without solving those tasks for them
+
+This is guidance, not a paragraph quota.
+
+The notes should feel like a coherent instructional text plus guided
+application, not a one-page summary followed by a worksheet.
+
+
+======================================================================
+PART 5 - BANK-FIRST CONTENT RULES - NON-NEGOTIABLE
+======================================================================
+
+THE BANK IS THE CANONICAL SOURCE OF STUDENT TASKS.
+----------------------------------------------------------------------
+
+Downstream Notes do NOT rewrite mapped Bank questions.
+
+The following content is copied from the Bank VERBATIM in student
+meaning, values, choice wording/order, tables, and figure intent:
+
+  - Notes Examples
+  - Notes You Try Its
+  - Future / Performance preview task when used
+  - Notes embedded Exit Ticket academic items
+
+Allowed HTML normalization:
+  - remove Bank-only metadata divs
+  - remove visible Bank IDs
+  - remove solution blocks from student HTML
+  - convert destination-specific wrappers to Notes wrappers
+  - remove a bank-only presentation class such as class="choices" while
+    preserving the exact choices and order
+  - keep table class="values"
+  - preserve figure filename / visual exactly
+
+Do NOT:
+  - paraphrase a Bank prompt
+  - swap numbers
+  - alter answer choice wording or order
+  - change the requested representation
+  - simplify a multi-part prompt
+  - change DOK by adding/removing reasoning requirements
+
+NOTES EXAMPLE / YTI ROUTING
+----------------------------------------------------------------------
+
+Use mapping rows with:
+  destination_group = notes
+
+Expected IDs:
+  U[#]-S[#]-NOTE-EX01
+  U[#]-S[#]-NOTE-YTI01
+  ...
+
+Use destination_slot to preserve exact pair order.
+
+Student HTML:
+  copy the student-facing problem/task only.
+
+Teacher HTML:
+  use the Bank solution / rationale in the workspace immediately after
+  the task.
+
+FUTURE TASK ROUTING
+----------------------------------------------------------------------
+
+If a section has a mapping row such as:
+  destination = performance_future_task
+  destination_group = performance
+
+use the section's first mapped future/performance task, normally PERF01,
+as the What's To Come preview.
+
+Expected ID pattern:
+  U[#]-S[#]-PERF01
+
+The student does NOT solve it here.
+The purpose is long-range annotation and noticing.
+
+If no performance/future task exists for the section:
+  OMIT the entire What's To Come block.
+  Do not invent one in Notes.
+
+ASSESSMENT SECURITY
+----------------------------------------------------------------------
+
+Never pull student-facing content from:
+  - formative assessment destination blocks
+  - summative assessment destination blocks
+  - assessment-only figures
+
+into instructional Notes.
+
+The Bank deliberately created unique assessment items. Preserve that
+separation.
+
+The explanatory reading may teach the concept, but must not reproduce
+or effectively solve a future formative/summative item.
+
+DISCUSSION PROMPTS ARE NOT BANK ITEMS
+----------------------------------------------------------------------
+
+Stop-and-Discuss prompts are instructional processing questions, not
+assessment-bank questions.
+
+They may be authored during the Notes build because their purpose is to
+send students back to the reading, notation, evidence, diagram, or
+representation they just studied.
+
+Keep them concise and discussion-oriented.
+Do not use them as hidden replacement assessment questions.
+
+
+======================================================================
+PART 6 - EXIT TICKET ROUTING FOR NOTES v1
+======================================================================
+
+GENERIC v1 CONVENTION
+----------------------------------------------------------------------
+
+Reserve Exit Ticket A from the Bank as the embedded Notes exit ticket.
+
+Use the four ET-A items for the section, in mapping order:
+  U[#]-S[#]-ET-A-C01
+  U[#]-S[#]-ET-A-C02
+  U[#]-S[#]-ET-A-L01
+  U[#]-S[#]-ET-A-M01
+
+All four are copied verbatim into the four exit-ticket cells.
+
+This keeps the Notes exit ticket entirely Bank-authored and preserves
+the Current / Last / Mastery spiral.
+
+Future generic Exit Ticket PM default:
+  ET-B and ET-C remain available as standalone optional exit tickets.
+
+If this routing convention is intentionally changed later, update BOTH
+this PM and the Exit Ticket PM so the same student item is not casually
+reused in multiple destinations.
+
+Do not invent reflection questions in place of the mapped ET-A items in
+v1.
+
+
+======================================================================
+PART 7 - FIGURES / GRAPH TOOL - BANK FIGURES ARE AUTHORITATIVE
+======================================================================
+
+CORE RULE
+----------------------------------------------------------------------
+
+All student-task figures were created during the Bank build.
+Notes COPY / REUSE approved Bank figures.
+Notes do NOT independently redraw or redesign them.
+
+For every Bank item used in Notes:
+  1. Read figure_files in unit[#]_mapping.csv.
+  2. Confirm the same figure reference appears in the Bank HTML item.
+  3. Copy the exact PNG(s) from Bank figures/ into the section Notes
+     figures/ folder.
+  4. Preserve the filename exactly.
+  5. Preserve neutral / non-answer-revealing captions and alt intent.
+
+Only copy figures needed by the Notes section.
+Do not copy formative/summative-only figures into student Notes.
+
+READING / EXPLANATORY FIGURES
+----------------------------------------------------------------------
+
+A Bank Notes Example/YTI figure may also be referenced in nearby reading
+ONLY when doing so does not reveal the answer to the upcoming task.
+
+Prefer placing the figure with the canonical Bank task itself.
+Use explanatory equations/tables/prose before the task rather than
+showing an answer-revealing version of the figure early.
+
+If a genuinely necessary NEW figure is missing from the Bank:
+  STOP that part of the build.
+  Report the missing figure need as a BANK MAINTENANCE issue.
+  Do not create a Notes-only canonical student figure.
+
+This protects the rule that figures are created upstream during Bank
+construction.
+
+GENERATE_GRAPHS.PY - REQUIRED IN EACH SECTION FOLDER
+----------------------------------------------------------------------
+
+The user's normal Notes package includes the graph tool for
+reproducibility.
+
+Each section folder must contain:
+  generate_graphs.py
+  figures/
+
+generate_graphs.py is constructed as follows:
+
+  1. Copy the currently uploaded authoritative graph_tool.py in full,
+     byte-for-byte.
+  2. Find the FINAL authoritative append marker.
+  3. For each Bank figure reused by this Notes section, locate the exact
+     generation block in the Bank package's generate_graphs.py.
+  4. Append only those exact figure-generation blocks after the FINAL
+     marker of the current graph tool.
+  5. Do not alter graph parameters merely to make the figure look
+     different in Notes.
+  6. Do not add imports, OUTPUT_DIR changes, style overrides, or helper
+     replacements to appended blocks.
+  7. Run the section generate_graphs.py.
+  8. Compare generated filenames with the copied Bank figure filenames.
+  9. The regenerated figures must preserve the Bank visual intent.
+
+If the section uses no Bank-generated figures:
+  - still include generate_graphs.py as a verbatim copy of the uploaded
+    graph_tool.py with no new generation blocks
+  - still include an empty figures/ folder
+
+This packaging rule is intentionally simple and stable.
+
+GRAPH TOOL MISMATCH
+----------------------------------------------------------------------
+
+If the Bank generation block depends on a function not present in the
+currently uploaded graph_tool.py:
+  STOP and report the mismatch.
+Do not patch the tool inside the Notes build.
+
+
+======================================================================
+PART 8 - CSS / HTML CONTRACT
+======================================================================
+
+CSS IS ALREADY DEPLOYED
+----------------------------------------------------------------------
+
+Normal Notes ZIPs do NOT include CSS.
+
+Every student and teacher Notes HTML must link exactly:
+
+  <link rel="stylesheet" href="../../css/base.css"/>
+  <link rel="stylesheet" href="../../css/notes.css"/>
+
+Both paths use ../../ .
+base.css is first.
+notes.css is second.
+
+Never embed a <style> block.
+Do not create a new CSS file for ordinary content changes.
+
+Student HTML should not use inline styles.
+Teacher red/bold support is the normal inline-style exception described
+later.
+
+MATHJAX - EXACT ORDER
+----------------------------------------------------------------------
+
+Use:
+
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+Rules:
+  - config before CDN
+  - cdn.jsdelivr.net only
+  - inline: $...$
+  - display: $$...$$
+  - never use \(...\) or \[...\]
+  - use \lt and \gt inside math instead of raw < and >
+  - do not wrap ordinary prose numbers in math unnecessarily
+
+ALLOWED / EXPECTED CLASSES
+----------------------------------------------------------------------
+
+Use the currently deployed notes.css vocabulary.
+Do not invent new classes during a normal build.
+
+LAYOUT
+  container
+
+TITLE
+  notes-title
+  title-kicker
+  title-main
+  title-sub
+  title-quote
+  title-note
+
+LEARNING TARGET / VOCAB
+  objectives
+  vocab-box
+  vocab-list
+  vocab-note
+
+HEADERS
+  h-target
+  h-vocab
+  h-preview
+  h-intro
+  h-summary
+  h-mistakes
+  h-reflection
+  h-example
+  h-yti
+
+READING / CALLOUTS
+  annotation-box
+  reading-box
+  strategy-box
+  stop-discuss
+  claim-card
+  boxed
+  key-point
+  mistake-box
+
+TABLES
+  values
+  vocab-sort
+  vocab-sort-space
+  preview-notes-table
+  roomy-table
+  observation-inference-table
+  mistake-table
+
+NOTES / REPRESENTATIONS
+  math-notes
+  math-notes-header
+  math-notes-label
+  math-notes-title
+  math-notes-body
+  rep-grid
+  rep-card
+  sketch-cols
+  sketch-cell
+  sketch-cell-label
+
+FIGURES
+  notes-figure
+  wu-img-025 through wu-img-750
+
+WORKSPACE
+  notes-ws
+  ws-ruled
+  ws-label
+  workspace-220
+
+SUMMARY
+  summary-list
+
+EXIT TICKET
+  exit-ticket-label
+  exit-ticket-grid
+  et-cell
+  et-cell-title
+
+An HTML element may have data-source-id without creating a new CSS class.
+
+
+======================================================================
+PART 9 - FILE / FOLDER / ZIP STRUCTURE
+======================================================================
+
+SECTION FOLDER
+----------------------------------------------------------------------
+
+u[unit]_[section]_notes/
+
+Student file:
+  u[unit]_[section]_notes.html
+
+Teacher file:
+  u[unit]_[section]_notes_teacher.html
+
+Graph script:
+  generate_graphs.py
+
+Figure folder:
+  figures/
+
+Example:
+  u3_4_notes/
+    u3_4_notes.html
+    u3_4_notes_teacher.html
+    generate_graphs.py
+    figures/
+
+WHOLE-UNIT ZIP
+----------------------------------------------------------------------
+
+ZIP name:
+  unit[unit]_notes.zip
+
+ZIP root contains the section folders DIRECTLY.
+Do not wrap them in notes/, physics/, math/, course/, or another parent.
+
+Example:
+
+unit1_notes.zip
+  u1_1_notes/
+    u1_1_notes.html
+    u1_1_notes_teacher.html
+    generate_graphs.py
+    figures/
+  u1_2_notes/
+    ...
+  u1_3_notes/
+    ...
+  u1_4_notes/
+    ...
+  u1_5_notes/
+    ...
+
+A science course may have a different number of sections. Build the exact
+sections defined by the Assessment Plan. Do not force five if the course
+structure says otherwise.
+
+No __MACOSX, .DS_Store, AppleDouble, temporary folders, or hidden junk.
+
+
+======================================================================
+PART 10 - FULL PAGE HTML SHELL
+======================================================================
+
+Use this structure for each student file:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Section [UNIT].[SECTION] Notes - [SECTION_TITLE]</title>
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../css/base.css"/>
+<link rel="stylesheet" href="../../css/notes.css"/>
+</head>
+<body>
+<div class="container">
+
+[SECTION CONTENT]
+
+</div>
+</body>
+</html>
+
+
+======================================================================
+PART 11 - REQUIRED SECTION SEQUENCE
+======================================================================
+
+Each section follows this order:
+
+  1. TITLE
+  2. LEARNING TARGET
+  3. VOCABULARY - terms only
+  4. PREVIEW - skim / vocabulary sort / noticed-predict-wonder
+  5. WHAT'S TO COME - only when PERF/future task exists
+  6. CONTENT HEADER
+  7. READING CYCLE 1
+       a. Reading / instruction
+       b. Stop and Discuss + workspace
+       c. Math Notes / Model Notes if needed
+       d. Bank Example 1 + workspace
+       e. Bank You Try It 1 + workspace
+  8. READING CYCLE 2 - same pattern
+  9. READING CYCLE 3 - same pattern if mapped
+ 10. READING CYCLE 4 - same pattern if mapped
+ 11. VOCABULARY DEFINITIONS
+ 12. SUMMARY + summary workspace
+ 13. COMMON MISTAKES
+ 14. EXIT TICKET - ET-A four-item bank ticket
+
+Do not put all reading first and all practice later.
+Do not insert an automatic Stop and Discuss after YTIs.
+
+
+======================================================================
+PART 12 - SECTION TEMPLATES
+======================================================================
+
+TITLE
+----------------------------------------------------------------------
+
+<!-- TITLE -->
+<div class="notes-title">
+  <div class="title-kicker">[COURSE NAME] · Unit [UNIT]: [UNIT TITLE]</div>
+  <div class="title-main">Section [UNIT].[SECTION]<br/>[SECTION TITLE]</div>
+  <div class="title-sub">[ONE-SENTENCE TAGLINE]</div>
+  <div class="title-quote"><p><strong>[Mathematical idea: OR Scientific idea:]</strong> [CORE IDEA]</p></div>
+  <p class="title-note">[ONE OR TWO SENTENCES PREVIEWING WHAT STUDENTS WILL READ, REPRESENT, DISCUSS, AND APPLY]</p>
+</div>
+
+No image on the title page.
+
+LEARNING TARGET
+----------------------------------------------------------------------
+
+<!-- LEARNING TARGET -->
+<h2 class="h-target">Learning Target</h2>
+<div class="objectives">
+  <p><strong>[LEARNING TARGET - copy verbatim]</strong></p>
+  <p><strong>I can statements</strong></p>
+  <ul>
+    [COPY EVERY I-CAN VERBATIM]
+  </ul>
+</div>
+
+Do not paraphrase the Learning Target or I-cans.
+Do not assume exactly three I-cans; use what the Assessment Plan contains.
+
+VOCABULARY - TERMS ONLY
+----------------------------------------------------------------------
+
+<!-- VOCABULARY -->
+<h2 class="h-vocab">Vocabulary</h2>
+<div class="vocab-box">
+  <p>These are words and notation you will see in this section. Do not define them yet.</p>
+  <ul class="vocab-list">
+    [TERMS / NOTATION NAMES]
+  </ul>
+  <p class="vocab-note">Use the preview activity to decide which terms you already know, recognize, or do not know yet. Watch for these terms in <strong>bold</strong> when they are first meaningfully introduced or defined in the reading.</p>
+</div>
+
+Vocabulary source:
+  Assessment Plan Key Vocabulary / Notation first.
+
+Do not pad the list with unrelated terms.
+
+PREVIEW
+----------------------------------------------------------------------
+
+<!-- PREVIEW -->
+<h2 class="h-preview">Preview: Skim Before You Read</h2>
+<div class="strategy-box">
+  <p><strong>Directions</strong></p>
+  <p>Before reading closely, skim the vocabulary list and the section. Look at titles, headings, bold terms, equations, pictures, graphs, tables, diagrams, and other representations. Do not try to understand everything yet. Notice what already looks familiar and make predictions about what the section may explain.</p>
+</div>
+<div class="annotation-box">
+  <p><strong>Step 1 - Sort the vocabulary.</strong> Write each term in the column that best matches what you know right now. You may move a term later.</p>
+  <table class="values vocab-sort">
+    <tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr>
+    <tr class="vocab-sort-space"><td></td><td></td><td></td></tr>
+  </table>
+  <p><strong>Step 2 - Skim the section.</strong> Record what catches your attention before you read closely.</p>
+  <table class="preview-notes-table">
+    <tr><th>What I noticed</th><td></td></tr>
+    <tr><th>What I predict</th><td></td></tr>
+    <tr><th>What I wonder</th><td></td></tr>
+  </table>
+</div>
+
+WHAT'S TO COME - OPTIONAL, BANK DRIVEN
+----------------------------------------------------------------------
+
+Include ONLY if a mapped performance/future task exists.
+
+<!-- WHAT'S TO COME -->
+<h2 class="h-preview">What's To Come</h2>
+<div class="strategy-box">
+  <p><strong>Directions</strong></p>
+  <p>This is a long-range preview for future work. Do not solve it today. Read and annotate it. Mark what you already understand, what looks familiar, and what you think you will need to learn before you can complete the task.</p>
+</div>
+<div class="annotation-box" data-source-id="[PERF BANK ID]">
+  [PERF01 STUDENT-FACING BODY VERBATIM]
+</div>
+<div class="notes-ws ws-ruled"><span class="ws-label">Preview notes / questions</span></div>
+
+Do not reveal the performance-task solution in student Notes.
+
+CONTENT HEADER
+----------------------------------------------------------------------
+
+<!-- CONTENT -->
+<h2 class="h-intro">Content: Read, Look, Annotate, Apply</h2>
+<div class="strategy-box">
+  <p><strong>Directions</strong></p>
+  <p>Read in short chunks. Annotate the prose and the representations together: underline key relationships, circle or highlight new vocabulary, label important features, connect a sentence to an equation, table, graph, model, or diagram, and write brief questions or connections in the margins.</p>
+</div>
+
+READING CYCLE
+----------------------------------------------------------------------
+
+<!-- CONTENT READING [N] -->
+<div class="reading-box">
+  <h3>Reading [N]: [SPECIFIC CONCEPTUAL TITLE]</h3>
+  <p>[3-5 source-grounded / plan-grounded instructional paragraphs.]</p>
+  [ACTUAL equations / table.values / approved Bank figure when useful]
+  <p>[Close by preparing students conceptually for the mapped Example without solving it.]</p>
+</div>
+
+<!-- STOP AND DISCUSS READING [N] -->
+<div class="strategy-box stop-discuss">
+  <p><strong>Stop and Discuss</strong></p>
+  <ol>
+    <li>[QUESTION THAT SENDS STUDENTS BACK TO THE READING / REPRESENTATION]</li>
+    <li>[QUESTION THAT ASKS FOR MEANING / CONNECTION / COMPARISON]</li>
+    [OPTIONAL THIRD INFERENTIAL QUESTION]
+  </ol>
+</div>
+<div class="notes-ws ws-ruled"></div>
+
+Then insert a Notes block only if needed, followed by the canonical Bank
+Example and canonical Bank You Try It.
+
+MATH NOTES / MODEL NOTES
+----------------------------------------------------------------------
+
+Use only when the next application needs a new formula, notation,
+representation convention, theorem condition, modeling relationship, or
+organized way of thinking.
+
+Do not force one before every pair.
+
+<!-- NOTES BLOCK [N] -->
+<div class="math-notes">
+  <div class="math-notes-header">
+    <span class="math-notes-label">[Math Notes OR Model Notes]</span>
+    <span class="math-notes-title">[SPECIFIC CONCEPT]</span>
+  </div>
+  <div class="math-notes-body">
+    [CONCEPT-SPECIFIC EXPLANATION]
+  </div>
+</div>
+
+Notes blocks may contain:
+  MATH:
+    - formal notation
+    - actual MathJax equations
+    - method conditions
+    - representation comparison
+    - table.values
+    - approved Bank figure when appropriate
+
+  SCIENCE:
+    - model relationship
+    - variables / units
+    - conceptual mechanism
+    - evidence table
+    - diagram convention
+    - approved Bank figure when appropriate
+
+Never merely say "look at a graph" if a graph is required.
+Use an actual approved artifact.
+
+Do not create a new canonical graph in Notes.
+
+BANK EXAMPLE
+----------------------------------------------------------------------
+
+<!-- EXAMPLE [N] -->
+<h3 class="h-example" data-source-id="[BANK ID]">Example [N]: [SHORT DESCRIPTIVE TITLE]</h3>
+[BANK STUDENT-FACING BODY VERBATIM]
+<div class="notes-ws ws-ruled"></div>
+
+The title may be a short neutral instructional label inferred from the
+Bank item. Do not put the answer in the title.
+The task body itself is verbatim.
+
+BANK YOU TRY IT
+----------------------------------------------------------------------
+
+<!-- YTI [N] -->
+<h3 class="h-yti" data-source-id="[BANK ID]">You Try It [N]: [SHORT DESCRIPTIVE TITLE]</h3>
+[BANK STUDENT-FACING BODY VERBATIM]
+<div class="notes-ws ws-ruled"></div>
+
+No automatic Stop and Discuss follows the YTI.
+Move into the next reading cycle.
+
+VOCABULARY DEFINITIONS
+----------------------------------------------------------------------
+
+<!-- VOCABULARY DEFINITIONS -->
+<h2 class="h-vocab">Vocabulary: Define the Terms</h2>
+<div class="vocab-box">
+  <p>You have now seen these terms in the reading, representations, and practice. Use this table to consolidate what each term means in this course.</p>
+  <table class="roomy-table">
+    <tr><th>Term / notation</th><th>Definition / meaning</th></tr>
+    [ONE ROW FOR EVERY OPENING VOCABULARY ITEM]
+  </table>
+</div>
+
+Definitions are concise, accurate, and consistent with the Assessment
+Plan and Bank.
+
+SUMMARY
+----------------------------------------------------------------------
+
+<!-- SUMMARY -->
+<h2 class="h-summary">Summary</h2>
+<div class="key-point">
+  <ul class="summary-list">
+    [KEY POINTS DERIVED FROM TARGET / I-CANS / READING / BANK PAIRS]
+  </ul>
+</div>
+<div class="workspace-220"><span class="ws-label">Summary notes / questions / connections</span></div>
+
+Use bullets, not a dense summary essay.
+
+COMMON MISTAKES
+----------------------------------------------------------------------
+
+<!-- COMMON MISTAKES -->
+<h2 class="h-mistakes">Common Mistakes</h2>
+<div class="mistake-box">
+  <table class="mistake-table">
+    <tr><th>Mistake</th><th>Why it is tempting</th><th>Check instead</th></tr>
+    [3-5 SECTION-SPECIFIC ROWS]
+  </table>
+</div>
+
+Assessment Plan misconceptions are the first source.
+Bank solution patterns may reveal additional section-specific failure
+points.
+Do not write generic advice such as "read carefully."
+
+EXIT TICKET
+----------------------------------------------------------------------
+
+<!-- EXIT TICKET -->
+<div class="exit-ticket-label">Exit Ticket</div>
+<div class="exit-ticket-grid">
+  <div class="et-cell" data-source-id="[ET-A-C01 ID]">
+    <div class="et-cell-title">1 - Current</div>
+    [BANK BODY VERBATIM]
+  </div>
+  <div class="et-cell" data-source-id="[ET-A-C02 ID]">
+    <div class="et-cell-title">2 - Current</div>
+    [BANK BODY VERBATIM]
+  </div>
+  <div class="et-cell" data-source-id="[ET-A-L01 ID]">
+    <div class="et-cell-title">3 - Last</div>
+    [BANK BODY VERBATIM]
+  </div>
+  <div class="et-cell" data-source-id="[ET-A-M01 ID]">
+    <div class="et-cell-title">4 - Mastery</div>
+    [BANK BODY VERBATIM]
+  </div>
+</div>
+
+Do not add extra workspace after the exit ticket.
+
+
+======================================================================
+PART 13 - READING CONTENT RULES
+======================================================================
+
+WHAT READING MAY BE AUTHORED FROM
+----------------------------------------------------------------------
+
+Reading is authored from:
+  - exact Assessment Plan Learning Target / I-cans
+  - Key Vocabulary / Notation
+  - Key Representations
+  - Common Misconceptions
+  - Modeling / Application Opportunities
+  - Notes Example/YTI concepts and Bank solutions
+  - approved Notes-item figures
+  - optional user-supplied content sources if provided
+
+The Bank solutions may inform explanatory accuracy, but do not copy a
+solution sentence in a way that gives away the upcoming exact Example or
+YTI.
+
+READING MUST PREPARE, NOT PRE-SOLVE
+----------------------------------------------------------------------
+
+Before each Bank Example/YTI pair, explain the concept or method in a
+different representation, generic case, or neutral example.
+
+Avoid reusing the exact:
+  - numbers
+  - context
+  - table values
+  - graph features
+  - answer choices
+  - final conclusion
+
+from the upcoming Bank item in the reading immediately before it.
+
+The student should still have to solve the Bank task.
+
+VOCABULARY BOLDING
+----------------------------------------------------------------------
+
+Inside instructional reading-box prose:
+  - bold a vocabulary term only at its FIRST meaningful introduction
+    and/or definition
+  - if it appears incidentally earlier, wait until the meaningful intro
+  - do not repeatedly bold it later
+  - do not bold ordinary emphasis in reading prose
+
+The term may be bold again in the final vocabulary definition table.
+
+STOP AND DISCUSS
+----------------------------------------------------------------------
+
+Each reading cycle gets one Stop and Discuss with 2-3 prompts.
+
+At least one prompt should require students to return to:
+  - a sentence
+  - equation
+  - table
+  - graph
+  - diagram
+  - model
+  - comparison
+
+Prompts should mostly be conceptual / interpretive and useful for oral
+or written discourse.
+Do not force DOK labels onto them.
+
+
+======================================================================
+PART 14 - REPRESENTATION RULES
+======================================================================
+
+MATH REPRESENTATIONS
+----------------------------------------------------------------------
+
+When the section naturally uses multiple representations, deliberately
+connect them.
+
+Possible artifacts:
+  - MathJax equation / symbolic rule
+  - table.values
+  - approved Bank graph
+  - verbal interpretation
+  - context sentence
+
+Examples:
+  - function value: equation + table + graph meaning
+  - limit: notation + graph/table behavior
+  - derivative: symbolic notation + slope/rate interpretation
+  - integral: area/accumulation + symbolic notation + units
+  - theorem: hypotheses + conclusion + representation showing why
+    conditions matter
+
+Do not force all four representations into every cycle.
+Use what serves the concept.
+
+SCIENCE REPRESENTATIONS
+----------------------------------------------------------------------
+
+Possible artifacts:
+  - variable / unit table
+  - equation relationship
+  - approved graph
+  - data table
+  - evidence/model diagram
+  - verbal mechanism
+  - observation/inference organization
+
+Use equations as relationships/models first when that fits the course.
+Do not exceed the Assessment Plan's intended quantitative depth.
+
+ANSWER-REVEALING FIGURES
+----------------------------------------------------------------------
+
+Never add labels, captions, annotations, or highlighted features that
+reveal what the student is supposed to identify, classify, infer,
+critique, or calculate.
+
+
+======================================================================
+PART 15 - WORKSPACE / NOTABILITY RULES
+======================================================================
+
+Default student writing space:
+
+  <div class="notes-ws ws-ruled"></div>
+
+Use after:
+  - What's To Come future task preview
+  - every Reading Stop and Discuss
+  - every Example
+  - every You Try It
+
+Summary uses:
+  <div class="workspace-220">...</div>
+
+Do not add generic workspaces after:
+  - Title
+  - Learning Target
+  - Vocabulary list
+  - Preview tables
+  - Math Notes / Model Notes
+  - Vocabulary Definitions
+  - Common Mistakes
+  - Exit Ticket
+
+Do not shrink the deployed CSS workspaces merely to reduce page count.
+
+
+======================================================================
+PART 16 - TEACHER NOTES FILE
+======================================================================
+
+After the student file is final and passes student QA, create:
+
+  u[unit]_[section]_notes_teacher.html
+
+Start by copying the FINAL student HTML.
+Do not independently rewrite the teacher file.
+
+TEACHER SUPPORT LOCATIONS
+----------------------------------------------------------------------
+
+Teacher additions may appear ONLY inside existing:
+  - notes-ws
+  - workspace-220
+  - exit-ticket et-cell, after the student prompt
+
+Do not add new classes or a <style> block.
+
+Use inline teacher-only text such as:
+
+  <p style="color:#c00000;font-weight:700;">Teacher answer: ...</p>
+  <p style="color:#c00000;font-weight:700;">Teaching note: ...</p>
+
+WHAT TO ADD
+----------------------------------------------------------------------
+
+Reading Stop and Discuss workspace:
+  - expected answer / evidence
+  - useful reasoning to listen for
+  - misconception warning
+  - optional follow-up prompt
+
+Example workspace:
+  - Bank worked solution / rationale
+  - useful facilitation note
+
+You Try It workspace:
+  - Bank answer / solution
+  - one brief diagnostic note when helpful
+
+What's To Come workspace:
+  - do NOT fully solve the future task
+  - give facilitation notes about what students may notice now
+  - identify ideas that are intentionally future learning
+
+Summary workspace:
+  - suggested synthesis / connections for teacher reference
+
+Exit Ticket cells:
+  - add the Bank answer / concise rationale in red/bold after the student
+    prompt in teacher HTML only
+
+Do not alter student wording when creating the teacher file.
+
+
+======================================================================
+PART 17 - TRACEABILITY / MACHINE-READABLE SOURCE IDS
+======================================================================
+
+Every Bank-derived student item placed in Notes must retain its Bank ID
+in a non-visible data attribute.
+
+Examples:
+
+  <h3 class="h-example" data-source-id="U3-S4-NOTE-EX02">...</h3>
+
+  <h3 class="h-yti" data-source-id="U3-S4-NOTE-YTI02">...</h3>
+
+  <div class="annotation-box" data-source-id="U3-S4-PERF01">...</div>
+
+  <div class="et-cell" data-source-id="U3-S4-ET-A-C01">...</div>
+
+Do not print the Bank ID as visible student text.
+
+This traceability supports future maintenance:
+  finished Notes -> data-source-id -> mapping -> canonical Bank item
+
+
+======================================================================
+PART 18 - PRIVATE UNIT NOTES PLAN - REQUIRED BEFORE HTML
+======================================================================
+
+Complete privately for the whole unit.
+Do not make the user approve it before building unless there is a real
+blocker.
+
+UNIT NOTES PLAN
+----------------------------------------------------------------------
+
+Course:              [name]
+Course family:       [MATH / SCIENCE]
+Unit:                [number / title]
+Sections:            [exact list from Assessment Plan]
+Reading level:       [default 11th grade unless overridden]
+CSS paths:           ../../css/base.css and ../../css/notes.css
+Bank package:        [identified]
+Mapping file:        [identified]
+Graph tool:          [identified]
+
+For each section:
+
+Section:             [e.g. 1.3]
+Title:               [verbatim]
+Learning Target:     [verbatim]
+I-cans:              [all verbatim]
+Vocabulary:          [Assessment Plan list]
+Key representations: [list]
+Misconceptions:      [list]
+
+Mapped Notes pairs:
+  Pair 1 EX:         [ID] found YES/NO
+  Pair 1 YTI:        [ID] found YES/NO
+  Pair 2 EX:         [ID] found YES/NO
+  Pair 2 YTI:        [ID] found YES/NO
+  ...
+
+Future task:
+  [PERF ID or NONE]
+
+Embedded ET-A:
+  C01:               [ID] found YES/NO
+  C02:               [ID] found YES/NO
+  L01:               [ID] found YES/NO
+  M01:               [ID] found YES/NO
+
+Reading cycle 1:
+  focus:
+  vocabulary first-introduced:
+  artifacts:
+  S&D prompts:
+  Notes block before Example? YES/NO
+
+Repeat for each mapped pair.
+
+Figures needed:
+  [filename -> source Bank ID]
+
+Graph generation blocks located:
+  [filename -> YES/NO]
+
+If any required mapped Bank item is missing:
+  STOP before writing HTML and report the exact missing ID.
+
+
+======================================================================
+PART 19 - QA PASSES
+======================================================================
+
+Run all passes for every section. Fix every FAIL before ZIP assembly.
+
+PASS 1 - SOURCES / ROUTING
+----------------------------------------------------------------------
+
+  PM read completely:                                      YES / NO
+  Entire unit Assessment Plan read:                        YES / NO
+  Bank mapping read for relevant destinations:             YES / NO
+  Required Bank HTML blocks read:                          YES / NO
+  All mapped Notes EX/YTI IDs found:                       YES / NO
+  Future task ID found or correctly omitted:               YES / NO / N/A
+  ET-A four item IDs found:                                YES / NO
+  Required Bank figures inspected:                         YES / NO / N/A
+  Uploaded graph_tool.py read completely:                  YES / NO
+  Content plan completed before HTML:                      YES / NO
+  RESULT: PASS / FAIL
+
+PASS 2 - FILE / HTML / CSS
+----------------------------------------------------------------------
+
+  Correct section folder:                                  YES / NO
+  Correct student filename:                                YES / NO
+  Correct teacher filename:                                YES / NO
+  generate_graphs.py present:                              YES / NO
+  figures/ present:                                        YES / NO
+  MathJax config before CDN:                               YES / NO
+  base.css path = ../../css/base.css:                      YES / NO
+  notes.css path = ../../css/notes.css:                    YES / NO
+  base.css loaded first:                                   YES / NO
+  No student <style> block:                                YES / NO
+  No unapproved student inline style:                      YES / NO
+  No unapproved CSS class:                                 YES / NO
+  RESULT: PASS / FAIL
+
+PASS 3 - TARGET / VOCAB / FLOW
+----------------------------------------------------------------------
+
+  Learning Target copied verbatim:                         YES / NO
+  Every I-can copied verbatim:                             YES / NO
+  Vocabulary immediately follows target:                  YES / NO
+  Opening vocabulary has terms only:                       YES / NO
+  Preview tables present and roomy:                        YES / NO
+  What's To Come matches PERF item or correctly omitted:   YES / NO / N/A
+  Reading / application interleaved:                       YES / NO
+  Cycle count matches Bank Notes pair count:               YES / NO
+  Stop and Discuss after every reading cycle:              YES / NO
+  No automatic S&D after YTI:                              YES / NO
+  Vocabulary bolded only at first meaningful intro:        YES / NO
+  Vocabulary definitions immediately before Summary:      YES / NO
+  RESULT: PASS / FAIL
+
+PASS 4 - BANK VERBATIM / SECURITY
+----------------------------------------------------------------------
+
+  Every Notes Example body matches Bank:                   YES / NO
+  Every Notes YTI body matches Bank:                       YES / NO
+  Example/YTI values unchanged:                            YES / NO
+  MC choice wording/order unchanged:                       YES / NO / N/A
+  Tables unchanged in content:                             YES / NO / N/A
+  Future task body matches Bank:                           YES / NO / N/A
+  ET-A four items match Bank:                              YES / NO
+  No formative/summative item exposed in Notes:            YES / NO
+  No visible Bank IDs in student text:                     YES / NO
+  Every Bank item has data-source-id:                      YES / NO
+  RESULT: PASS / FAIL
+
+PASS 5 - READING / REPRESENTATIONS / DOK HONESTY
+----------------------------------------------------------------------
+
+  Reading aligns to Assessment Plan scope:                 YES / NO
+  Approx. 11th-grade default used appropriately:           YES / NO
+  Reading prepares but does not pre-solve Bank tasks:      YES / NO
+  Actual equations/tables/figures included when needed:    YES / NO / N/A
+  No required representation only talked about abstractly: YES / NO / N/A
+  No answer-revealing figure labels/captions:               YES / NO
+  No forced DOK escalation in discussion prompts:           YES / NO
+  Math/Science branch is appropriate:                      YES / NO
+  RESULT: PASS / FAIL
+
+PASS 6 - FIGURES / GRAPH TOOL
+----------------------------------------------------------------------
+
+  Every student image reference exists in section figures/: YES / NO / N/A
+  Every copied figure came from approved Bank Notes/PERF/ET: YES / NO / N/A
+  No assessment-only figure copied into instructional Notes: YES / NO
+  Bank figure filenames preserved:                          YES / NO / N/A
+  generate_graphs.py starts with current graph_tool verbatim:YES / NO
+  Only exact relevant Bank generation blocks appended:      YES / NO / N/A
+  Blocks appended after FINAL marker:                       YES / NO / N/A
+  No graph-tool source line modified:                       YES / NO
+  generate_graphs.py executes successfully:                 YES / NO / N/A
+  Expected generated filenames exist:                       YES / NO / N/A
+  RESULT: PASS / FAIL
+
+PASS 7 - WORKSPACE / TEACHER / PACKAGE
+----------------------------------------------------------------------
+
+  Workspace after future task when present:                YES / NO / N/A
+  Workspace after every Reading S&D:                       YES / NO
+  Workspace after every Example:                           YES / NO
+  Workspace after every YTI:                               YES / NO
+  No extra workspace after Notes block:                    YES / NO
+  Summary workspace present:                               YES / NO
+  No workspace after Common Mistakes / Exit Ticket:        YES / NO
+  Student file unchanged when teacher file created:        YES / NO
+  Teacher solutions match Bank:                            YES / NO
+  Teacher additions only in allowed locations:             YES / NO
+  Teacher additions red and bold:                          YES / NO
+  ZIP root contains section folders directly:              YES / NO
+  No junk files:                                           YES / NO
+  ZIP integrity check passes:                              YES / NO
+  RESULT: PASS / FAIL
+
+OVERALL:
+  All 7 passes must PASS before delivery.
+
+
+======================================================================
+PART 20 - DELIVERY / QA LOG
+======================================================================
+
+Normal delivery:
+  [Download unit[#]_notes.zip]
+
+Then give a concise QA summary such as:
+
+  QA LOG - Unit [#] Notes
+  Course family: MATH / SCIENCE
+  Sections built: [list]
+  Bank Notes pairs used: [counts]
+  Future tasks used: [IDs or NONE]
+  ET-A routing: PASS
+  Bank figures copied: [count]
+  generate_graphs.py: PASS
+  Student/teacher files: PASS
+  CSS paths: ../../ for both - PASS
+  Overall: PASS
+
+Do not flood the final chat response with the full private content plan.
+
+
+======================================================================
+PART 21 - MAINTENANCE / REVISION MODE - PURPOSE 2
+======================================================================
+
+TRIGGER
+----------------------------------------------------------------------
+
+Use Maintenance / Revision Mode when the user says things such as:
+
+  "I don't like the notes for 3.4. Rebuild them."
+  "Reading 2 is too wordy."
+  "The explanation before Example 3 is confusing."
+  "The graph is too small."
+  "Replace Example 2."
+  "The teacher answer is wrong."
+  "Fix the vocabulary section."
+
+GOAL
+----------------------------------------------------------------------
+
+Make the smallest aligned change, preserve everything unrelated, and
+return a complete replacement package.
+
+Never make the user reconstruct the original build session.
+
+MINIMAL-INPUT RULE
+----------------------------------------------------------------------
+
+Inspect what the user provides FIRST.
+Ask only for genuinely missing authoritative sources.
+
+If the user provides an existing Notes ZIP, recover from it:
+  - section number/title
+  - Learning Target / I-cans
+  - data-source-id Bank IDs
+  - figure filenames
+  - student/teacher structure
+  - current wording/layout
+
+Then determine what else is actually necessary.
+
+REVISION CLASSIFICATION
+----------------------------------------------------------------------
+
+A. NOTES-LEVEL REVISION
+Examples:
+  - reading wording
+  - paragraph density
+  - vocabulary explanation
+  - Stop and Discuss prompt
+  - Math Notes / Model Notes explanation
+  - Summary
+  - Common Mistakes
+  - teacher facilitation note
+  - figure placement / width class only
+
+These can normally be revised in the Notes package without changing the
+Bank, provided the Learning Target and mapped canonical tasks remain
+unchanged.
+
+B. BANK-DERIVED CONTENT REVISION
+Examples:
+  - replace Example 2 question
+  - change You Try It 3 numbers
+  - change ET-A question
+  - alter future PERF task
+  - alter a canonical Bank figure itself
+
+Do NOT silently edit the Notes copy.
+The canonical Bank must change first.
+
+If the current Bank package + Bank PM are available, revise the Bank
+first, then propagate the revised item verbatim into Notes.
+
+If they are not available, ask only for the current unit Bank package
+and the Bank PM needed to make the canonical change.
+
+C. ASSESSMENT-PLAN ALIGNMENT REVISION
+Examples:
+  - Learning Target is wrong
+  - I-can changed
+  - section scope changed
+
+Ask for the current Assessment Plan if it is not already available.
+Do not invent a new target inside Notes.
+
+D. PRESENTATION-ONLY FIGURE REVISION
+Examples:
+  - figure should be wider/narrower
+  - move figure closer to related paragraph
+
+If the underlying canonical figure is unchanged, this is a Notes-level
+revision. Change only the HTML placement/approved wu-img width class.
+
+Do not redraw the figure.
+
+MAINTENANCE WORKFLOW
+----------------------------------------------------------------------
+
+1. INSPECT
+   Open the existing Notes package completely enough to locate the
+   requested section/block and its dependencies.
+
+2. TRACE
+   For any Bank-derived item, read data-source-id and trace it through
+   mapping to the canonical Bank item.
+
+3. CLASSIFY
+   Decide A / B / C / D above.
+
+4. PRESERVE
+   Keep all unrelated sections and unrelated blocks unchanged.
+   When practical, preserve untouched files byte-for-byte.
+
+5. REVISE
+   Make the smallest authoritative change.
+
+6. PROPAGATE
+   If a Bank item changed, update every supplied Notes occurrence of that
+   Bank ID verbatim.
+
+7. TEACHER SYNC
+   Update teacher support wherever the changed student content affects
+   an answer, rationale, misconception note, or follow-up.
+
+8. FIGURE SYNC
+   Copy/regenerate only affected figures. Do not regenerate unrelated
+   figures merely because the ZIP is being rebuilt.
+
+9. QA
+   Run the relevant full-build passes plus complete package integrity.
+
+10. DELIVER
+   Return a complete replacement ZIP, not a loose HTML snippet.
+
+DELIVERY SCOPE
+----------------------------------------------------------------------
+
+If the user gave a whole-unit Notes ZIP:
+  return the whole updated unit ZIP unless they explicitly request only
+  a section patch.
+
+If the user gave only one section package:
+  return u[unit]_[section]_notes.zip.
+
+Briefly report:
+  - section/block changed
+  - Bank IDs changed, if any
+  - whether Bank maintenance was required
+  - affected figure(s), if any
+  - QA result
+
+
+======================================================================
+PART 22 - COMMON FAILURE MODES - DO NOT DO THESE
+======================================================================
+
+1. Asking for the Framework during a normal Notes build.
+2. Asking for AP Topic Questions during a normal Notes build.
+3. Rewriting a canonical Bank Example or You Try It.
+4. Swapping Bank numbers "to make it different."
+5. Changing MC answer order from the Bank.
+6. Pulling formative/summative items into Notes.
+7. Creating a new student graph in Notes instead of fixing the Bank.
+8. Redrawing an approved Bank figure independently.
+9. Using the first graph-tool append marker instead of the FINAL marker.
+10. Modifying graph_tool.py source lines.
+11. Copying every Bank figure into every Notes section.
+12. Making reading so explicit that it solves the upcoming Bank task.
+13. Writing only a short intro and then dumping four pairs at the end.
+14. Adding Stop and Discuss after every YTI by habit.
+15. Forcing a Notes block before every pair.
+16. Paraphrasing Learning Targets or I-cans.
+17. Putting definitions in the opening vocabulary list.
+18. Bolding every occurrence of vocabulary.
+19. Bolding ordinary emphasis throughout reading prose.
+20. Omitting the final Vocabulary Definitions table.
+21. Writing generic Common Mistakes.
+22. Using DOK labels as quotas inside Notes.
+23. Forcing DOK 3/4 discussion questions where they are unnatural.
+24. Embedding CSS or creating a new notes.css for content changes.
+25. Using the wrong CSS path. BOTH are ../../css/...
+26. Loading notes.css before base.css.
+27. Using wrong MathJax delimiters.
+28. Omitting figures/ because a section happens to have no figure.
+29. Omitting generate_graphs.py from a normal unit Notes package.
+30. Adding teacher answers to the student file.
+31. Rebuilding the teacher file independently instead of copying the
+    final student file.
+32. Editing a Bank-derived question during Notes maintenance without
+    updating the canonical Bank first.
+33. Making the user re-upload every upstream source for a small repair.
+34. Returning only a fragment when the user asked for a replacement ZIP.
+35. Wrapping the unit ZIP in an extra notes/ or course/ directory.
+36. Shipping __MACOSX, .DS_Store, or temporary build files.
+
+
+======================================================================
+PART 23 - COMMENTED GOLD-STANDARD FLOW REFERENCE
+======================================================================
+
+This skeleton shows FLOW only. It is not course content.
+Do not copy placeholder subject matter.
+
+<!-- TITLE -->
+<div class="notes-title">
+  <div class="title-kicker">[COURSE] · Unit [U]: [UNIT TITLE]</div>
+  <div class="title-main">Section [U].[S]<br/>[SECTION TITLE]</div>
+  <div class="title-sub">[TAGLINE]</div>
+  <div class="title-quote"><p><strong>[Mathematical idea: / Scientific idea:]</strong> [CORE IDEA]</p></div>
+  <p class="title-note">[PREVIEW]</p>
+</div>
+
+<!-- LEARNING TARGET -->
+<h2 class="h-target">Learning Target</h2>
+<div class="objectives">
+  <p><strong>[VERBATIM TARGET]</strong></p>
+  <p><strong>I can statements</strong></p>
+  <ul>
+    <li>[VERBATIM I-CAN]</li>
+  </ul>
+</div>
+
+<!-- VOCABULARY -->
+<h2 class="h-vocab">Vocabulary</h2>
+<div class="vocab-box">
+  <p>These are words and notation you will see in this section. Do not define them yet.</p>
+  <ul class="vocab-list"><li>[TERM]</li></ul>
+  <p class="vocab-note">Use the preview activity to decide which terms you already know, recognize, or do not know yet. Watch for these terms in <strong>bold</strong> when they are first meaningfully introduced or defined in the reading.</p>
+</div>
+
+<!-- PREVIEW -->
+<h2 class="h-preview">Preview: Skim Before You Read</h2>
+<div class="strategy-box">
+  <p><strong>Directions</strong></p>
+  <p>[SKIM DIRECTIONS]</p>
+</div>
+<div class="annotation-box">
+  <table class="values vocab-sort">
+    <tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr>
+    <tr class="vocab-sort-space"><td></td><td></td><td></td></tr>
+  </table>
+  <table class="preview-notes-table">
+    <tr><th>What I noticed</th><td></td></tr>
+    <tr><th>What I predict</th><td></td></tr>
+    <tr><th>What I wonder</th><td></td></tr>
+  </table>
+</div>
+
+<!-- WHAT'S TO COME - only if PERF exists -->
+<h2 class="h-preview">What's To Come</h2>
+<div class="annotation-box" data-source-id="U#-S#-PERF01">
+  [BANK PERFORMANCE BODY VERBATIM]
+</div>
+<div class="notes-ws ws-ruled"><span class="ws-label">Preview notes / questions</span></div>
+
+<!-- CONTENT -->
+<h2 class="h-intro">Content: Read, Look, Annotate, Apply</h2>
+<div class="strategy-box"><p><strong>Directions</strong></p><p>[DIRECTIONS]</p></div>
+
+<!-- CONTENT READING 1 -->
+<div class="reading-box">
+  <h3>Reading 1: [CONCEPT]</h3>
+  <p>[READING WITH FIRST MEANINGFUL <strong>VOCAB</strong> INTRO.]</p>
+  <p>[REPRESENTATION / REASONING.]</p>
+  [EQUATION / TABLE / APPROVED BANK FIGURE IF USEFUL]
+  <p>[PREPARE FOR EXAMPLE WITHOUT SOLVING IT.]</p>
+</div>
+
+<!-- STOP AND DISCUSS READING 1 -->
+<div class="strategy-box stop-discuss">
+  <p><strong>Stop and Discuss</strong></p>
+  <ol><li>[EVIDENCE / MEANING QUESTION]</li><li>[CONNECTION QUESTION]</li></ol>
+</div>
+<div class="notes-ws ws-ruled"></div>
+
+<!-- NOTES BLOCK 1 - only if needed -->
+<div class="math-notes">
+  <div class="math-notes-header">
+    <span class="math-notes-label">[Math Notes / Model Notes]</span>
+    <span class="math-notes-title">[CONCEPT]</span>
+  </div>
+  <div class="math-notes-body">[ACTUAL CONTENT / ARTIFACTS]</div>
+</div>
+
+<!-- EXAMPLE 1 -->
+<h3 class="h-example" data-source-id="U#-S#-NOTE-EX01">Example 1: [TITLE]</h3>
+[BANK BODY VERBATIM]
+<div class="notes-ws ws-ruled"></div>
+
+<!-- YTI 1 -->
+<h3 class="h-yti" data-source-id="U#-S#-NOTE-YTI01">You Try It 1: [TITLE]</h3>
+[BANK BODY VERBATIM]
+<div class="notes-ws ws-ruled"></div>
+
+<!-- NO AUTOMATIC S&D HERE -->
+
+<!-- CONTENT READING 2 -->
+<div class="reading-box">[NEXT CONCEPTUAL CHUNK]</div>
+
+<!-- STOP AND DISCUSS READING 2 -->
+<div class="strategy-box stop-discuss">[PROMPTS]</div>
+<div class="notes-ws ws-ruled"></div>
+
+<!-- EXAMPLE 2 / YTI 2 -->
+[CONTINUE MAPPED PAIRS]
+
+<!-- VOCABULARY DEFINITIONS -->
+<h2 class="h-vocab">Vocabulary: Define the Terms</h2>
+<div class="vocab-box">
+  <table class="roomy-table">
+    <tr><th>Term / notation</th><th>Definition / meaning</th></tr>
+    <tr><td><strong>[TERM]</strong></td><td>[DEFINITION]</td></tr>
+  </table>
+</div>
+
+<!-- SUMMARY -->
+<h2 class="h-summary">Summary</h2>
+<div class="key-point"><ul class="summary-list"><li>[KEY POINT]</li></ul></div>
+<div class="workspace-220"><span class="ws-label">Summary notes / questions / connections</span></div>
+
+<!-- COMMON MISTAKES -->
+<h2 class="h-mistakes">Common Mistakes</h2>
+<div class="mistake-box">
+  <table class="mistake-table">
+    <tr><th>Mistake</th><th>Why it is tempting</th><th>Check instead</th></tr>
+    <tr><td>[MISTAKE]</td><td>[WHY]</td><td>[CHECK]</td></tr>
+  </table>
+</div>
+
+<!-- EXIT TICKET -->
+<div class="exit-ticket-label">Exit Ticket</div>
+<div class="exit-ticket-grid">
+  <div class="et-cell" data-source-id="U#-S#-ET-A-C01"><div class="et-cell-title">1 - Current</div>[BANK ITEM]</div>
+  <div class="et-cell" data-source-id="U#-S#-ET-A-C02"><div class="et-cell-title">2 - Current</div>[BANK ITEM]</div>
+  <div class="et-cell" data-source-id="U#-S#-ET-A-L01"><div class="et-cell-title">3 - Last</div>[BANK ITEM]</div>
+  <div class="et-cell" data-source-id="U#-S#-ET-A-M01"><div class="et-cell-title">4 - Mastery</div>[BANK ITEM]</div>
+</div>
+
+END OF PORTABLE MEMORY v1
