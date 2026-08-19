@@ -1,0 +1,18 @@
+First continuity condition at $x=a$, $f(a)$ exists
+Second continuity condition, the two-sided limit exists
+Third continuity condition, limit equals $f(a)$
+Finite hole that can be repaired, removable discontinuity
+Unequal finite one-sided limits, jump discontinuity
+Unbounded behavior near a point, infinite discontinuity
+Polynomials are continuous on, all real numbers
+Rational functions are continuous where, denominator is nonzero
+To repair a removable hole set $f(a)$ equal to, the limit
+Equal one-sided limits but wrong point value, removable
+Different one-sided limits, jump
+Continuity equation, $\lim_{x\to a}f(x)=f(a)$
+A piecewise boundary requires checking, both sides
+Interval notation excluding $a$ uses, two intervals
+A defined point alone proves continuity, false because the limit conditions are also required
+A finite limit alone proves continuity, false because it must also equal the function value
+A continuous composite uses, continuous component functions
+Continuity is a property comparing limit and, function value

@@ -1,0 +1,18 @@
+$\lim_{x\to2^+}\frac1{x-2}$, $+\infty$
+$\lim_{x\to2^-}\frac1{x-2}$, $-\infty$
+Vertical asymptote of $1/(x-3)$, $x=3$
+Horizontal asymptote of $2+1/x$, $y=2$
+Degree numerator less than denominator gives end limit, $0$ end limit
+Equal degrees give end limit, ratio of leading coefficients
+IVT requires continuity on, closed interval
+IVT target value must lie, between endpoint values
+A horizontal asymptote may be crossed, yes
+Infinity is a real function value, no
+$\lim_{x\to\infty}1/x, $0$ from positive infinity
+$\lim_{x\to-\infty}1/x, $0$ from negative infinity
+Theorem guaranteeing an intermediate output, Intermediate Value Theorem
+IVT guarantees at least one, input with target output
+Different signs at endpoints plus continuity can guarantee, a zero
+A jump breaks the needed IVT, continuity hypothesis
+Infinite one-sided limits describe, unbounded behavior
+Limits at infinity describe, end behavior

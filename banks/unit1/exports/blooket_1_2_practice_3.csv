@@ -1,0 +1,103 @@
+"Blooket
+Import Template",,,,,,,
+Question #,Question Text,Answer 1,Answer 2,Answer 3 (Optional),Answer 4 (Optional),Time Limit (sec) (Max: 300 seconds),Correct Answer(s) (Only include Answer #)
+1,Which notation means approach 3 from the left?,x -> 3^-,x -> 3^+,x = 3,f(x) -> 3,45,1
+2,Left limit is 4 and right limit is 4. What is the two-sided limit?,DNE,4,5,-4,45,2
+3,Left limit is 6 and right limit is 8. What is the two-sided limit?,6,8,DNE,14,45,3
+4,"If f(1) is undefined but nearby values approach 8, does the missing value alone force the limit to DNE?",Yes,Only from the left,Only for tables,No,45,4
+5,A table samples only x-values greater than 2 and close to 2. Which limit does it estimate?,Right-hand limit,Left-hand limit,Function value only,Average rate,45,1
+6,Which notation means approach 4 from the left?,x -> 4^+,x -> 4^-,x = 4,f(x) -> 4,45,2
+7,Left limit is 2 and right limit is 2. What is the two-sided limit?,DNE,3,2,-2,45,3
+8,Left limit is 4 and right limit is 6. What is the two-sided limit?,4,6,10,DNE,45,4
+9,"If f(2) is undefined but nearby values approach 6, does the missing value alone force the limit to DNE?",No,Yes,Only from the left,Only for tables,45,1
+10,A table samples only x-values greater than 3 and close to 3. Which limit does it estimate?,Left-hand limit,Right-hand limit,Function value only,Average rate,45,2
+11,Which notation means approach 5 from the left?,x -> 5^+,x = 5,x -> 5^-,f(x) -> 5,45,3
+12,Left limit is 7 and right limit is 7. What is the two-sided limit?,DNE,8,-7,7,45,4
+13,Left limit is 2 and right limit is 4. What is the two-sided limit?,DNE,2,4,6,45,1
+14,"If f(3) is undefined but nearby values approach 4, does the missing value alone force the limit to DNE?",Yes,No,Only from the left,Only for tables,45,2
+15,A table samples only x-values greater than 4 and close to 4. Which limit does it estimate?,Left-hand limit,Function value only,Right-hand limit,Average rate,45,3
+16,Which notation means approach 1 from the left?,x -> 1^+,x = 1,f(x) -> 1,x -> 1^-,45,4
+17,Left limit is 5 and right limit is 5. What is the two-sided limit?,5,DNE,6,-5,45,1
+18,Left limit is 7 and right limit is 9. What is the two-sided limit?,7,DNE,9,16,45,2
+19,"If f(4) is undefined but nearby values approach 2, does the missing value alone force the limit to DNE?",Yes,Only from the left,No,Only for tables,45,3
+20,A table samples only x-values greater than 5 and close to 5. Which limit does it estimate?,Left-hand limit,Function value only,Average rate,Right-hand limit,45,4
+21,,,,,,,
+22,,,,,,,
+23,,,,,,,
+24,,,,,,,
+25,,,,,,,
+26,,,,,,,
+27,,,,,,,
+28,,,,,,,
+29,,,,,,,
+30,,,,,,,
+31,,,,,,,
+32,,,,,,,
+33,,,,,,,
+34,,,,,,,
+35,,,,,,,
+36,,,,,,,
+37,,,,,,,
+38,,,,,,,
+39,,,,,,,
+40,,,,,,,
+41,,,,,,,
+42,,,,,,,
+43,,,,,,,
+44,,,,,,,
+45,,,,,,,
+46,,,,,,,
+47,,,,,,,
+48,,,,,,,
+49,,,,,,,
+50,,,,,,,
+51,,,,,,,
+52,,,,,,,
+53,,,,,,,
+54,,,,,,,
+55,,,,,,,
+56,,,,,,,
+57,,,,,,,
+58,,,,,,,
+59,,,,,,,
+60,,,,,,,
+61,,,,,,,
+62,,,,,,,
+63,,,,,,,
+64,,,,,,,
+65,,,,,,,
+66,,,,,,,
+67,,,,,,,
+68,,,,,,,
+69,,,,,,,
+70,,,,,,,
+71,,,,,,,
+72,,,,,,,
+73,,,,,,,
+74,,,,,,,
+75,,,,,,,
+76,,,,,,,
+77,,,,,,,
+78,,,,,,,
+79,,,,,,,
+80,,,,,,,
+81,,,,,,,
+82,,,,,,,
+83,,,,,,,
+84,,,,,,,
+85,,,,,,,
+86,,,,,,,
+87,,,,,,,
+88,,,,,,,
+89,,,,,,,
+90,,,,,,,
+91,,,,,,,
+92,,,,,,,
+93,,,,,,,
+94,,,,,,,
+95,,,,,,,
+96,,,,,,,
+97,,,,,,,
+98,,,,,,,
+99,,,,,,,
+100,,,,,,,

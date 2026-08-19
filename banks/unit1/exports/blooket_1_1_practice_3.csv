@@ -1,0 +1,103 @@
+"Blooket
+Import Template",,,,,,,
+Question #,Question Text,Answer 1,Answer 2,Answer 3 (Optional),Answer 4 (Optional),Time Limit (sec) (Max: 300 seconds),Correct Answer(s) (Only include Answer #)
+1,What does x -> 5 describe in a limit?,The input approaches 5,The output equals 5,The function is undefined,The graph stops at 5,45,1
+2,"If values of f(x) approach 5 as x approaches 1, what is the limit?",6,5,1,DNE,45,2
+3,A slope computed between two distinct points is which kind of rate?,Instantaneous rate of change,Function value,Average rate of change,Limit notation,45,3
+4,"If f(3) is undefined but nearby values approach 2, what may still exist?",Only the function value,No mathematical object,A vertical asymptote must exist,The limit,45,4
+5,Secant intervals around x=4 shrink toward one point. Their slopes estimate what?,Instantaneous change,Domain,Range only,A y-intercept,45,1
+6,What does x -> 1 describe in a limit?,The output equals 1,The input approaches 1,The function is undefined,The graph stops at 1,45,2
+7,"If values of f(x) approach 3 as x approaches 2, what is the limit?",4,2,3,DNE,45,3
+8,A trip covers 120 miles in 2 hours. The 60 mph value is which kind of rate?,Instantaneous rate of change,Function value,Limit notation,Average rate of change,45,4
+9,"If f(4) is undefined but nearby values approach 7, what may still exist?",The limit,Only the function value,No mathematical object,A vertical asymptote must exist,45,1
+10,Average velocities over shorter intervals near t=5 approach 2. What local idea is being estimated?,Domain,Instantaneous change,Range only,A y-intercept,45,2
+11,What does x -> 2 describe in a limit?,The output equals 2,The function is undefined,The input approaches 2,The graph stops at 2,45,3
+12,"If values of f(x) approach 8 as x approaches 3, what is the limit?",9,3,DNE,8,45,4
+13,"The difference quotient over [4,6] represents which kind of rate?",Average rate of change,Instantaneous rate of change,Function value,Limit notation,45,1
+14,"If f(5) is undefined but nearby values approach 5, what may still exist?",Only the function value,The limit,No mathematical object,A vertical asymptote must exist,45,2
+15,Secant slopes converging near a single input approximate which kind of change?,Domain,Range only,Instantaneous change,A y-intercept,45,3
+16,What does x -> 3 describe in a limit?,The output equals 3,The function is undefined,The graph stops at 3,The input approaches 3,45,4
+17,"If values of f(x) approach 6 as x approaches 4, what is the limit?",6,7,4,DNE,45,1
+18,Change in output divided by change in input over a finite interval is what?,Instantaneous rate of change,Average rate of change,Function value,Limit notation,45,2
+19,"If f(1) is undefined but nearby values approach 3, what may still exist?",Only the function value,No mathematical object,The limit,A vertical asymptote must exist,45,3
+20,Shrinking time intervals are used to estimate which rate?,Domain,Range only,A y-intercept,Instantaneous change,45,4
+21,,,,,,,
+22,,,,,,,
+23,,,,,,,
+24,,,,,,,
+25,,,,,,,
+26,,,,,,,
+27,,,,,,,
+28,,,,,,,
+29,,,,,,,
+30,,,,,,,
+31,,,,,,,
+32,,,,,,,
+33,,,,,,,
+34,,,,,,,
+35,,,,,,,
+36,,,,,,,
+37,,,,,,,
+38,,,,,,,
+39,,,,,,,
+40,,,,,,,
+41,,,,,,,
+42,,,,,,,
+43,,,,,,,
+44,,,,,,,
+45,,,,,,,
+46,,,,,,,
+47,,,,,,,
+48,,,,,,,
+49,,,,,,,
+50,,,,,,,
+51,,,,,,,
+52,,,,,,,
+53,,,,,,,
+54,,,,,,,
+55,,,,,,,
+56,,,,,,,
+57,,,,,,,
+58,,,,,,,
+59,,,,,,,
+60,,,,,,,
+61,,,,,,,
+62,,,,,,,
+63,,,,,,,
+64,,,,,,,
+65,,,,,,,
+66,,,,,,,
+67,,,,,,,
+68,,,,,,,
+69,,,,,,,
+70,,,,,,,
+71,,,,,,,
+72,,,,,,,
+73,,,,,,,
+74,,,,,,,
+75,,,,,,,
+76,,,,,,,
+77,,,,,,,
+78,,,,,,,
+79,,,,,,,
+80,,,,,,,
+81,,,,,,,
+82,,,,,,,
+83,,,,,,,
+84,,,,,,,
+85,,,,,,,
+86,,,,,,,
+87,,,,,,,
+88,,,,,,,
+89,,,,,,,
+90,,,,,,,
+91,,,,,,,
+92,,,,,,,
+93,,,,,,,
+94,,,,,,,
+95,,,,,,,
+96,,,,,,,
+97,,,,,,,
+98,,,,,,,
+99,,,,,,,
+100,,,,,,,

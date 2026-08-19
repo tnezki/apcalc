@@ -1,0 +1,18 @@
+$x\to4^-$, approach 4 from the left
+$x\to4^+$, approach 4 from the right
+Equal finite one-sided limits imply, two-sided limit exists
+Unequal one-sided limits imply, two-sided limit DNE
+Undefined function value automatically makes limit DNE, false
+Table entries below the target estimate, left-hand limit
+Table entries above the target estimate, right-hand limit
+DNE abbreviation, does not exist
+$\lim_{x\to2^-}f(x)=3$ gives left value, $3$
+$\lim_{x\to2^+}f(x)=5$ gives right value, $5$
+Left $=6$ and right $=6$ gives two-sided, $6$
+Left $=1$ and right $=-1$ gives two-sided, DNE at that point
+Graph hole with same approach both sides, finite limit can exist
+Calculator table should sample, both sides
+Coarse table evidence should be improved by, closer inputs
+Two-sided limit depends on, both one-sided limits
+Superscript minus on approach point means, from the left
+Superscript plus on approach point means, from the right

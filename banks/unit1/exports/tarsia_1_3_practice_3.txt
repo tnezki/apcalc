@@ -1,0 +1,18 @@
+$\lim_{x\to2}(x^2+1)$, $5$
+$\lim_{x\to3}\frac{x^2-9}{x-3}$, $6$
+$\lim_{x\to0}\frac{\sin x}{x}$, $1$
+$\lim_{x\to0}\frac{\sin 4x}{x}$, $4$
+Natural method for a polynomial limit, direct substitution into the polynomial
+Natural method for $0/0$ difference of squares, factoring
+Natural method for radical $0/0$, conjugate
+The form $0/0$ is, indeterminate
+$\frac{x^2-16}{x-4}$ near $x=4$ simplifies to, $x+4$
+$\lim_{x\to0}x^2\sin(1/x)$, $0$
+The theorem for bounded oscillation between matching limits, Squeeze Theorem
+Cancelling a factor is valid for nearby, $x\ne a$
+$\lim_{x\to0}\frac{\tan x}{x}$, $1$ by trig-limit reasoning
+$\lim_{x\to0}\frac{\sin 3x}{6x}$, $\frac12$
+Limit law for a sum, sum of limits
+A nonzero denominator at the point supports, substitute directly
+After factoring $x^2-a^2$, $(x-a)(x+a)$
+A valid limit solution should end with, evaluated limiting value

@@ -1,0 +1,278 @@
+UNIT 1 BANK BUILD REPORT
+========================
+
+PM family: AP/SCI BANK BUILD — PORTABLE MEMORY v4
+Course: AP Calculus AB
+Unit: 1 — Limits and Continuity
+Canonical ZIP target: unit1_bank.zip
+Canonical ZIP root: unit1/
+Deployed HTML path: COURSE_ROOT/banks/unit1/unit1.html
+
+SOURCE / SCOPE BASIS
+--------------------
+Required sources fully read before canonical item authoring:
+  - ap_sci_3_bank_portable_memory_v1(2).txt
+  - ~Framework_AP_Calc(2).docx
+  - unit1_assessment_plan/unit1_assessment_plan.html from assessment_plans_AP_Calc(2).zip
+  - ~graph_tool_v12(20260819-062319).py
+Optional reference source reviewed: Unit_1_AP_Topics(5).zip AP scoring-guide/topic PDFs.
+Optional AP topic PDFs were used only as style/rigor/scoring-language references; protected prompt wording was not copied into the Bank.
+Legacy formative-by-DOK architecture was not manufactured.
+
+Sections:
+  - 1.1 What Is a Limit? — AP Topics 1.1, 1.2
+  - 1.2 Limits from Graphs and Tables — AP Topics 1.3, 1.4, 1.9
+  - 1.3 Algebraic Limits — AP Topics 1.5, 1.6, 1.7, 1.8
+  - 1.4 Continuity and Discontinuity — AP Topics 1.10, 1.11, 1.12, 1.13
+  - 1.5 Asymptotes and IVT — AP Topics 1.14, 1.15, 1.16
+
+Assessment Plan Mastery Goals preserved: U1-MG01, U1-MG02, U1-MG03, U1-MG04.
+Locked progress language preserved in planning context: Not Yet / Approaching / Meeting / Exceeding.
+
+INVENTORY COUNTS
+----------------
+Total canonical Bank items: 763
+  What's To Come: 5
+  Notes: 40
+  Practice Set 1: 90
+  Practice Set 2: 90
+  Practice Set 3: 90
+  Extra Practice: 90
+  CYU: 30
+  Tarsia: 90
+  Blooket: 100
+  Warm-Up 1: 10
+  Warm-Up 2: 10
+  Warm-Up 3: 10
+  Exit Ticket A: 10
+  Exit Ticket B: 10
+  Exit Ticket C: 10
+  Unit Review: 20
+  Extended Reasoning: 8
+  Performance Task: 2
+  Summative V1: 8
+  Summative V2: 8
+  Summative V3: 8
+  Summative V4: 8
+  Summative V5: 8
+  Summative V6: 8
+
+Retrieval stage / scope counts:
+  current-section: 595
+  unit-to-date: 50
+  prior-knowledge: 10
+  secure-evidence: 88
+  unit-synthesis: 20
+Natural DOK counts (descriptive, not quota-driven):
+  DOK 1: 305
+  DOK 2: 436
+  DOK 3: 22
+
+Practice count selected for each section: 18 items per form; PS1, PS2, PS3, and Extra Practice all use 18.
+Notes count selected for each section: 4 Example / You Try It pairs (8 canonical Notes items).
+CYU count: 6 per section.
+Tarsia count: 18 dedicated pairs per section.
+Blooket count: 20 dedicated questions per section.
+Warm-Up counts by section:
+  S1.1: Warm-Up 1=2, Warm-Up 2=2, Warm-Up 3=2
+  S1.2: Warm-Up 1=2, Warm-Up 2=2, Warm-Up 3=2
+  S1.3: Warm-Up 1=2, Warm-Up 2=2, Warm-Up 3=2
+  S1.4: Warm-Up 1=2, Warm-Up 2=2, Warm-Up 3=2
+  S1.5: Warm-Up 1=2, Warm-Up 2=2, Warm-Up 3=2
+Exit Ticket counts by section:
+  S1.1: Exit Ticket A=2, Exit Ticket B=2, Exit Ticket C=2
+  S1.2: Exit Ticket A=2, Exit Ticket B=2, Exit Ticket C=2
+  S1.3: Exit Ticket A=2, Exit Ticket B=2, Exit Ticket C=2
+  S1.4: Exit Ticket A=2, Exit Ticket B=2, Exit Ticket C=2
+  S1.5: Exit Ticket A=2, Exit Ticket B=2, Exit Ticket C=2
+Unit Review: 20 items
+Extended Reasoning: 8 secure items
+Performance Tasks: 2 secure tasks
+Summative: 6 forms x 8 blueprint slots = 48 secure items
+Evidence map rows: 89
+Summative source-map rows: 48
+
+EVIDENCE COVERAGE BY MASTERY GOAL
+---------------------------------
+  U1-MG01: 27 evidence-map rows
+  U1-MG02: 20 evidence-map rows
+  U1-MG03: 21 evidence-map rows
+  U1-MG04: 21 evidence-map rows
+
+PRACTICE FAMILY DUPLICATION AUDIT
+---------------------------------
+Practice families audited across all four forms: 90
+Routine-procedural families used: 15
+Exact conceptual/reasoning duplicates after representation-aware family comparison: 0
+Near-duplicate conceptual/reasoning families were parameterized, reworded, or shifted by representation/task demand as needed.
+Banned-boilerplate occurrences: 0
+Security exact-prompt leaks after representation-aware comparison: 0
+
+TARSIA QA
+---------
+  Section 1.1: lines=18; unique normalized answers=18; family-count/parse PASS
+  Section 1.2: lines=18; unique normalized answers=18; family-count/parse PASS
+  Section 1.3: lines=18; unique normalized answers=18; family-count/parse PASS
+  Section 1.4: lines=18; unique normalized answers=18; family-count/parse PASS
+  Section 1.5: lines=18; unique normalized answers=18; family-count/parse PASS
+No Tarsia graph/table/multipart items were used. Answers are short and unique within each section set.
+
+BLOOKET QA
+----------
+  Section 1.1: questions=20; unique stems=20; key positions={'1': 5, '2': 5, '3': 5, '4': 5}; CSV rows=102
+  Section 1.2: questions=20; unique stems=20; key positions={'1': 5, '2': 5, '3': 5, '4': 5}; CSV rows=102
+  Section 1.3: questions=20; unique stems=20; key positions={'1': 5, '2': 5, '3': 5, '4': 5}; CSV rows=102
+  Section 1.4: questions=20; unique stems=20; key positions={'1': 5, '2': 5, '3': 5, '4': 5}; CSV rows=102
+  Section 1.5: questions=20; unique stems=20; key positions={'1': 5, '2': 5, '3': 5, '4': 5}; CSV rows=102
+All Blooket questions have four non-equivalent choices and one keyed answer; each section uses A/B/C/D exactly 5 times.
+
+SELECTED-RESPONSE QA BY DESTINATION / FORM
+-----------------------------------------
+  Practice Set 1: MC items=26; correct positions A=10, B=6, C=5, D=5; duplicate/equivalent-choice issues=0
+  Practice Set 2: MC items=26; correct positions B=10, C=6, D=5, A=5; duplicate/equivalent-choice issues=0
+  Practice Set 3: MC items=26; correct positions C=10, D=6, A=5, B=5; duplicate/equivalent-choice issues=0
+  Extra Practice: MC items=26; correct positions D=10, A=6, B=5, C=5; duplicate/equivalent-choice issues=0
+  CYU: MC items=11; correct positions A=5, B=4, C=2; duplicate/equivalent-choice issues=0
+  Blooket: MC items=100; correct positions A=25, B=25, C=25, D=25; duplicate/equivalent-choice issues=0
+  Exit Ticket A: MC items=1; correct positions B=1; duplicate/equivalent-choice issues=0
+  Exit Ticket B: MC items=4; correct positions B=3, C=1; duplicate/equivalent-choice issues=0
+  Unit Review: MC items=7; correct positions A=2, B=2, C=2, D=1; duplicate/equivalent-choice issues=0
+  Summative V1: MC items=4; correct positions A=1, B=1, C=1, D=1; duplicate/equivalent-choice issues=0
+  Summative V2: MC items=4; correct positions A=1, B=1, C=1, D=1; duplicate/equivalent-choice issues=0
+  Summative V3: MC items=4; correct positions A=1, B=1, C=1, D=1; duplicate/equivalent-choice issues=0
+  Summative V4: MC items=4; correct positions A=1, B=1, C=1, D=1; duplicate/equivalent-choice issues=0
+  Summative V5: MC items=4; correct positions A=1, B=1, C=1, D=1; duplicate/equivalent-choice issues=0
+  Summative V6: MC items=4; correct positions A=1, B=1, C=1, D=1; duplicate/equivalent-choice issues=0
+Global selected-response duplicate/equivalent-choice issues: 0
+
+FIGURE QA
+---------
+Canonical figure files generated: 38
+Unique figure references in Bank HTML: 38
+All referenced figures exist and were opened/verified as valid PNG files.
+All 38 figures were inspected together in a contact sheet; representative hole, jump, piecewise, and asymptote figures were also inspected individually.
+All displayed graphs are produced through the authoritative graph_tool functions; generate_graphs.py preserves the graph_tool source byte-for-byte and appends only Unit 1 graph calls after its final append marker.
+Authoritative graph-tool SHA-256: eaf5ab36936697f9f49c255c0f2dfcb64c94858c1e4769dfd2431e042e4453b5
+Graph titles are blank and image alt text is neutral so assessment answers are not disclosed.
+Runtime note: this build host does not contain the Microsoft Times New Roman font; Matplotlib emitted font-fallback warnings while creating preview PNGs. The authoritative generate_graphs.py still requests Times New Roman exactly and is unmodified.
+
+STUDENT-FACING CLARITY / RENDER SCANS
+-------------------------------------
+  wrong_mathjax_paren: 0
+  wrong_mathjax_bracket: 0
+  corrupt_frac: 0
+  template_escape: 0
+  todo: 0
+  placeholder: 0
+  sign_x_doubleminus: 0
+  sign_x_plusminus: 0
+  spaced_plus_minus: 0
+  spaced_minus_minus: 0
+  coefficient_1x: 0
+  coefficient_1t: 0
+Bare currency-dollar / MathJax conflicts: 0 (no currency contexts are used in Unit 1 Bank items).
+Unresolved generator/template markers: 0
+Dependent-question references outside explicit multipart items: 0
+Broken figure paths: 0
+Neutral-alt safety issues: 0
+DOM/mapping parity: 763 HTML items = 763 mapping rows; IDs match exactly.
+HTML rendering QA: WeasyPrint successfully rendered the entire Bank using temporary deployment-style shared CSS; 252 pages were produced and page 1 was visually inspected. The canonical Bank HTML itself remains linked only to ../../css/base.css and ../../css/bank.css.
+
+ANSWER / SOLUTION VERIFICATION
+------------------------------
+Every final Bank item contains a separable teacher answer/solution: 763/763.
+Independent second-pass verification was performed at the family/template level and against final rendered prompts: numerical/algebraic limit computations, one-sided/two-sided conclusions, continuity conditions and piecewise parameter equations, asymptote conclusions, IVT hypotheses/conclusions, selected-response keys, Tarsia matches, and Blooket keys were rechecked independently of mapping metadata.
+Contextual bounds, units, and rounding used in context/table items were checked: YES.
+Performance Task complete-solution audit: 2/2 tasks answer every requested part, including theorem hypotheses/limitations where asked.
+Every answer/solution independently rechecked: YES
+Unresolved answer/solution issues: 0
+
+SUMMATIVE / SECURITY QA
+-----------------------
+V1-V4: one controlled 8-slot test-day blueprint; same Mastery Goal/slot coverage, comparable item type/representation/rigor, with changed values/wording/order.
+V5: independent makeup question families and task architectures for all 8 slots.
+V6: independent late-assessment question families and task architectures for all 8 slots, different from both V1-V4 and V5.
+All 6 forms cover the same four Unit 1 Mastery Goals and Learning Ladder intent.
+Summative selected-response positions: exactly A=1, B=1, C=1, D=1 on each version.
+Exact secure/instructional prompt leaks: 0
+Evidence point IDs unique: YES
+Evidence map matches secure/formative-secure Bank items, including separate MG evidence rows for the multi-goal performance task: YES
+
+FULL BUILD QA
+=============
+PASS 1 — SOURCE / SCOPE / ASSESSMENT PLAN: PASS
+  Framework fully read: YES
+  Assessment Plan fully read: YES
+  Section Targets/I-cans, Mastery Goals, Evidence Opportunity Plan, Learning Ladder, recurring practice, and Summative Plan extracted: YES
+  legacy formative-by-DOK inventory ignored: YES
+  graph_tool.py fully read: YES
+  optional sources used only as authorized: YES
+
+PASS 2 — NOTES / WTC: PASS
+  exactly 1 WTC per section: YES (5 total)
+  WTC substantive/future-facing and nonsecure: YES
+  4 Example/YTI pairs per section: YES
+  no secure assessment exposure: YES
+
+PASS 3 — PRACTICE / CYU: PASS
+  4 Practice forms per section, 18 items each: YES
+  shared family coverage blueprint and family-level comparison: YES (90 families)
+  exact conceptual/reasoning duplicates: 0
+  banned boilerplate wrappers: 0
+  CYU exactly 6 per section: YES
+  DOK used naturally rather than by quota: YES
+
+PASS 4 — TARSIA / BLOOKET: PASS
+  Tarsia exactly 18 per section / unique answers / parses cleanly: YES
+  Blooket exactly 20 per section / independent / unique stems / four unique choices / balanced answer positions: YES
+
+PASS 5 — WARM-UPS / EXIT TICKETS: PASS
+  3 Warm-Ups per section, 2 items each: YES
+  WU1 meaningful prerequisite bridge; no random easy arithmetic: YES
+  3 Exit Tickets per section, 2 items each: YES
+  evidence overlap planned; no teacher evidence jargon in student stems: YES
+
+PASS 6 — REVIEW / HIGHER ORDER / ASSESSMENTS: PASS
+  Review=20; Extended=8; Performance Tasks=2; Summative versions=6: YES
+  V1-V4 blueprint equivalence: YES
+  V5/V6 family and task-architecture independence: YES
+  selected-response uniqueness/positions and self-containedness: YES
+  summative source map complete: YES
+
+PASS 7 — EVIDENCE / SECURITY: PASS
+  all ET/PERF/SUM evidence rows mapped to Mastery Goals: YES
+  evidence_point_id unique: YES
+  important goals receive repeated evidence: YES
+  secure item exact leaks into instructional destinations: 0
+
+PASS 8 — FIGURES: PASS
+  every referenced figure exists: YES (38/38)
+  authoritative graph_tool used: YES; source prefix exact
+  no answer-revealing labels/titles/alt text: YES
+  generate_graphs.py executes successfully: YES
+
+PASS 9 — MAPPING / RENDERING / MATHEMATICAL QA: PASS
+  every Bank item has exactly one mapping row: YES (763/763)
+  Bank IDs unique and metadata consistent: YES
+  Practice question_family_id / variation_mode populated: YES
+  Summative task_architecture populated: YES
+  wrong MathJax delimiters / corrupt \rac / raw sign / raw coefficient artifacts: 0
+  currency conflicts / unresolved template markers / broken figure paths / dependent references: 0
+  every answer/solution independently rechecked: YES
+  contextual bounds/units/rounding checked: YES
+  duplicate/equivalent choices checked across ALL MC destinations: YES
+  answer-position distribution checked across ALL MC destinations: YES
+
+PASS 10 — ZIP / COURSE STRUCTURE: PASS
+  ZIP = unit1_bank.zip: YES
+  ZIP root = unit1/: YES
+  HTML = unit1.html: YES
+  deployed path = banks/unit1/unit1.html: YES
+  mapping CSV / evidence map / summative source map: PRESENT
+  figures / exports / generate_graphs.py / BUILD_REPORT.txt: PRESENT
+  Tarsia/Blooket filenames match dashboard structure: YES
+  no unit1_bank legacy folder/file names inside ZIP: YES
+  no junk files: YES
+  ZIP integrity clean: YES
+
+FINAL RESULT: PASS

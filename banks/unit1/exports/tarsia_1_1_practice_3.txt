@@ -1,0 +1,18 @@
+Meaning of $x\to3$, $x$ approaches $3$
+Meaning of $f(x)\to7$, $f(x)$ approaches $7$
+Term for change over an interval, average rate of change
+Term for local rate approached by shrinking intervals, instantaneous rate of change
+$\lim_{x\to2}(x+4)$, $6$
+$\lim_{x\to-1}(2x+3)$, $1$
+Write the input approach for a limit at $x=5$, $x\to5$
+Write the output approach to $-2$, $f(x)\to-2$
+A hole at the approach point necessarily destroys a finite limit, not necessarily
+A limit requires the function value to exist, false
+Values $4.9$ and $5.1$ near a point suggest a limit near, $5$
+Secant slopes approaching $3.0$ suggest local slope, $3$
+Symbol read as limit, ${\lim}$
+Variable usually used for input, x
+Quantity $\frac{f(b)-f(a)}{b-a}$, average rate of change formula
+Nearby values matter more than the isolated point for a, limit
+$f(2)=9$ describes, function value
+$\lim_{x\to2}f(x)=9$ describes, approaching behavior

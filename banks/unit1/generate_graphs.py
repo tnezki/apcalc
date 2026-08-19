@@ -2045,82 +2045,195 @@ def make_algebra_tiles(expression, filename='algebra_tiles.png'):
 
 
 
-# Unit 1 Assessment Bank graph-generation blocks
-# All figures use graph_tool.py functions. Styling is not overridden.
+# UNIT 1 BANK CANONICAL GRAPH GENERATION — APPENDED BELOW AUTHORITATIVE TOOL
+import matplotlib.pyplot as plt
 
-def _save_standard_blank(filename):
-    fig, ax = plt.subplots(figsize=(3.5, 3.5))
-    fig.patch.set_facecolor('white')
-    make_standard_graph(ax, [], title='')
-    save_graph(fig, filename)
-    plt.close(fig)
-
-_save_standard_blank('u1_bank_s1_coordinate_blank_sq_v1.png')
-_save_standard_blank('u1_bank_s5_coordinate_blank_sq_v1.png')
-
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_standard_graph(ax, [
-    {'expr': lambda x: 2*x + 1, 'deriv': lambda x: 0*x + 2, 'color': 'steelblue', 'label': None}
-], title='')
-save_graph(fig, 'u1_bank_s1_evidence_line_sq_v1.png')
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 1*x+(3), 'deriv': lambda x: np.full_like(x,1,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: 1*x+(3), 'deriv': lambda x: np.full_like(x,1,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s1_wtc01_hole.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_context_graph(ax, [
-    {'expr': lambda x: 5 + 4*x, 'deriv': lambda x: 0*x + 4, 'color': 'steelblue', 'label': None}
-], xmin=0, xmax=10, ymin=0, ymax=50, xlabel='Tickets', ylabel='Cost', title='')
-save_graph(fig, 'u1_bank_s1_context_cost_sq_v1.png')
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -1*x+(7), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-10,3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -1*x+(7), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (3,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s1_note_ex04.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_scatter_plot(ax, [0,1,1,2,3], [3,4,6,7,8], xmin=0, xmax=4, ymin=0, ymax=10, color='steelblue', point_size=40, line_of_best_fit=False, xlabel='Input', ylabel='Output', title='')
-save_graph(fig, 'u1_bank_s2_relation_points_sq_v1.png')
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(2.5), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(-1.5), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_wtc01_jump.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_standard_graph(ax, [
-    {'expr': lambda x: -x + 4, 'deriv': lambda x: 0*x - 1, 'color': 'steelblue', 'label': None}
-], title='')
-save_graph(fig, 'u1_bank_s2_function_line_sq_v1.png')
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(5.0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(0.0), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_note_ex02.png')
 plt.close(fig)
 
-fig = make_2x2_grid([
-    [{'expr': lambda x: x + 1, 'deriv': lambda x: 0*x + 1, 'color': 'steelblue', 'label': None}],
-    [{'expr': lambda x: x**2 - 4, 'deriv': lambda x: 2*x, 'color': 'steelblue', 'label': None}],
-    [{'expr': lambda x: 2**x, 'deriv': lambda x: np.log(2)*2**x, 'color': 'steelblue', 'label': None}],
-    [{'expr': lambda x: np.abs(x) - 3, 'deriv': lambda x: np.sign(x), 'color': 'steelblue', 'label': None}],
-], titles=['A','B','C','D'])
-save_graph(fig, 'u1_bank_s3_family_grid_sq_v1.png')
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(1.0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(6.0), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s4_note_ex04.png')
 plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_context_graph(ax, [
-    {'expr': lambda x: 2*(1.45**x), 'deriv': lambda x: 2*np.log(1.45)*(1.45**x), 'color': 'steelblue', 'label': None}
-], xmin=0, xmax=8, ymin=0, ymax=40, xlabel='Step', ylabel='Output', title='')
-save_graph(fig, 'u1_bank_s3_exp_context_sq_v1.png')
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_standard_graph(ax, [{'expr': lambda x: 3/(x-(2))+(1), 'deriv': lambda x: -3/(x-(2))**2, 'color':'steelblue'}], title='')
+save_graph(fig, 'u1_s5_wtc01_asymptote.png')
 plt.close(fig)
 
-fig = make_2x1_grid([
-    [{'expr': lambda x: np.abs(x+2) - 3, 'deriv': lambda x: np.sign(x+2), 'color': 'steelblue', 'label': None}],
-    [{'expr': lambda x: (x-1)**2 - 4, 'deriv': lambda x: 2*(x-1), 'color': 'steelblue', 'label': None}],
-], titles=['A','B'])
-save_graph(fig, 'u1_bank_s3_abs_quad_sq_v1.png')
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 1*x+(-2), 'deriv': lambda x: np.full_like(x,1,dtype=float), 'domain': (-10,5), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: 1*x+(-2), 'deriv': lambda x: np.full_like(x,1,dtype=float), 'domain': (5,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s1_ps1_f15.png')
 plt.close(fig)
 
-make_rectangle_model([r'$2x$', r'$3$'], [r'$x$', r'$5$'], [[r'$2x^2$', ''], ['', '']], 'u1_bank_s4_rect_blank_sq_v1.png')
-make_rectangle_model([r'$x$', r'$4$'], [r'$x$', r'$6$'], [[r'$x^2$', r'$6x$'], [r'$4x$', r'$20$']], 'u1_bank_s4_rect_mismatch_sq_v1.png')
-make_diamond(r'$-24$', '', '', r'$2$', 'u1_bank_s4_diamond_sq_v1.png')
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -1*x+(11), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-10,6), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -1*x+(11), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (6,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s1_ps2_f15.png')
+plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_context_graph(ax, [
-    {'expr': lambda x: 15 + 2*x, 'deriv': lambda x: 0*x + 2, 'color': 'steelblue', 'label': 'Plan A'},
-    {'expr': lambda x: 5 + 4*x, 'deriv': lambda x: 0*x + 4, 'color': 'firebrick', 'label': 'Plan B'},
-], xmin=0, xmax=10, ymin=0, ymax=45, xlabel='Items', ylabel='Cost', title='')
-save_graph(fig, 'u1_bank_s5_balance_context_sq_v1.png')
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 1*x+(5), 'deriv': lambda x: np.full_like(x,1,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: 1*x+(5), 'deriv': lambda x: np.full_like(x,1,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s1_ps3_f15.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -1*x+(12), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-10,3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -1*x+(12), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (3,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s1_xp_f15.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -1*x+(8), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -1*x+(8), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_ps1_f02.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -0.5*x+(2.5), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-10,-1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: 0.5*x+(6.5), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_ps1_f15.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(3.0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(3.0), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_ps1_f01.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(3.5), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(4.5), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_ps2_f01.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -0.5*x+(4.0), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-10,0), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: 0.5*x+(7.0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (0,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_ps2_f15.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -1*x+(0), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-10,-2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -1*x+(0), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_ps2_f02.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -1*x+(2), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-10,-1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -1*x+(2), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_ps3_f02.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(4.0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,0), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(6.0), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (0,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_ps3_f01.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -0.5*x+(5.5), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-10,1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: 0.5*x+(7.5), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_ps3_f15.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(4.5), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(7.5), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_xp_f01.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -1*x+(4), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-10,0), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -1*x+(4), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (0,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_xp_f02.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -0.5*x+(7.0), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: 0.5*x+(8.0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_xp_f15.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(2.5), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(6.5), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s4_ps1_f08.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(3.0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,2), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(8.0), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (2,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s4_ps2_f08.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(3.5), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,3), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(9.5), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (3,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s4_ps3_f08.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(4.0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,4), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(11.0), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (4,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s4_xp_f08.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_standard_graph(ax, [{'expr': lambda x: 2/(x-(2))+(1), 'deriv': lambda x: -2/(x-(2))**2, 'color':'steelblue'}], title='')
+save_graph(fig, 'u1_s5_ps1_f10.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_standard_graph(ax, [{'expr': lambda x: 3/(x-(3))+(1), 'deriv': lambda x: -3/(x-(3))**2, 'color':'steelblue'}], title='')
+save_graph(fig, 'u1_s5_ps2_f10.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_standard_graph(ax, [{'expr': lambda x: 4/(x-(4))+(1), 'deriv': lambda x: -4/(x-(4))**2, 'color':'steelblue'}], title='')
+save_graph(fig, 'u1_s5_ps3_f10.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_standard_graph(ax, [{'expr': lambda x: 5/(x-(1))+(1), 'deriv': lambda x: -5/(x-(1))**2, 'color':'steelblue'}], title='')
+save_graph(fig, 'u1_s5_xp_f10.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(3.5), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,-1), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(4.5), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-1,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_cyu_f01.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_standard_graph(ax, [{'expr': lambda x: 3/(x-(3))+(1), 'deriv': lambda x: -3/(x-(3))**2, 'color':'steelblue'}], title='')
+save_graph(fig, 'u1_s5_cyu_f10.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_standard_graph(ax, [{'expr': lambda x: 4/(x-(1))+(1), 'deriv': lambda x: -4/(x-(1))**2, 'color':'steelblue'}], title='')
+save_graph(fig, 'u1_s5_wu2_f10.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -1*x+(-4), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-10,-5), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -1*x+(-4), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-5,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s1_etb_f15.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -0.5*x+(1.0), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (-10,6), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: 0.5*x+(-2.0), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (6,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_etc_f15.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: 0.5*x+(5.5), 'deriv': lambda x: np.full_like(x,0.5,dtype=float), 'domain': (-10,7), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -0.5*x+(15.5), 'deriv': lambda x: np.full_like(x,-0.5,dtype=float), 'domain': (7,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s4_etb_f08.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_standard_graph(ax, [{'expr': lambda x: 6/(x-(-4))+(1), 'deriv': lambda x: -6/(x-(-4))**2, 'color':'steelblue'}], title='')
+save_graph(fig, 'u1_s5_etc_f10.png')
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=(3.5,3.5))
+make_piecewise_graph(ax, [{'expr': lambda x: -1*x+(4), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (-10,0), 'include_left': True, 'include_right': False, 'arrow_left': True, 'arrow_right': False}, {'expr': lambda x: -1*x+(4), 'deriv': lambda x: np.full_like(x,-1,dtype=float), 'domain': (0,10), 'include_left': False, 'include_right': True, 'arrow_left': False, 'arrow_right': True}], title='')
+save_graph(fig, 'u1_s2_rev_f02.png')
 plt.close(fig)
