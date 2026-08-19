@@ -1,26 +1,26 @@
-"Blooket
+﻿"Blooket
 Import Template",,,,,,,
 Question #,Question Text,Answer 1,Answer 2,Answer 3 (Optional),Answer 4 (Optional),Time Limit (sec) (Max: 300 seconds),Correct Answer(s) (Only include Answer #)
-1,What does x -> 5 describe in a limit?,The input approaches 5,The output equals 5,The function is undefined,The graph stops at 5,45,1
-2,"If values of f(x) approach 5 as x approaches 1, what is the limit?",6,5,1,DNE,45,2
-3,A slope computed between two distinct points is which kind of rate?,Instantaneous rate of change,Function value,Average rate of change,Limit notation,45,3
-4,"If f(3) is undefined but nearby values approach 2, what may still exist?",Only the function value,No mathematical object,A vertical asymptote must exist,The limit,45,4
-5,Secant intervals around x=4 shrink toward one point. Their slopes estimate what?,Instantaneous change,Domain,Range only,A y-intercept,45,1
-6,What does x -> 1 describe in a limit?,The output equals 1,The input approaches 1,The function is undefined,The graph stops at 1,45,2
-7,"If values of f(x) approach 3 as x approaches 2, what is the limit?",4,2,3,DNE,45,3
-8,A trip covers 120 miles in 2 hours. The 60 mph value is which kind of rate?,Instantaneous rate of change,Function value,Limit notation,Average rate of change,45,4
-9,"If f(4) is undefined but nearby values approach 7, what may still exist?",The limit,Only the function value,No mathematical object,A vertical asymptote must exist,45,1
-10,Average velocities over shorter intervals near t=5 approach 2. What local idea is being estimated?,Domain,Instantaneous change,Range only,A y-intercept,45,2
-11,What does x -> 2 describe in a limit?,The output equals 2,The function is undefined,The input approaches 2,The graph stops at 2,45,3
-12,"If values of f(x) approach 8 as x approaches 3, what is the limit?",9,3,DNE,8,45,4
-13,"The difference quotient over [4,6] represents which kind of rate?",Average rate of change,Instantaneous rate of change,Function value,Limit notation,45,1
-14,"If f(5) is undefined but nearby values approach 5, what may still exist?",Only the function value,The limit,No mathematical object,A vertical asymptote must exist,45,2
-15,Secant slopes converging near a single input approximate which kind of change?,Domain,Range only,Instantaneous change,A y-intercept,45,3
-16,What does x -> 3 describe in a limit?,The output equals 3,The function is undefined,The graph stops at 3,The input approaches 3,45,4
-17,"If values of f(x) approach 6 as x approaches 4, what is the limit?",6,7,4,DNE,45,1
-18,Change in output divided by change in input over a finite interval is what?,Instantaneous rate of change,Average rate of change,Function value,Limit notation,45,2
-19,"If f(1) is undefined but nearby values approach 3, what may still exist?",Only the function value,No mathematical object,The limit,A vertical asymptote must exist,45,3
-20,Shrinking time intervals are used to estimate which rate?,Domain,Range only,A y-intercept,Instantaneous change,45,4
+1,"If nearby f(x) values approach 5 as x approaches 2, what is the limit?",6,5,2,DNE,45,2
+2,"If nearby f(x) values approach 3 as x approaches -1, what is the limit?",4,-1,DNE,3,45,4
+3,"If nearby f(x) values approach -2 as x approaches 3, what is the limit?",-2,-1,3,DNE,45,1
+4,"If nearby f(x) values approach 4 as x approaches 1, what is the limit?",5,1,4,DNE,45,3
+5,Near x=2 the curve approaches 4 but f(2)=9. What is the limit?,9,0,4,DNE,45,3
+6,Near x=-1 the curve approaches 5 but f(-1)=0. What is the limit?,5,0,DNE,6,45,1
+7,Near x=3 the curve approaches -2 but f(3)=7. What is the limit?,7,0,DNE,-2,45,4
+8,Near x=1 the curve approaches 6 but f(1)=-3. What is the limit?,-3,6,0,DNE,45,2
+9,For f(x)=x^2 what is the secant slope from x=1 to x=1.2?,2.2,2,1.2,1,45,1
+10,For f(x)=x^2 what is the secant slope from x=2 to x=2.1?,4,2.1,4.1,5.1,45,3
+11,For f(x)=x^2 what is the secant slope from x=-1 to x=-0.5?,-2,-1.5,-0.5,1,45,2
+12,For f(x)=x^2 what is the secant slope from x=3 to x=3.2?,6,3.2,9,6.2,45,4
+13,What does x->2- mean?,the output approaches from below,the input equals the target only,the function is decreasing,approach 2 from the left,45,4
+14,What does x->-1+ mean?,the output approaches from below,approach -1 from the right,the input equals the target only,the function is decreasing,45,2
+15,What does x->4 mean?,the output approaches from below,the input equals the target only,approach 4 from both sides,the function is decreasing,45,3
+16,What does h->0+ mean?,approach 0 using positive h,the output approaches from below,the input equals the target only,the function is decreasing,45,1
+17,Which quantity defines a limit?,the isolated point value only,nearby function values,the x-intercept,the largest output,45,2
+18,A hole at x=a means which statement can still be true?,the limit can exist,the limit must be zero,the limit must be DNE,f(a) must equal the limit,45,1
+19,As secant intervals shrink the slopes may approach what?,a y-intercept,zero always,a function value,a tangent slope,45,4
+20,What is the role of L in lim f(x)=L?,the target input,the secant interval,the approached output value,the function name,45,3
 21,,,,,,,
 22,,,,,,,
 23,,,,,,,

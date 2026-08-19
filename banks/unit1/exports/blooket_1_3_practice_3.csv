@@ -1,26 +1,26 @@
-"Blooket
+﻿"Blooket
 Import Template",,,,,,,
 Question #,Question Text,Answer 1,Answer 2,Answer 3 (Optional),Answer 4 (Optional),Time Limit (sec) (Max: 300 seconds),Correct Answer(s) (Only include Answer #)
-1,Evaluate lim x->1 of (x+2).,3,1,2,4,45,1
-2,"For lim x->2 (x^2-4)/(x-2), what should you do after getting 0/0?",Stop with 0,Factor and simplify,Declare DNE,Use IVT,45,2
-3,What is lim x->0 of sin(x)/x?,0,DNE,1,Infinity,45,3
-4,"For lim x->0 of (sqrt(x+16)-4)/x, which method is natural?",Use IVT,Differentiate automatically,Ignore the radical,Multiply by the conjugate,45,4
-5,Direct substitution into (x^2-25)/(x-5) at x=5 gives 0/0. What does 0/0 mean?,More analysis is needed,The limit is 0,The limit is 1,The limit must DNE,45,1
-6,Evaluate lim x->2 of (x+2).,2,4,3,5,45,2
-7,"For lim x->3 (x^2-9)/(x-3), what should you do after getting 0/0?",Stop with 0,Declare DNE,Factor and simplify,Use IVT,45,3
-8,What is lim x->0 of sin(2x)/(2x)?,0,DNE,Infinity,1,45,4
-9,"For lim x->0 of (sqrt(x+25)-5)/x, which method is natural?",Multiply by the conjugate,Use IVT,Differentiate automatically,Ignore the radical,45,1
-10,Direct substitution into (x^2-1)/(x-1) at x=1 gives 0/0. What does 0/0 mean?,The limit is 0,More analysis is needed,The limit is 1,The limit must DNE,45,2
-11,Evaluate lim x->3 of (x+2).,3,4,5,6,45,3
-12,"For lim x->4 (x^2-16)/(x-4), what should you do after getting 0/0?",Stop with 0,Declare DNE,Use IVT,Factor and simplify,45,4
-13,What is lim x->0 of sin(3x)/(3x)?,1,0,DNE,Infinity,45,1
-14,"For lim x->0 of (sqrt(x+1)-1)/x, which method is natural?",Use IVT,Multiply by the conjugate,Differentiate automatically,Ignore the radical,45,2
-15,Direct substitution into (x^2-4)/(x-2) at x=2 gives 0/0. What does 0/0 mean?,The limit is 0,The limit is 1,More analysis is needed,The limit must DNE,45,3
-16,Evaluate lim x->4 of (x+2).,4,5,7,6,45,4
-17,"For lim x->5 (x^2-25)/(x-5), what should you do after getting 0/0?",Factor and simplify,Stop with 0,Declare DNE,Use IVT,45,1
-18,What is lim x->0 of sin(4x)/(4x)?,0,1,DNE,Infinity,45,2
-19,"For lim x->0 of (sqrt(x+4)-2)/x, which method is natural?",Use IVT,Differentiate automatically,Multiply by the conjugate,Ignore the radical,45,3
-20,Direct substitution into (x^2-9)/(x-3) at x=3 gives 0/0. What does 0/0 mean?,The limit is 0,The limit is 1,The limit must DNE,More analysis is needed,45,4
+1,lim x->2 of (3x+1) equals?,4,2,8,7,45,4
+2,lim x->-1 of (2x+5) equals?,7,3,-1,4,45,2
+3,lim x->3 of (-1x+4) equals?,1,3,2,0,45,1
+4,lim x->1 of (4x+-2) equals?,1,3,2,-2,45,3
+5,lim x->2 of (x^2-4)/(x-2) equals?,2,4,DNE,5,45,2
+6,lim x->3 of (x^2-9)/(x-3) equals?,3,9,DNE,6,45,4
+7,lim x->4 of (x^2-16)/(x-4) equals?,4,16,DNE,8,45,4
+8,lim x->5 of (x^2-25)/(x-5) equals?,5,10,25,DNE,45,2
+9,lim x->4 of (sqrt(x)-2)/(x-4) equals?,1/2,4,1/4,0,45,3
+10,lim x->9 of (sqrt(x)-3)/(x-9) equals?,1/6,1/3,6,0,45,1
+11,lim x->16 of (sqrt(x)-4)/(x-16) equals?,1/4,1/8,8,0,45,2
+12,lim x->25 of (sqrt(x)-5)/(x-25) equals?,1/10,1/5,10,0,45,1
+13,lim x->0 of sin(2x)/x equals?,1,0,1/2,2,45,4
+14,lim x->0 of sin(3x)/x equals?,1,0,3,1/3,45,3
+15,lim x->0 of sin(4x)/x equals?,1,4,0,1/4,45,2
+16,lim x->0 of sin(5x)/x equals?,1,0,1/5,5,45,4
+17,A rational limit gives 0/0 because of a common polynomial factor. Best first method?,factor and cancel,declare DNE,differentiate,average sides,45,1
+18,A radical quotient gives 0/0. Best algebraic tool?,factor a sine,take reciprocal,multiply by the conjugate,use IVT,45,3
+19,What does 0/0 mean?,the limit is zero,the limit is DNE,indeterminate form,the function is continuous,45,3
+20,For x^2 cos(1/x) near 0 which theorem is natural?,Squeeze Theorem,Intermediate Value Theorem,Mean Value Theorem,product rule,45,1
 21,,,,,,,
 22,,,,,,,
 23,,,,,,,

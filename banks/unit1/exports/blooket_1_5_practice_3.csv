@@ -1,26 +1,26 @@
-"Blooket
+﻿"Blooket
 Import Template",,,,,,,
 Question #,Question Text,Answer 1,Answer 2,Answer 3 (Optional),Answer 4 (Optional),Time Limit (sec) (Max: 300 seconds),Correct Answer(s) (Only include Answer #)
-1,What is the vertical asymptote of 1/(x-2)?,x=2,y=2,x=-2,y=0,45,1
-2,"If y=8 is a horizontal asymptote, can the graph cross y=8 at a finite x-value?",No,Yes,Only at infinity,Only if discontinuous,45,2
-3,"A function is continuous on [4,7] and a target lies between its endpoint outputs. Which theorem can guarantee the target occurs?",Squeeze Theorem,Product Rule,Intermediate Value Theorem,Chain Rule,45,3
-4,"For IVT on [5,7], where must a target output lie relative to f(5) and f(7)?",Equal to an endpoint input,Outside the endpoint outputs,At a vertical asymptote,Between the endpoint outputs,45,4
-5,"If lim x->infinity f(x)=7, what kind of behavior does the statement describe?",End behavior,A function value at infinity,Only a vertical asymptote,A derivative value,45,1
-6,What is the vertical asymptote of 1/(x-3)?,y=3,x=3,x=-3,y=0,45,2
-7,"If y=6 is a horizontal asymptote, can the graph cross y=6 at a finite x-value?",No,Only at infinity,Yes,Only if discontinuous,45,3
-8,"A function is continuous on [5,8] and a target lies between its endpoint outputs. Which theorem can guarantee the target occurs?",Squeeze Theorem,Product Rule,Chain Rule,Intermediate Value Theorem,45,4
-9,"For IVT on [1,3], where must a target output lie relative to f(1) and f(3)?",Between the endpoint outputs,Equal to an endpoint input,Outside the endpoint outputs,At a vertical asymptote,45,1
-10,"If lim x->infinity f(x)=5, what kind of behavior does the statement describe?",A function value at infinity,End behavior,Only a vertical asymptote,A derivative value,45,2
-11,What is the vertical asymptote of 1/(x-4)?,y=4,x=-4,x=4,y=0,45,3
-12,"If y=4 is a horizontal asymptote, can the graph cross y=4 at a finite x-value?",No,Only at infinity,Only if discontinuous,Yes,45,4
-13,"A function is continuous on [1,4] and a target lies between its endpoint outputs. Which theorem can guarantee the target occurs?",Intermediate Value Theorem,Squeeze Theorem,Product Rule,Chain Rule,45,1
-14,"For IVT on [2,4], where must a target output lie relative to f(2) and f(4)?",Equal to an endpoint input,Between the endpoint outputs,Outside the endpoint outputs,At a vertical asymptote,45,2
-15,"If lim x->infinity f(x)=3, what kind of behavior does the statement describe?",A function value at infinity,Only a vertical asymptote,End behavior,A derivative value,45,3
-16,What is the vertical asymptote of 1/(x-5)?,y=5,x=-5,y=0,x=5,45,4
-17,"If y=2 is a horizontal asymptote, can the graph cross y=2 at a finite x-value?",Yes,No,Only at infinity,Only if discontinuous,45,1
-18,"A function is continuous on [2,5] and a target lies between its endpoint outputs. Which theorem can guarantee the target occurs?",Squeeze Theorem,Intermediate Value Theorem,Product Rule,Chain Rule,45,2
-19,"For IVT on [3,5], where must a target output lie relative to f(3) and f(5)?",Equal to an endpoint input,Outside the endpoint outputs,Between the endpoint outputs,At a vertical asymptote,45,3
-20,"If lim x->infinity f(x)=8, what kind of behavior does the statement describe?",A function value at infinity,Only a vertical asymptote,A derivative value,End behavior,45,4
+1,For 1/(x-2) what is the vertical asymptote?,x=0,y=0,y=2,x=2,45,4
+2,For 1/(x--1) what is the vertical asymptote?,x=0,x=-1,y=0,y=-1,45,2
+3,For 1/(x-3) what is the vertical asymptote?,x=0,y=0,x=3,y=3,45,3
+4,For 1/(x-1) what is the vertical asymptote?,x=1,x=0,y=0,y=1,45,1
+5,For f(x)=3+1/x what is the horizontal asymptote?,y=0,y=3,x=3,none,45,2
+6,For f(x)=-2+1/x what is the horizontal asymptote?,y=-2,y=0,x=-2,none,45,1
+7,For f(x)=5+1/x what is the horizontal asymptote?,y=0,x=5,none,y=5,45,4
+8,For f(x)=1+1/x what is the horizontal asymptote?,y=0,x=1,y=1,none,45,3
+9,lim x->infinity of (3x^2+1)/(2x^2-3) equals?,0,\frac{3}{2},5,2,45,2
+10,lim x->infinity of (4x^2+1)/(1x^2-3) equals?,0,5,1,4,45,4
+11,lim x->infinity of (-2x^2+1)/(5x^2-3) equals?,- \frac{2}{5},0,3,5,45,1
+12,lim x->infinity of (5x^2+1)/(4x^2-3) equals?,0,9,\frac{5}{4},4,45,3
+13,"f is continuous on [0,4] with outputs 2 and 9. Is value 6 guaranteed somewhere?",No,Only at x=2,Yes,Only if f is linear,45,3
+14,"f is continuous on [1,3] with outputs 4 and 8. Is value 10 guaranteed by IVT?",No,Yes,Only at midpoint,Only if increasing,45,1
+15,"What theorem hypothesis is essential on [a,b]?",differentiability everywhere,a horizontal asymptote,equal endpoint outputs,"continuity on [a,b]",45,4
+16,What does IVT guarantee when hypotheses hold?,the exact input,existence of at least one intermediate input,a unique input,that f is increasing,45,2
+17,An infinite one-sided limit near finite x indicates?,vertical asymptote,horizontal asymptote,removable hole,local maximum,45,1
+18,A finite limit as x approaches infinity indicates?,vertical asymptote,jump,horizontal asymptote,x-intercept,45,3
+19,For 1/(x-2) as x approaches 2 from the right the value approaches?,negative infinity,positive infinity,0,2,45,2
+20,Does IVT normally tell the exact c?,Yes,Only for polynomials,Only without a calculator,No,45,4
 21,,,,,,,
 22,,,,,,,
 23,,,,,,,
