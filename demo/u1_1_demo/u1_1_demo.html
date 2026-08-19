@@ -3,18 +3,26 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Demo — 1.1 — Dummy</title>
+<title>U1.1 Demo - Same Relationship, Different Outfit</title>
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <link rel="stylesheet" href="../../css/demo.css"/>
 </head>
 <body class="demo-screen">
-<main class="demo-deck">
-  <section class="demo-slide active">
-    <div class="slide-card">
-      <div class="kicker">Student-facing projected resource</div>
-      <h1>Demo — 1.1</h1>
-      <div class="prompt">Location: demo/u1_1_demo/u1_1_demo.html</div>
-    </div>
-  </section>
+<main class="demo-deck" id="deck">
+<section class="demo-slide active"><div class="slide-card"><div class="kicker">Unit 1 · Section 1.1</div><h1>Same Relationship, Different Outfit</h1><div class="prompt">Three cards are about the same relationship. One is an impostor.</div><p class="small">Do not calculate everything yet. Look for what stays the same.</p></div></section>
+<section class="demo-slide"><div class="slide-card"><div class="kicker">Card 1</div><h2>A relationship in a table</h2><div class="box"><p>$x$: 0, 1, 2, 3</p><p>$y$: 5, 8, 11, 14</p></div><div class="challenge">What two features of this relationship can you notice immediately?</div></div></section>
+<section class="demo-slide"><div class="slide-card"><div class="kicker">Cards 2 and 3</div><h2>Which one belongs with the table?</h2><div class="two-col"><div class="box"><h3>Card A</h3><p>Start with 5. Add 3 each step.</p></div><div class="box"><h3>Card B</h3><p>Start with 3. Add 5 each step.</p></div></div><div class="challenge">Choose one. What evidence from the table proves your choice?</div></div></section>
+<section class="demo-slide"><div class="slide-card"><div class="kicker">One more outfit</div><h2>Which equation tells the same story?</h2><div class="two-col"><div class="box"><h3>$y=5+3x$</h3></div><div class="box"><h3>$y=3+5x$</h3></div></div><div class="prompt">How could you check without trusting the way the equation “looks”?</div></div></section>
+<section class="demo-slide"><div class="slide-card"><div class="kicker">Question to carry into the notes</div><h2>How can the same relationship look completely different?</h2><div class="prompt">What evidence lets us prove that a context, table, equation, and graph belong together?</div></div></section>
 </main>
-</body>
-</html>
+<div class="controls"><button id="prev">&larr; Back</button><div class="counter" id="counter">1 / 5</div><button class="primary" id="next">Next &rarr;</button></div>
+<script>
+const slides=[...document.querySelectorAll('.demo-slide')]; let i=0;
+function show(n){ i=Math.max(0,Math.min(slides.length-1,n)); slides.forEach((s,j)=>s.classList.toggle('active',j===i)); document.getElementById('counter').textContent=`${i+1} / ${slides.length}`; }
+document.getElementById('prev').onclick=()=>show(i-1);
+document.getElementById('next').onclick=()=>show(i+1);
+document.addEventListener('keydown',e=>{ if(['ArrowRight','PageDown',' '].includes(e.key)) show(i+1); if(['ArrowLeft','PageUp'].includes(e.key)) show(i-1); });
+</script></body></html>

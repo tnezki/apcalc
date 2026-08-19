@@ -4,96 +4,304 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Section 1.5 Notes - Asymptotes and IVT</title>
+<title>Section 1.5 Notes — Equations as Models</title>
 <script>
 window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
 </script>
 <script async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <link href="../../css/base.css" rel="stylesheet"/>
 <link href="../../css/notes.css" rel="stylesheet"/>
-</head><body><div class="container">
-<!-- TITLE --><div class="notes-title"><div class="title-kicker">AP Calculus AB · Unit 1: Limits and Continuity</div><div class="title-main">Section 1.5<br/>Asymptotes and IVT</div><div class="title-sub">Asymptotes translate infinite limiting behavior into graph structure, while IVT turns continuity into an existence guarantee.</div><div class="title-quote"><p><strong>Mathematical idea:</strong> Infinite limits and limits at infinity describe asymptotic behavior; the Intermediate Value Theorem applies only when its continuity and between-value hypotheses are met.</p></div><p class="title-note">You will interpret vertical and horizontal asymptotes with limit notation, distinguish end behavior from local blow-up, and decide when IVT guarantees a value.</p></div>
-<!-- LEARNING TARGET --><h2 class="h-target">Learning Target</h2><div class="objectives"><p><strong>Interpret infinite limits and limits at infinity to identify asymptotic behavior, and apply the Intermediate Value Theorem when its hypotheses are satisfied.</strong></p><p><strong>I can statements</strong></p><ul><li>I can interpret infinite limits and limits at infinity to identify asymptotic behavior, and apply the Intermediate Value Theorem when its hypotheses are satisfied.</li><li>I can use asymptotic behavior to describe a function model.</li><li>I can determine whether IVT guarantees a value and justify the conclusion.</li></ul></div>
-<!-- VOCABULARY --><h2 class="h-vocab">Vocabulary</h2><div class="vocab-box"><p>These are words and notation you will see in this section. Do not define them yet.</p><ul class="vocab-list"><li>infinite limit</li><li>vertical asymptote</li><li>limit at infinity</li><li>horizontal asymptote</li><li>Intermediate Value Theorem</li></ul><p class="vocab-note">Use the preview activity to decide which terms you already know, recognize, or do not know yet. Watch for these terms in <strong>bold</strong> when they are first meaningfully introduced or defined in the reading.</p></div>
-<!-- PREVIEW -->
-<h2 class="h-preview">Preview: Skim Before You Read</h2>
-<div class="strategy-box"><p><strong>Directions</strong></p><p>Before reading closely, skim the vocabulary list and the section. Look at titles, headings, bold terms, equations, pictures, graphs, tables, diagrams, and other representations. Do not try to understand everything yet. Notice what already looks familiar and make predictions about what the section may explain.</p></div>
-<div class="annotation-box"><p><strong>Step 1 - Sort the vocabulary.</strong> Write each term in the column that best matches what you know right now. You may move a term later.</p><table class="values vocab-sort"><tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr><tr class="vocab-sort-space"><td></td><td></td><td></td></tr></table><p><strong>Step 2 - Skim the section.</strong> Record what catches your attention before you read closely.</p><table class="preview-notes-table"><tr><th>What I noticed</th><td></td></tr><tr><th>What I predict</th><td></td></tr><tr><th>What I wonder</th><td></td></tr></table></div>
-<!-- WHAT'S TO COME --><h2 class="h-preview">What's To Come</h2><div class="strategy-box"><p><strong>Directions</strong></p><p>This is a long-range preview for future work. Do not solve it today. Read and annotate it. Mark what you already understand, what looks familiar, and what you think you will need to learn before you can complete the task.</p></div><div class="annotation-box" data-source-id="U1-S5-WTC01"><p>Consider the rational model $R(x)=2+\frac{3}{x-1}$ and a different function $Q$ that is continuous on $[0,5]$ with $Q(0)=-2$ and $Q(5)=6$.</p><ol type="a"><li>Predict the vertical and horizontal asymptotes of $R$ and write one limit statement supporting each prediction.</li><li>Does the Intermediate Value Theorem guarantee some $c\in(0,5)$ with $Q(c)=3$? State the hypotheses you are using.</li><li>Would your IVT conclusion change if $Q$ had a jump inside the interval? Explain.</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="U1-S5-WTC01"><span class="ws-label">Preview notes / questions</span><p style="color:#c00000;font-weight:700;">Teaching note: Teaching note: Do not solve the preview. Ask students to identify familiar notation/representations and name what information or methods they think they will need later.</p></div>
-<!-- CONTENT --><h2 class="h-intro">Content: Read, Look, Annotate, Apply</h2><div class="strategy-box"><p><strong>Directions</strong></p><p>Read in manageable chunks. Annotate the prose and the representations together: underline key relationships, circle or highlight new vocabulary, label important features, connect a sentence to an equation, table, graph, model, or diagram, and write brief questions or connections in the margins.</p></div>
-<!-- CONTENT READING 1 -->
-<div class="reading-box">
-<h3>Reading 1: Infinite Limits and Vertical Asymptotes</h3>
-<p>An <strong>infinite limit</strong> describes outputs that increase or decrease without bound as the input approaches a finite target. Statements such as $\lim_{x\to2^+}f(x)=\infty$ do not say that infinity is a function value; they describe unbounded growth.</p>
-<p>A <strong>vertical asymptote</strong> is a vertical line $x=a$ associated with this unbounded local behavior. One side may approach $\infty$ while the other approaches $-\infty$, or both sides may head in the same infinite direction.</p>
-<figure class="notes-figure wu-img-350"><img alt="Rational-function graph illustrating one vertical and one horizontal asymptote" src="figures/u1_s5_notes_asymptote_model.png"/></figure><p>Graph read: Describe what the graph does near the vertical break and far to the left and right. Do not rely on crossing behavior to identify the horizontal asymptote.</p>
-<p>Because the behavior can differ by side, one-sided notation is often essential near a vertical asymptote. A two-sided statement involving infinity is sometimes used when both sides share the same unbounded direction, but directional statements are more informative when signs differ.</p>
-<p>Rational functions often have vertical asymptotes where a denominator approaches 0 while the numerator stays nonzero. This is a structural clue, but algebraic simplification must come first: a canceled factor creates a removable hole rather than a vertical asymptote.</p>
-<p>On a graph, trace the curve toward the suspected x-value and watch the magnitude of the outputs. The line itself is not part of the graph of the function; it is a geometric description of nearby behavior.</p>
-<p>Asymptote language therefore belongs to limits, not to substitution. Saying “the function equals infinity at $x=2$” is incorrect because infinity is not an ordinary real output.</p>
+</head>
+<body>
+<div class="container">
+<!-- TITLE -->
+<div class="notes-title">
+<div class="title-kicker">Algebra 1 · Unit 1</div>
+<div class="title-main">Section 1.5<br/>Equations as Models</div>
+<div class="title-sub">Write, solve, and interpret equations that represent situations.</div>
+<div class="title-quote"><p><strong>Mathematical idea:</strong> Solving an equation finds the value that makes two quantities equal, and the solution must make sense in context.</p></div>
+<p style="margin-top:18px;color:#555;">Today you will check solutions, write equations from situations, solve multi-step equations, and compare solution methods. You will also interpret the answer in the original context.</p>
 </div>
-<!-- REFERENCE BLOCK 1 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Notation</span><span class="math-notes-title">Asymptotic Limit Statements</span></div><div class="math-notes-body"><p>Vertical behavior uses a finite target input, often one-sided:</p>$$\lim_{x\to a^+}f(x)=\infty.$$<p>Horizontal end behavior uses an unbounded input:</p>$$\lim_{x\to\infty}f(x)=L.$$</div></div>
-<!-- STOP AND DISCUSS READING 1 -->
-<div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>What is the difference between “$x$ approaches a finite number” and “$x$ approaches infinity” in asymptote notation?</li><li>Why is it incorrect to say a function equals infinity at a vertical asymptote?</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="SD-1.5-1"><p style="color:#c00000;font-weight:700;">Expected discussion: 1. The first describes local behavior near a finite input; the second describes end behavior.&lt;br/&gt;2. Infinity is not a real function value; it describes unbounded growth.</p></div>
+<!-- LEARNING TARGET -->
+<h2 class="h-target">Learning Target</h2>
+<div class="objectives">
+<p><strong>Learning Target: Students will write, solve, and interpret equations that model situations.</strong></p>
+<p><strong>I can statements</strong></p>
+<ul>
+<li>I can construct an equation that models a situation using meaningful quantities and operations.</li>
+<li>I can use solution steps to solve an equation and connect the result to the situation.</li>
+<li>I can predict whether a solution is reasonable by interpreting it in the original context.</li>
+</ul>
+</div>
+<!-- WHAT'S TO COME -->
+<h2 class="h-preview">What's To Come</h2>
+<p>This is a long-range preview for future lessons. Do not solve it today. Instead, annotate it individually. Circle anything familiar, underline symbols or directions that seem important, and write notes about what information you think will be needed later.</p>
+<p>As you annotate, ask yourself: What parts (words, symbols, graphs) do you KNOW? What parts look FAMILIAR? What parts look like jibberish?</p>
+<div class="annotation-box">
+<p>Design a one-variable equation model for a realistic school or club situation where the solution is $8$. Include the context, define the variable, write the equation, solve it, and interpret why $8$ makes sense.</p>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Teacher note:</strong> Do not solve the future task. Listen for students naming familiar representations, symbols, and unknown parts.</p>
+</div>
+<!-- INTRO -->
+<h2 class="h-intro">Intro</h2>
+<div class="strategy-box">
+<p><strong>Directions</strong></p>
+<p>Read the introduction aloud with a partner or in a small group. As you read, annotate the text by highlighting important ideas, circling key vocabulary, and writing short notes about connections, questions, or predictions in the margins.</p>
+</div>
+<div class="reading-box">
+<p>An equation states that two expressions are equal. A number is a solution when substituting it for the variable makes both sides have the same value. Checking a solution means replacing the variable and simplifying both sides.</p>
+<p>Many equations model real situations such as cost, distance, or totals. After solving, the number should answer the original question and use the correct unit. A value can be algebraically correct but unreasonable if it does not fit the context.</p>
+<p>There is often more than one valid way to solve an equation. One student might divide first, while another distributes first. If each step keeps the equation balanced, both methods can lead to the same solution.</p>
+<p>Key representations in this section include context-based equations, solution steps, variables as quantities, balanced relationships, and interpreted solutions. Each representation helps connect the algebra to the situation.</p>
+<p>Before solving, predict a reasonable value from the context. After solving, substitute the answer back into the equation and explain what the variable represents.</p>
+</div>
+<div class="notes-ws ws-ruled"><span class="ws-label">Your notes</span>
+<p style="color:red;font-weight:bold;"><strong>Teacher note:</strong> Use this space for student annotations. Prompt partners to underline vocabulary and circle quantities.</p>
+</div>
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>What does it mean for a number to be a solution to an equation?</li>
+<li>Why should a solution be interpreted in the context after solving?</li>
+<li>How can two correct solution methods look different?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Answers:</strong> 1. A number is a solution if substituting it makes both sides equal. 2. The solution should answer the original question with units and should be reasonable. 3. Different methods can be valid if every step keeps the equation balanced.</p>
+</div>
+<!-- MATH NOTES 1 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Checking a possible solution</span>
+</div>
+<div class="math-notes-body">
+<p>To check whether a value is a solution, substitute it for the variable and see whether both sides are equal.</p>
+<p>For $3x+2=14$ and $x=4$: $$3(4)+2=12+2=14.$$</p>
+<table class="values">
+<tr><th>Side</th><th>Value when $x=4$</th></tr>
+<tr><td>Left side $3x+2$</td><td>14</td></tr>
+<tr><td>Right side</td><td>14</td></tr>
+</table>
+<p><strong>Context:</strong> If $x$ counts items, the solution tells which number of items makes the two totals balance.</p>
+</div>
+</div>
 <!-- EXAMPLE 1 -->
-<h3 class="h-example" data-source-id="U1-S5-NOTE-EX01">Example 1: Read Asymptotes from a Graph</h3>
-<p>Use the graph to connect asymptotes with limit statements.</p><figure><img alt="Rational-function graph with a vertical asymptote at x equals 2 and horizontal asymptote at y equals 1" src="figures/u1_s5_note_ex01_asymptote_graph.png"/><figcaption>Graph of $f$.</figcaption></figure><ol type="a"><li>Identify the vertical asymptote.</li><li>Identify the horizontal asymptote.</li><li>Write one one-sided infinite-limit statement that supports the vertical asymptote.</li><li>Write one limit-at-infinity statement that supports the horizontal asymptote.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S5-NOTE-EX01"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$x=2$.</li><li>$y=1$.</li><li>For example, $\lim_{x\to2^+}f(x)=\infty$ or $\lim_{x\to2^-}f(x)=-\infty$.</li><li>For example, $\lim_{x\to\infty}f(x)=1$.</li></ol></p></div>
-<!-- YOU TRY IT 1 -->
-<h3 class="h-yti" data-source-id="U1-S5-NOTE-YTI01">You Try It 1: Read Asymptotes from a Graph</h3>
-<p>For $g(x)=2+\frac{4}{x+1}$, connect the formula to asymptotic behavior.</p><ol type="a"><li>Identify the vertical asymptote.</li><li>Identify the horizontal asymptote.</li><li>Write a one-sided infinite-limit statement near the vertical asymptote.</li><li>Write a limit-at-infinity statement for the horizontal asymptote.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S5-NOTE-YTI01"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$x=-1$.</li><li>$y=2$.</li><li>For example, $\lim_{x\to-1^+}g(x)=\infty$ or $\lim_{x\to-1^-}g(x)=-\infty$.</li><li>$\lim_{x\to\infty}g(x)=2$ (also true as $x\to-\infty$).</li></ol></p></div>
-<!-- CONTENT READING 2 -->
-<div class="reading-box">
-<h3>Reading 2: End Behavior and Horizontal Asymptotes</h3>
-<p>A <strong>limit at infinity</strong> asks what happens to outputs as the input increases or decreases without bound. For example, $\lim_{x\to\infty}f(x)=3$ means the graph approaches the horizontal level 3 far to the right.</p>
-<p>A <strong>horizontal asymptote</strong> $y=L$ is associated with a finite limit at $\infty$ or $-\infty$. Unlike a vertical asymptote, it describes end behavior rather than what happens near one finite input.</p>
-<p>For a function such as $f(x)=L+\frac{k}{x-a}$, the fraction becomes small in magnitude when $|x|$ is large, so the output approaches $L$. This makes the horizontal asymptote visible directly from the formula.</p>
-<p>A horizontal asymptote is not a barrier. A graph may cross the line one or more times at finite inputs and still approach it in the long run. The asymptote describes what the graph does eventually, not every point along the way.</p>
-<p>Context gives limits at infinity practical meaning. If a model $M(t)$ approaches 120 as time grows, then 120 is a long-run level predicted by the model. The model may begin above or below that level and may even cross it before settling.</p>
-<p>Keep local and end behavior separate: vertical asymptotes use $x\to a$, while horizontal asymptotes use $x\to\pm\infty$.</p>
+<h3 class="h-example">Example 1: Check a Solution</h3>
+<p>Decide whether $x=5$ is a solution to $2x+7=17$.</p>
+<ol>
+<li>Substitute $5$ for $x$ on the left side.</li>
+<li>Compare the left side to the right side.</li>
+<li>State whether $x=5$ is a solution and explain why.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 1 answer:</strong> $2(5)+7=17$, which equals the right side. Yes, $x=5$ is a solution.</p>
 </div>
-<!-- REFERENCE BLOCK 2 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Important Concept</span><span class="math-notes-title">Vertical vs. Horizontal</span></div><div class="math-notes-body"><div class="rep-grid"><div class="rep-card"><h4>Vertical asymptote</h4><p>$x=a$: outputs become unbounded near a finite input.</p></div><div class="rep-card"><h4>Horizontal asymptote</h4><p>$y=L$: outputs approach a finite level as $x$ grows without bound.</p></div></div></div></div>
+<!-- YTI 1 -->
+<h3 class="h-yti">You Try It 1: Check Another Solution</h3>
+<p>Decide whether $x=3$ is a solution to $4x+1=13$.</p>
+<ol>
+<li>Substitute $3$ for $x$.</li>
+<li>Compare both sides.</li>
+<li>State whether $x=3$ is a solution.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 1 answer:</strong> $4(3)+1=13$, so yes, both sides are equal.</p>
+</div>
+<!-- STOP AND DISCUSS A -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>What made the checked value a solution in both problems?</li>
+<li>What would have shown it was not a solution?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- MATH NOTES 2 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Writing and solving a context equation</span>
+</div>
+<div class="math-notes-body">
+<p>To model a situation, define the variable, translate the fixed and repeated amounts, then solve the equation that matches the target total.</p>
+<p>A club pays 8 dollars to start and 4 dollars per poster. To spend 28 dollars, solve $$8+4p=28.$$</p>
+<table class="values">
+<tr><th>Posters $p$</th><th>0</th><th>3</th><th>5</th><th>6</th></tr>
+<tr><td>Cost</td><td>8</td><td>20</td><td>28</td><td>32</td></tr>
+</table>
+<figure class="notes-figure wu-img-500">
+<img alt="Graph showing a cost model meeting a target total." src="figures/u1_s5_mn2_context_equation.png"/>
+</figure>
+<p><strong>Context:</strong> The solution $p=5$ means 5 posters make the cost exactly 28 dollars.</p>
+</div>
+</div>
 <!-- EXAMPLE 2 -->
-<h3 class="h-example" data-source-id="U1-S5-NOTE-EX02">Example 2: Interpret Infinite and End Behavior</h3>
-<p>Interpret infinite limits and limits at infinity for two rational functions.</p><ol type="a"><li>For $f(x)=-3+\frac{2}{x-1}$, determine $\lim_{x\to\infty}f(x)$ and state the horizontal asymptote.</li><li>For $p(x)=\frac{1}{x-2}$, determine the vertical asymptote and describe the sign of the one-sided infinite limits.</li><li>Explain the difference between a vertical asymptote statement and a horizontal asymptote statement.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S5-NOTE-EX02"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>The limit is $-3$; horizontal asymptote $y=-3$.</li><li>Vertical asymptote $x=2$; $\lim_{x\to2^-}p(x)=-\infty$ and $\lim_{x\to2^+}p(x)=\infty$.</li><li>Vertical asymptotes describe unbounded output as the input approaches a finite value; horizontal asymptotes describe end behavior as the input grows without bound.</li></ol></p></div>
-<!-- YOU TRY IT 2 -->
-<h3 class="h-yti" data-source-id="U1-S5-NOTE-YTI02">You Try It 2: Interpret Infinite and End Behavior</h3>
-<p>Analyze the asymptotic behavior of $q(x)=4-\frac{3}{x+2}$.</p><ol type="a"><li>Find $\lim_{x\to\infty}q(x)$ and identify the horizontal asymptote.</li><li>Identify the vertical asymptote.</li><li>Determine the signs of $\lim_{x\to-2^-}q(x)$ and $\lim_{x\to-2^+}q(x)$.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S5-NOTE-YTI02"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$4$; horizontal asymptote $y=4$.</li><li>$x=-2$.</li><li>$\lim_{x\to-2^-}q(x)=\infty$ and $\lim_{x\to-2^+}q(x)=-\infty$.</li></ol></p></div>
-<!-- CONTENT READING 3 -->
-<div class="reading-box">
-<h3>Reading 3: The Intermediate Value Theorem</h3>
-<p>The <strong>Intermediate Value Theorem</strong> turns continuity into an existence guarantee. If a function is continuous on a closed interval $[a,b]$, then it takes every output value between $f(a)$ and $f(b)$ somewhere on that interval.</p>
-<p>There are two hypotheses to check before using the theorem in the form we need here. First, continuity must hold on the entire interval. Second, the target output $N$ must lie between the endpoint outputs $f(a)$ and $f(b)$.</p>
-<p>If those conditions are satisfied, IVT guarantees at least one point $c$ with $f(c)=N$. The theorem does not tell you the exact value of $c$, and it does not guarantee that there is only one such point.</p>
-<p>Continuity is essential. Endpoint outputs on opposite sides of a target value are not enough if the graph contains a jump or hole that could skip over the target. This is why a sign change by itself does not justify a root unless continuity is known.</p>
-<p>The target must also actually be between the endpoint values. A continuous function with endpoint outputs 5 and 9 gives IVT guarantees for values between 5 and 9, but not for 2.</p>
-<p>Be careful with endpoints when the question asks for a point in the open interval $(a,b)$. If the target value is already known only at an endpoint, IVT does not automatically guarantee a second occurrence inside the interval.</p>
-<p>The theorem is a logical statement: hypotheses lead to a conclusion. Strong AP-style reasoning names the continuity condition, states that the target lies between the endpoint outputs, and then gives the existence conclusion.</p>
+<h3 class="h-example">Example 2: Write and Solve a Context Equation</h3>
+<p>A game booth charges 5 dollars to enter and 4 dollars per play. Mia spends 29 dollars total. Let $p$ be the number of plays.</p>
+<ol>
+<li>Write an equation for the situation.</li>
+<li>Solve the equation.</li>
+<li>Interpret the solution in the context.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 2 answer:</strong> Equation $5+4p=29$. Solve $4p=24$, so $p=6$. Mia played 6 games.</p>
 </div>
-<!-- REFERENCE BLOCK 3 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Theorem</span><span class="math-notes-title">Intermediate Value Theorem</span></div><div class="math-notes-body"><p>If $f$ is continuous on $[a,b]$ and $N$ lies between $f(a)$ and $f(b)$, then there is at least one $c\in[a,b]$ such that $f(c)=N$.</p><p>If the task requires $c\in(a,b)$, check that the target value is not guaranteed only at an endpoint.</p></div></div>
-<!-- STOP AND DISCUSS READING 3 -->
-<div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>What two hypotheses should appear in an IVT justification?</li><li>What can IVT guarantee that it cannot tell you exactly?</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="SD-1.5-2"><p style="color:#c00000;font-weight:700;">Expected discussion: 1. Continuity on the closed interval and a target value between the endpoint outputs.&lt;br/&gt;2. It guarantees at least one occurrence, but not the exact location or uniqueness.</p></div>
+<!-- YTI 2 -->
+<h3 class="h-yti">You Try It 2: Model and Solve</h3>
+<p>A club orders shirts. There is a 7 dollar setup cost and 6 dollars per shirt. The total is 43 dollars. Let $s$ be shirts.</p>
+<ol>
+<li>Write an equation.</li>
+<li>Solve the equation.</li>
+<li>Interpret the solution.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 2 answer:</strong> $7+6s=43$; $6s=36$; $s=6$. The club ordered 6 shirts.</p>
+</div>
+<!-- STOP AND DISCUSS B -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>Where did the fixed cost appear in each equation?</li>
+<li>Why did the answer need a context sentence?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- MATH NOTES 3 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Solving with inverse operations</span>
+</div>
+<div class="math-notes-body">
+<p>Each solution step should keep the two sides balanced. Undo operations in an order that makes the equation simpler.</p>
+<p>For $4(x-2)+6=30$:</p>
+$$4(x-2)+6=30$$
+$$4(x-2)=24$$
+$$x-2=6$$
+$$x=8$$
+<table class="values">
+<tr><th>Check</th><th>Computation</th><th>Result</th></tr>
+<tr><td>Left side</td><td>$4(8-2)+6$</td><td>30</td></tr>
+<tr><td>Right side</td><td>$30$</td><td>30</td></tr>
+</table>
+</div>
+</div>
 <!-- EXAMPLE 3 -->
-<h3 class="h-example" data-source-id="U1-S5-NOTE-EX03">Example 3: Use the Intermediate Value Theorem</h3>
-<p>Decide whether the Intermediate Value Theorem (IVT) guarantees the requested value.</p><ol type="a"><li>$f$ is continuous on $[1,5]$, $f(1)=-2$, and $f(5)=7$. Does IVT guarantee some $c\in(1,5)$ with $f(c)=4$?</li><li>The same endpoint values are known, but $f$ has a jump at $x=3$. Is the guarantee still valid?</li><li>If IVT guarantees at least one solution to $f(x)=4$, does it guarantee exactly one? Explain.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S5-NOTE-EX03"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>Yes. Continuity is given and 4 lies between -2 and 7.</li><li>No. Continuity on the full interval is required.</li><li>No. IVT guarantees existence, not uniqueness.</li></ol></p></div>
-<!-- YOU TRY IT 3 -->
-<h3 class="h-yti" data-source-id="U1-S5-NOTE-YTI03">You Try It 3: Use the Intermediate Value Theorem</h3>
-<p>Apply IVT conditions to three scenarios.</p><ol type="a"><li>$g$ is continuous on $[-2,3]$, $g(-2)=6$, and $g(3)=-1$. Does IVT guarantee a zero?</li><li>The endpoint values are the same as in part (a), but continuity is not known. What can you conclude from IVT?</li><li>$h$ is continuous on $[0,4]$, $h(0)=5$, and $h(4)=9$. Does IVT guarantee a point where $h(c)=2$?</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S5-NOTE-YTI03"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>Yes; 0 lies between -1 and 6.</li><li>No IVT guarantee can be made because continuity is not established.</li><li>No. The target value 2 is not between the endpoint values 5 and 9.</li></ol></p></div>
-<!-- REFERENCE BLOCK 4 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Important Concept</span><span class="math-notes-title">What IVT Does Not Guarantee</span></div><div class="math-notes-body"><p>IVT gives an existence conclusion. It does not locate the point, prove uniqueness, or apply when continuity on the interval is missing.</p></div></div>
+<h3 class="h-example">Example 3: Solve a Multi-Step Equation</h3>
+<p>Solve the equation and show each step.</p>
+<ol>
+<li>Solve $3(x-4)+9=24$.</li>
+<li>Check your solution by substitution.</li>
+<li>Name one step that kept the equation balanced.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 3 answer:</strong> $3(x-4)+9=24 \Rightarrow 3(x-4)=15 \Rightarrow x-4=5 \Rightarrow x=9$. Check: $3(9-4)+9=24$. Subtracting 9 from both sides or dividing both sides by 3 keeps balance.</p>
+</div>
+<!-- YTI 3 -->
+<h3 class="h-yti">You Try It 3: Solve and Check</h3>
+<p>Solve $5(x-3)+4=39$ and show your steps.</p>
+<ol>
+<li>Solve the equation.</li>
+<li>Check by substitution.</li>
+<li>Identify one inverse operation you used.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 3 answer:</strong> $5(x-3)+4=39 \Rightarrow 5(x-3)=35 \Rightarrow x-3=7 \Rightarrow x=10$. Check: $5(10-3)+4=39$. Inverse operations include subtracting 4 and dividing by 5.</p>
+</div>
+<!-- STOP AND DISCUSS C -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>Which inverse operations appeared in both solutions?</li>
+<li>How did the check confirm the solution?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
 <!-- EXAMPLE 4 -->
-<h3 class="h-example" data-source-id="U1-S5-NOTE-EX04">Example 4: What the Statements Do Not Guarantee</h3>
-<p>Evaluate common claims about asymptotes and IVT.</p><ol type="a"><li>A model satisfies $\lim_{t\to\infty}M(t)=120$. Interpret this statement in context.</li><li>A student says a graph can never cross its horizontal asymptote. Evaluate the claim.</li><li>A continuous function has $f(0)=-3$ and $f(4)=5$. State what IVT guarantees about a zero and what it does not guarantee.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S5-NOTE-EX04"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>As time grows large, the model values approach 120.</li><li>The claim is false. A horizontal asymptote describes end behavior and may be crossed at finite inputs.</li><li>IVT guarantees at least one $c\in(0,4)$ with $f(c)=0$; it does not guarantee uniqueness.</li></ol></p></div>
-<!-- YOU TRY IT 4 -->
-<h3 class="h-yti" data-source-id="U1-S5-NOTE-YTI04">You Try It 4: What the Statements Do Not Guarantee</h3>
-<p>Use asymptotic and theorem language precisely.</p><ol type="a"><li>If $\lim_{x\to-\infty}R(x)=3$ and $\lim_{x\to\infty}R(x)=3$, state the horizontal asymptote suggested by both ends.</li><li>Can $R$ cross that horizontal asymptote? Explain briefly.</li><li>A continuous function on $[2,8]$ has values $F(2)=1$ and $F(8)=10$. Does IVT guarantee a point where $F(c)=7$? Does it guarantee exactly one?</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S5-NOTE-YTI04"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$y=3$.</li><li>Yes. Horizontal asymptotes describe end behavior rather than an uncrossable barrier.</li><li>IVT guarantees at least one such point because 7 lies between 1 and 10; it does not guarantee exactly one.</li></ol></p></div>
-<!-- VOCABULARY DEFINITIONS --><h2 class="h-vocab">Vocabulary: Define the Terms</h2><div class="vocab-box"><p>You have now seen these terms in the reading, representations, and practice. Use this table to consolidate what each term means in this course.</p><table class="roomy-table"><tr><th>Term / notation</th><th>Definition / meaning</th></tr><tr><td><strong>infinite limit</strong></td><td>a limit statement describing function values that increase or decrease without bound as the input approaches a finite target</td></tr><tr><td><strong>vertical asymptote</strong></td><td>a vertical line $x=a$ associated with unbounded function behavior as $x$ approaches $a$ from at least one side</td></tr><tr><td><strong>limit at infinity</strong></td><td>a statement describing the value a function approaches as the input increases or decreases without bound</td></tr><tr><td><strong>horizontal asymptote</strong></td><td>a horizontal line $y=L$ associated with a finite end-behavior limit as $x\to\infty$ or $x\to-\infty$</td></tr><tr><td><strong>Intermediate Value Theorem</strong></td><td>if a function is continuous on $[a,b]$, then it takes every value between $f(a)$ and $f(b)$ somewhere on that interval</td></tr></table></div>
-<!-- SUMMARY --><h2 class="h-summary">Summary</h2><div class="key-point"><ul class="summary-list"><li>Vertical asymptotes come from unbounded behavior near a finite input; horizontal asymptotes come from finite end behavior as the input grows without bound.</li><li>A vertical asymptote is not a function value, and a horizontal asymptote is not an uncrossable barrier.</li><li>Limit notation should specify the direction of approach when the two sides behave differently.</li><li>IVT requires continuity on the entire closed interval and a target value between the endpoint outputs.</li><li>IVT guarantees existence, not uniqueness or a particular location.</li></ul></div><div class="workspace-220" data-teacher-key="SUMMARY-1.5"><span class="ws-label">Summary notes / questions / connections</span><p style="color:#c00000;font-weight:700;">Teaching note: Suggested synthesis: connect the section learning target to the representations and decision rules students used. Emphasize precise notation and the most important misconception correction.</p></div>
-<!-- COMMON MISTAKES --><h2 class="h-mistakes">Common Mistakes</h2><div class="mistake-box"><table class="mistake-table"><tr><th>Mistake</th><th>Why it is tempting</th><th>Check instead</th></tr><tr><td>Treating a vertical asymptote as a function value.</td><td>Point values are familiar from earlier algebra.</td><td>Check the limit conditions separately from the assigned value.</td></tr><tr><td>Assuming a horizontal asymptote cannot be crossed.</td><td>Vertical asymptotes behave like barriers, so students may overgeneralize.</td><td>Remember horizontal asymptotes describe end behavior and may be crossed.</td></tr><tr><td>Using IVT without verifying continuity on the required interval.</td><td>A familiar theorem name can trigger automatic use.</td><td>List the required hypotheses and verify each one.</td></tr><tr><td>Writing $f(a)=\infty$ at a vertical asymptote.</td><td>The graph grows without bound near the line.</td><td>Use an infinite-limit statement; infinity is not a real function value.</td></tr><tr><td>Using IVT from endpoint values alone.</td><td>A target between endpoint outputs looks sufficient.</td><td>Verify continuity on the entire closed interval first.</td></tr></table></div>
-</div></body></html>
+<h3 class="h-example">Example 4: Compare Two Methods</h3>
+<p>Two students solve $2(x+6)=28$. Student A divides by 2 first. Student B distributes first.</p>
+<ol>
+<li>Use Student A's method to solve.</li>
+<li>Use Student B's method to solve.</li>
+<li>Which method is more efficient here and why?</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 4 answer:</strong> A: $x+6=14$, so $x=8$. B: $2x+12=28$, $2x=16$, $x=8$. Dividing first is more efficient because it avoids distribution.</p>
+</div>
+<!-- YTI 4 -->
+<h3 class="h-yti">You Try It 4: Compare Methods Again</h3>
+<p>Two students solve $4(x+2)=36$. One divides by 4 first; the other distributes first.</p>
+<ol>
+<li>Solve by dividing first.</li>
+<li>Solve by distributing first.</li>
+<li>Which method do you prefer and why?</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 4 answer:</strong> Divide first: $x+2=9$, so $x=7$. Distribute: $4x+8=36$, $4x=28$, $x=7$. Dividing first is typically quicker here.</p>
+</div>
+<!-- STOP AND DISCUSS D -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>Why can two methods both be correct?</li>
+<li>What made one method more efficient for these equations?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- SUMMARY -->
+<h2 class="h-summary">Summary</h2>
+<div class="key-point">
+<p>Equations model situations by showing two quantities that are equal. Solving finds the value of the variable that makes the equality true.</p>
+<p>A good equation defines the variable, represents fixed and repeated amounts, and uses balanced steps to solve. Checking substitutes the solution back into the equation.</p>
+<p>A common error is solving correctly but forgetting to interpret the answer in the context.</p>
+<p>Strong understanding means you can write the equation, solve it, check it, and explain why the solution is reasonable for the original situation.</p>
+</div>
+<!-- COMMON MISTAKES -->
+<h2 class="h-mistakes">Common Mistakes</h2>
+<div class="mistake-box">
+<ul>
+<li><strong>Skipping substitution checks.</strong> Why it is tempting: the answer feels finished after solving. What to check instead: the solution in the original equation.</li>
+<li><strong>Forgetting the fixed amount.</strong> Why it is tempting: the per-unit part is easier to see. What to check instead: one-time costs or starting quantities.</li>
+<li><strong>Unbalanced steps.</strong> Why it is tempting: students change only one side. What to check instead: that every operation is applied to both sides.</li>
+<li><strong>Answer without units.</strong> Why it is tempting: the number is algebraically correct. What to check instead: what the variable represents.</li>
+<li><strong>Choosing an inefficient method.</strong> Why it is tempting: one familiar method always gets used. What to check instead: the structure before solving.</li>
+</ul>
+</div>
+<!-- OPTIONAL REFLECTION -->
+<h2 class="h-reflection">Optional Future Task Reflection</h2>
+<div class="annotation-box">
+<p>Look back at the future task. Do not solve it yet. Highlight one part that makes more sense now than it did at the beginning. Circle one part that still feels unfamiliar. Write one sentence about what representation you would look at first.</p>
+</div>
+<!-- EXIT TICKET -->
+<div class="exit-ticket-label">Exit Ticket</div>
+<div class="exit-ticket-grid">
+<div class="et-cell">
+<div class="et-cell-title">1 — Foundations · DoK 1</div>
+<p>Is $x=4$ a solution to $3x+2=14$?</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">2 — Build or Apply · DoK 2</div>
+<p>A movie rental service charges \$6 plus \$3 per movie. Write and solve an equation to find how many movies can be rented for \$27.</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">3 — What Did You Learn?</div>
+<p>What is one idea about equations as models you understand better now than at the start of class? Write at least one complete sentence.</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">4 — What Do You Need Help With?</div>
+<p>What is one thing about equations as models you still want to understand or practice? Be specific — name the idea, not just "everything."</p>
+</div>
+</div>
+</div>
+</body>
+</html>

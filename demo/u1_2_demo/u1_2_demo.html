@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>U1.2 Demo - The Broken Machine</title>
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../css/demo.css"/>
+</head>
+<body class="demo-screen">
+<main class="demo-deck" id="deck">
+<section class="demo-slide active"><div class="slide-card"><div class="kicker">Unit 1 · Section 1.2</div><h1>The Broken Machine</h1><div class="prompt">A machine takes an input, follows one rule, and gives an output.</div><p class="small">What should happen if we enter the same input twice?</p></div></section>
+<section class="demo-slide"><div class="slide-card"><div class="kicker">Machine A</div><h2>Predict the output</h2><div class="two-col"><div class="box"><h3>Input: 6</h3><p>Rule: multiply by 2, then add 1</p></div><div class="box"><h3>Output: ?</h3></div></div><div class="challenge">If we enter 6 again tomorrow, should the output change?</div></div></section>
+<section class="demo-slide"><div class="slide-card"><div class="kicker">Machine B</div><h2>Something is wrong</h2><div class="box"><p>Input 4 &rarr; Output 9</p><p>Input 4 &rarr; Output 13</p><p>Input 7 &rarr; Output 15</p></div><div class="challenge">Can one reliable rule produce both outputs for input 4?</div></div></section>
+<section class="demo-slide"><div class="slide-card"><div class="kicker">A tempting mistake</div><h2>What if two inputs share an output?</h2><div class="box"><p>$-2 \rightarrow 4$</p><p>$2 \rightarrow 4$</p></div><div class="prompt">Is this the same kind of problem as one input having two outputs?</div></div></section>
+<section class="demo-slide"><div class="slide-card"><div class="kicker">Question to carry into the notes</div><h2>What makes an input-output rule dependable?</h2><div class="prompt">We need a precise rule for deciding when a relationship acts like a function.</div></div></section>
+</main>
+<div class="controls"><button id="prev">&larr; Back</button><div class="counter" id="counter">1 / 5</div><button class="primary" id="next">Next &rarr;</button></div>
+<script>
+const slides=[...document.querySelectorAll('.demo-slide')]; let i=0;
+function show(n){ i=Math.max(0,Math.min(slides.length-1,n)); slides.forEach((s,j)=>s.classList.toggle('active',j===i)); document.getElementById('counter').textContent=`${i+1} / ${slides.length}`; }
+document.getElementById('prev').onclick=()=>show(i-1);
+document.getElementById('next').onclick=()=>show(i+1);
+document.addEventListener('keydown',e=>{ if(['ArrowRight','PageDown',' '].includes(e.key)) show(i+1); if(['ArrowLeft','PageUp'].includes(e.key)) show(i-1); });
+</script></body></html>

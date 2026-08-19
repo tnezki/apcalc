@@ -4,96 +4,314 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Section 1.4 Notes - Continuity and Discontinuity</title>
+<title>Section 1.4 Notes — Expressions and Structure</title>
 <script>
 window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
 </script>
 <script async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <link href="../../css/base.css" rel="stylesheet"/>
 <link href="../../css/notes.css" rel="stylesheet"/>
-</head><body><div class="container">
-<!-- TITLE --><div class="notes-title"><div class="title-kicker">AP Calculus AB · Unit 1: Limits and Continuity</div><div class="title-main">Section 1.4<br/>Continuity and Discontinuity</div><div class="title-sub">Continuity ties together the function value, the nearby limit, and the agreement of one-sided behavior.</div><div class="title-quote"><p><strong>Mathematical idea:</strong> A function is continuous at a point only when the function value exists, the limit exists, and the two are equal.</p></div><p class="title-note">You will test the conditions for continuity, adjust piecewise parameters, classify several types of discontinuity, and describe continuity on intervals.</p></div>
-<!-- LEARNING TARGET --><h2 class="h-target">Learning Target</h2><div class="objectives"><p><strong>Analyze continuity at a point and on intervals, and classify discontinuities using limits, function values, and piecewise definitions.</strong></p><p><strong>I can statements</strong></p><ul><li>I can analyze continuity at a point and on intervals, and classify discontinuities using limits, function values, and piecewise definitions.</li><li>I can determine parameter values that make a piecewise function continuous.</li><li>I can justify a discontinuity classification from multiple representations.</li></ul></div>
-<!-- VOCABULARY --><h2 class="h-vocab">Vocabulary</h2><div class="vocab-box"><p>These are words and notation you will see in this section. Do not define them yet.</p><ul class="vocab-list"><li>continuity</li><li>discontinuity</li><li>piecewise function</li><li>removable discontinuity</li><li>jump discontinuity</li></ul><p class="vocab-note">Use the preview activity to decide which terms you already know, recognize, or do not know yet. Watch for these terms in <strong>bold</strong> when they are first meaningfully introduced or defined in the reading.</p></div>
-<!-- PREVIEW -->
-<h2 class="h-preview">Preview: Skim Before You Read</h2>
-<div class="strategy-box"><p><strong>Directions</strong></p><p>Before reading closely, skim the vocabulary list and the section. Look at titles, headings, bold terms, equations, pictures, graphs, tables, diagrams, and other representations. Do not try to understand everything yet. Notice what already looks familiar and make predictions about what the section may explain.</p></div>
-<div class="annotation-box"><p><strong>Step 1 - Sort the vocabulary.</strong> Write each term in the column that best matches what you know right now. You may move a term later.</p><table class="values vocab-sort"><tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr><tr class="vocab-sort-space"><td></td><td></td><td></td></tr></table><p><strong>Step 2 - Skim the section.</strong> Record what catches your attention before you read closely.</p><table class="preview-notes-table"><tr><th>What I noticed</th><td></td></tr><tr><th>What I predict</th><td></td></tr><tr><th>What I wonder</th><td></td></tr></table></div>
-<!-- WHAT'S TO COME --><h2 class="h-preview">What's To Come</h2><div class="strategy-box"><p><strong>Directions</strong></p><p>This is a long-range preview for future work. Do not solve it today. Read and annotate it. Mark what you already understand, what looks familiar, and what you think you will need to learn before you can complete the task.</p></div><div class="annotation-box" data-source-id="U1-S4-WTC01"><p>Four points on different functions have the following local behavior.</p><table class="values"><thead><tr><th>Case</th><th>Left-hand behavior</th><th>Right-hand behavior</th><th>Function value</th></tr></thead><tbody><tr><td>A</td><td>approaches 3</td><td>approaches 3</td><td>3</td></tr><tr><td>B</td><td>approaches 2</td><td>approaches 2</td><td>5</td></tr><tr><td>C</td><td>approaches -1</td><td>approaches 4</td><td>4</td></tr><tr><td>D</td><td>decreases without bound</td><td>increases without bound</td><td>undefined</td></tr></tbody></table><ol type="a"><li>Which case is continuous?</li><li>Which case appears removable?</li><li>Which case appears to be a jump?</li><li>Which case appears infinite?</li><li>Which discontinuity can be repaired by changing only one function value?</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="U1-S4-WTC01"><span class="ws-label">Preview notes / questions</span><p style="color:#c00000;font-weight:700;">Teaching note: Teaching note: Do not solve the preview. Ask students to identify familiar notation/representations and name what information or methods they think they will need later.</p></div>
-<!-- CONTENT --><h2 class="h-intro">Content: Read, Look, Annotate, Apply</h2><div class="strategy-box"><p><strong>Directions</strong></p><p>Read in manageable chunks. Annotate the prose and the representations together: underline key relationships, circle or highlight new vocabulary, label important features, connect a sentence to an equation, table, graph, model, or diagram, and write brief questions or connections in the margins.</p></div>
-<!-- CONTENT READING 1 -->
-<div class="reading-box">
-<h3>Reading 1: The Three Conditions for Continuity</h3>
-<p>A function is <strong>continuity</strong>-friendly at a point only when three facts line up: the function value exists, the two-sided limit exists, and the two are equal. More precisely, $f$ is continuous at $x=a$ when $f(a)$ is defined, $\lim_{x\to a}f(x)$ exists, and $\lim_{x\to a}f(x)=f(a)$.</p>
-<p>These conditions combine ideas from the first three sections. The function value is point information, the limit is nearby information, and one-sided behavior determines whether the two-sided limit exists.</p>
-<p>A <strong>discontinuity</strong> occurs when at least one condition fails. The failure matters because different patterns lead to different types of discontinuity and different ways, if any, to repair them.</p>
-<p>Checking only $f(a)$ is therefore incomplete. A filled point may exist while the surrounding branches approach different values. Likewise, a clean common limit may exist while the point itself is missing or assigned somewhere else.</p>
-<p>Continuity is local: a function can be continuous at one point and discontinuous at another. It is also used on intervals, where every point in the interval must satisfy the appropriate continuity requirements.</p>
-<p>The three-condition checklist is not merely a definition to memorize; it is a diagnostic procedure that organizes graphical, numerical, and symbolic evidence.</p>
+</head>
+<body>
+<div class="container">
+<!-- TITLE -->
+<div class="notes-title">
+<div class="title-kicker">Algebra 1 · Unit 1</div>
+<div class="title-main">Section 1.4<br/>Expressions and Structure</div>
+<div class="title-sub">Rewrite expressions by noticing terms, factors, groups, and equivalent forms.</div>
+<div class="title-quote"><p><strong>Mathematical idea:</strong> Equivalent expressions can look different while representing the same quantity for every input.</p></div>
+<p style="margin-top:18px;color:#555;">Today you will identify parts of expressions, combine like terms, distribute, and rewrite expressions to reveal useful structure. You will also compare equivalent forms and explain what each form shows.</p>
 </div>
-<!-- REFERENCE BLOCK 1 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Definition</span><span class="math-notes-title">Continuity at a Point</span></div><div class="math-notes-body"><ol><li>$f(a)$ exists.</li><li>$\lim_{x\to a}f(x)$ exists.</li><li>$\lim_{x\to a}f(x)=f(a)$.</li></ol><p>All three conditions are required.</p></div></div>
-<!-- STOP AND DISCUSS READING 1 -->
-<div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>Which continuity condition checks nearby behavior rather than point behavior?</li><li>Why is checking only $f(a)$ insufficient?</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="SD-1.4-1"><p style="color:#c00000;font-weight:700;">Expected discussion: 1. The existence of the two-sided limit checks nearby behavior.&lt;br/&gt;2. A function value can exist even when the two sides disagree or the limit differs from the point value.</p></div>
+<!-- LEARNING TARGET -->
+<h2 class="h-target">Learning Target</h2>
+<div class="objectives">
+<p><strong>Learning Target: Students will interpret and rewrite algebraic expressions by identifying structure, meaning, and equivalent forms.</strong></p>
+<p><strong>I can statements</strong></p>
+<ul>
+<li>I can build equivalent expressions by using structure, grouping, and properties of operations.</li>
+<li>I can apply rewriting strategies to make the meaning of an expression easier to work with.</li>
+<li>I can determine whether two expressions are equivalent by using structure, substitution, or properties.</li>
+</ul>
+</div>
+<!-- WHAT'S TO COME -->
+<h2 class="h-preview">What's To Come</h2>
+<p>This is a long-range preview for future lessons. Do not solve it today. Instead, annotate it individually. Circle anything familiar, underline symbols or directions that seem important, and write notes about what information you think will be needed later.</p>
+<p>As you annotate, ask yourself: What parts (words, symbols, graphs) do you KNOW? What parts look FAMILIAR? What parts look like jibberish?</p>
+<div class="annotation-box">
+<p>Create a real context that can be represented by both $8x+20$ and $4(2x+5)$. Then explain what each form reveals about the situation and give one input-output check that confirms equivalence.</p>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Teacher note:</strong> Do not solve the future task. Listen for students naming familiar representations, symbols, and unknown parts.</p>
+</div>
+<!-- INTRO -->
+<h2 class="h-intro">Intro</h2>
+<div class="strategy-box">
+<p><strong>Directions</strong></p>
+<p>Read the introduction aloud with a partner or in a small group. As you read, annotate the text by highlighting important ideas, circling key vocabulary, and writing short notes about connections, questions, or predictions in the margins.</p>
+</div>
+<div class="reading-box">
+<p>Algebraic expressions use numbers, variables, operations, and grouping. In an expression like $5x+12$, the coefficient of $x$ is 5 because it tells how many groups of $x$ are being counted. The constant 12 is a fixed amount that does not change with $x$.</p>
+<p>Two expressions can look different but still give the same output for every input. That happens when properties of operations, such as distribution or combining like terms, preserve the value. Substitution can check equivalence for a specific input, but structure explains why the equivalence always works.</p>
+<p>Grouping shows repeated structure that might be hidden in a longer expression. If two terms both contain $(x+3)$, you can treat that group as a shared factor. This makes rewriting faster and can reveal meaning in a context.</p>
+<p>Key representations in this section include algebraic expressions, equivalent forms, grouped terms and factors, context meanings for terms, and substitution checks. Each representation helps you see a different part of the same algebraic structure.</p>
+<p>When a context describes cost, perimeter, or repeated quantities, the expression should match the story. Rewriting can reveal total groups, parts of a whole, or a simplified form that is easier to calculate.</p>
+</div>
+<div class="notes-ws ws-ruled"><span class="ws-label">Your notes</span>
+<p style="color:red;font-weight:bold;"><strong>Teacher note:</strong> Use this space for student annotations. Prompt partners to underline vocabulary and circle quantities.</p>
+</div>
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>What does a coefficient tell you in an expression like $5x+12$?</li>
+<li>Why can two different-looking expressions be equivalent?</li>
+<li>How can grouping help you rewrite an expression more efficiently?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Answers:</strong> 1. The coefficient tells how many groups of the variable are counted. 2. Properties such as distribution and combining like terms can preserve value even when forms look different. 3. Grouping reveals repeated structure such as a shared factor.</p>
+</div>
+<!-- MATH NOTES 1 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Terms, coefficients, and constants</span>
+</div>
+<div class="math-notes-body">
+<p>Expression structure begins by naming the parts that are being added or subtracted.</p>
+<div class="rep-grid">
+<div class="rep-card"><h4>Term</h4><p>A piece of an expression separated by addition or subtraction.</p></div>
+<div class="rep-card"><h4>Coefficient</h4><p>The number multiplying a variable, such as 5 in $5x$.</p></div>
+<div class="rep-card"><h4>Constant</h4><p>A number with no variable, such as 12 in $5x+12$.</p></div>
+<div class="rep-card"><h4>Like terms</h4><p>Terms with the same variable part, such as $2x$ and $7x$.</p></div>
+</div>
+<p><strong>Example:</strong> In $4x^2+6x+3x+9$, the like terms $6x$ and $3x$ can combine to $9x$.</p>
+</div>
+</div>
 <!-- EXAMPLE 1 -->
-<h3 class="h-example" data-source-id="U1-S4-NOTE-EX01">Example 1: Three Conditions for Continuity</h3>
-<p>At each point, check all three conditions for continuity: the function value exists, the two-sided limit exists, and the two are equal.</p><ol type="a"><li>At $x=2$, $f(2)=5$, $\lim_{x\to2^-}f(x)=5$, and $\lim_{x\to2^+}f(x)=5$. Is $f$ continuous?</li><li>At $x=4$, $g(4)=1$, while both one-sided limits equal 3. Is $g$ continuous? Identify the failed condition.</li><li>At $x=-1$, $h(-1)$ exists, but the left-hand limit is 2 and the right-hand limit is 6. Is $h$ continuous? Identify the failed condition.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S4-NOTE-EX01"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>Yes; all three continuity conditions are satisfied.</li><li>No. The two-sided limit is 3, but it does not equal $g(4)=1$.</li><li>No. The two-sided limit does not exist because the one-sided limits differ.</li></ol></p></div>
-<!-- YOU TRY IT 1 -->
-<h3 class="h-yti" data-source-id="U1-S4-NOTE-YTI01">You Try It 1: Three Conditions for Continuity</h3>
-<p>Use the three continuity conditions to analyze each point.</p><ol type="a"><li>At $x=0$, $p(0)=-2$ and both one-sided limits equal -2.</li><li>At $x=3$, $q(3)=7$ and both one-sided limits equal 4.</li><li>At $x=5$, $r(5)$ exists, but the left-hand limit is 1 and the right-hand limit is -1.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S4-NOTE-YTI01"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>Continuous.</li><li>Not continuous because the limit 4 does not equal the function value 7.</li><li>Not continuous because the two-sided limit does not exist.</li></ol></p></div>
-<!-- CONTENT READING 2 -->
-<div class="reading-box">
-<h3>Reading 2: Piecewise Boundaries</h3>
-<p>A <strong>piecewise function</strong> uses different rules on different parts of its domain. At a boundary where the rule changes, continuity depends on whether the formulas meet at the same output.</p>
-<p>To make a piecewise function continuous at $x=a$, compute the value approached by the left piece and the value approached by the right piece. If a parameter such as $k$ appears, set the two boundary expressions equal and solve for the parameter.</p>
-<p>The endpoint symbols $\lt$, $\le$, $\gt$, and $\ge$ tell you which rule supplies the actual function value, but the limit still depends on both sides. This is why a piecewise boundary is a natural place to check one-sided limits explicitly.</p>
-<p>For linear or polynomial pieces, substitution into each rule is usually enough to determine the one-sided values because those formulas are continuous on their own domains. The main reasoning is matching the pieces, not re-deriving their limits from tables.</p>
-<p>After solving for a parameter, verify the common boundary value. A parameter that makes the equations equal should cause the left-hand limit, right-hand limit, and defined function value to agree.</p>
-<p>This process turns continuity into an equation-solving condition, connecting limit reasoning back to algebra.</p>
+<h3 class="h-example">Example 1: Identify a Coefficient</h3>
+<p>Consider the expression $7x+18$.</p>
+<ol>
+<li>Identify the coefficient of $x$.</li>
+<li>Identify the constant term.</li>
+<li>Explain what the coefficient could mean in a context.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 1 answer:</strong> Coefficient is 7; constant is 18; coefficient could mean 7 units added per $x$ or 7 dollars per item.</p>
 </div>
-<!-- REFERENCE BLOCK 2 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Method</span><span class="math-notes-title">Continuity at a Piecewise Boundary</span></div><div class="math-notes-body"><p>At a boundary $x=a$, compute the value approached by each piece and set them equal. Then verify that the defined function value uses that same common value.</p></div></div>
+<!-- YTI 1 -->
+<h3 class="h-yti">You Try It 1: Parts of an Expression</h3>
+<p>Consider the expression $9x+4$.</p>
+<ol>
+<li>Identify the coefficient of $x$.</li>
+<li>Identify the constant term.</li>
+<li>Write a context where the coefficient has meaning.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 1 answer:</strong> Coefficient 9; constant 4; e.g., 4 dollars initial fee plus 9 dollars per item.</p>
+</div>
+<!-- STOP AND DISCUSS A -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>How is a coefficient different from a constant?</li>
+<li>What context could make each part meaningful?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- MATH NOTES 2 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Combining like terms</span>
+</div>
+<div class="math-notes-body">
+<p>Combine only terms with the same variable part. Coefficients can add, but exponents and variables do not change.</p>
+<table class="values">
+<tr><th>Expression</th><th>Like-term groups</th><th>Simplified form</th></tr>
+<tr><td>$2x+5x+4+9$</td><td>$2x+5x$ and $4+9$</td><td>$7x+13$</td></tr>
+<tr><td>$3a^2+2a+a^2+7a$</td><td>$3a^2+a^2$ and $2a+7a$</td><td>$4a^2+9a$</td></tr>
+</table>
+<p><strong>Context:</strong> Like terms count the same kind of quantity, such as combining two groups of notebooks but not notebooks with fixed fees.</p>
+</div>
+</div>
 <!-- EXAMPLE 2 -->
-<h3 class="h-example" data-source-id="U1-S4-NOTE-EX02">Example 2: Make a Piecewise Function Continuous</h3>
-<p>Choose parameter values that make each piecewise function continuous at its boundary.</p><ol type="a"><li>Find $k$ so $f(x)=\begin{cases}4x-2,&amp;x\lt-2\k,&amp;x\ge-2\end{cases}$ is continuous at $x=-2$.</li><li>Find $m$ so $g(x)=\begin{cases}2x+m,&amp;x\le1\\5x-4,&amp;x\gt1\end{cases}$ is continuous at $x=1$.</li><li>State the equation you set up in each part to match the two sides.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S4-NOTE-EX02"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$k=4(-2)-2=-10$.</li><li>$2(1)+m=5(1)-4=1$, so $m=-1$.</li><li>Set the boundary expressions equal because continuity requires the one-sided values to agree at the boundary.</li></ol></p></div>
-<!-- YOU TRY IT 2 -->
-<h3 class="h-yti" data-source-id="U1-S4-NOTE-YTI02">You Try It 2: Make a Piecewise Function Continuous</h3>
-<p>Determine the parameter that removes the break at each piecewise boundary.</p><ol type="a"><li>$p(x)=\begin{cases}3x+1,&amp;x\le2\x+k,&amp;x\gt2\end{cases}$ at $x=2$.</li><li>$q(x)=\begin{cases}mx-2,&amp;x\lt-1\\4x+3,&amp;x\ge-1\end{cases}$ at $x=-1$.</li><li>For one part, verify the common boundary value after finding the parameter.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S4-NOTE-YTI02"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$3(2)+1=2+k$, so $k=5$ and the common value is 7.</li><li>$-m-2=-1$, so $m=-1$ and the common value is -1.</li><li>Either verification above is sufficient.</li></ol></p></div>
-<!-- CONTENT READING 3 -->
-<div class="reading-box">
-<h3>Reading 3: Classifying Discontinuities</h3>
-<p>A <strong>removable discontinuity</strong> occurs when both sides approach the same finite value but the function value is missing or different. Graphically, it looks like a hole that could be filled by placing one point at the limiting value.</p>
-<p>A <strong>jump discontinuity</strong> occurs when both one-sided limits are finite but different. Changing one function value cannot repair a jump because the disagreement belongs to whole branches of nearby behavior.</p>
-<figure class="notes-figure wu-img-350"><img alt="Graph showing a removable discontinuity at x equals 1 with a separate filled point" src="figures/u1_s4_notes_removable_example.png"/></figure><p>Graph read: Identify the common nearby y-value at $x=1$ and compare it with the plotted function value.</p>
-<p>An infinite discontinuity occurs when function values grow without bound in magnitude as the input approaches the point from at least one side. This behavior is associated with a vertical asymptote and is fundamentally different from a finite hole or jump.</p>
-<p>The fastest classification method is to ask what the one-sided limits do. Same finite value suggests removable if continuity fails at the point; different finite values indicate a jump; unbounded behavior indicates an infinite discontinuity.</p>
-<p>Graph shape is useful evidence, but the classification can also be justified from a table or from symbolic one-sided limits. Strong explanations name the evidence rather than relying only on visual appearance.</p>
-<p>Once a discontinuity is classified, ask whether a local repair is possible. Only the removable case can be fixed by changing a single output value.</p>
-<p>Interval notation then records where continuity remains. A point with a jump or infinite discontinuity splits an interval, while a repaired removable point can be included again.</p>
+<h3 class="h-example">Example 2: Combine Like Terms</h3>
+<p>Simplify the expression by grouping like terms.</p>
+<ol>
+<li>Simplify $3x+4x+8+2x+5$.</li>
+<li>Name the like-term groups you combined.</li>
+<li>Explain why the constants cannot combine with the $x$-terms.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 2 answer:</strong> $3x+4x+2x+8+5=9x+13$. Like-term groups: $x$-terms and constants. Constants do not have the variable $x$.</p>
 </div>
-<!-- REFERENCE BLOCK 3 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Definition</span><span class="math-notes-title">Discontinuity Signatures</span></div><div class="math-notes-body"><div class="rep-grid"><div class="rep-card"><h4>Removable</h4><p>Same finite one-sided limit, but the point value is missing or wrong.</p></div><div class="rep-card"><h4>Jump</h4><p>Finite one-sided limits exist but are different.</p></div><div class="rep-card"><h4>Infinite</h4><p>Outputs grow without bound near the point.</p></div><div class="rep-card"><h4>Continuous</h4><p>Common finite limit equals the function value.</p></div></div></div></div>
-<!-- STOP AND DISCUSS READING 3 -->
-<div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>What one-sided-limit pattern identifies a jump discontinuity?</li><li>Why can a removable discontinuity be fixed by changing one value but a jump cannot?</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="SD-1.4-2"><p style="color:#c00000;font-weight:700;">Expected discussion: 1. Two finite one-sided limits that are different.&lt;br/&gt;2. A removable case already has a common nearby limit; a jump has conflicting nearby behavior on whole sides.</p></div>
+<!-- YTI 2 -->
+<h3 class="h-yti">You Try It 2: Simplify Like Terms</h3>
+<p>Simplify by combining like terms.</p>
+<ol>
+<li>Simplify $6x+2+5x+9+x$.</li>
+<li>Name the groups you combined.</li>
+<li>Why does the variable part stay $x$?</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 2 answer:</strong> $12x+11$. Combined $6x+5x+x$ and $2+9$. Variable part stays $x$ because like terms count the same variable quantity.</p>
+</div>
+<!-- STOP AND DISCUSS B -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>What made the terms "like" in the Example and YTI?</li>
+<li>What mistake would happen if constants were combined with $x$-terms?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- MATH NOTES 3 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Distribution with an area model</span>
+</div>
+<div class="math-notes-body">
+<p>Distribution multiplies each part inside a group by the factor outside the group.</p>
+<p>For $3(2x+5)$, multiply $3$ by both terms: $$3(2x+5)=3(2x)+3(5)=6x+15.$$</p>
+<figure class="notes-figure wu-img-500">
+<img alt="Area model for distributing three across two x plus five." src="figures/u1_s4_mn3_area_model.png"/>
+</figure>
+<p><strong>Context:</strong> If 3 teams each buy $2x+5$ items, the equivalent form $6x+15$ shows the total variable items and total fixed items.</p>
+</div>
+</div>
 <!-- EXAMPLE 3 -->
-<h3 class="h-example" data-source-id="U1-S4-NOTE-EX03">Example 3: Classify Discontinuities</h3>
-<p>Classify each discontinuity and justify the classification from the evidence.</p><figure><img alt="Graph with a hole at x equals negative 1 and a separate filled point" src="figures/u1_s4_note_ex03_discontinuity_graph.png"/><figcaption>Case A.</figcaption></figure><ol type="a"><li>Case A: classify the discontinuity at $x=-1$ in the graph and state how to make the function continuous there.</li><li>Case B: at $x=2$, the left-hand limit is -1 and the right-hand limit is 4. Classify the discontinuity.</li><li>Case C: as $x\to3^-$, $f(x)\to-\infty$, and as $x\to3^+$, $f(x)\to\infty$. Classify the discontinuity.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S4-NOTE-EX03"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>Removable. The nearby graph approaches 4, so redefine $f(-1)=4$.</li><li>Jump discontinuity because the finite one-sided limits are different.</li><li>Infinite discontinuity; the unbounded behavior indicates a vertical asymptote at $x=3$.</li></ol></p></div>
-<!-- YOU TRY IT 3 -->
-<h3 class="h-yti" data-source-id="U1-S4-NOTE-YTI03">You Try It 3: Classify Discontinuities</h3>
-<p>Classify the discontinuity in each case.</p><ol type="a"><li>Both one-sided limits at $x=1$ equal 6, but $f(1)$ is undefined.</li><li>The left-hand limit at $x=-2$ is 3 and the right-hand limit is -4.</li><li>$g(x)$ grows without bound in magnitude as $x$ approaches 5 from either side.</li><li>For one case, state the evidence that distinguishes it from the other two.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S4-NOTE-YTI03"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>Removable discontinuity.</li><li>Jump discontinuity.</li><li>Infinite discontinuity.</li><li>Examples: removable has a finite common two-sided limit; jump has unequal finite one-sided limits; infinite has unbounded behavior.</li></ol></p></div>
-<!-- REFERENCE BLOCK 4 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Important Concept</span><span class="math-notes-title">Repair Logic</span></div><div class="math-notes-body"><p>A removable discontinuity can be repaired by redefining one output. A jump or infinite discontinuity cannot be repaired by changing only the value at the target because the surrounding behavior itself fails the two-sided condition.</p></div></div>
+<h3 class="h-example">Example 3: Distribute and Simplify</h3>
+<p>Rewrite $5(3x+2)+4x$ in an equivalent simplified form.</p>
+<ol>
+<li>Show the distribution step.</li>
+<li>Combine like terms.</li>
+<li>Use $x=2$ to check that the original and simplified forms match.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 3 answer:</strong> $5(3x+2)+4x=15x+10+4x=19x+10$. At $x=2$, original gives 48 and simplified gives 48.</p>
+</div>
+<!-- YTI 3 -->
+<h3 class="h-yti">You Try It 3: Distribute and Check</h3>
+<p>Rewrite $4(2x+6)+3x$ in an equivalent simplified form.</p>
+<ol>
+<li>Show distribution.</li>
+<li>Combine like terms.</li>
+<li>Check with $x=1$.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 3 answer:</strong> $4(2x+6)+3x=8x+24+3x=11x+24$. At $x=1$, both forms give 35.</p>
+</div>
+<!-- STOP AND DISCUSS C -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>How did the substitution check support equivalence?</li>
+<li>Why does one matching input not replace showing the rewrite steps?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- MATH NOTES 4 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Repeated groups and equivalent forms</span>
+</div>
+<div class="math-notes-body">
+<p>When the same group appears in more than one term, you can combine the outside factors or distribute first.</p>
+<p>For $4(x+3)+2(x+3)$, the shared group is $(x+3)$:</p>
+$$4(x+3)+2(x+3)=(4+2)(x+3)=6(x+3)=6x+18.$$
+<table class="values">
+<tr><th>Form</th><th>What the form reveals</th></tr>
+<tr><td>$4(x+3)+2(x+3)$</td><td>two separate groups</td></tr>
+<tr><td>$6(x+3)$</td><td>six total copies of the same group</td></tr>
+<tr><td>$6x+18$</td><td>combined variable and constant parts</td></tr>
+</table>
+</div>
+</div>
 <!-- EXAMPLE 4 -->
-<h3 class="h-example" data-source-id="U1-S4-NOTE-EX04">Example 4: Repair and Interval Reasoning</h3>
-<p>A function is continuous on $(-5,2)$ and $(2,7)$, has a jump at $x=2$, and has a removable hole at $x=-1$ that is filled by redefining $f(-1)$ to equal its limit.</p><ol type="a"><li>After the hole is repaired, write the intervals of continuity.</li><li>A student says, "Any function with a hole has no limit at the hole." Critique the statement.</li><li>Explain why repairing a removable discontinuity is different from trying to repair a jump by changing only one function value.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S4-NOTE-EX04"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$(-5,2)\cup(2,7)$.</li><li>The statement is false. A hole can have a finite two-sided limit if both sides approach the same value.</li><li>A removable discontinuity can be fixed by assigning the common limit value. A jump has different one-sided limits, so changing one point cannot make those sides agree.</li></ol></p></div>
-<!-- YOU TRY IT 4 -->
-<h3 class="h-yti" data-source-id="U1-S4-NOTE-YTI04">You Try It 4: Repair and Interval Reasoning</h3>
-<p>A function has a removable discontinuity at $x=0$ and a jump at $x=4$.</p><ol type="a"><li>If the two-sided limit at $x=0$ is -3, what value should be assigned to $f(0)$ to repair the hole?</li><li>If the one-sided limits at $x=4$ are 2 and 7, can redefining $f(4)$ make the function continuous there? Explain.</li><li>Write a sentence comparing what the limit evidence looks like at the two discontinuities.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S4-NOTE-YTI04"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$f(0)=-3$.</li><li>No. The one-sided limits are different, so the two-sided limit does not exist; one point value cannot repair that.</li><li>At the removable discontinuity both sides approach the same finite value; at the jump they approach different finite values.</li></ol></p></div>
-<!-- VOCABULARY DEFINITIONS --><h2 class="h-vocab">Vocabulary: Define the Terms</h2><div class="vocab-box"><p>You have now seen these terms in the reading, representations, and practice. Use this table to consolidate what each term means in this course.</p><table class="roomy-table"><tr><th>Term / notation</th><th>Definition / meaning</th></tr><tr><td><strong>continuity</strong></td><td>the condition that a function value exists, the two-sided limit exists, and the limit equals the function value</td></tr><tr><td><strong>discontinuity</strong></td><td>a point where one or more continuity conditions fail</td></tr><tr><td><strong>piecewise function</strong></td><td>a function defined by different formulas or rules on different parts of its domain</td></tr><tr><td><strong>removable discontinuity</strong></td><td>a discontinuity with a finite two-sided limit that can be repaired by redefining a single function value</td></tr><tr><td><strong>jump discontinuity</strong></td><td>a discontinuity where the finite one-sided limits both exist but have different values</td></tr></table></div>
-<!-- SUMMARY --><h2 class="h-summary">Summary</h2><div class="key-point"><ul class="summary-list"><li>Continuity at a point requires a function value, a two-sided limit, and equality between them.</li><li>At a piecewise boundary, compare the formulas from both sides before solving for a parameter.</li><li>Removable, jump, and infinite discontinuities have different one-sided-limit signatures.</li><li>A removable discontinuity can be repaired by changing one value; a jump cannot.</li><li>Intervals of continuity exclude points where the required local behavior fails.</li></ul></div><div class="workspace-220" data-teacher-key="SUMMARY-1.4"><span class="ws-label">Summary notes / questions / connections</span><p style="color:#c00000;font-weight:700;">Teaching note: Suggested synthesis: connect the section learning target to the representations and decision rules students used. Emphasize precise notation and the most important misconception correction.</p></div>
-<!-- COMMON MISTAKES --><h2 class="h-mistakes">Common Mistakes</h2><div class="mistake-box"><table class="mistake-table"><tr><th>Mistake</th><th>Why it is tempting</th><th>Check instead</th></tr><tr><td>Checking only whether a function value exists rather than all continuity conditions.</td><td>Point values are familiar from earlier algebra.</td><td>Check the limit conditions separately from the assigned value.</td></tr><tr><td>Confusing a removable discontinuity with a jump or infinite discontinuity.</td><td>A familiar theorem name can trigger automatic use.</td><td>List the required hypotheses and verify each one.</td></tr><tr><td>Forgetting to compare one-sided behavior at a piecewise boundary.</td><td>One direction may look convincing by itself.</td><td>Compare both directions explicitly.</td></tr><tr><td>Calling every hole a jump.</td><td>Both appear as breaks in a graph.</td><td>Check whether the two one-sided limits are the same finite value.</td></tr><tr><td>Trying to fix a jump with one point.</td><td>Removable discontinuities can be repaired this way.</td><td>A jump has different nearby limits, so one point cannot make the sides agree.</td></tr></table></div>
-</div></body></html>
+<h3 class="h-example">Example 4: Analyze Repeated Structure</h3>
+<p>Analyze the expression $3(x+5)+7(x+5)$.</p>
+<ol>
+<li>Rewrite it by combining the repeated group first.</li>
+<li>Rewrite it by distributing first.</li>
+<li>Which form makes the repeated group easiest to see? Explain.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 4 answer:</strong> Combine group: $(3+7)(x+5)=10(x+5)$. Distribute: $3x+15+7x+35=10x+50$. $10(x+5)$ makes the repeated group easiest to see.</p>
+</div>
+<!-- YTI 4 -->
+<h3 class="h-yti">You Try It 4: Use Repeated Structure</h3>
+<p>Analyze $5(x+2)+4(x+2)$.</p>
+<ol>
+<li>Rewrite by combining the repeated group first.</li>
+<li>Rewrite by distributing first.</li>
+<li>Which form makes the total number of groups clearest?</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 4 answer:</strong> $(5+4)(x+2)=9(x+2)$; distribute gives $5x+10+4x+8=9x+18$; $9(x+2)$ makes total groups clearest.</p>
+</div>
+<!-- STOP AND DISCUSS D -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>Which equivalent form made the structure easiest to explain?</li>
+<li>When might the simplified form be more useful than the factored form?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- SUMMARY -->
+<h2 class="h-summary">Summary</h2>
+<div class="key-point">
+<p>Expressions have structure: terms, coefficients, constants, factors, and groups all communicate meaning. Rewriting an expression should preserve the same value.</p>
+<p>Combining like terms, distributing, factoring a repeated group, and substitution checks are tools for working with equivalent forms. Each form can reveal a different feature.</p>
+<p>A common error is combining terms that are not like terms or distributing to only one term inside parentheses.</p>
+<p>Strong understanding means you can rewrite accurately, explain why the forms are equivalent, and connect parts of an expression to a context.</p>
+</div>
+<!-- COMMON MISTAKES -->
+<h2 class="h-mistakes">Common Mistakes</h2>
+<div class="mistake-box">
+<ul>
+<li><strong>Combining unlike terms.</strong> Why it is tempting: all terms are in one expression. What to check instead: the variable part and exponent before combining.</li>
+<li><strong>Partial distribution.</strong> Why it is tempting: students multiply the first term and stop. What to check instead: every term inside parentheses.</li>
+<li><strong>Losing a constant.</strong> Why it is tempting: constants look small. What to check instead: fixed amounts after each rewrite step.</li>
+<li><strong>Checking only by appearance.</strong> Why it is tempting: forms can look different. What to check instead: a structural reason or substitution check.</li>
+<li><strong>Missing repeated groups.</strong> Why it is tempting: expanded form feels finished. What to check instead: shared factors such as $(x+3)$.</li>
+</ul>
+</div>
+<!-- OPTIONAL REFLECTION -->
+<h2 class="h-reflection">Optional Future Task Reflection</h2>
+<div class="annotation-box">
+<p>Look back at the future task. Do not solve it yet. Highlight one part that makes more sense now than it did at the beginning. Circle one part that still feels unfamiliar. Write one sentence about what representation you would look at first.</p>
+</div>
+<!-- EXIT TICKET -->
+<div class="exit-ticket-label">Exit Ticket</div>
+<div class="exit-ticket-grid">
+<div class="et-cell">
+<div class="et-cell-title">1 — Foundations · DoK 1</div>
+<p>In $5x+12$, identify the coefficient of $x$.</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">2 — Build or Apply · DoK 2</div>
+<p>Simplify by combining like terms: $2x+3x+3+4x^2+10+x$.</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">3 — What Did You Learn?</div>
+<p>What is one idea about expressions and structure you understand better now than at the start of class? Write at least one complete sentence.</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">4 — What Do You Need Help With?</div>
+<p>What is one thing about expressions and structure you still want to understand or practice? Be specific — name the idea, not just "everything."</p>
+</div>
+</div>
+</div>
+</body>
+</html>

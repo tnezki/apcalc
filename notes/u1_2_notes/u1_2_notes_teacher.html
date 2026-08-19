@@ -4,94 +4,309 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Section 1.2 Notes - Limits from Graphs and Tables</title>
+<title>Section 1.2 Notes — Inputs, Outputs, and Functions</title>
 <script>
 window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
 </script>
 <script async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <link href="../../css/base.css" rel="stylesheet"/>
 <link href="../../css/notes.css" rel="stylesheet"/>
-</head><body><div class="container">
-<!-- TITLE --><div class="notes-title"><div class="title-kicker">AP Calculus AB · Unit 1: Limits and Continuity</div><div class="title-main">Section 1.2<br/>Limits from Graphs and Tables</div><div class="title-sub">One-sided limits tell the story from each direction; a two-sided limit exists only when those stories agree.</div><div class="title-quote"><p><strong>Mathematical idea:</strong> A finite two-sided limit exists when the left-hand and right-hand limits both exist and have the same value.</p></div><p class="title-note">You will read one-sided behavior from graphs and tables, decide when a two-sided limit exists, and use direction notation precisely.</p></div>
-<!-- LEARNING TARGET --><h2 class="h-target">Learning Target</h2><div class="objectives"><p><strong>Determine one-sided and two-sided limits from graphs and tables, including when a limit does not exist.</strong></p><p><strong>I can statements</strong></p><ul><li>I can determine one-sided and two-sided limits from graphs and tables, including when a limit does not exist.</li><li>I can compare graphical and numerical estimates of the same limit.</li><li>I can use calculator-supported tables as a check on graphical reasoning.</li></ul></div>
-<!-- VOCABULARY --><h2 class="h-vocab">Vocabulary</h2><div class="vocab-box"><p>These are words and notation you will see in this section. Do not define them yet.</p><ul class="vocab-list"><li>left-hand limit</li><li>right-hand limit</li><li>two-sided limit</li><li>DNE</li></ul><p class="vocab-note">Use the preview activity to decide which terms you already know, recognize, or do not know yet. Watch for these terms in <strong>bold</strong> when they are first meaningfully introduced or defined in the reading.</p></div>
-<!-- PREVIEW -->
-<h2 class="h-preview">Preview: Skim Before You Read</h2>
-<div class="strategy-box"><p><strong>Directions</strong></p><p>Before reading closely, skim the vocabulary list and the section. Look at titles, headings, bold terms, equations, pictures, graphs, tables, diagrams, and other representations. Do not try to understand everything yet. Notice what already looks familiar and make predictions about what the section may explain.</p></div>
-<div class="annotation-box"><p><strong>Step 1 - Sort the vocabulary.</strong> Write each term in the column that best matches what you know right now. You may move a term later.</p><table class="values vocab-sort"><tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr><tr class="vocab-sort-space"><td></td><td></td><td></td></tr></table><p><strong>Step 2 - Skim the section.</strong> Record what catches your attention before you read closely.</p><table class="preview-notes-table"><tr><th>What I noticed</th><td></td></tr><tr><th>What I predict</th><td></td></tr><tr><th>What I wonder</th><td></td></tr></table></div>
-<!-- WHAT'S TO COME --><h2 class="h-preview">What's To Come</h2><div class="strategy-box"><p><strong>Directions</strong></p><p>This is a long-range preview for future work. Do not solve it today. Read and annotate it. Mark what you already understand, what looks familiar, and what you think you will need to learn before you can complete the task.</p></div><div class="annotation-box" data-source-id="U1-S2-WTC01"><p>The table records values of $g$ as $x$ approaches 0 from both sides.</p><table class="values"><thead><tr><th>$x$</th><th>-0.1</th><th>-0.01</th><th>-0.001</th><th>0.001</th><th>0.01</th><th>0.1</th></tr></thead><tbody><tr><td>$g(x)$</td><td>-1.2</td><td>-1.02</td><td>-1.002</td><td>5.002</td><td>5.02</td><td>5.2</td></tr></tbody></table><ol type="a"><li>Describe what the left side appears to approach.</li><li>Describe what the right side appears to approach.</li><li>Predict whether a two-sided limit should exist and identify the evidence that controls the decision.</li><li>If $g(0)=3$, does that value settle the two-sided-limit question?</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="U1-S2-WTC01"><span class="ws-label">Preview notes / questions</span><p style="color:#c00000;font-weight:700;">Teaching note: Teaching note: Do not solve the preview. Ask students to identify familiar notation/representations and name what information or methods they think they will need later.</p></div>
-<!-- CONTENT --><h2 class="h-intro">Content: Read, Look, Annotate, Apply</h2><div class="strategy-box"><p><strong>Directions</strong></p><p>Read in manageable chunks. Annotate the prose and the representations together: underline key relationships, circle or highlight new vocabulary, label important features, connect a sentence to an equation, table, graph, model, or diagram, and write brief questions or connections in the margins.</p></div>
-<!-- CONTENT READING 1 -->
-<div class="reading-box">
-<h3>Reading 1: Direction Matters</h3>
-<p>A <strong>left-hand limit</strong> describes what happens when inputs approach a target through smaller values, while a <strong>right-hand limit</strong> uses larger values. The superscripts $-$ and $+$ in $\lim_{x\to a^-}f(x)$ and $\lim_{x\to a^+}f(x)$ record direction, not the sign of the answer.</p>
-<p>On a graph, direction determines which branch you follow. To find a left-hand limit, begin just to the left of the target and trace toward it. To find a right-hand limit, begin just to the right. The actual point drawn at the target is still a separate issue.</p>
-<figure class="notes-figure wu-img-350"><img alt="Piecewise graph whose left and right branches approach different values at x equals negative 2" src="figures/u1_s2_notes_one_sided_compare.png"/></figure><p>Graph read: Approach $x=-2$ separately from the left and right. Record the two y-values before deciding whether a two-sided limit exists.</p>
-<p>Tables represent direction by the input values they include. Numbers such as 1.9, 1.99, and 1.999 approach 2 from the left because they are less than 2. Numbers such as 2.1, 2.01, and 2.001 approach from the right because they are greater than 2.</p>
-<p>One-sided limits are especially useful at jumps, endpoints, and piecewise boundaries. A graph can have perfectly clear behavior from each direction even when the two directions disagree. In that situation the one-sided limits can both exist while the two-sided limit does not.</p>
-<p>Directional notation also prevents us from hiding important information. Writing only “near 2” can be ambiguous when a function behaves differently on the two sides. Writing $x\to2^-$ or $x\to2^+$ makes the source of the evidence explicit.</p>
-<p>As you read a graph or table, decide the direction before reading the output. This small habit prevents the common mistake of combining rows from opposite sides too early.</p>
+</head>
+<body>
+<div class="container">
+<!-- TITLE -->
+<div class="notes-title">
+<div class="title-kicker">Algebra 1 · Unit 1</div>
+<div class="title-main">Section 1.2<br/>Inputs, Outputs, and Functions</div>
+<div class="title-sub">Use function rules to connect each input to exactly one output.</div>
+<div class="title-quote"><p><strong>Mathematical idea:</strong> A function rule answers the question, "What output belongs with this input?"</p></div>
+<p style="margin-top:18px;color:#555;">Today you will evaluate function notation, complete input-output tables, and decide whether a rule gives one output for each input. You will also revise models when the rule does not match the situation.</p>
 </div>
-<!-- REFERENCE BLOCK 1 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Definition</span><span class="math-notes-title">One-Sided Limits</span></div><div class="math-notes-body"><p>$$\lim_{x\to a^-}f(x)=L_- \qquad \lim_{x\to a^+}f(x)=L_+$$</p><p>The minus sign means approach through smaller input values; the plus sign means approach through larger input values.</p></div></div>
-<!-- STOP AND DISCUSS READING 1 -->
-<div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>In the graph, what should you inspect first when asked for a left-hand limit?</li><li>Why can both one-sided limits exist while the two-sided limit fails?</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="SD-1.2-1"><p style="color:#c00000;font-weight:700;">Expected discussion: 1. Follow only the branch for inputs smaller than the target.&lt;br/&gt;2. The one-sided limits can settle at different finite values.</p></div>
+<!-- LEARNING TARGET -->
+<h2 class="h-target">Learning Target</h2>
+<div class="objectives">
+<p><strong>Learning Target: Students will interpret functions as rules that connect inputs and outputs without relying on formal domain and range language.</strong></p>
+<p><strong>I can statements</strong></p>
+<ul>
+<li>I can formulate a rule that connects inputs to outputs in a table, graph, equation, or context.</li>
+<li>I can apply an input-output rule to generate missing values and ordered pairs.</li>
+<li>I can assess whether a rule gives one output for each input in a situation.</li>
+</ul>
+</div>
+<!-- WHAT'S TO COME -->
+<h2 class="h-preview">What's To Come</h2>
+<p>This is a long-range preview for future lessons. Do not solve it today. Instead, annotate it individually. Circle anything familiar, underline symbols or directions that seem important, and write notes about what information you think will be needed later.</p>
+<p>As you annotate, ask yourself: What parts (words, symbols, graphs) do you KNOW? What parts look FAMILIAR? What parts look like jibberish?</p>
+<div class="annotation-box">
+<p>A table for an input-output rule is flawed: $(0,3),(1,6),(2,9),(2,12),(3,12)$. Revise the relation in two different ways: one revision that makes it a function with a constant increase, and one revision that makes it a function but not a constant-increase rule. Explain both choices.</p>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Teacher note:</strong> Do not solve the future task. Listen for students naming familiar representations, symbols, and unknown parts.</p>
+</div>
+<!-- INTRO -->
+<h2 class="h-intro">Intro</h2>
+<div class="strategy-box">
+<p><strong>Directions</strong></p>
+<p>Read the introduction aloud with a partner or in a small group. As you read, annotate the text by highlighting important ideas, circling key vocabulary, and writing short notes about connections, questions, or predictions in the margins.</p>
+</div>
+<div class="reading-box">
+<p>Function notation is a compact way to ask for an output. When you see $f(3)$, the input is 3 and the task is to find the output produced by the rule named $f$. The answer is a value, not a multiplication problem between $f$ and 3.</p>
+<p>A relation can be represented by a table, graph, equation, mapping diagram, or context. To act like a function, each input must have only one output. Different inputs may share the same output, but one input cannot split into two different outputs.</p>
+<p>Imagine entering the same student ID into a system and getting two different names. That would make the rule unreliable because one input would not lead to a single result. A table with a repeated input must be checked carefully before deciding it represents a function.</p>
+<p>Input-output rules help you generate ordered pairs and missing table values. Substitution is one way to use a rule: replace the input variable, then simplify the expression to find the output.</p>
+<p>In contexts, inputs and outputs need units and meaning. If $n$ is the number of tickets and $C$ is cost, the rule should match the words on the flyer and the values in the table.</p>
+</div>
+<div class="notes-ws ws-ruled"><span class="ws-label">Your notes</span>
+<p style="color:red;font-weight:bold;"><strong>Teacher note:</strong> Use this space for student annotations. Prompt partners to underline vocabulary and circle quantities.</p>
+</div>
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>What question does function notation like $f(3)$ ask?</li>
+<li>What must be true for a relation to act like a function?</li>
+<li>Why can a repeated input with two different outputs create a problem?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Answers:</strong> 1. $f(3)$ asks for the output when the input is 3. 2. Each input must have only one output. 3. The same input leading to two outputs makes the rule unreliable and not a function.</p>
+</div>
+<!-- MATH NOTES 1 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Evaluating function notation in four representations</span>
+</div>
+<div class="math-notes-body">
+<p>To evaluate $f(3)$, find the output when the input is 3.</p>
+$$f(3)=2(3)+1=7$$
+<table class="values">
+<tr><th>Input</th><th>0</th><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>Output</td><td>1</td><td>3</td><td>5</td><td>7</td></tr>
+</table>
+<figure class="notes-figure wu-img-500">
+<img alt="Graph marking the point used to evaluate f of three." src="figures/u1_s2_mn1_eval_f3.png"/>
+</figure>
+<p><strong>Context:</strong> If $x$ is the number of practice rounds, $f(3)=7$ means the output is 7 points after 3 rounds.</p>
+</div>
+</div>
 <!-- EXAMPLE 1 -->
-<h3 class="h-example" data-source-id="U1-S2-NOTE-EX01">Example 1: One-Sided Evidence</h3>
-<p>Use the table to analyze both sides of $x=0$.</p><table class="values"><thead><tr><th>$x$</th><th>-0.1</th><th>-0.01</th><th>-0.001</th><th>0.001</th><th>0.01</th><th>0.1</th></tr></thead><tbody><tr><td>$f(x)$</td><td>-2.2</td><td>-2.03</td><td>-2.003</td><td>3.003</td><td>3.03</td><td>3.2</td></tr></tbody></table><ol type="a"><li>Estimate $\lim_{x\to0^-}f(x)$.</li><li>Estimate $\lim_{x\to0^+}f(x)$.</li><li>Determine $\lim_{x\to0}f(x)$, if it exists, and justify the conclusion.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S2-NOTE-EX01"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$-2$.</li><li>$3$.</li><li>DNE because the one-sided limits are different.</li></ol></p></div>
-<!-- YOU TRY IT 1 -->
-<h3 class="h-yti" data-source-id="U1-S2-NOTE-YTI01">You Try It 1: One-Sided Evidence</h3>
-<p>Use the table to analyze the behavior near $x=-1$.</p><table class="values"><thead><tr><th>$x$</th><th>-1.1</th><th>-1.01</th><th>-1.001</th><th>-0.999</th><th>-0.99</th><th>-0.9</th></tr></thead><tbody><tr><td>$f(x)$</td><td>-3.2</td><td>-3.03</td><td>-3.003</td><td>-2.997</td><td>-2.97</td><td>-2.8</td></tr></tbody></table><ol type="a"><li>Find the left-hand limit.</li><li>Find the right-hand limit.</li><li>Determine the two-sided limit and explain why it exists.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S2-NOTE-YTI01"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$-3$.</li><li>$-3$.</li><li>$-3$ because both one-sided limits exist and are equal.</li></ol></p></div>
-<!-- CONTENT READING 2 -->
-<div class="reading-box">
-<h3>Reading 2: When a Two-Sided Limit Exists</h3>
-<p>A <strong>two-sided limit</strong> asks whether the function approaches one common output from both directions. The decisive test is simple in form but powerful in use: the left-hand limit and right-hand limit must both exist and must be equal.</p>
-<p>If the left side approaches 4 and the right side approaches 4, then the two-sided limit is 4. If the left side approaches 4 and the right side approaches 9, then there is no single output describing both directions, so the two-sided limit is reported as <strong>DNE</strong>.</p>
-<p>DNE does not mean “the function is undefined.” A function can be undefined at the target and still have a perfectly good two-sided limit if both sides approach the same value. Conversely, a function can be defined at the target and still have no two-sided limit if the directional behavior disagrees.</p>
-<p>The phrase “both exist and are equal” matters. If one side grows without bound or oscillates without settling, a finite two-sided limit fails even if the other side behaves nicely. Later we will use infinite-limit notation to describe some of those unbounded cases more precisely.</p>
-<p>Graphical and numerical evidence should tell the same directional story. A calculator table is not a replacement for reasoning; it is another representation that can confirm or challenge what the graph appears to show.</p>
-<p>When the evidence conflicts, inspect the setup. Check whether the table sampled both sides, whether the graph scale is being read correctly, and whether the target point has been confused with nearby behavior.</p>
+<h3 class="h-example">Example 1: Evaluate a Function</h3>
+<p>The function $f(x)=4x-1$ gives the number of points after $x$ completed challenges.</p>
+<ol>
+<li>Find $f(4)$.</li>
+<li>Write the ordered pair connected to your answer.</li>
+<li>Explain what the ordered pair means in the context.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 1 answer:</strong> $f(4)=4(4)-1=15$; ordered pair $(4,15)$; after 4 challenges, there are 15 points.</p>
 </div>
-<!-- REFERENCE BLOCK 2 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Important Concept</span><span class="math-notes-title">Two-Sided Existence Rule</span></div><div class="math-notes-body"><p>A finite two-sided limit exists exactly when both one-sided limits exist and agree:</p>$$\lim_{x\to a}f(x)=L \quad\Longleftrightarrow\quad \lim_{x\to a^-}f(x)=L=\lim_{x\to a^+}f(x).$$<p>If the one-sided limits disagree, report DNE.</p></div></div>
+<!-- YTI 1 -->
+<h3 class="h-yti">You Try It 1: Evaluate Another Function</h3>
+<p>The function $h(x)=3x+5$ gives the total badges earned after $x$ weeks.</p>
+<ol>
+<li>Find $h(6)$.</li>
+<li>Write the ordered pair.</li>
+<li>Explain the meaning of the ordered pair.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 1 answer:</strong> $h(6)=23$; ordered pair $(6,23)$; after 6 weeks, 23 badges have been earned.</p>
+</div>
+<!-- STOP AND DISCUSS A -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>How did the notation tell you which input to use?</li>
+<li>Why is $f(4)$ an output, not an ordered pair by itself?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- MATH NOTES 2 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Finding an input from a target output</span>
+</div>
+<div class="math-notes-body">
+<p>Sometimes the output is known and the input is unknown, so set the rule equal to the target output and solve.</p>
+<p>For $A=2+3r$, the question "when is the output 17?" becomes $$2+3r=17.$$</p>
+<table class="values">
+<tr><th>Rounds $r$</th><th>0</th><th>3</th><th>5</th><th>6</th></tr>
+<tr><td>Output $A$</td><td>2</td><td>11</td><td>17</td><td>20</td></tr>
+</table>
+<figure class="notes-figure wu-img-500">
+<img alt="Graph showing a rule meeting the target output seventeen." src="figures/u1_s2_mn2_rule_solve.png"/>
+</figure>
+<p><strong>Context:</strong> The point $(5,17)$ means 5 rounds produce the target output of 17.</p>
+</div>
+</div>
 <!-- EXAMPLE 2 -->
-<h3 class="h-example" data-source-id="U1-S2-NOTE-EX02">Example 2: Graphical One-Sided Limits</h3>
-<p>Use the graph to compare one-sided behavior at $x=1$.</p><figure><img alt="Piecewise graph with different left-hand and right-hand behavior at x equals 1" src="figures/u1_s2_note_ex02_one_sided_graph.png"/><figcaption>Graph of $f$.</figcaption></figure><ol type="a"><li>Find $\lim_{x\to1^-}f(x)$.</li><li>Find $\lim_{x\to1^+}f(x)$.</li><li>Determine $\lim_{x\to1}f(x)$, if it exists.</li><li>State the specific evidence that controls the answer to part (c).</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S2-NOTE-EX02"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$2$.</li><li>$-2$.</li><li>DNE.</li><li>The left-hand and right-hand limits are different.</li></ol></p></div>
-<!-- YOU TRY IT 2 -->
-<h3 class="h-yti" data-source-id="U1-S2-NOTE-YTI02">You Try It 2: Graphical One-Sided Limits</h3>
-<p>A student reads only the entries with $x\lt2$ and reports the two-sided limit as 4.</p><table class="values"><thead><tr><th>$x$</th><th>1.9</th><th>1.99</th><th>1.999</th><th>2.001</th><th>2.01</th><th>2.1</th></tr></thead><tbody><tr><td>$f(x)$</td><td>3.8</td><td>3.97</td><td>3.997</td><td>9.003</td><td>9.03</td><td>9.2</td></tr></tbody></table><ol type="a"><li>Estimate the left-hand limit.</li><li>Estimate the right-hand limit.</li><li>Evaluate the student's conclusion and identify what evidence was ignored.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S2-NOTE-YTI02"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$4$.</li><li>$9$.</li><li>The conclusion is incorrect. The student ignored the right-hand behavior, so the two-sided limit is DNE.</li></ol></p></div>
-<!-- CONTENT READING 3 -->
-<div class="reading-box">
-<h3>Reading 3: Numerical Evidence and Precision</h3>
-<p>Numerical limit estimates depend on choosing useful inputs. A row at $x=1$ tells very little about a limit as $x\to2$ compared with rows at 1.99 and 2.01. Closer inputs usually provide better local evidence, although calculator rounding can eventually become a practical limitation.</p>
-<p>A symmetric table is often helpful: choose inputs at comparable distances on the left and right. For example, 1.9 and 2.1 are equally far from 2, as are 1.99 and 2.01. This makes disagreement between the sides easier to detect.</p>
-<p>You should not expect the outputs to equal the limit exactly. If values are 5.97, 5.997, 6.003, and 6.03, the pattern supports a limit near 6. The goal is to identify the trend and use enough precision to make a defensible estimate.</p>
-<p>When a table is generated by technology, verify that the inputs actually approach the target from the intended side. A calculator that steps across the target can mix one-sided behavior if the function has a jump.</p>
-<p>Numerical evidence is strongest when it is interpreted alongside notation and, when available, a graph. The three representations should reinforce the same idea: direction of approach, output trend, and whether a common value is emerging.</p>
+<h3 class="h-example">Example 2: Use a Rule in More Than One Way</h3>
+<p>For $p(x)=\frac{10}{x+1}$, use the rule to evaluate outputs and solve for a target output.</p>
+<ol>
+<li>Find $p(1)$.</li>
+<li>Find $p(4)$.</li>
+<li>What value of $x$ makes $p(x)=2$?</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 2 answer:</strong> $p(1)=5$; $p(4)=2$; $x=4$ makes the output 2.</p>
 </div>
-<!-- REFERENCE BLOCK 3 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Method</span><span class="math-notes-title">Read a Table by Direction</span></div><div class="math-notes-body"><ol><li>Separate inputs smaller than the target from inputs larger than the target.</li><li>Read the output trend on each side independently.</li><li>Compare the two one-sided conclusions before stating a two-sided limit.</li></ol></div></div>
-<!-- STOP AND DISCUSS READING 2 -->
-<div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>What exact condition turns two one-sided limits into a two-sided limit?</li><li>Why does a missing function value not automatically make the limit DNE?</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="SD-1.2-2"><p style="color:#c00000;font-weight:700;">Expected discussion: 1. Both one-sided limits must exist and be equal.&lt;br/&gt;2. The limit is determined by nearby behavior, not by the value at the target.</p></div>
+<!-- YTI 2 -->
+<h3 class="h-yti">You Try It 2: Evaluate and Solve</h3>
+<p>For $q(x)=\frac{12}{x+2}$, use the rule to answer each question.</p>
+<ol>
+<li>Find $q(1)$.</li>
+<li>Find $q(4)$.</li>
+<li>What value of $x$ makes $q(x)=3$?</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 2 answer:</strong> $q(1)=4$; $q(4)=2$; $12/(x+2)=3$ gives $x=2$.</p>
+</div>
+<!-- STOP AND DISCUSS B -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>What changed when the question gave you an output instead of an input?</li>
+<li>How did the table or graph confirm the input you solved for?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- MATH NOTES 3 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Completing a function table</span>
+</div>
+<div class="math-notes-body">
+<p>To complete a table from a rule, substitute each input separately and keep each ordered pair together.</p>
+<p>For $g(x)=\sqrt{x+4}$, the input $x=5$ gives $$g(5)=\sqrt{5+4}=\sqrt{9}=3.$$</p>
+<table class="values">
+<tr><th>$x$</th><th>-4</th><th>0</th><th>5</th><th>12</th></tr>
+<tr><td>$g(x)$</td><td>0</td><td>2</td><td>3</td><td>4</td></tr>
+</table>
+<figure class="notes-figure wu-img-500">
+<img alt="Graph of a square root rule with table points visible." src="figures/u1_s2_mn3_sqrt_table.png"/>
+</figure>
+<p><strong>Context:</strong> Each input has one output, so each completed column becomes one ordered pair.</p>
+</div>
+</div>
 <!-- EXAMPLE 3 -->
-<h3 class="h-example" data-source-id="U1-S2-NOTE-EX03">Example 3: When Two-Sided Limits Exist</h3>
-<p>For each case, determine the two-sided limit from the one-sided information.</p><ol type="a"><li>$\lim_{x\to3^-}f(x)=-2$ and $\lim_{x\to3^+}f(x)=1$.</li><li>$\lim_{x\to4^-}g(x)=5$ and $\lim_{x\to4^+}g(x)=5$.</li><li>$h(2)$ is undefined, but $\lim_{x\to2^-}h(x)=\lim_{x\to2^+}h(x)=7$.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S2-NOTE-EX03"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>DNE because the one-sided limits differ.</li><li>$5$ because the one-sided limits are equal.</li><li>$7$. The function can be undefined at the point while the limit still exists.</li></ol></p></div>
-<!-- YOU TRY IT 3 -->
-<h3 class="h-yti" data-source-id="U1-S2-NOTE-YTI03">You Try It 3: When Two-Sided Limits Exist</h3>
-<p>Use the one-sided information to decide each two-sided limit.</p><ol type="a"><li>$\lim_{x\to-1^-}p(x)=6$ and $\lim_{x\to-1^+}p(x)=6$.</li><li>$\lim_{x\to5^-}q(x)=0$ and $\lim_{x\to5^+}q(x)=3$.</li><li>$r(0)=12$, but $\lim_{x\to0^-}r(x)=\lim_{x\to0^+}r(x)=-4$.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S2-NOTE-YTI03"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$6$.</li><li>DNE.</li><li>$-4$; the separate value $r(0)=12$ does not change the limit.</li></ol></p></div>
-<!-- REFERENCE BLOCK 4 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Notation</span><span class="math-notes-title">Directional Symbols</span></div><div class="math-notes-body"><p>$a^-$ means “from the left” and $a^+$ means “from the right.” These superscripts name direction of approach; they do not mean the target value is negative or positive.</p></div></div>
+<h3 class="h-example">Example 3: Complete a Table</h3>
+<p>Complete the table for $g(x)=\sqrt{x+9}$.</p>
+<table class="values"><tr><th>$x$</th><th>-9</th><th>-5</th><th>7</th><th>16</th></tr><tr><td>$g(x)$</td><td></td><td></td><td></td><td></td></tr></table>
+<ol>
+<li>Find each missing output.</li>
+<li>Write the ordered pair for $x=7$.</li>
+<li>Explain why each input has exactly one output in this table.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 3 answer:</strong> Outputs: 0, 2, 4, 5. Ordered pair $(7,4)$. The rule gives one square-root value for each listed input.</p>
+</div>
+<!-- YTI 3 -->
+<h3 class="h-yti">You Try It 3: Table from a Rule</h3>
+<p>Complete the table for $r(x)=\sqrt{x+1}$.</p>
+<table class="values"><tr><th>$x$</th><th>-1</th><th>3</th><th>8</th><th>15</th></tr><tr><td>$r(x)$</td><td></td><td></td><td></td><td></td></tr></table>
+<ol>
+<li>Find each output.</li>
+<li>Write the ordered pair for $x=8$.</li>
+<li>Why does this table pass the one-output test?</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 3 answer:</strong> Outputs: 0, 2, 3, 4. Ordered pair $(8,3)$. No input is paired with two different outputs.</p>
+</div>
+<!-- STOP AND DISCUSS C -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>Why is it important to keep each input paired with its own output?</li>
+<li>What error would happen if you mixed values from two columns?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
 <!-- EXAMPLE 4 -->
-<h3 class="h-example" data-source-id="U1-S2-NOTE-EX04">Example 4: One-Sided Notation</h3>
-<p>Write the correct one-sided limit notation for each description.</p><ol type="a"><li>$g(x)$ as $x$ approaches -2 from values greater than -2.</li><li>$p(t)$ as $t$ approaches 1 from values less than 1.</li><li>$R(s)$ as $s$ approaches 4 from the right.</li><li>$H(x)$ as $x$ approaches 0 from the left.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S2-NOTE-EX04"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$\lim_{x\to-2^+}g(x)$.</li><li>$\lim_{t\to1^-}p(t)$.</li><li>$\lim_{s\to4^+}R(s)$.</li><li>$\lim_{x\to0^-}H(x)$.</li></ol></p></div>
-<!-- YOU TRY IT 4 -->
-<h3 class="h-yti" data-source-id="U1-S2-NOTE-YTI04">You Try It 4: One-Sided Notation</h3>
-<p>Translate each statement into one-sided limit notation.</p><ol type="a"><li>$f(x)$ as $x$ approaches 3 through values smaller than 3.</li><li>$k(x)$ as $x$ approaches -5 through values larger than -5.</li><li>$M(t)$ as $t$ approaches 2 from the left.</li><li>$N(t)$ as $t$ approaches 7 from the right.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S2-NOTE-YTI04"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$\lim_{x\to3^-}f(x)$.</li><li>$\lim_{x\to-5^+}k(x)$.</li><li>$\lim_{t\to2^-}M(t)$.</li><li>$\lim_{t\to7^+}N(t)$.</li></ol></p></div>
-<!-- VOCABULARY DEFINITIONS --><h2 class="h-vocab">Vocabulary: Define the Terms</h2><div class="vocab-box"><p>You have now seen these terms in the reading, representations, and practice. Use this table to consolidate what each term means in this course.</p><table class="roomy-table"><tr><th>Term / notation</th><th>Definition / meaning</th></tr><tr><td><strong>left-hand limit</strong></td><td>the value approached by a function as the input approaches the target through smaller input values</td></tr><tr><td><strong>right-hand limit</strong></td><td>the value approached by a function as the input approaches the target through larger input values</td></tr><tr><td><strong>two-sided limit</strong></td><td>the common value approached from both directions, when the two one-sided limits agree</td></tr><tr><td><strong>DNE</strong></td><td>an abbreviation for “does not exist,” used when the required limiting behavior fails to settle on one value</td></tr></table></div>
-<!-- SUMMARY --><h2 class="h-summary">Summary</h2><div class="key-point"><ul class="summary-list"><li>Left-hand and right-hand limits isolate behavior from opposite directions.</li><li>A two-sided limit exists only when both one-sided limits exist and are equal.</li><li>The function may be undefined at the target and still have a limit.</li><li>Tables must be read from both sides; graphs and numerical tables should support the same directional conclusion.</li></ul></div><div class="workspace-220" data-teacher-key="SUMMARY-1.2"><span class="ws-label">Summary notes / questions / connections</span><p style="color:#c00000;font-weight:700;">Teaching note: Suggested synthesis: connect the section learning target to the representations and decision rules students used. Emphasize precise notation and the most important misconception correction.</p></div>
-<!-- COMMON MISTAKES --><h2 class="h-mistakes">Common Mistakes</h2><div class="mistake-box"><table class="mistake-table"><tr><th>Mistake</th><th>Why it is tempting</th><th>Check instead</th></tr><tr><td>Declaring DNE because the function is undefined at the point.</td><td>An undefined point looks like a break in the graph.</td><td>Inspect both one-sided limits before declaring DNE.</td></tr><tr><td>Ignoring disagreement between left- and right-hand limits.</td><td>One direction may look convincing by itself.</td><td>Compare both directions explicitly.</td></tr><tr><td>Reading a table from only one side of the input.</td><td>The shortcut seems plausible from one representation.</td><td>Return to the precise definition or condition that controls the conclusion.</td></tr><tr><td>Using only one side of a table.</td><td>Several rows may seem to form a clear pattern.</td><td>Separate left-hand and right-hand inputs before concluding a two-sided limit.</td></tr></table></div>
-</div></body></html>
+<h3 class="h-example">Example 4: Check a Proposed Rule</h3>
+<p>A school club says total cost is $C=18m$, where $m$ is the number of members. The sign-up sheet also says there is a one-time 12 dollar materials fee.</p>
+<div class="claim-card"><p><strong>Student claim:</strong> "The rule $C=18m$ models the total cost."</p></div>
+<ol>
+<li>What cost does the proposed rule include?</li>
+<li>What cost is missing from the proposed rule?</li>
+<li>Is the rule reasonable? Revise it if needed.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 4 answer:</strong> The rule includes 18 dollars per member but misses the one-time 12 dollars. It is not reasonable; revise to $C=12+18m$.</p>
+</div>
+<!-- YTI 4 -->
+<h3 class="h-yti">You Try It 4: Revise a Rule</h3>
+<p>A fundraiser rule is written as $T=30n$, where $n$ is the number of teams. The flyer also lists a one-time 20 dollar room fee.</p>
+<div class="claim-card"><p><strong>Student claim:</strong> "The rule already includes all costs."</p></div>
+<ol>
+<li>What does $30n$ represent?</li>
+<li>What part of the context is missing?</li>
+<li>Revise the rule and explain your choice.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 4 answer:</strong> $30n$ is 30 dollars per team. The one-time 20 dollars is missing. Revise to $T=20+30n$.</p>
+</div>
+<!-- STOP AND DISCUSS D -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>What evidence showed that the proposed rule was incomplete?</li>
+<li>How can a context reveal a missing term in an equation?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- SUMMARY -->
+<h2 class="h-summary">Summary</h2>
+<div class="key-point">
+<p>A function rule connects an input to an output. Function notation such as $f(3)$ asks for the output when the input is 3.</p>
+<p>You can use a rule by substituting an input, completing a table, writing an ordered pair, or setting the rule equal to a target output.</p>
+<p>A common error is treating a repeated input with two different outputs as acceptable.</p>
+<p>Strong understanding means you can explain the role of each quantity and check whether the rule gives one output for each input in a table, graph, equation, or context.</p>
+</div>
+<!-- COMMON MISTAKES -->
+<h2 class="h-mistakes">Common Mistakes</h2>
+<div class="mistake-box">
+<ul>
+<li><strong>Reading $f(3)$ as multiplication.</strong> Why it is tempting: the parentheses look like multiplication notation. What to check instead: that $3$ is the input to the rule.</li>
+<li><strong>Mixing table columns.</strong> Why it is tempting: all values are close together. What to check instead: each input-output pair one column at a time.</li>
+<li><strong>Forgetting a target-output equation.</strong> Why it is tempting: students keep substituting inputs. What to check instead: whether the output or the input is unknown.</li>
+<li><strong>Allowing repeated-input conflicts.</strong> Why it is tempting: repeated outputs are allowed. What to check instead: whether one input has two different outputs.</li>
+<li><strong>Dropping context fees.</strong> Why it is tempting: the variable term feels like the whole rule. What to check instead: fixed amounts stated in the context.</li>
+</ul>
+</div>
+<!-- OPTIONAL REFLECTION -->
+<h2 class="h-reflection">Optional Future Task Reflection</h2>
+<div class="annotation-box">
+<p>Look back at the future task. Do not solve it yet. Highlight one part that makes more sense now than it did at the beginning. Circle one part that still feels unfamiliar. Write one sentence about what representation you would look at first.</p>
+</div>
+<!-- EXIT TICKET -->
+<div class="exit-ticket-label">Exit Ticket</div>
+<div class="exit-ticket-grid">
+<div class="et-cell">
+<div class="et-cell-title">1 — Foundations · DoK 1</div>
+<p>For $f(x)=2x+7$, find $f(3)$.</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">2 — Build or Apply · DoK 2</div>
+<p>For $f(x)=\frac{6}{2x-3}$, find $f(1)$, $f(0)$, and the value of $x$ that makes $f(x)=4$.</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">3 — What Did You Learn?</div>
+<p>What is one idea about inputs, outputs, and functions you understand better now than at the start of class? Write at least one complete sentence.</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">4 — What Do You Need Help With?</div>
+<p>What is one thing about inputs, outputs, and functions you still want to understand or practice? Be specific — name the idea, not just "everything."</p>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -4,93 +4,317 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Section 1.1 Notes - What Is a Limit?</title>
+<title>Section 1.1 Notes — Multiple Representations of Relationships</title>
 <script>
 window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
 </script>
 <script async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <link href="../../css/base.css" rel="stylesheet"/>
 <link href="../../css/notes.css" rel="stylesheet"/>
-</head><body><div class="container">
-<!-- TITLE --><div class="notes-title"><div class="title-kicker">AP Calculus AB · Unit 1: Limits and Continuity</div><div class="title-main">Section 1.1<br/>What Is a Limit?</div><div class="title-sub">Limits describe nearby behavior, while shrinking secant intervals connect average change to instantaneous change.</div><div class="title-quote"><p><strong>Mathematical idea:</strong> A limit records the value a function approaches, not necessarily the value assigned at the target input.</p></div><p class="title-note">You will read limits from tables and graphs, distinguish limits from function values, and connect secant slopes to instantaneous rate of change.</p></div>
-<!-- LEARNING TARGET --><h2 class="h-target">Learning Target</h2><div class="objectives"><p><strong>Relate average versus instantaneous change to the idea of a limit and read and interpret limit notation.</strong></p><p><strong>I can statements</strong></p><ul><li>I can relate average versus instantaneous change to the idea of a limit and read and interpret limit notation.</li><li>I can estimate a limit from a graph or table.</li><li>I can connect shrinking secant intervals to instantaneous change.</li></ul></div>
-<!-- VOCABULARY --><h2 class="h-vocab">Vocabulary</h2><div class="vocab-box"><p>These are words and notation you will see in this section. Do not define them yet.</p><ul class="vocab-list"><li>limit</li><li>average rate of change</li><li>instantaneous rate of change</li><li>limit notation</li></ul><p class="vocab-note">Use the preview activity to decide which terms you already know, recognize, or do not know yet. Watch for these terms in <strong>bold</strong> when they are first meaningfully introduced or defined in the reading.</p></div>
-<!-- PREVIEW -->
-<h2 class="h-preview">Preview: Skim Before You Read</h2>
-<div class="strategy-box"><p><strong>Directions</strong></p><p>Before reading closely, skim the vocabulary list and the section. Look at titles, headings, bold terms, equations, pictures, graphs, tables, diagrams, and other representations. Do not try to understand everything yet. Notice what already looks familiar and make predictions about what the section may explain.</p></div>
-<div class="annotation-box"><p><strong>Step 1 - Sort the vocabulary.</strong> Write each term in the column that best matches what you know right now. You may move a term later.</p><table class="values vocab-sort"><tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr><tr class="vocab-sort-space"><td></td><td></td><td></td></tr></table><p><strong>Step 2 - Skim the section.</strong> Record what catches your attention before you read closely.</p><table class="preview-notes-table"><tr><th>What I noticed</th><td></td></tr><tr><th>What I predict</th><td></td></tr><tr><th>What I wonder</th><td></td></tr></table></div>
-<!-- WHAT'S TO COME --><h2 class="h-preview">What's To Come</h2><div class="strategy-box"><p><strong>Directions</strong></p><p>This is a long-range preview for future work. Do not solve it today. Read and annotate it. Mark what you already understand, what looks familiar, and what you think you will need to learn before you can complete the task.</p></div><div class="annotation-box" data-source-id="U1-S1-WTC01"><p>A function and a set of secant slopes are sampled near the same input.</p><table class="values"><thead><tr><th>$x$</th><th>1.9</th><th>1.99</th><th>1.999</th><th>2.001</th><th>2.01</th><th>2.1</th></tr></thead><tbody><tr><td>$f(x)$</td><td>3.7</td><td>3.97</td><td>3.997</td><td>4.003</td><td>4.03</td><td>4.3</td></tr></tbody></table><table class="values"><thead><tr><th>Secant interval width</th><th>1</th><th>0.5</th><th>0.1</th><th>0.01</th></tr></thead><tbody><tr><td>Secant slope</td><td>7.1</td><td>6.5</td><td>6.1</td><td>6.01</td></tr></tbody></table><ol type="a"><li>What output value appears to be approached as $x\to2$?</li><li>What instantaneous slope would you predict from the secant data?</li><li>If a separate point gives $f(2)=9$, which conclusion from part (a) should you reconsider, if any? Explain.</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="U1-S1-WTC01"><span class="ws-label">Preview notes / questions</span><p style="color:#c00000;font-weight:700;">Teaching note: Teaching note: Do not solve the preview. Ask students to identify familiar notation/representations and name what information or methods they think they will need later.</p></div>
-<!-- CONTENT --><h2 class="h-intro">Content: Read, Look, Annotate, Apply</h2><div class="strategy-box"><p><strong>Directions</strong></p><p>Read in manageable chunks. Annotate the prose and the representations together: underline key relationships, circle or highlight new vocabulary, label important features, connect a sentence to an equation, table, graph, model, or diagram, and write brief questions or connections in the margins.</p></div>
-<!-- CONTENT READING 1 -->
-<div class="reading-box">
-<h3>Reading 1: Approaching a Value</h3>
-<p>The central idea of a <strong>limit</strong> is local behavior. Instead of asking only what a function equals at one input, calculus asks what the surrounding outputs are doing as inputs move closer and closer to a target. This shift from a single point to a neighborhood is what lets limits describe behavior even when a graph has a hole, a jump, or a separately defined point.</p>
-<p>When a table is used to estimate a limit, the useful rows are the ones whose inputs are very close to the target. Values far away may show the general shape of a function, but they are weaker evidence about local behavior. A strong table usually samples from both sides and includes inputs that get progressively closer.</p>
-<p>The phrase “approaches” matters. A function does not have to reach the limiting value at the target input, and the target input does not even have to belong to the domain. The notation $\lim_{x\to a}f(x)=L$ says that outputs can be made arbitrarily close to $L$ by choosing inputs sufficiently close to $a$, with the usual restriction that the inputs themselves are not required to equal $a$.</p>
-<p>Graphs encode the same idea visually. Trace the curve toward the target from nearby x-values and watch the y-values. The point drawn exactly at the target can be useful information about the function, but it is not automatically evidence about the limit.</p>
-<p>In this unit, numerical tables, graphs, and symbols are different ways of reporting the same local behavior. The goal is not to memorize isolated rules for each representation; it is to learn how to ask the same question in each one: what output value is the function settling toward as the input closes in on the target?</p>
+</head>
+<body>
+<div class="container">
+<!-- TITLE -->
+<div class="notes-title">
+<div class="title-kicker">Algebra 1 · Unit 1</div>
+<div class="title-main">Section 1.1<br/>Multiple Representations of Relationships</div>
+<div class="title-sub">Connect the same relationship across words, tables, equations, and graphs.</div>
+<div class="title-quote"><p><strong>Mathematical idea:</strong> A relationship stays the same when its input-output pattern is represented in different ways.</p></div>
+<p style="margin-top:18px;color:#555;">Today you will name inputs and outputs, build tables and equations from contexts, and use evidence to decide whether two representations agree. You will also critique claims that mix up starting values and repeated changes.</p>
 </div>
-<!-- REFERENCE BLOCK 1 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Definition</span><span class="math-notes-title">Limit and Limit Notation</span></div><div class="math-notes-body"><p>The statement $$\lim_{x\to a}f(x)=L$$ means that $f(x)$ approaches $L$ as $x$ approaches $a$ through nearby inputs. The statement does not, by itself, determine $f(a)$.</p></div></div>
-<!-- STOP AND DISCUSS READING 1 -->
-<div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>Why can a limit exist even if the function value at the target is missing?</li><li>What makes a table entry stronger evidence for a limit than an entry farther from the target?</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="SD-1.1-1"><p style="color:#c00000;font-weight:700;">Expected discussion: 1. Because limits use nearby values rather than requiring the target input itself.&lt;br/&gt;2. Inputs closer to the target give more local evidence about the trend.</p></div>
+<!-- LEARNING TARGET -->
+<h2 class="h-target">Learning Target</h2>
+<div class="objectives">
+<p><strong>Learning Target: Students will connect tables, graphs, equations, and contexts that represent the same relationship.</strong></p>
+<p><strong>I can statements</strong></p>
+<ul>
+<li>I can construct a table, graph, equation, or context from another representation of the same relationship.</li>
+<li>I can use features in one representation to work with a related table, graph, equation, or context.</li>
+<li>I can determine whether two representations belong to the same relationship using evidence from values, rates, or patterns.</li>
+</ul>
+</div>
+<!-- WHAT'S TO COME -->
+<h2 class="h-preview">What's To Come</h2>
+<p>This is a long-range preview for future lessons. Do not solve it today. Instead, annotate it individually. Circle anything familiar, underline symbols or directions that seem important, and write notes about what information you think will be needed later.</p>
+<p>As you annotate, ask yourself: What parts (words, symbols, graphs) do you KNOW? What parts look FAMILIAR? What parts look like jibberish?</p>
+<div class="annotation-box">
+<p>Design a connected model for a short situation where a total begins at $6$ and changes by the same amount each step. Include a context, equation, four-row table, and graph on the blank coordinate plane. Make sure all four representations agree.</p>
+<figure class="notes-figure wu-img-500">
+<img alt="Blank coordinate plane for connected model design." src="figures/u1_bank_s1_coordinate_blank_sq_v1.png"/>
+</figure>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Teacher note:</strong> Do not solve the future task. Listen for students naming familiar representations, symbols, and unknown parts.</p>
+</div>
+<!-- INTRO -->
+<h2 class="h-intro">Intro</h2>
+<div class="strategy-box">
+<p><strong>Directions</strong></p>
+<p>Read the introduction aloud with a partner or in a small group. As you read, annotate the text by highlighting important ideas, circling key vocabulary, and writing short notes about connections, questions, or predictions in the margins.</p>
+</div>
+<div class="reading-box">
+<p>Many real situations connect one quantity to another. The input is usually the quantity you choose or count first, such as hours, tickets, notebooks, or steps. The output is the quantity that depends on that input, such as cost, distance, total points, or amount remaining.</p>
+<p>A table organizes several input-output pairs so you can see how the output changes. An equation can show the same pattern by giving a rule for each input. When the output increases by the same amount each time the input increases by 1, that repeated change should appear in both the table and the equation.</p>
+<p>Sometimes a representation looks reasonable until you compare it with another one. A graph shows starting value, direction, and steepness in a visual way. If one part starts at a different value or changes at a different rate, the mismatch becomes easier to notice.</p>
+<p>The key representations in this section are tables, coordinate graphs, equations, rules, verbal contexts, and connections among them. Strong work does not stop after making one representation; it checks whether each representation tells the same story.</p>
+<p>When you build a model from a context, decide which quantity is the input before you write numbers. Then use the situation to create a table, an equation, or a graph that matches the same input-output relationship.</p>
+</div>
+<div class="notes-ws ws-ruled"><span class="ws-label">Your notes</span>
+<p style="color:red;font-weight:bold;"><strong>Teacher note:</strong> Use this space for student annotations. Prompt partners to underline vocabulary and circle quantities.</p>
+</div>
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>In a relationship, what does the input usually tell us?</li>
+<li>How can a table and an equation show the same repeated change?</li>
+<li>Why might a graph help you catch a mismatch between a context and an equation?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Answers:</strong> 1. The input is the quantity chosen or counted first, such as hours, tickets, notebooks, or steps. 2. A table shows the repeated change across rows, and an equation gives the same rule for every input. 3. A graph makes starting value, direction, and steepness visible, so mismatches stand out.</p>
+</div>
+<!-- MATH NOTES 1 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Input, output, and a point on a graph</span>
+</div>
+<div class="math-notes-body">
+<p>To connect a context to a graph, name the input first and then ask what output belongs with that input.</p>
+<p>For a club that starts with 2 points and earns 3 points per task, the rule is $$P=2+3t.$$</p>
+<table class="values">
+<tr><th>Tasks $t$</th><th>0</th><th>1</th><th>2</th><th>4</th></tr>
+<tr><td>Points $P$</td><td>2</td><td>5</td><td>8</td><td>14</td></tr>
+</table>
+<figure class="notes-figure wu-img-500">
+<img alt="Graph marking the point for four tasks and fourteen points." src="figures/u1_s1_mn1_input_output_point.png"/>
+</figure>
+<p><strong>Context:</strong> The point $(4,14)$ means 4 tasks produce a total of 14 points.</p>
+</div>
+</div>
 <!-- EXAMPLE 1 -->
-<h3 class="h-example" data-source-id="U1-S1-NOTE-EX01">Example 1: Limit Evidence</h3>
-<p>Use the numerical evidence to analyze the limit near $x=-1$.</p><table class="values"><thead><tr><th>$x$</th><th>-1.5</th><th>-1.1</th><th>-1.01</th><th>-0.99</th><th>-0.9</th><th>-0.5</th></tr></thead><tbody><tr><td>$h(x)$</td><td>6.5</td><td>6.1</td><td>6.01</td><td>6.01</td><td>6.1</td><td>6.5</td></tr></tbody></table><ol type="a"><li>Estimate $\lim_{x\to -1}h(x)$.</li><li>Describe the evidence from the left and from the right that supports your estimate.</li><li>If $h(-1)=12$, does that information change the limit? Explain.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S1-NOTE-EX01"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$6$.</li><li>Values on both sides get closer to 6 as $x$ gets closer to -1.</li><li>No. The limit depends on nearby behavior; the function value at $x=-1$ may be different.</li></ol></p></div>
-<!-- YOU TRY IT 1 -->
-<h3 class="h-yti" data-source-id="U1-S1-NOTE-YTI01">You Try It 1: Limit Evidence</h3>
-<p>Use the table to analyze the behavior of $g$ near $x=2$.</p><table class="values"><thead><tr><th>$x$</th><th>1.5</th><th>1.9</th><th>1.99</th><th>2.01</th><th>2.1</th><th>2.5</th></tr></thead><tbody><tr><td>$g(x)$</td><td>-2.5</td><td>-2.9</td><td>-2.99</td><td>-3.01</td><td>-3.1</td><td>-3.5</td></tr></tbody></table><ol type="a"><li>Estimate $\lim_{x\to2}g(x)$.</li><li>State what the left-side and right-side values are doing.</li><li>If $g(2)=4$, compare the function value with the limit.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S1-NOTE-YTI01"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$-3$.</li><li>From both sides the values approach -3.</li><li>$g(2)=4$ while the limit is -3; they do not have to be equal.</li></ol></p></div>
-<!-- CONTENT READING 2 -->
-<div class="reading-box">
-<h3>Reading 2: Limit vs. Function Value</h3>
-<p>The notation $f(a)$ and the notation $\lim_{x\to a}f(x)$ answer different questions. The first asks for the assigned output at one exact input. The second asks about nearby outputs. A graph can therefore show an open circle where the surrounding curve approaches one value and a filled point at the same x-coordinate showing a different function value.</p>
-<p>This distinction is not a technical exception; it is a defining feature of limits. If the nearby behavior approaches 3 while the filled point is at -1, then the limit is 3 and the function value is -1. The graph is not contradictory because it is reporting two different pieces of information.</p>
-<figure class="notes-figure wu-img-350"><img alt="Graph showing nearby values approaching a hole while a separate filled point gives a different function value" src="figures/u1_s1_notes_limit_vs_value.png"/></figure><p>Graph read: Trace the line toward $x=-2$ from both sides. Compare the y-value being approached with the separate filled point at the target.</p>
-<p>Tables can show the same separation. If rows near $x=0$ approach -4 but the function is defined separately so that $f(0)=9$, the table still supports a limit of -4. The isolated value 9 matters for continuity later, but it does not replace the nearby evidence.</p>
-<p>A common error is to read a limit as “plug in the number.” Substitution becomes a powerful limit method later, but it works because many functions are continuous, not because a limit is defined as a function value. Keeping the concepts separate now makes the later shortcut meaningful rather than mysterious.</p>
-<p>When you compare a graph and a table, look for agreement in the trend rather than exact equality in every sampled value. The values 2.9, 2.99, and 2.999 can all be evidence for approaching 3; approximation is part of the representation, not a defect.</p>
+<h3 class="h-example">Example 1: Name the Input and Output</h3>
+<p>A robotics team pays a registration fee and then pays for each replacement part it orders. The total cost depends on the number of parts ordered.</p>
+<ol>
+<li>Identify the input quantity.</li>
+<li>Identify the output quantity.</li>
+<li>Explain why total cost should be the output instead of the input.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 1 answer:</strong> Input: number of replacement parts. Output: total cost. The cost depends on how many parts are ordered, so parts are chosen first and cost responds.</p>
 </div>
-<!-- REFERENCE BLOCK 2 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Important Concept</span><span class="math-notes-title">Function Value vs. Limit</span></div><div class="math-notes-body"><div class="rep-grid"><div class="rep-card"><h4>At the point</h4><p>$f(a)$ is the actual assigned output.</p></div><div class="rep-card"><h4>Near the point</h4><p>$\lim_{x\to a}f(x)$ describes the nearby trend.</p></div></div><p>Continuity later connects these two quantities, but they are not the same definition.</p></div></div>
+<!-- YTI 1 -->
+<h3 class="h-yti">You Try It 1: Name the Quantities</h3>
+<p>A school dance charges an entry fee and then a price for each snack ticket. The total paid depends on the number of snack tickets.</p>
+<ol>
+<li>Identify the input quantity.</li>
+<li>Identify the output quantity.</li>
+<li>Write one sentence explaining the dependency.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 1 answer:</strong> Input: number of snack tickets. Output: total paid. The total paid changes based on how many tickets are bought.</p>
+</div>
+<!-- STOP AND DISCUSS A -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>How did naming the input first make the YTI easier?</li>
+<li>What clue tells you which quantity depends on the other?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- MATH NOTES 2 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Building a table and equation from a context</span>
+</div>
+<div class="math-notes-body">
+<p>A fixed starting amount becomes the value when the input is 0, and a repeated amount becomes the change each step.</p>
+<p>If a game card costs 5 dollars to activate and 2 dollars per play, the relationship is $$C=5+2p.$$</p>
+<table class="values">
+<tr><th>Plays $p$</th><th>0</th><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>Cost $C$</td><td>5</td><td>7</td><td>9</td><td>11</td></tr>
+</table>
+<figure class="notes-figure wu-img-500">
+<img alt="Graph of a fixed cost plus repeated cost with one point marked." src="figures/u1_s1_mn2_table_equation_graph.png"/>
+</figure>
+<p><strong>Context:</strong> The starting value 5 is the activation cost before any plays, and the 2 is the added cost for each play.</p>
+</div>
+</div>
 <!-- EXAMPLE 2 -->
-<h3 class="h-example" data-source-id="U1-S1-NOTE-EX02">Example 2: Limit vs. Function Value</h3>
-<p>The graph of $f$ is shown.</p><figure><img alt="Graph of a line with a hole at x equals 2 and a separate filled point at the same x-value" src="figures/u1_s1_note_ex02_limit_graph.png"/><figcaption>Graph of $f$.</figcaption></figure><ol type="a"><li>Estimate $\lim_{x\to2}f(x)$.</li><li>Read the plotted value $f(2)$.</li><li>Explain why the answers to parts (a) and (b) can be different.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S1-NOTE-EX02"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$3$.</li><li>$f(2)=-1$.</li><li>The limit describes nearby values approaching $x=2$, while $f(2)$ is the value assigned at the point itself.</li></ol></p></div>
-<!-- YOU TRY IT 2 -->
-<h3 class="h-yti" data-source-id="U1-S1-NOTE-YTI02">You Try It 2: Limit vs. Function Value</h3>
-<p>A table of nearby values is shown, but the row at the target input is not included.</p><table class="values"><thead><tr><th>$x$</th><th>-0.1</th><th>-0.01</th><th>-0.001</th><th>0.001</th><th>0.01</th><th>0.1</th></tr></thead><tbody><tr><td>$p(x)$</td><td>-4.2</td><td>-4.02</td><td>-4.002</td><td>-3.998</td><td>-3.98</td><td>-3.8</td></tr></tbody></table><ol type="a"><li>Estimate $\lim_{x\to0}p(x)$.</li><li>Can the finite limit be estimated even though $p(0)$ is not shown?</li><li>Explain your answer to part (b) in one sentence.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S1-NOTE-YTI02"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$-4$.</li><li>Yes.</li><li>A limit is determined by values arbitrarily close to the target input, not by whether the function value at the target is displayed or defined.</li></ol></p></div>
-<!-- CONTENT READING 3 -->
-<div class="reading-box">
-<h3>Reading 3: From Average Change to Instantaneous Change</h3>
-<p>An <strong>average rate of change</strong> measures change across an interval. For a function $f$, the average rate from $x=a$ to $x=b$ is $\frac{f(b)-f(a)}{b-a}$. On a graph, this is the slope of the secant line through the two points.</p>
-<p>An <strong>instantaneous rate of change</strong> describes what is happening at one input. The difficulty is that slope normally requires two points. Calculus resolves that difficulty by using a limiting process: keep one point fixed and move the second point closer and closer.</p>
-<p>If the second input is written as $a+h$, the secant slope becomes $\frac{f(a+h)-f(a)}{h}$. The parameter $h$ measures the horizontal separation of the two inputs. As $h$ approaches 0, the interval shrinks while the secant slopes may settle toward a stable value.</p>
-<p>That stable value is the bridge from average change to instantaneous change. The secant slopes are still ordinary average rates for every nonzero $h$, but their limiting behavior captures what the function is doing at the fixed input. This is the same idea of “approach” that appears in numerical and graphical limits.</p>
-<p>Not every list of secant slopes settles cleanly, just as not every function has a finite limit. When the slopes do settle, the pattern provides numerical evidence for an instantaneous rate. Later, this limiting process becomes the formal definition of the derivative.</p>
-<p>For now, focus on interpreting the trend. A sequence of slopes such as 5.4, 5.88, 5.988 is stronger evidence for a value near 6 than the first slope alone because the later intervals are smaller.</p>
+<h3 class="h-example">Example 2: Build a Table and Equation</h3>
+<p>A field trip company charges 12 dollars for a reservation and 6 dollars per student. Let $s$ be the number of students and $T$ be the total cost in dollars.</p>
+<table class="values"><tr><th>$s$</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><td>$T$</td><td></td><td></td><td></td><td></td></tr></table>
+<ol>
+<li>Complete the table.</li>
+<li>Write an equation for $T$ in terms of $s$.</li>
+<li>What does the number 12 mean in the equation and graph?</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 2 answer:</strong> Table: 12, 18, 24, 30. Equation: $T=12+6s$. The 12 is the starting cost/reservation fee and the y-intercept.</p>
 </div>
-<!-- REFERENCE BLOCK 3 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Formula</span><span class="math-notes-title">Average Rate and a Shrinking Interval</span></div><div class="math-notes-body"><p>Average rate from $a$ to $a+h$:</p>$$\frac{f(a+h)-f(a)}{h}$$<p>As $h\to0$, the interval width shrinks. When the secant slopes approach one value, that limiting value represents instantaneous rate of change.</p></div></div>
-<!-- STOP AND DISCUSS READING 3 -->
-<div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>How does a secant slope remain an average rate even as the interval becomes very small?</li><li>What numerical pattern would convince you that an instantaneous rate is near 6?</li></ol></div><div class="notes-ws ws-ruled" data-teacher-key="SD-1.1-2"><p style="color:#c00000;font-weight:700;">Expected discussion: 1. Every nonzero interval still uses two points, so its slope is an average rate.&lt;br/&gt;2. Secant slopes for shrinking intervals should settle progressively closer to 6.</p></div>
+<!-- YTI 2 -->
+<h3 class="h-yti">You Try It 2: Create the Rule</h3>
+<p>A bike rental costs 9 dollars plus 4 dollars per hour. Let $h$ be hours and $C$ be total cost.</p>
+<table class="values"><tr><th>$h$</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><td>$C$</td><td></td><td></td><td></td><td></td></tr></table>
+<ol>
+<li>Complete the table.</li>
+<li>Write an equation for $C$.</li>
+<li>Name the starting value and repeated change.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 2 answer:</strong> Table: 9, 13, 17, 21. Equation: $C=9+4h$. Starting value 9; repeated change 4.</p>
+</div>
+<!-- STOP AND DISCUSS B -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>Where did the fixed fee appear in both the Example and the YTI?</li>
+<li>How would the graph change if the per-unit amount doubled?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
 <!-- EXAMPLE 3 -->
-<h3 class="h-example" data-source-id="U1-S1-NOTE-EX03">Example 3: Shrinking Secant Intervals</h3>
-<p>Secant slopes are computed using one fixed endpoint at $x=-2$ and a second endpoint that moves closer to $-2$.</p><table class="values"><thead><tr><th>Second endpoint</th><th>-1</th><th>-1.5</th><th>-1.9</th><th>-1.99</th></tr></thead><tbody><tr><td>Secant slope</td><td>4.8</td><td>5.4</td><td>5.88</td><td>5.988</td></tr></tbody></table><ol type="a"><li>Estimate the instantaneous slope at $x=-2$.</li><li>Which listed secant slope is the best approximation, and why?</li><li>Explain how shrinking the interval connects average rate of change to instantaneous rate of change.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S1-NOTE-EX03"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>Approximately $6$.</li><li>$5.988$ because its second endpoint is closest to -2.</li><li>Each secant slope is an average rate of change; as the interval shrinks, those averages approach the instantaneous rate at the fixed point.</li></ol></p></div>
-<!-- YOU TRY IT 3 -->
-<h3 class="h-yti" data-source-id="U1-S1-NOTE-YTI03">You Try It 3: Shrinking Secant Intervals</h3>
-<p>A position function is sampled using secant intervals that begin at $t=3$ seconds.</p><table class="values"><thead><tr><th>Interval</th><th>$[3,4]$</th><th>$[3,3.5]$</th><th>$[3,3.1]$</th><th>$[3,3.01]$</th></tr></thead><tbody><tr><td>Average velocity (m/s)</td><td>9.0</td><td>8.5</td><td>8.1</td><td>8.01</td></tr></tbody></table><ol type="a"><li>Estimate the instantaneous velocity at $t=3$.</li><li>Which interval gives the strongest listed estimate?</li><li>Describe what happens to the average velocities as the interval width approaches 0.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S1-NOTE-YTI03"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>Approximately $8$ m/s.</li><li>$[3,3.01]$.</li><li>The average velocities approach 8 m/s as the interval width approaches 0.</li></ol></p></div>
-<!-- REFERENCE BLOCK 4 --><div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Notation</span><span class="math-notes-title">How to Read a Limit</span></div><div class="math-notes-body"><p>Read $\lim_{x\to a}f(x)=L$ as “the limit of $f(x)$ as $x$ approaches $a$ equals $L$.” Track three roles: input variable $x$, target input $a$, and approached output $L$.</p></div></div>
+<h3 class="h-example">Example 3: Write an Equation from a Table</h3>
+<p>The table shows a relationship where $x$ increases by 1 each column.</p>
+<table class="values"><tr><th>$x$</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><td>$y$</td><td>9</td><td>13</td><td>17</td><td>21</td></tr></table>
+<ol>
+<li>What is the starting value?</li>
+<li>What is the repeated change?</li>
+<li>Write an equation for $y$ in terms of $x$ and explain how the table supports it.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 3 answer:</strong> Starting value 9. Repeated change 4. Equation: $y=9+4x$ or $y=4x+9$; each step adds 4 from an output of 9 at $x=0$.</p>
+</div>
+<!-- YTI 3 -->
+<h3 class="h-yti">You Try It 3: Equation from Values</h3>
+<p>The table shows a linear relationship.</p>
+<table class="values"><tr><th>$x$</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><td>$y$</td><td>6</td><td>11</td><td>16</td><td>21</td></tr></table>
+<ol>
+<li>What is the repeated change?</li>
+<li>What is the output when $x=0$?</li>
+<li>Write an equation for the relationship.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 3 answer:</strong> Repeated change 5; output at $x=0$ is 6; equation $y=6+5x$ or $y=5x+6$.</p>
+</div>
+<!-- STOP AND DISCUSS C -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>What table evidence did you use before writing the equation?</li>
+<li>Why is checking $x=0$ useful?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- MATH NOTES 4 -->
+<div class="math-notes">
+<div class="math-notes-header">
+<span class="math-notes-label">Math Notes</span>
+<span class="math-notes-title">Starting value versus repeated change</span>
+</div>
+<div class="math-notes-body">
+<p>In a rule like $y=b+mx$, the starting value $b$ is the output when $x=0$, while $m$ is the repeated change in output for each increase of 1 in the input.</p>
+<table class="values">
+<tr><th>$x$</th><th>0</th><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>$y=7+3x$</td><td>7</td><td>10</td><td>13</td><td>16</td></tr>
+</table>
+<figure class="notes-figure wu-img-500">
+<img alt="Graph showing a starting value of seven and a repeated change of three." src="figures/u1_s1_mn4_start_rate.png"/>
+</figure>
+<p><strong>Context:</strong> If a total starts at 7 and adds 3 each step, the equation is $y=7+3x$, not $y=7x+3$.</p>
+</div>
+</div>
 <!-- EXAMPLE 4 -->
-<h3 class="h-example" data-source-id="U1-S1-NOTE-EX04">Example 4: Reading Limit Notation</h3>
-<p>Connect words, notation, and meaning.</p><ol type="a"><li>Write in limit notation: as $x$ approaches 0, the values of $g(x)$ approach 4.</li><li>Interpret $\lim_{t\to5}P(t)=12$ in words.</li><li>Does $\lim_{t\to5}P(t)=12$ by itself tell you the value of $P(5)$? Explain briefly.</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S1-NOTE-EX04"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$\lim_{x\to0}g(x)=4$.</li><li>As $t$ approaches 5, the values of $P(t)$ approach 12.</li><li>No. The limit describes nearby behavior and does not by itself determine the function value at $t=5$.</li></ol></p></div>
-<!-- YOU TRY IT 4 -->
-<h3 class="h-yti" data-source-id="U1-S1-NOTE-YTI04">You Try It 4: Reading Limit Notation</h3>
-<p>Translate between limit notation and verbal meaning.</p><ol type="a"><li>Write in limit notation: as $x$ approaches -2, the values of $q(x)$ approach 7.</li><li>Interpret $\lim_{x\to3}r(x)=-5$ in words.</li><li>If $r(3)=1$, are the function value and the limit equal?</li></ol>
-<div class="notes-ws ws-ruled" data-teacher-key="U1-S1-NOTE-YTI04"><p style="color:#c00000;font-weight:700;">Teacher answer: <ol type="a"><li>$\lim_{x\to-2}q(x)=7$.</li><li>As $x$ approaches 3, the values of $r(x)$ approach -5.</li><li>No. $r(3)=1$ while the limit is -5.</li></ol></p></div>
-<!-- VOCABULARY DEFINITIONS --><h2 class="h-vocab">Vocabulary: Define the Terms</h2><div class="vocab-box"><p>You have now seen these terms in the reading, representations, and practice. Use this table to consolidate what each term means in this course.</p><table class="roomy-table"><tr><th>Term / notation</th><th>Definition / meaning</th></tr><tr><td><strong>limit</strong></td><td>the value that a function approaches as the input approaches a specified value</td></tr><tr><td><strong>average rate of change</strong></td><td>the change in output divided by the change in input over an interval; geometrically, a secant slope</td></tr><tr><td><strong>instantaneous rate of change</strong></td><td>the limiting value of average rates of change as the interval shrinks to a point</td></tr><tr><td><strong>limit notation</strong></td><td>symbolic notation such as $\lim_{x\to a}f(x)=L$, meaning the values of $f(x)$ approach $L$ as $x$ approaches $a$</td></tr></table></div>
-<!-- SUMMARY --><h2 class="h-summary">Summary</h2><div class="key-point"><ul class="summary-list"><li>A limit describes nearby behavior as the input approaches a target.</li><li>A function value and a limit can be equal, different, or one can exist without the other.</li><li>Tables and graphs provide numerical and visual evidence for a limit.</li><li>Shrinking secant intervals connect average rate of change to an instantaneous rate through a limiting process.</li></ul></div><div class="workspace-220" data-teacher-key="SUMMARY-1.1"><span class="ws-label">Summary notes / questions / connections</span><p style="color:#c00000;font-weight:700;">Teaching note: Suggested synthesis: connect the section learning target to the representations and decision rules students used. Emphasize precise notation and the most important misconception correction.</p></div>
-<!-- COMMON MISTAKES --><h2 class="h-mistakes">Common Mistakes</h2><div class="mistake-box"><table class="mistake-table"><tr><th>Mistake</th><th>Why it is tempting</th><th>Check instead</th></tr><tr><td>Treating the function value at a point as automatically equal to the limit.</td><td>Point values are familiar from earlier algebra.</td><td>Check the limit conditions separately from the assigned value.</td></tr><tr><td>Reading a limit as a value reached rather than a value approached.</td><td>The shortcut seems plausible from one representation.</td><td>Return to the precise definition or condition that controls the conclusion.</td></tr><tr><td>Confusing average rate of change with instantaneous rate of change.</td><td>The shortcut seems plausible from one representation.</td><td>Return to the precise definition or condition that controls the conclusion.</td></tr><tr><td>Assuming the limit must equal the point value.</td><td>Students are used to evaluating functions by substitution.</td><td>Read nearby behavior first; treat $f(a)$ as separate information.</td></tr><tr><td>Treating the first secant slope as instantaneous.</td><td>The first interval may already look small.</td><td>Compare a sequence of shrinking intervals and look for a stable trend.</td></tr></table></div>
-</div></body></html>
+<h3 class="h-example">Example 4: Critique a Mismatched Claim</h3>
+<p>A student is modeling the phrase "Start with 15 and add 4 each step."</p>
+<div class="claim-card"><p><strong>Student claim:</strong> "The equation is $y=15x+4$."</p></div>
+<ol>
+<li>What does the 15 represent in the phrase?</li>
+<li>What does the 4 represent in the phrase?</li>
+<li>Critique the claim and write a better equation.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Example 4 answer:</strong> 15 is the starting value; 4 is the repeated change. The claim reverses the roles. A better equation is $y=15+4x$ or $y=4x+15$.</p>
+</div>
+<!-- YTI 4 -->
+<h3 class="h-yti">You Try It 4: Fix the Claim</h3>
+<p>A student models "Start with 20 and subtract 3 each step."</p>
+<div class="claim-card"><p><strong>Student claim:</strong> "The equation is $y=20x-3$."</p></div>
+<ol>
+<li>What is the starting value?</li>
+<li>What is the repeated change?</li>
+<li>Revise the equation and explain the error.</li>
+</ol>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>You Try It 4 answer:</strong> Starting value 20. Repeated change -3. Revised equation: $y=20-3x$ or $y=-3x+20$; the claim uses 20 as the multiplier instead of the starting value.</p>
+</div>
+<!-- STOP AND DISCUSS D -->
+<div class="strategy-box stop-discuss">
+<p><strong>Stop and Discuss</strong></p>
+<ol>
+<li>What was the same mistake in both claims?</li>
+<li>How can a table with $x=0$ prevent this error?</li>
+</ol>
+</div>
+<div class="notes-ws ws-ruled">
+<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
+</div>
+<!-- SUMMARY -->
+<h2 class="h-summary">Summary</h2>
+<div class="key-point">
+<p>A relationship can be shown with words, a table, an equation, or a graph, but the input-output pattern should stay consistent. When you move between representations, keep the same quantities and the same order of operations.</p>
+<p>The starting value is the output when the input is 0, and the repeated change tells how much the output changes each step. Tables and graphs make both features visible.</p>
+<p>A common error is switching the starting value and the repeated change when writing an equation.</p>
+<p>Strong understanding means you can create a representation, explain what each number means, and use another representation to check that your model agrees with the context.</p>
+</div>
+<!-- COMMON MISTAKES -->
+<h2 class="h-mistakes">Common Mistakes</h2>
+<div class="mistake-box">
+<ul>
+<li><strong>Reversing input and output.</strong> Why it is tempting: both quantities appear in the context. What to check instead: which quantity is chosen first and which quantity depends on it.</li>
+<li><strong>Switching start and change.</strong> Why it is tempting: both numbers are important. What to check instead: the value at input 0 before writing the multiplier.</li>
+<li><strong>Graphing points out of order.</strong> Why it is tempting: tables list pairs close together. What to check instead: each x-value matched with its own output.</li>
+<li><strong>Writing a rule from one point only.</strong> Why it is tempting: one point feels like enough evidence. What to check instead: the repeated change across multiple rows.</li>
+<li><strong>Ignoring context meaning.</strong> Why it is tempting: equations can look correct symbolically. What to check instead: what each number represents in the situation.</li>
+</ul>
+</div>
+<!-- OPTIONAL REFLECTION -->
+<h2 class="h-reflection">Optional Future Task Reflection</h2>
+<div class="annotation-box">
+<p>Look back at the future task. Do not solve it yet. Highlight one part that makes more sense now than it did at the beginning. Circle one part that still feels unfamiliar. Write one sentence about what representation you would look at first.</p>
+</div>
+<!-- EXIT TICKET -->
+<div class="exit-ticket-label">Exit Ticket</div>
+<div class="exit-ticket-grid">
+<div class="et-cell">
+<div class="et-cell-title">1 — Foundations · DoK 1</div>
+<p>A school store charges a fixed setup fee and then a price for each notebook. In this context, identify the input quantity and the output quantity.</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">2 — Build or Apply · DoK 2</div>
+<p>A babysitter charges \$10 to travel to the house and \$8 per hour. Complete the table and write an equation for total cost $C$ after $h$ hours.</p>
+<table class="values">
+<tr><th>$h$</th><th>0</th><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>$C$</td><td></td><td></td><td></td><td></td></tr>
+</table>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">3 — What Did You Learn?</div>
+<p>What is one idea about multiple representations of relationships you understand better now than at the start of class? Write at least one complete sentence.</p>
+</div>
+<div class="et-cell">
+<div class="et-cell-title">4 — What Do You Need Help With?</div>
+<p>What is one thing about multiple representations of relationships you still want to understand or practice? Be specific — name the idea, not just "everything."</p>
+</div>
+</div>
+</div>
+</body>
+</html>
