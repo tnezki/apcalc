@@ -1,96 +1,114 @@
-UNIT 1 BANK BUILD REPORT
-========================================================================
-COURSE_FAMILY: MATH
+AP Calculus AB - Unit 1 Canonical Bank BUILD REPORT
+=
 COURSE_PROFILE: MATH_AP_CALCULUS
-Total bank items: 977
-Figure count: 118
+Total bank items: 975
 
-ITEM COUNT BY DESTINATION
-  whats_to_come: 5
-  notes_example: 20
-  notes_yti: 20
-  practice_set_1: 100
-  practice_set_2: 100
-  practice_set_3: 100
-  math_tarsia: 90
-  extra_practice: 100
+Item count by destination:
   cyu: 30
-  warm_up_1: 20
-  warm_up_2: 20
-  warm_up_3: 20
   exit_ticket_a: 20
   exit_ticket_b: 20
   exit_ticket_c: 20
-  performance_task: 4
-  formative_assessment: 128
-  summative_assessment: 160
+  extra_practice: 100
+  formative: 128
+  notes_example: 19
+  notes_yti: 19
+  performance: 4
+  practice_set_1: 100
+  practice_set_2: 100
+  practice_set_3: 100
+  summative: 160
+  tarsia: 90
+  warm_up_1: 20
+  warm_up_2: 20
+  warm_up_3: 20
+  whats_to_come: 5
 
-ITEM COUNT BY SECTION
-  1.1: 177
+Item count by section:
+  1.1: 167
   1.2: 194
   1.3: 193
   1.4: 194
-  1.5: 219
+  1.5: 227
 
-RETRIEVAL ROLE COUNTS
-  current-section: 676
+Retrieval-role counts:
+  current: 38
+  current-section: 548
   n-a: 5
   performance: 36
   prior-knowledge: 20
   unit-synthesis: 160
-  unit-to-date: 80
+  unit-to-date: 168
 
-OBSERVED DOK COUNTS
-  DOK 1: 156
-  DOK 2: 603
-  DOK 3: 182
+Observed DOK counts (not quotas):
+  DOK 1: 358
+  DOK 2: 463
+  DOK 3: 118
   DOK 4: 36
 
-ASSESSMENT COUNTS
+Assessment inventory:
   Formative families: 16
-  Versions per formative family: 8
-  Formative items: 128
+  Formative versions per family: 8
+  Total formative source items: 128
   Summative versions: 8
-  Items per summative version: 20
-  Summative items: 160
+  Summative items per version: 20
+  Total summative source items: 160
+  Generated figure count: 50
 
-DUPLICATE CHECK
-  Exact literal duplicate question bodies: 0
-  Near-similarity automated review candidates: 0
-  Assessment items reused verbatim in instruction/practice: 0
+Duplicate check:
+  Exact duplicate student question bodies: 0
+  Duplicate Bank IDs: 0
 
 QA RESULTS
-  Framework fully read: YES
-  Assessment Plan fully read: YES
-  graph_tool.py fully read: YES
-  Optional AP topic sources processed in full: YES
-  Every assessment-plan section represented: YES
-  Unauthorized topic added: NO
+PASS 1 - SOURCE / SCOPE: PASS
+  Framework fully ingested/read: YES
+  Assessment Plan fully ingested/read: YES
+  graph_tool.py fully ingested/read: YES
+  Optional AP Topic source packet fully text-extracted/ingested for style review: YES
+  Every Unit 1 section represented: YES
+  Unauthorized topics added: NO
+PASS 2 - DESTINATION COMPLETENESS: PASS
   Exactly one WTC01 per section: YES
-  Each practice set has 20 full section-focused items: YES
-  Exactly 18 dedicated Tarsia items per section: YES
-  Tarsia C/L/M split imposed: NO
-  CYU has 6 items per section: YES
-  WU1 has 4 prerequisite items per section: YES
-  WU2/WU3 have 4 unit-to-date items per section: YES
-  Each exit ticket has 2 current + 2 unit-to-date: YES
-  Future-section content in WU/ET: NO
-  Forced Last/Mastery categories: 0
-  Formative assessment ideas represented: YES
+  Notes Example/YTI inventories: COMPLETE (3 pairs in 1.1; 4 pairs in 1.2-1.5)
+  PS1 / PS2 / PS3 / Extra: 20 full section-focused items per section each
+  Tarsia: exactly 18 dedicated TAR-Q items per section; no C/L/M split
+  CYU: 6 dedicated items per section
+  WU1: 4 prior-knowledge items per section
+  WU2/WU3: 4 unit-to-date items each per section
+  Exit A/B/C: 2 current-section + 2 unit-to-date each
+  Performance tasks aligned where naturally supported: YES
+  Every formative family represented: YES
   Summative source inventory complete: YES
-  DOK quota used: NO
+PASS 3 - COURSE PROFILE / RETRIEVAL ALIGNMENT: PASS
+  Forced Last/Mastery categories found: 0
+  Future-section reach-ahead in UTD slots: 0
+PASS 4 - UNIQUENESS / QUALITY: PASS
+  Exact duplicate question bodies: 0
+  Secure formative/summative verbatim duplicates in instructional inventory: 0
+  AP-style precision and terminology applied: YES
+  Published AP question wording copied verbatim: NO
+PASS 5 - DOK HONESTY: PASS
+  DOK used descriptively rather than as a quota: YES
   Conventional DOK 4 items: 0
-  Graph tool source lines modified: NO
-  generate_graphs.py run without error: YES
+  DOK 4 tasks performance-oriented: YES
+PASS 6 - FIGURES: PASS
+  Every referenced figure generated with generate_graphs.py / graph_tool functions: YES
+  graph_tool source lines modified: NO
+  generate_graphs.py ran without error: YES
   Missing referenced PNGs: 0
-  Unreferenced accidental PNGs: 0
-  Mapping rows equal bank items: YES
-  HTML bank IDs unique: YES
-  CSS hrefs exact: YES
-  Embedded style block: NO
-  MathJax config before CDN: YES
-  Corruption scan: PASS
-  Correct ZIP name: YES
-  Correct root folder: YES
-  No __MACOSX/.DS_Store debris: YES
-  ZIP integrity check: PASS
+  Unreferenced PNGs: 0
+  Answer-revealing graph titles: 0
+PASS 7 - MAPPING / TRACEABILITY: PASS
+  Mapping rows = bank items: 975
+  HTML Bank IDs unique: YES
+  Mapping/HTML IDs match: YES
+  Destination-slot collisions: 0
+PASS 8 - HTML HEAD / CSS / MATHJAX / CORRUPTION: PASS
+  CSS hrefs/order exact: YES
+  Embedded style: NO
+  MathJax config before jsDelivr CDN: YES
+  Corruption scans (formfeed, carriage return, corrupt frac, wrong delimiters): 0
+  Raw < or > inside math: 0
+PASS 9 - ZIP / PACKAGE: PASS
+  Required root folder and files only: YES
+  No __MACOSX / .DS_Store / AppleDouble debris: YES
+  ZIP integrity: PASS
