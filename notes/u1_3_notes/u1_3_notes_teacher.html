@@ -1,301 +1,48 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Section 1.3 Notes — Function Families</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Section 1.3 Notes — Algebraic Limits</title>
 <script>
 window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
 </script>
-<script async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<link href="../../css/base.css" rel="stylesheet"/>
-<link href="../../css/notes.css" rel="stylesheet"/>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../css/base.css"/>
+<link rel="stylesheet" href="../../css/notes.css"/>
 </head>
 <body>
 <div class="container">
-<!-- TITLE -->
-<div class="notes-title">
-<div class="title-kicker">Algebra 1 · Unit 1</div>
-<div class="title-main">Section 1.3<br/>Function Families</div>
-<div class="title-sub">Use patterns and features to identify common function families.</div>
-<div class="title-quote"><p><strong>Mathematical idea:</strong> Function families can be recognized by evidence from rates, ratios, shape, symmetry, and equation structure.</p></div>
-<p style="margin-top:18px;color:#555;">Today you will distinguish linear, quadratic, exponential, and absolute value relationships using tables, graphs, equations, and contexts. You will practice giving evidence instead of naming a family from appearance alone.</p>
-</div>
-<!-- LEARNING TARGET -->
-<h2 class="h-target">Learning Target</h2>
-<div class="objectives">
-<p><strong>Learning Target: Students will recognize common function families from graphs, tables, equations, and contexts.</strong></p>
-<p><strong>I can statements</strong></p>
-<ul>
-<li>I can design examples of linear, quadratic, exponential, and absolute value relationships using more than one representation.</li>
-<li>I can extend patterns in tables, graphs, equations, and contexts to work with common function families.</li>
-<li>I can critique a proposed function family choice using evidence from rate of change, shape, or equation structure.</li>
-</ul>
-</div>
-<!-- WHAT'S TO COME -->
-<h2 class="h-preview">What's To Come</h2>
-<p>This is a long-range preview for future lessons. Do not solve it today. Instead, annotate it individually. Circle anything familiar, underline symbols or directions that seem important, and write notes about what information you think will be needed later.</p>
-<p>As you annotate, ask yourself: What parts (words, symbols, graphs) do you KNOW? What parts look FAMILIAR? What parts look like jibberish?</p>
-<div class="annotation-box">
-<p>A school wants to predict club membership for the next four meetings. Approach A uses a constant increase of $6$ students each meeting from $18$. Approach B multiplies by $1.25$ each meeting from $18$. Recommend one approach for meetings $1$ through $4$ if room capacity is $60$. Support your recommendation with a table and family evidence.</p>
-</div>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>Teacher note:</strong> Do not solve the future task. Listen for students naming familiar representations, symbols, and unknown parts.</p>
-</div>
-<!-- INTRO -->
-<h2 class="h-intro">Intro</h2>
-<div class="strategy-box">
-<p><strong>Directions</strong></p>
-<p>Read the introduction aloud with a partner or in a small group. As you read, annotate the text by highlighting important ideas, circling key vocabulary, and writing short notes about connections, questions, or predictions in the margins.</p>
-</div>
-<div class="reading-box">
-<p>Function families are groups of relationships that share features. An exponential pattern often has outputs that multiply by the same factor when inputs increase by 1. For example, 3, 6, 12, 24 shows repeated multiplication by 2.</p>
-<p>Tables can show different kinds of change. Linear tables have constant first differences, while quadratic tables often have constant second differences. Checking changes across several rows gives stronger evidence than looking at one pair of values.</p>
-<p>A graph can give a fast first impression, but a first impression is not proof. A curve might look like another family if the viewing window is small or if only a few points are shown. Good reasoning connects the shape to table patterns, equation structure, or context meaning.</p>
-<p>The common families in this section are linear, quadratic, exponential, and absolute value. Their features appear across representations: straight-line change, U-shaped second differences, repeated multiplication, and V-shaped distance from a center.</p>
-<p>When you critique a family choice, name the evidence you used. You might cite repeated differences, repeated ratios, symmetry, a vertex, or the structure of an equation.</p>
-</div>
-<div class="notes-ws ws-ruled"><span class="ws-label">Your notes</span>
-<p style="color:red;font-weight:bold;"><strong>Teacher note:</strong> Use this space for student annotations. Prompt partners to underline vocabulary and circle quantities.</p>
-</div>
-<div class="strategy-box stop-discuss">
-<p><strong>Stop and Discuss</strong></p>
-<ol>
-<li>Which family often has outputs that multiply by the same factor?</li>
-<li>What evidence helps distinguish linear and quadratic tables?</li>
-<li>Why is shape alone not enough to justify a function family?</li>
-</ol>
-</div>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>Answers:</strong> 1. Exponential patterns often multiply by the same factor. 2. Linear tables have constant first differences, while quadratic tables often have constant second differences. 3. A graph window or small sample can be misleading, so shape should be connected to values or structure.</p>
-</div>
-<!-- MATH NOTES 1 -->
-<div class="math-notes">
-<div class="math-notes-header">
-<span class="math-notes-label">Math Notes</span>
-<span class="math-notes-title">Family evidence across representations</span>
-</div>
-<div class="math-notes-body">
-<p>To classify a function family, use evidence from at least one representation instead of relying only on a name or a quick shape match.</p>
-<table class="values">
-<tr><th>Family</th><th>Table evidence</th><th>Equation clue</th></tr>
-<tr><td>Linear</td><td>constant first differences</td><td>$y=mx+b$</td></tr>
-<tr><td>Quadratic</td><td>constant second differences</td><td>$x^2$ term</td></tr>
-<tr><td>Exponential</td><td>constant ratios</td><td>variable in exponent</td></tr>
-<tr><td>Absolute value</td><td>outputs mirror around a center</td><td>$|x-h|$ structure</td></tr>
-</table>
-<figure class="notes-figure wu-img-500">
-<img alt="Grid showing four common function family shapes." src="figures/u1_s3_mn1_family_grid.png"/>
-</figure>
-<p><strong>Context:</strong> In a situation, the family should also match the story, such as constant increase for linear or repeated percent growth for exponential.</p>
-</div>
-</div>
-<!-- EXAMPLE 1 -->
-<h3 class="h-example">Example 1: Identify a Family from Outputs</h3>
-<p>A table has outputs $5,10,20,40$ as inputs increase by 1.</p>
-<ol>
-<li>Which family is most likely?</li>
-<li>What pattern in the outputs supports your choice?</li>
-<li>Write one sentence explaining why this is not linear.</li>
-</ol>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>Example 1 answer:</strong> Most likely exponential. Outputs multiply by 2 each step. It is not linear because the differences are 5, 10, and 20, not constant.</p>
-</div>
-<!-- YTI 1 -->
-<h3 class="h-yti">You Try It 1: Identify Another Family</h3>
-<p>A table has outputs $2,6,18,54$ as inputs increase by 1.</p>
-<ol>
-<li>Which family is most likely?</li>
-<li>What pattern supports your choice?</li>
-<li>Why is it not linear?</li>
-</ol>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>You Try It 1 answer:</strong> Exponential; outputs multiply by 3 each step; not linear because differences are not constant.</p>
-</div>
-<!-- STOP AND DISCUSS A -->
-<div class="strategy-box stop-discuss">
-<p><strong>Stop and Discuss</strong></p>
-<ol>
-<li>What evidence made exponential more convincing than linear?</li>
-<li>How many outputs would you want before feeling confident?</li>
-</ol>
-</div>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
-</div>
-<!-- EXAMPLE 2 -->
-<h3 class="h-example">Example 2: Use Table Evidence</h3>
-<p>Use the table to identify the likely family and justify your answer.</p>
-<table class="values"><tr><th>$x$</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr><tr><td>$y$</td><td>1</td><td>4</td><td>9</td><td>16</td><td>25</td></tr></table>
-<ol>
-<li>Find the first differences.</li>
-<li>Find the second differences.</li>
-<li>Name the likely family and cite evidence.</li>
-</ol>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>Example 2 answer:</strong> First differences: 3, 5, 7, 9. Second differences: 2, 2, 2. Likely quadratic because the second differences are constant.</p>
-</div>
-<!-- YTI 2 -->
-<h3 class="h-yti">You Try It 2: Table Evidence Again</h3>
-<p>Use the table to identify the likely family.</p>
-<table class="values"><tr><th>$x$</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr><tr><td>$y$</td><td>4</td><td>7</td><td>14</td><td>25</td><td>40</td></tr></table>
-<ol>
-<li>Find the first differences.</li>
-<li>Find the second differences.</li>
-<li>Name the likely family and cite evidence.</li>
-</ol>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>You Try It 2 answer:</strong> First differences: 3, 7, 11, 15. Second differences: 4, 4, 4. Likely quadratic.</p>
-</div>
-<!-- STOP AND DISCUSS B -->
-<div class="strategy-box stop-discuss">
-<p><strong>Stop and Discuss</strong></p>
-<ol>
-<li>Why are second differences useful for quadratic patterns?</li>
-<li>What would constant first differences have suggested instead?</li>
-</ol>
-</div>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
-</div>
-<!-- EXAMPLE 3 -->
-<h3 class="h-example">Example 3: Use Graph Evidence</h3>
-<p>Use the grid to build evidence from graph features, not just labels.</p>
-<figure class="notes-figure wu-img-500"><img alt="Grid of four unlabeled function-family graphs for evidence building." src="figures/u1_s3_ex3_family_grid.png"/></figure>
-<ol>
-<li>For Panel B, describe one feature you can see from the graph.</li>
-<li>For Panel C, describe whether the output changes by equal differences or grows faster and faster.</li>
-<li>Choose one panel and name the likely family with evidence.</li>
-</ol>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>Example 3 answer:</strong> Panel B shows a U-shape/symmetry, likely quadratic. Panel C grows faster and faster, suggesting exponential. Answers should connect one panel to visible family evidence such as line, U-shape, repeated growth, or V-shape.</p>
-</div>
-<!-- YTI 3 -->
-<h3 class="h-yti">You Try It 3: Equation Structure Evidence</h3>
-<p>Consider the equations $A:y=2x+6$, $B:y=(x-2)^2+1$, $C:y=3(2)^x$, and $D:y=|x+1|-4$.</p>
-<ol>
-<li>Which equation is exponential?</li>
-<li>Which equation is absolute value?</li>
-<li>Choose one equation and explain the structure clue that identifies its family.</li>
-</ol>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>You Try It 3 answer:</strong> Exponential: C. Absolute value: D. Valid clues include variable in exponent for C, absolute value bars for D, squared term for B, linear form for A.</p>
-</div>
-<!-- STOP AND DISCUSS C -->
-<div class="strategy-box stop-discuss">
-<p><strong>Stop and Discuss</strong></p>
-<ol>
-<li>How did the graph or equation structure provide evidence beyond a name?</li>
-<li>Which family would be easiest to confuse from a small graph window?</li>
-</ol>
-</div>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
-</div>
-<!-- MATH NOTES 4 -->
-<div class="math-notes">
-<div class="math-notes-header">
-<span class="math-notes-label">Math Notes</span>
-<span class="math-notes-title">Finding a mismatch while preserving family evidence</span>
-</div>
-<div class="math-notes-body">
-<p>A table can look like the right family but still fail to match a specific equation.</p>
-<p>For $y=2x+1$, the expected outputs are:</p>
-<table class="values">
-<tr><th>$x$</th><th>0</th><th>1</th><th>2</th><th>3</th></tr>
-<tr><td>$2x+1$</td><td>1</td><td>3</td><td>5</td><td>7</td></tr>
-<tr><td>Given table</td><td>1</td><td>3</td><td>6</td><td>7</td></tr>
-</table>
-<p>The value at $x=2$ is the mismatch. The table might still look almost linear, but it does not represent the exact equation.</p>
-<figure class="notes-figure wu-img-500">
-<img alt="Graph marking a point that does not match a linear rule." src="figures/u1_s3_mn4_mismatch.png"/>
-</figure>
-</div>
-</div>
-<!-- EXAMPLE 4 -->
-<h3 class="h-example">Example 4: Locate a Family Mismatch</h3>
-<p>The equation $y=3x+2$ and the table are supposed to represent the same relationship.</p>
-<table class="values"><tr><th>$x$</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><td>$y$</td><td>2</td><td>5</td><td>9</td><td>11</td></tr></table>
-<ol>
-<li>What output should the equation give when $x=2$?</li>
-<li>Locate the mismatch in the table.</li>
-<li>Does the table still look mostly linear? Explain.</li>
-</ol>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>Example 4 answer:</strong> At $x=2$, equation gives 8. The table gives 9, so that is a mismatch. It mostly looks linear because the intended pattern is close, but the first differences are not all 3.</p>
-</div>
-<!-- YTI 4 -->
-<h3 class="h-yti">You Try It 4: Find the Mismatch</h3>
-<p>The equation $y=4x+1$ and the table are supposed to match.</p>
-<table class="values"><tr><th>$x$</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><td>$y$</td><td>1</td><td>5</td><td>8</td><td>13</td></tr></table>
-<ol>
-<li>What output should the equation give when $x=2$?</li>
-<li>Which table value is mismatched?</li>
-<li>Does the table still look linear overall? Explain.</li>
-</ol>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>You Try It 4 answer:</strong> Expected at $x=2$ is 9. Table gives 8. It is close to linear but not exact because differences are 4, 3, 5.</p>
-</div>
-<!-- STOP AND DISCUSS D -->
-<div class="strategy-box stop-discuss">
-<p><strong>Stop and Discuss</strong></p>
-<ol>
-<li>How can a relationship have a likely family but still fail to match a specific equation?</li>
-<li>What evidence should you cite first in a critique?</li>
-</ol>
-</div>
-<div class="notes-ws ws-ruled">
-<p style="color:red;font-weight:bold;"><strong>Discussion guide:</strong> Listen for students connecting the Example and YTI with evidence. Follow-up: ask which representation or step made the answer most certain.</p>
-</div>
-<!-- SUMMARY -->
-<h2 class="h-summary">Summary</h2>
-<div class="key-point">
-<p>Function families can be recognized by patterns that appear in tables, graphs, equations, and contexts. The goal is to use evidence, not just guess from appearance.</p>
-<p>Linear relationships have constant first differences, quadratic relationships often have constant second differences, exponential relationships have repeated ratios, and absolute value relationships have V-shaped distance patterns.</p>
-<p>A common error is choosing a family from the graph shape without checking values or equation structure.</p>
-<p>Strong understanding means you can identify a likely family, explain the evidence, and critique a mismatch when one representation does not agree with another.</p>
-</div>
-<!-- COMMON MISTAKES -->
-<h2 class="h-mistakes">Common Mistakes</h2>
-<div class="mistake-box">
-<ul>
-<li><strong>Shape-only matching.</strong> Why it is tempting: graphs are fast to scan. What to check instead: a table pattern or equation clue.</li>
-<li><strong>Calling any curve exponential.</strong> Why it is tempting: curves can look similar. What to check instead: repeated ratios or variable-in-exponent structure.</li>
-<li><strong>Missing second differences.</strong> Why it is tempting: first differences are easier to compute. What to check instead: whether the changes in the changes are constant.</li>
-<li><strong>Ignoring a single mismatch.</strong> Why it is tempting: most values may fit. What to check instead: each listed input-output pair against the rule.</li>
-<li><strong>Confusing family and exact relationship.</strong> Why it is tempting: same family feels like same rule. What to check instead: whether the actual values agree.</li>
-</ul>
-</div>
-<!-- OPTIONAL REFLECTION -->
-<h2 class="h-reflection">Optional Future Task Reflection</h2>
-<div class="annotation-box">
-<p>Look back at the future task. Do not solve it yet. Highlight one part that makes more sense now than it did at the beginning. Circle one part that still feels unfamiliar. Write one sentence about what representation you would look at first.</p>
-</div>
-<!-- EXIT TICKET -->
-<div class="exit-ticket-label">Exit Ticket</div>
-<div class="exit-ticket-grid">
-<div class="et-cell">
-<div class="et-cell-title">1 — Foundations · DoK 1</div>
-<p>A table has outputs $3,6,12,24$ as inputs increase by $1$. Which family is most likely: linear, quadratic, exponential, or absolute value?</p>
-</div>
-<div class="et-cell">
-<div class="et-cell-title">2 — Build or Apply · DoK 2</div>
-<p>Use the table to identify the likely family. Support your choice with a pattern in the outputs.</p>
-<table class="values">
-<tr><th>$x$</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
-<tr><td>$y$</td><td>2</td><td>5</td><td>10</td><td>17</td><td>26</td></tr>
-</table>
-</div>
-<div class="et-cell">
-<div class="et-cell-title">3 — What Did You Learn?</div>
-<p>What is one idea about function families you understand better now than at the start of class? Write at least one complete sentence.</p>
-</div>
-<div class="et-cell">
-<div class="et-cell-title">4 — What Do You Need Help With?</div>
-<p>What is one thing about function families you still want to understand or practice? Be specific — name the idea, not just "everything."</p>
-</div>
-</div>
+<div class="notes-title"><div class="title-kicker">AP Calculus AB · Unit 1: Limits and Continuity</div><div class="title-main">Section 1.3<br/>Algebraic Limits</div><div class="title-sub">Let the form of the expression guide the method.</div><div class="title-quote"><p><strong>Core idea:</strong> A limit problem often becomes routine after you identify whether substitution works or an equivalent nearby expression is needed.</p></div><p class="title-note">You will choose among substitution, factoring, conjugates, standard trigonometric limits, and squeeze reasoning.</p></div>
+<h2 class="h-target">Learning Target</h2><div class="objectives"><p><strong>Evaluate limits algebraically using direct substitution, limit laws, factoring, conjugates, and appropriate trigonometric or squeeze reasoning.</strong></p><p><strong>I can statements</strong></p><ul><li>I can evaluate limits algebraically using direct substitution, limit laws, factoring, conjugates, and appropriate trigonometric or squeeze reasoning.</li><li>I can select an algebraic method for a limit form.</li><li>I can compare two valid algebraic approaches to the same limit.</li></ul></div>
+<h2 class="h-vocab">Vocabulary / Key Notation Preview</h2><div class="vocab-box"><ul class="vocab-list"><li>direct substitution</li><li>limit laws</li><li>factoring</li><li>conjugate</li><li>Squeeze Theorem</li></ul><p class="vocab-note">Skim the terms now. Add meaning as each term is introduced in the notes.</p></div>
+<h2 class="h-preview">What's To Come</h2><p>This is a long-range preview for this section. Do not solve it yet. Circle anything familiar, underline symbols, labels, conditions, data, or features that seem important, and write short notes about what you think may matter later.</p><div class="annotation-box"><figure><img alt="Three curves near the origin: x squared, negative x squared, and x squared times sine of one over x." src="figures/u1_s3_squeeze.png"/></figure><p>The orange curve stays between $-x^2$ and $x^2$ near $x=0$. Without evaluating the oscillating factor, predict $\lim_{x\to0}x^2\sin(1/x)$ and name the evidence that supports your prediction.</p></div><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teaching note: Preview only: focus attention on the idea of a middle curve and two bounding curves near $x=0$. Do not compute the limit here. The supplied preview image’s orange curve is visually inconsistent with the stated oscillating function; preserve this preview image, then use the later correctly generated squeeze-model figure for theorem instruction.</p></div></div>
+<h2 class="h-intro">Content: Read, Represent, Annotate, Apply</h2><div class="strategy-box"><p><strong>Directions</strong></p><p>Read in short chunks. Annotate the prose and representations together. Mark evidence, conditions, important quantities, labels, patterns, and questions.</p></div>
+
+<div class="reading-box"><h3>Reading 1: Start with the Form</h3>
+<p><strong>Direct substitution</strong> is the first check for many algebraic limits. For a polynomial, substituting the target input gives the limit immediately. More generally, the <strong>limit laws</strong> allow sums, products, constant multiples, powers, and quotients to be handled from component limits when the relevant hypotheses are satisfied; for a quotient, the limiting denominator must be nonzero.</p>
+<p>If substitution produces a real number, stop and interpret that result. If it produces a form such as $0/0$, do not report “$0/0$” as the limit. It is an indeterminate form: the expression needs to be rewritten or another justified method must be chosen.</p>
+</div><div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>What result from substitution tells you that a polynomial limit is already finished?</li><li>Why is $0/0$ a signal to continue rather than a possible value of the limit?</li></ol></div><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teaching note: Expected reasoning: a polynomial gives a finite value under direct substitution. A $0/0$ result is indeterminate and calls for simplification or another valid method.</p></div></div>
+<div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Math Notes</span><span class="math-notes-title">Method Triage</span></div><div class="math-notes-body"><div class="rep-grid"><div class="rep-card"><p><strong>1. Substitute.</strong></p><p>If the result is a finite number and the operation is valid, use it.</p></div><div class="rep-card"><p><strong>2. Inspect the form.</strong></p><p>If a removable $0/0$ form appears, look for an equivalent nearby expression.</p></div><div class="rep-card"><p><strong>3. Match structure.</strong></p><p>Factor, rationalize, use a standard trig limit, or use bounds when the structure supports it.</p></div></div></div></div>
+<h3 class="h-example">Example 1: Start with Direct Substitution</h3><p>Evaluate $\lim_{x\to2}(3x^2-x+1)$. State the method.</p><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teacher answer:</p>Direct substitution gives $3(4)-2+1=11$.</div></div><h3 class="h-yti">You Try It 1: Evaluate a Polynomial Limit</h3><p>Evaluate $\lim_{x\to-1}(2x^2+5x-4)$.</p><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teacher answer:</p>Direct substitution gives $2-5-4=-7$.</div></div>
+<div class="reading-box"><h3>Reading 2: Rewrite Without Changing Nearby Values</h3>
+<p><strong>Factoring</strong> can reveal a common factor that causes a removable $0/0$ form. After canceling a factor such as $(x-a)$, the simplified expression is equal to the original for nearby $x\ne a$. That is enough for a limit, because the limit depends on nearby values rather than the value at the point.</p>
+<p>For expressions involving radicals, multiplying by a <strong>conjugate</strong> can create a difference of squares. The goal is not an arbitrary algebra trick: it is to build an equivalent expression near the target so that the limiting behavior becomes visible.</p>
+</div><div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>Why is it valid to cancel a factor $(x-a)$ in a limit even though $x=a$ is excluded during the cancellation?</li><li>What algebraic structure does multiplying by a conjugate create?</li></ol></div><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teaching note: Expected reasoning: limits depend on nearby $x$, so an equality valid for $x\ne a$ near the target can determine the same limit. A conjugate creates a difference of squares.</p></div></div>
+<div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Math Notes</span><span class="math-notes-title">Local Equivalence Near the Limit Point</span></div><div class="math-notes-body"><p>For example, when $x\ne3$, $$\frac{x^2-9}{x-3}=\frac{(x-3)(x+3)}{x-3}=x+3.$$ The original and simplified expressions have the same nearby values, so they have the same limit as $x\to3$.</p><p>With radicals, $(\sqrt{A}-B)(\sqrt{A}+B)=A-B^2$, which can expose a factor that cancels.</p></div></div>
+<h3 class="h-example">Example 2: Remove a Factorable Indeterminate Form</h3><p>Evaluate $\lim_{x\to3}\frac{x^2-9}{x-3}$.</p><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teacher answer:</p>Factor: $(x-3)(x+3)/(x-3)=x+3$ for $x\ne3$; the limit is 6.</div></div><h3 class="h-yti">You Try It 2: Factor Before Taking the Limit</h3><p>Evaluate $\lim_{x\to4}\frac{x^2-16}{x-4}$.</p><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teacher answer:</p>Factor and cancel near 4; the limit is 8.</div></div>
+<h3 class="h-example">Example 3: Rationalize with a Conjugate</h3><p>Evaluate $\lim_{x\to0}\frac{\sqrt{x+9}-3}{x}$.</p><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teacher answer:</p>Multiply by the conjugate to get $1/(\sqrt{x+9}+3)$; the limit is $1/6$.</div></div><h3 class="h-yti">You Try It 3: Use a Conjugate to Reveal the Limit</h3><p>Evaluate $\lim_{x\to0}\frac{\sqrt{x+4}-2}{x}$.</p><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teacher answer:</p>Rationalize; the limit is $1/4$.</div></div>
+<div class="reading-box"><h3>Reading 3: Standard Trigonometric Structure and Squeeze Reasoning</h3>
+<p>The standard limit $$\lim_{u\to0}\frac{\sin u}{u}=1$$ becomes useful when an expression can be rewritten so the same quantity appears inside the sine and in the denominator. A constant scale factor can then be separated using limit laws.</p>
+<p>The <strong>Squeeze Theorem</strong> applies when a function is trapped between two other functions near the target: if $g(x)\le f(x)\le h(x)$ near $x=a$ (apart from the point itself if necessary) and both outer functions have limit $L$, then $\lim_{x\to a}f(x)=L$. The conclusion comes from the shared outer limit, not from evaluating an oscillating factor directly.</p>
+<figure class="notes-figure wu-img-500"><img src="figures/u1_s3_squeeze_model.png" alt="An oscillating function between negative five absolute x and positive five absolute x, with all three approaching zero near x equals zero."/><figcaption>An analogous squeeze model: the middle function oscillates while the two bounds close toward the same value.</figcaption></figure>
+</div><div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>In the squeeze model, which evidence matters more: the exact oscillations of the middle graph or the limits of the bounding graphs? Explain.</li><li>How would you rewrite $\sin(5x)/x$ so the standard form $\sin u/u$ appears?</li></ol></div><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teaching note: Expected reasoning: the outer bounds and their common limit drive squeeze reasoning; exact middle oscillations are not needed. For $\sin(5x)/x$, create $5\sin(5x)/(5x)$.</p></div></div>
+<div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Math Notes</span><span class="math-notes-title">Conditions Before Conclusions</span></div><div class="math-notes-body"><div class="rep-grid"><div class="rep-card"><p><strong>Standard sine limit</strong></p><p>$\lim_{u\to0}\sin u/u=1$.</p></div><div class="rep-card"><p><strong>Squeeze hypotheses</strong></p><p>$g(x)\le f(x)\le h(x)$ near $a$, and both outer limits equal $L$.</p></div><div class="rep-card"><p><strong>Squeeze conclusion</strong></p><p>$\lim_{x\to a}f(x)=L$.</p></div></div></div></div>
+<h3 class="h-example">Example 4: Use the Standard Sine Limit</h3><p>Use a standard trigonometric limit to evaluate $\lim_{x\to0}\frac{\sin(5x)}{x}$.</p><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teacher answer:</p>Rewrite as $5\frac{\sin(5x)}{5x}$; the limit is 5.</div></div><h3 class="h-yti">You Try It 4: Scale a Standard Trigonometric Limit</h3><p>Evaluate $\lim_{x\to0}\frac{\sin(7x)}{x}$.</p><div class="notes-ws ws-ruled"><div style="color:red;font-weight:bold;"><p>Teacher answer:</p>Rewrite as $7\frac{\sin(7x)}{7x}$; the limit is 7.</div></div>
+<h2 class="h-vocab">Vocabulary / Notation Definitions</h2><table class="values"><thead><tr><th>Term / notation</th><th>Meaning in this section</th></tr></thead><tbody><tr><td>direct substitution</td><td>Evaluate the expression at the target when the function/operations support doing so.</td></tr><tr><td>limit laws</td><td>Rules for combining known limits through sums, products, constant multiples, powers, and valid quotients.</td></tr><tr><td>factoring</td><td>Rewrite an algebraic expression to expose a cancelable factor while preserving nearby equality.</td></tr><tr><td>conjugate</td><td>The paired radical expression used to create a difference of squares, such as $\sqrt{A}+B$ for $\sqrt{A}-B$.</td></tr><tr><td>Squeeze Theorem</td><td>If a function is bounded between two functions with the same limit near the target, the middle function has that same limit.</td></tr></tbody></table>
+<h2 class="h-summary">Summary</h2><div class="key-point"><ul class="summary-list"><li>Try substitution first and let the resulting form guide the next step.</li><li>An indeterminate form such as $0/0$ signals the need for more analysis; it is not a limit value.</li><li>Factoring and conjugates create equivalent nearby expressions that can reveal a limit.</li><li>Standard trigonometric limits and the Squeeze Theorem require recognizable structure and valid conditions.</li></ul></div><div class="workspace-220"><span class="ws-label">Summary notes / questions / connections</span><div style="color:red;font-weight:bold;"><p>Teaching note: Synthesis cue: emphasize method selection from structure and require students to name why the chosen method is valid, not merely perform algebra.</p></div></div>
+<h2 class="h-mistakes">Common Mistakes</h2><div class="mistake-box"><table class="mistake-table"><tr><th>Mistake</th><th>Why it is tempting</th><th>Check instead</th></tr><tr><td>Stopping at $0/0$.</td><td>It appears after direct substitution.</td><td>Treat it as an indeterminate form and choose a justified next method.</td></tr><tr><td>Canceling terms instead of factors.</td><td>Similar symbols appear in numerator and denominator.</td><td>Factor first; cancel only common multiplicative factors.</td></tr><tr><td>Using a conjugate without preserving equality.</td><td>The radical looks like the obstacle.</td><td>Multiply numerator and denominator by the conjugate so the expression remains equivalent.</td></tr><tr><td>Applying a quotient limit law with limiting denominator 0.</td><td>Limit laws feel automatic.</td><td>Check the denominator condition before using the quotient law.</td></tr><tr><td>Naming the Squeeze Theorem without bounds.</td><td>The middle function looks small or oscillatory.</td><td>State the bounding relationship and show both outer limits agree.</td></tr></table></div>
+
 </div>
 </body>
 </html>

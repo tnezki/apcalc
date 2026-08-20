@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Section 1.2 Notes — Inputs, Outputs, and Functions</title>
+<title>Section 1.2 Notes — Limits from Graphs and Tables</title>
 <script>
 window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
 </script>
@@ -13,300 +13,34 @@ window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], p
 </head>
 <body>
 <div class="container">
+<div class="notes-title"><div class="title-kicker">AP Calculus AB · Unit 1: Limits and Continuity</div><div class="title-main">Section 1.2<br/>Limits from Graphs and Tables</div><div class="title-sub">Read direction carefully: left, right, and both sides tell different stories.</div><div class="title-quote"><p><strong>Core idea:</strong> A finite two-sided limit exists only when the left-hand and right-hand limits agree.</p></div><p class="title-note">You will compare graphical and numerical evidence and use calculator tables as a check.</p></div>
+<h2 class="h-target">Learning Target</h2><div class="objectives"><p><strong>Determine one-sided and two-sided limits from graphs and tables, including when a limit does not exist.</strong></p><p><strong>I can statements</strong></p><ul><li>I can determine one-sided and two-sided limits from graphs and tables, including when a limit does not exist.</li><li>I can compare graphical and numerical estimates of the same limit.</li><li>I can use calculator-supported tables as a check on graphical reasoning.</li></ul></div>
+<h2 class="h-vocab">Vocabulary / Key Notation Preview</h2><div class="vocab-box"><ul class="vocab-list"><li>left-hand limit</li><li>right-hand limit</li><li>two-sided limit</li><li>DNE</li></ul><p class="vocab-note">Skim the terms now. Add meaning as each term is introduced in the notes.</p></div>
+<h2 class="h-preview">What's To Come</h2><p>This is a long-range preview for this section. Do not solve it yet. Circle anything familiar, underline symbols, labels, conditions, data, or features that seem important, and write short notes about what you think may matter later.</p><div class="annotation-box"><figure><img alt="A piecewise graph approaches different y-values from the left and right at x equals 3." src="figures/u1_s2_jump.png"/></figure><p>As $x$ approaches 3, compare the height approached from the left with the height approached from the right. What does that comparison suggest about $\lim_{x\to3}f(x)$?</p></div><div class="notes-ws ws-ruled"><!--TEACHER:wtc--></div>
+<h2 class="h-intro">Content: Read, Represent, Annotate, Apply</h2><div class="strategy-box"><p><strong>Directions</strong></p><p>Read in short chunks. Annotate the prose and representations together. Mark evidence, conditions, important quantities, labels, patterns, and questions.</p></div>
 
-
-<!-- TITLE -->
-<div class="notes-title">
-  <div class="title-kicker">Algebra 1 · Unit 1</div>
-  <div class="title-main">Section 1.2<br>Inputs, Outputs, and Functions</div>
-  <div class="title-sub">Use function rules to connect each input to exactly one output.</div>
-  <div class="title-quote"><p><strong>Mathematical idea:</strong> A function rule answers the question, "What output belongs with this input?"</p></div>
-  <p style="margin-top:18px;color:#555;">Today you will evaluate function notation, complete input-output tables, and decide whether a rule gives one output for each input. You will also revise models when the rule does not match the situation.</p>
-</div>
-
-<!-- LEARNING TARGET -->
-<h2 class="h-target">Learning Target</h2>
-<div class="objectives">
-  <p><strong>Learning Target: Students will interpret functions as rules that connect inputs and outputs without relying on formal domain and range language.</strong></p>
-  <p><strong>I can statements</strong></p>
-  <ul>
-    <li>I can formulate a rule that connects inputs to outputs in a table, graph, equation, or context.</li>
-    <li>I can apply an input-output rule to generate missing values and ordered pairs.</li>
-    <li>I can assess whether a rule gives one output for each input in a situation.</li>
-  </ul>
-</div>
-
-<!-- WHAT'S TO COME -->
-<h2 class="h-preview">What's To Come</h2>
-<p>This is a long-range preview for future lessons. Do not solve it today. Instead, annotate it individually. Circle anything familiar, underline symbols or directions that seem important, and write notes about what information you think will be needed later.</p>
-<p>As you annotate, ask yourself: What parts (words, symbols, graphs) do you KNOW? What parts look FAMILIAR? What parts look like jibberish?</p>
-<div class="annotation-box">
-  <p>A table for an input-output rule is flawed: $(0,3),(1,6),(2,9),(2,12),(3,12)$. Revise the relation in two different ways: one revision that makes it a function with a constant increase, and one revision that makes it a function but not a constant-increase rule. Explain both choices.</p>
-</div>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- INTRO -->
-<h2 class="h-intro">Intro</h2>
-<div class="strategy-box">
-  <p><strong>Directions</strong></p>
-  <p>Read the introduction aloud with a partner or in a small group. As you read, annotate the text by highlighting important ideas, circling key vocabulary, and writing short notes about connections, questions, or predictions in the margins.</p>
-</div>
-<div class="reading-box">
-  <p>Function notation is a compact way to ask for an output. When you see $f(3)$, the input is 3 and the task is to find the output produced by the rule named $f$. The answer is a value, not a multiplication problem between $f$ and 3.</p>
-  <p>A relation can be represented by a table, graph, equation, mapping diagram, or context. To act like a function, each input must have only one output. Different inputs may share the same output, but one input cannot split into two different outputs.</p>
-  <p>Imagine entering the same student ID into a system and getting two different names. That would make the rule unreliable because one input would not lead to a single result. A table with a repeated input must be checked carefully before deciding it represents a function.</p>
-  <p>Input-output rules help you generate ordered pairs and missing table values. Substitution is one way to use a rule: replace the input variable, then simplify the expression to find the output.</p>
-  <p>In contexts, inputs and outputs need units and meaning. If $n$ is the number of tickets and $C$ is cost, the rule should match the words on the flyer and the values in the table.</p>
-</div>
-<div class="notes-ws ws-ruled"><span class="ws-label">Your notes</span></div>
-
-<div class="strategy-box stop-discuss">
-  <p><strong>Stop and Discuss</strong></p>
-  <ol>
-    <li>What question does function notation like $f(3)$ ask?</li>
-    <li>What must be true for a relation to act like a function?</li>
-    <li>Why can a repeated input with two different outputs create a problem?</li>
-  </ol>
-</div>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- MATH NOTES 1 -->
-<div class="math-notes">
-  <div class="math-notes-header">
-    <span class="math-notes-label">Math Notes</span>
-    <span class="math-notes-title">Evaluating function notation in four representations</span>
-  </div>
-  <div class="math-notes-body">
-<p>To evaluate $f(3)$, find the output when the input is 3.</p>
-$$f(3)=2(3)+1=7$$
-<table class="values">
-<tr><th>Input</th><th>0</th><th>1</th><th>2</th><th>3</th></tr>
-<tr><td>Output</td><td>1</td><td>3</td><td>5</td><td>7</td></tr>
-</table>
-<figure class="notes-figure wu-img-500">
-<img src="figures/u1_s2_mn1_eval_f3.png" alt="Graph marking the point used to evaluate f of three."/>
-</figure>
-<p><strong>Context:</strong> If $x$ is the number of practice rounds, $f(3)=7$ means the output is 7 points after 3 rounds.</p>
-  </div>
-</div>
-
-<!-- EXAMPLE 1 -->
-<h3 class="h-example">Example 1: Evaluate a Function</h3>
-<p>The function $f(x)=4x-1$ gives the number of points after $x$ completed challenges.</p>
-<ol>
-  <li>Find $f(4)$.</li>
-  <li>Write the ordered pair connected to your answer.</li>
-  <li>Explain what the ordered pair means in the context.</li>
-</ol>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- YTI 1 -->
-<h3 class="h-yti">You Try It 1: Evaluate Another Function</h3>
-<p>The function $h(x)=3x+5$ gives the total badges earned after $x$ weeks.</p>
-<ol>
-  <li>Find $h(6)$.</li>
-  <li>Write the ordered pair.</li>
-  <li>Explain the meaning of the ordered pair.</li>
-</ol>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- STOP AND DISCUSS A -->
-<div class="strategy-box stop-discuss">
-  <p><strong>Stop and Discuss</strong></p>
-  <ol>
-    <li>How did the notation tell you which input to use?</li>
-    <li>Why is $f(4)$ an output, not an ordered pair by itself?</li>
-  </ol>
-</div>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- MATH NOTES 2 -->
-<div class="math-notes">
-  <div class="math-notes-header">
-    <span class="math-notes-label">Math Notes</span>
-    <span class="math-notes-title">Finding an input from a target output</span>
-  </div>
-  <div class="math-notes-body">
-<p>Sometimes the output is known and the input is unknown, so set the rule equal to the target output and solve.</p>
-<p>For $A=2+3r$, the question "when is the output 17?" becomes $$2+3r=17.$$</p>
-<table class="values">
-<tr><th>Rounds $r$</th><th>0</th><th>3</th><th>5</th><th>6</th></tr>
-<tr><td>Output $A$</td><td>2</td><td>11</td><td>17</td><td>20</td></tr>
-</table>
-<figure class="notes-figure wu-img-500">
-<img src="figures/u1_s2_mn2_rule_solve.png" alt="Graph showing a rule meeting the target output seventeen."/>
-</figure>
-<p><strong>Context:</strong> The point $(5,17)$ means 5 rounds produce the target output of 17.</p>
-  </div>
-</div>
-
-<!-- EXAMPLE 2 -->
-<h3 class="h-example">Example 2: Use a Rule in More Than One Way</h3>
-<p>For $p(x)=\frac{10}{x+1}$, use the rule to evaluate outputs and solve for a target output.</p>
-<ol>
-  <li>Find $p(1)$.</li>
-  <li>Find $p(4)$.</li>
-  <li>What value of $x$ makes $p(x)=2$?</li>
-</ol>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- YTI 2 -->
-<h3 class="h-yti">You Try It 2: Evaluate and Solve</h3>
-<p>For $q(x)=\frac{12}{x+2}$, use the rule to answer each question.</p>
-<ol>
-  <li>Find $q(1)$.</li>
-  <li>Find $q(4)$.</li>
-  <li>What value of $x$ makes $q(x)=3$?</li>
-</ol>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- STOP AND DISCUSS B -->
-<div class="strategy-box stop-discuss">
-  <p><strong>Stop and Discuss</strong></p>
-  <ol>
-    <li>What changed when the question gave you an output instead of an input?</li>
-    <li>How did the table or graph confirm the input you solved for?</li>
-  </ol>
-</div>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- MATH NOTES 3 -->
-<div class="math-notes">
-  <div class="math-notes-header">
-    <span class="math-notes-label">Math Notes</span>
-    <span class="math-notes-title">Completing a function table</span>
-  </div>
-  <div class="math-notes-body">
-<p>To complete a table from a rule, substitute each input separately and keep each ordered pair together.</p>
-<p>For $g(x)=\sqrt{x+4}$, the input $x=5$ gives $$g(5)=\sqrt{5+4}=\sqrt{9}=3.$$</p>
-<table class="values">
-<tr><th>$x$</th><th>-4</th><th>0</th><th>5</th><th>12</th></tr>
-<tr><td>$g(x)$</td><td>0</td><td>2</td><td>3</td><td>4</td></tr>
-</table>
-<figure class="notes-figure wu-img-500">
-<img src="figures/u1_s2_mn3_sqrt_table.png" alt="Graph of a square root rule with table points visible."/>
-</figure>
-<p><strong>Context:</strong> Each input has one output, so each completed column becomes one ordered pair.</p>
-  </div>
-</div>
-
-<!-- EXAMPLE 3 -->
-<h3 class="h-example">Example 3: Complete a Table</h3>
-<p>Complete the table for $g(x)=\sqrt{x+9}$.</p>
-<table class="values"><tr><th>$x$</th><th>-9</th><th>-5</th><th>7</th><th>16</th></tr><tr><td>$g(x)$</td><td></td><td></td><td></td><td></td></tr></table>
-<ol>
-  <li>Find each missing output.</li>
-  <li>Write the ordered pair for $x=7$.</li>
-  <li>Explain why each input has exactly one output in this table.</li>
-</ol>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- YTI 3 -->
-<h3 class="h-yti">You Try It 3: Table from a Rule</h3>
-<p>Complete the table for $r(x)=\sqrt{x+1}$.</p>
-<table class="values"><tr><th>$x$</th><th>-1</th><th>3</th><th>8</th><th>15</th></tr><tr><td>$r(x)$</td><td></td><td></td><td></td><td></td></tr></table>
-<ol>
-  <li>Find each output.</li>
-  <li>Write the ordered pair for $x=8$.</li>
-  <li>Why does this table pass the one-output test?</li>
-</ol>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- STOP AND DISCUSS C -->
-<div class="strategy-box stop-discuss">
-  <p><strong>Stop and Discuss</strong></p>
-  <ol>
-    <li>Why is it important to keep each input paired with its own output?</li>
-    <li>What error would happen if you mixed values from two columns?</li>
-  </ol>
-</div>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- EXAMPLE 4 -->
-<h3 class="h-example">Example 4: Check a Proposed Rule</h3>
-<p>A school club says total cost is $C=18m$, where $m$ is the number of members. The sign-up sheet also says there is a one-time 12 dollar materials fee.</p>
-<div class="claim-card"><p><strong>Student claim:</strong> "The rule $C=18m$ models the total cost."</p></div>
-<ol>
-  <li>What cost does the proposed rule include?</li>
-  <li>What cost is missing from the proposed rule?</li>
-  <li>Is the rule reasonable? Revise it if needed.</li>
-</ol>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- YTI 4 -->
-<h3 class="h-yti">You Try It 4: Revise a Rule</h3>
-<p>A fundraiser rule is written as $T=30n$, where $n$ is the number of teams. The flyer also lists a one-time 20 dollar room fee.</p>
-<div class="claim-card"><p><strong>Student claim:</strong> "The rule already includes all costs."</p></div>
-<ol>
-  <li>What does $30n$ represent?</li>
-  <li>What part of the context is missing?</li>
-  <li>Revise the rule and explain your choice.</li>
-</ol>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- STOP AND DISCUSS D -->
-<div class="strategy-box stop-discuss">
-  <p><strong>Stop and Discuss</strong></p>
-  <ol>
-    <li>What evidence showed that the proposed rule was incomplete?</li>
-    <li>How can a context reveal a missing term in an equation?</li>
-  </ol>
-</div>
-<div class="notes-ws ws-ruled"></div>
-
-<!-- SUMMARY -->
-<h2 class="h-summary">Summary</h2>
-<div class="key-point">
-  <p>A function rule connects an input to an output. Function notation such as $f(3)$ asks for the output when the input is 3.</p>
-  <p>You can use a rule by substituting an input, completing a table, writing an ordered pair, or setting the rule equal to a target output.</p>
-  <p>A common error is treating a repeated input with two different outputs as acceptable.</p>
-  <p>Strong understanding means you can explain the role of each quantity and check whether the rule gives one output for each input in a table, graph, equation, or context.</p>
-</div>
-
-<!-- COMMON MISTAKES -->
-<h2 class="h-mistakes">Common Mistakes</h2>
-<div class="mistake-box">
-  <ul>
-    <li><strong>Reading $f(3)$ as multiplication.</strong> Why it is tempting: the parentheses look like multiplication notation. What to check instead: that $3$ is the input to the rule.</li>
-    <li><strong>Mixing table columns.</strong> Why it is tempting: all values are close together. What to check instead: each input-output pair one column at a time.</li>
-    <li><strong>Forgetting a target-output equation.</strong> Why it is tempting: students keep substituting inputs. What to check instead: whether the output or the input is unknown.</li>
-    <li><strong>Allowing repeated-input conflicts.</strong> Why it is tempting: repeated outputs are allowed. What to check instead: whether one input has two different outputs.</li>
-    <li><strong>Dropping context fees.</strong> Why it is tempting: the variable term feels like the whole rule. What to check instead: fixed amounts stated in the context.</li>
-  </ul>
-</div>
-
-<!-- OPTIONAL REFLECTION -->
-<h2 class="h-reflection">Optional Future Task Reflection</h2>
-<div class="annotation-box">
-  <p>Look back at the future task. Do not solve it yet. Highlight one part that makes more sense now than it did at the beginning. Circle one part that still feels unfamiliar. Write one sentence about what representation you would look at first.</p>
-</div>
-
-<!-- EXIT TICKET -->
-<div class="exit-ticket-label">Exit Ticket</div>
-<div class="exit-ticket-grid">
-
-  <div class="et-cell">
-    <div class="et-cell-title">1 — Foundations · DoK 1</div>
-    <p>For $f(x)=2x+7$, find $f(3)$.</p>
-  </div>
-
-  <div class="et-cell">
-    <div class="et-cell-title">2 — Build or Apply · DoK 2</div>
-    <p>For $f(x)=\frac{6}{2x-3}$, find $f(1)$, $f(0)$, and the value of $x$ that makes $f(x)=4$.</p>
-  </div>
-
-  <div class="et-cell">
-    <div class="et-cell-title">3 — What Did You Learn?</div>
-    <p>What is one idea about inputs, outputs, and functions you understand better now than at the start of class? Write at least one complete sentence.</p>
-  </div>
-
-  <div class="et-cell">
-    <div class="et-cell-title">4 — What Do You Need Help With?</div>
-    <p>What is one thing about inputs, outputs, and functions you still want to understand or practice? Be specific — name the idea, not just "everything."</p>
-  </div>
-
-</div>
-
+<div class="reading-box"><h3>Reading 1: Direction Matters</h3>
+<p>A <strong>left-hand limit</strong>, written $\lim_{x\to a^-}f(x)$, follows inputs less than $a$ as they move toward $a$. A <strong>right-hand limit</strong>, written $\lim_{x\to a^+}f(x)$, follows inputs greater than $a$.</p>
+<p>A finite <strong>two-sided limit</strong> can exist only when both one-sided limits exist and approach the same finite number. When the one-sided limits approach different values, the two-sided limit is reported as <strong>DNE</strong> (does not exist), even if a function value is plotted at the target.</p>
+<figure class="notes-figure wu-img-500"><img src="figures/u1_s2_one_sided_compare.png" alt="A piecewise graph whose left and right pieces approach the same open point at x equals 2."/><figcaption>A contrasting model: the two sides can approach the same height even when the point itself is open.</figcaption></figure>
+</div><div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>How do the superscripts $-$ and $+$ change which nearby inputs you follow?</li><li>Compare the WTC jump with the generated model. What graphical evidence distinguishes disagreement from agreement?</li></ol></div><div class="notes-ws ws-ruled"><!--TEACHER:sd1--></div>
+<div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Math Notes</span><span class="math-notes-title">One-Sided and Two-Sided Notation</span></div><div class="math-notes-body"><div class="rep-grid"><div class="rep-card"><p>$\lim_{x\to a^-}f(x)=L_-$</p><p>Approach from inputs less than $a$.</p></div><div class="rep-card"><p>$\lim_{x\to a^+}f(x)=L_+$</p><p>Approach from inputs greater than $a$.</p></div><div class="rep-card"><p>If $L_-=L_+=L$, then $\lim_{x\to a}f(x)=L$.</p></div></div></div></div>
+<h3 class="h-example">Example 1: Compare One-Sided Graph Limits</h3><p>From a graph, $f(x)$ approaches 2 as $x\to1^-$ and 5 as $x\to1^+$. State both one-sided limits and the two-sided limit.</p><div class="notes-ws ws-ruled"><!--TEACHER:ex1--></div><h3 class="h-yti">You Try It 1: Read a Second Jump from Both Sides</h3><p>A graph approaches -1 from the left and 3 from the right at $x=4$. State the one-sided and two-sided limits.</p><div class="notes-ws ws-ruled"><!--TEACHER:yti1--></div>
+<div class="reading-box"><h3>Reading 2: Numerical Evidence Must Approach from the Correct Side</h3>
+<p>In a table, the side is determined by the input values, not by the order in which rows or columns are displayed. Values less than $a$ represent a left-hand approach; values greater than $a$ represent a right-hand approach. A two-sided numerical estimate needs evidence from both directions.</p>
+<p>A calculator-generated table can provide efficient numerical evidence and can check a graphical estimate. It is still evidence from sampled inputs, not a proof of a theorem-level conclusion. Also, an undefined function value at $x=a$ does not by itself prevent nearby values from approaching a common limit.</p>
+</div><div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>If a table contains only $x\gt a$, which one-sided limit can it estimate directly?</li><li>Why can an undefined value at $x=a$ coexist with a finite two-sided limit?</li></ol></div><div class="notes-ws ws-ruled"><!--TEACHER:sd2--></div>
+<div class="math-notes"><div class="math-notes-header"><span class="math-notes-label">Math Notes</span><span class="math-notes-title">A Quick Table-Side Check</span></div><div class="math-notes-body"><table class="values"><thead><tr><th>Input pattern</th><th>Direction represented</th></tr></thead><tbody><tr><td>$x\lt a$ and $x$ increases toward $a$</td><td>left-hand</td></tr><tr><td>$x\gt a$ and $x$ decreases toward $a$</td><td>right-hand</td></tr><tr><td>both patterns</td><td>possible two-sided evidence</td></tr></tbody></table></div></div>
+<h3 class="h-example">Example 2: Estimate a Limit When the Point Is Missing</h3><p>The table approaches 6 from both sides of $x=2$, but $f(2)$ is blank. What can you conclude about the limit?</p><div class="notes-ws ws-ruled"><!--TEACHER:ex2--></div><h3 class="h-yti">You Try It 2: Use a Calculator Table as Evidence</h3><p>A calculator table approaches -4 from both sides of $x=-3$, while the function is undefined at -3. What conclusion is supported?</p><div class="notes-ws ws-ruled"><!--TEACHER:yti2--></div>
+<h3 class="h-example">Example 3: Identify the Side Represented by a Table</h3><p>A table uses inputs only larger than 5. Which limit can it directly estimate: left-hand, right-hand, or two-sided? Explain.</p><div class="notes-ws ws-ruled"><!--TEACHER:ex3--></div><h3 class="h-yti">You Try It 3: Read Direction from Input Values</h3><p>A table lists inputs 1.9, 1.99, 1.999. Which directional limit is represented near 2?</p><div class="notes-ws ws-ruled"><!--TEACHER:yti3--></div>
+<div class="reading-box"><h3>Reading 3: The Agreement Criterion</h3>
+<p>The statement $\lim_{x\to a}f(x)=L$ compresses two directional claims into one. For a finite two-sided limit, both $\lim_{x\to a^-}f(x)$ and $\lim_{x\to a^+}f(x)$ must exist and equal the same number $L$.</p>
+<p>This criterion focuses on approach behavior. A separate value $f(a)$ may agree with $L$, disagree with it, or be undefined. Continuity will later add the requirement that the limit and function value agree.</p>
+</div><div class="strategy-box stop-discuss"><p><strong>Stop and Discuss</strong></p><ol><li>What exact comparison must be made before writing a finite two-sided limit from one-sided information?</li><li>Why is the value $f(a)$ not part of the one-sided agreement test?</li></ol></div><div class="notes-ws ws-ruled"><!--TEACHER:sd3--></div>
+<h3 class="h-example">Example 4: Apply the One-Sided Agreement Criterion</h3><p>Explain why agreement of two one-sided limits matters for a finite two-sided limit.</p><div class="notes-ws ws-ruled"><!--TEACHER:ex4--></div><h3 class="h-yti">You Try It 4: Conclude a Two-Sided Limit</h3><p>If both one-sided limits at $x=a$ equal L, what two-sided limit conclusion follows?</p><div class="notes-ws ws-ruled"><!--TEACHER:yti4--></div>
+<h2 class="h-vocab">Vocabulary / Notation Definitions</h2><table class="values"><thead><tr><th>Term / notation</th><th>Meaning in this section</th></tr></thead><tbody><tr><td>left-hand limit</td><td>$\lim_{x\to a^-}f(x)$: the value approached using inputs less than $a$.</td></tr><tr><td>right-hand limit</td><td>$\lim_{x\to a^+}f(x)$: the value approached using inputs greater than $a$.</td></tr><tr><td>two-sided limit</td><td>The common value approached from both sides, when the two one-sided limits agree.</td></tr><tr><td>DNE</td><td>“Does not exist”; used when the requested limit has no single value, such as unequal finite one-sided limits.</td></tr></tbody></table>
+<h2 class="h-summary">Summary</h2><div class="key-point"><ul class="summary-list"><li>Read left and right behavior separately before making a two-sided conclusion.</li><li>Unequal one-sided limits force the finite two-sided limit to DNE.</li><li>Tables reveal direction through whether inputs lie below or above the target.</li><li>Calculator tables can support or check a conclusion but do not replace analytical reasoning.</li></ul></div><div class="workspace-220"><span class="ws-label">Summary notes / questions / connections</span><!--TEACHER:summary--></div>
+<h2 class="h-mistakes">Common Mistakes</h2><div class="mistake-box"><table class="mistake-table"><tr><th>Mistake</th><th>Why it is tempting</th><th>Check instead</th></tr><tr><td>Declaring DNE because $f(a)$ is undefined.</td><td>A missing point looks like a break.</td><td>Check the nearby one-sided behavior; the point value is separate.</td></tr><tr><td>Ignoring one side of a graph.</td><td>One branch may be easier to read.</td><td>State both one-sided limits before the two-sided limit.</td></tr><tr><td>Reading table order instead of input side.</td><td>The entries may be listed left-to-right arbitrarily.</td><td>Compare each input numerically with the target.</td></tr><tr><td>Treating calculator output as proof.</td><td>Many sampled values can look convincing.</td><td>Use the table as evidence/check and use required analytical or theorem reasoning when asked.</td></tr></table></div>
 
 </div>
 </body>

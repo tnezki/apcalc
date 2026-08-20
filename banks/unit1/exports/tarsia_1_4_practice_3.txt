@@ -1,0 +1,18 @@
+continuity condition one, f(a) exists
+continuity condition two, two-sided limit exists
+continuity condition three, limit equals f(a)
+hole with common limiting value, removable discontinuity
+unequal finite one-sided limits, jump discontinuity
+unbounded local behavior, infinite discontinuity
+piecewise boundary continuity, match both sides and point value
+continuous on an interval, continuous at every point in interval
+reassigned hole point, removable discontinuity with a changed point value
+parameter continuity problem, set branch values equal at boundary
+closed interval notation, includes endpoints
+open interval notation, excludes endpoints
+continuous polynomial, continuous on all real numbers
+rational function continuity, where denominator is nonzero
+continuity at a, limit equals function value
+left and right disagree, discontinuous
+limit exists but differs from f(a), removable because the point value mismatches
+piecewise branch meeting value, common boundary output

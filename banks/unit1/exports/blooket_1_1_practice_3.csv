@@ -1,0 +1,103 @@
+﻿"Blooket
+Import Template",,,,,,,
+Question #,Question Text,Answer 1,Answer 2,Answer 3 (Optional),Answer 4 (Optional),Time Limit (sec) (Max: 300 seconds),Correct Answer(s) (Only include Answer #)
+1,If lim x->2 f(x)=5 and f(2)=9 what is the limit?,5,9,DNE,14,45,1
+2,A limit primarily describes,only the point value,nearby behavior,the domain endpoint,a secant interval,45,2
+3,Average rate of change is represented by,a tangent point,a function value,a secant slope,an asymptote,45,3
+4,Instantaneous rate is approached by,widening secant intervals,changing only y-values,deleting a point,shrinking secant intervals,45,4
+5,If f(3) is undefined can lim x->3 f(x) exist?,Yes,No,Only if f(3)=0,Only from the right,45,1
+6,Near x=3 values approach 8 but f(3)=10. What is the limit?,10,8,DNE,18,45,2
+7,Near x=4 values approach 9 but f(4)=12. What is the limit?,12,DNE,9,21,45,3
+8,Near x=5 values approach 10 but f(5)=12. What is the limit?,12,DNE,22,10,45,4
+9,Near x=6 values approach 11 but f(6)=14. What is the limit?,11,14,DNE,25,45,1
+10,Near x=7 values approach 12 but f(7)=14. What is the limit?,14,12,DNE,26,45,2
+11,Near x=8 values approach 13 but f(8)=16. What is the limit?,16,DNE,13,29,45,3
+12,Near x=9 values approach 14 but f(9)=16. What is the limit?,16,DNE,30,14,45,4
+13,Near x=10 values approach 15 but f(10)=18. What is the limit?,15,18,DNE,33,45,1
+14,Near x=11 values approach 16 but f(11)=18. What is the limit?,18,16,DNE,34,45,2
+15,Near x=12 values approach 17 but f(12)=20. What is the limit?,20,DNE,17,37,45,3
+16,Near x=13 values approach 18 but f(13)=20. What is the limit?,20,DNE,38,18,45,4
+17,Near x=14 values approach 19 but f(14)=22. What is the limit?,19,22,DNE,41,45,1
+18,Near x=15 values approach 20 but f(15)=22. What is the limit?,22,20,DNE,42,45,2
+19,Near x=16 values approach 21 but f(16)=24. What is the limit?,24,DNE,21,45,45,3
+20,Near x=17 values approach 22 but f(17)=24. What is the limit?,24,DNE,46,22,45,4
+21,,,,,,,
+22,,,,,,,
+23,,,,,,,
+24,,,,,,,
+25,,,,,,,
+26,,,,,,,
+27,,,,,,,
+28,,,,,,,
+29,,,,,,,
+30,,,,,,,
+31,,,,,,,
+32,,,,,,,
+33,,,,,,,
+34,,,,,,,
+35,,,,,,,
+36,,,,,,,
+37,,,,,,,
+38,,,,,,,
+39,,,,,,,
+40,,,,,,,
+41,,,,,,,
+42,,,,,,,
+43,,,,,,,
+44,,,,,,,
+45,,,,,,,
+46,,,,,,,
+47,,,,,,,
+48,,,,,,,
+49,,,,,,,
+50,,,,,,,
+51,,,,,,,
+52,,,,,,,
+53,,,,,,,
+54,,,,,,,
+55,,,,,,,
+56,,,,,,,
+57,,,,,,,
+58,,,,,,,
+59,,,,,,,
+60,,,,,,,
+61,,,,,,,
+62,,,,,,,
+63,,,,,,,
+64,,,,,,,
+65,,,,,,,
+66,,,,,,,
+67,,,,,,,
+68,,,,,,,
+69,,,,,,,
+70,,,,,,,
+71,,,,,,,
+72,,,,,,,
+73,,,,,,,
+74,,,,,,,
+75,,,,,,,
+76,,,,,,,
+77,,,,,,,
+78,,,,,,,
+79,,,,,,,
+80,,,,,,,
+81,,,,,,,
+82,,,,,,,
+83,,,,,,,
+84,,,,,,,
+85,,,,,,,
+86,,,,,,,
+87,,,,,,,
+88,,,,,,,
+89,,,,,,,
+90,,,,,,,
+91,,,,,,,
+92,,,,,,,
+93,,,,,,,
+94,,,,,,,
+95,,,,,,,
+96,,,,,,,
+97,,,,,,,
+98,,,,,,,
+99,,,,,,,
+100,,,,,,,

@@ -2045,115 +2045,15 @@ def make_algebra_tiles(expression, filename='algebra_tiles.png'):
 
 
 
-# Unit 1 Assessment Bank graph-generation blocks
-# All figures use graph_tool.py functions. Styling is not overridden.
-
-def _save_standard_blank(filename):
-    fig, ax = plt.subplots(figsize=(3.5, 3.5))
-    fig.patch.set_facecolor('white')
-    make_standard_graph(ax, [], title='')
-    save_graph(fig, filename)
-    plt.close(fig)
-
-_save_standard_blank('u1_bank_s1_coordinate_blank_sq_v1.png')
-_save_standard_blank('u1_bank_s5_coordinate_blank_sq_v1.png')
-
+# === Unit 1 Section 1.2 Notes-specific figure ===
 fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_standard_graph(ax, [
-    {'expr': lambda x: 2*x + 1, 'deriv': lambda x: 0*x + 2, 'color': 'steelblue', 'label': None}
-], title='')
-save_graph(fig, 'u1_bank_s1_evidence_line_sq_v1.png')
-plt.close(fig)
-
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_context_graph(ax, [
-    {'expr': lambda x: 5 + 4*x, 'deriv': lambda x: 0*x + 4, 'color': 'steelblue', 'label': None}
-], xmin=0, xmax=10, ymin=0, ymax=50, xlabel='Tickets', ylabel='Cost', title='')
-save_graph(fig, 'u1_bank_s1_context_cost_sq_v1.png')
-plt.close(fig)
-
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_scatter_plot(ax, [0,1,1,2,3], [3,4,6,7,8], xmin=0, xmax=4, ymin=0, ymax=10, color='steelblue', point_size=40, line_of_best_fit=False, xlabel='Input', ylabel='Output', title='')
-save_graph(fig, 'u1_bank_s2_relation_points_sq_v1.png')
-plt.close(fig)
-
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_standard_graph(ax, [
-    {'expr': lambda x: -x + 4, 'deriv': lambda x: 0*x - 1, 'color': 'steelblue', 'label': None}
-], title='')
-save_graph(fig, 'u1_bank_s2_function_line_sq_v1.png')
-plt.close(fig)
-
-fig = make_2x2_grid([
-    [{'expr': lambda x: x + 1, 'deriv': lambda x: 0*x + 1, 'color': 'steelblue', 'label': None}],
-    [{'expr': lambda x: x**2 - 4, 'deriv': lambda x: 2*x, 'color': 'steelblue', 'label': None}],
-    [{'expr': lambda x: 2**x, 'deriv': lambda x: np.log(2)*2**x, 'color': 'steelblue', 'label': None}],
-    [{'expr': lambda x: np.abs(x) - 3, 'deriv': lambda x: np.sign(x), 'color': 'steelblue', 'label': None}],
-], titles=['A','B','C','D'])
-save_graph(fig, 'u1_bank_s3_family_grid_sq_v1.png')
-plt.close(fig)
-
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_context_graph(ax, [
-    {'expr': lambda x: 2*(1.45**x), 'deriv': lambda x: 2*np.log(1.45)*(1.45**x), 'color': 'steelblue', 'label': None}
-], xmin=0, xmax=8, ymin=0, ymax=40, xlabel='Step', ylabel='Output', title='')
-save_graph(fig, 'u1_bank_s3_exp_context_sq_v1.png')
-plt.close(fig)
-
-fig = make_2x1_grid([
-    [{'expr': lambda x: np.abs(x+2) - 3, 'deriv': lambda x: np.sign(x+2), 'color': 'steelblue', 'label': None}],
-    [{'expr': lambda x: (x-1)**2 - 4, 'deriv': lambda x: 2*(x-1), 'color': 'steelblue', 'label': None}],
-], titles=['A','B'])
-save_graph(fig, 'u1_bank_s3_abs_quad_sq_v1.png')
-plt.close(fig)
-
-make_rectangle_model([r'$2x$', r'$3$'], [r'$x$', r'$5$'], [[r'$2x^2$', ''], ['', '']], 'u1_bank_s4_rect_blank_sq_v1.png')
-make_rectangle_model([r'$x$', r'$4$'], [r'$x$', r'$6$'], [[r'$x^2$', r'$6x$'], [r'$4x$', r'$20$']], 'u1_bank_s4_rect_mismatch_sq_v1.png')
-make_diamond(r'$-24$', '', '', r'$2$', 'u1_bank_s4_diamond_sq_v1.png')
-
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_context_graph(ax, [
-    {'expr': lambda x: 15 + 2*x, 'deriv': lambda x: 0*x + 2, 'color': 'steelblue', 'label': 'Plan A'},
-    {'expr': lambda x: 5 + 4*x, 'deriv': lambda x: 0*x + 4, 'color': 'firebrick', 'label': 'Plan B'},
-], xmin=0, xmax=10, ymin=0, ymax=45, xlabel='Items', ylabel='Cost', title='')
-save_graph(fig, 'u1_bank_s5_balance_context_sq_v1.png')
-plt.close(fig)
-
-
-# Unit 1 Section 2 notes graph-generation blocks
-# All figures use graph_tool.py functions. Styling is only used to mark requested points.
-
-def _mark_point(ax, x, y, label):
-    ax.plot([x], [y], 'o', color='firebrick', markersize=6, zorder=5)
-    ax.text(x+0.2, y+0.4, label, fontfamily='Times New Roman', fontsize=10, color='firebrick')
-
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_standard_graph(ax, [{'expr': lambda x: 2*x+1, 'deriv': lambda x: 0*x+2, 'color': 'steelblue', 'label': None}], title='')
-_mark_point(ax, 3, 7, '(3,7)')
-save_graph(fig, 'u1_s2_mn1_eval_f3.png')
-plt.close(fig)
-
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_context_graph(ax, [
-    {'expr': lambda x: 2+3*x, 'deriv': lambda x: 0*x+3, 'color': 'steelblue', 'label': 'rule'},
-    {'expr': lambda x: 0*x+17, 'deriv': lambda x: 0*x, 'color': 'firebrick', 'label': 'target'}
-], xmin=0, xmax=8, ymin=0, ymax=25, xlabel='Rounds', ylabel='Output', title='')
-_mark_point(ax, 5, 17, '(5,17)')
-save_graph(fig, 'u1_s2_mn2_rule_solve.png')
-plt.close(fig)
-
-fig, ax = plt.subplots(figsize=(3.5, 3.5))
-fig.patch.set_facecolor('white')
-make_context_graph(ax, [{'expr': lambda x: np.sqrt(x+4), 'deriv': lambda x: 1/(2*np.sqrt(x+4+1e-9)), 'color': 'steelblue', 'label': None}], xmin=-4, xmax=12, ymin=0, ymax=5, xlabel='x', ylabel='g(x)', title='')
-for xx, yy in [(-4,0),(0,2),(5,3),(12,4)]:
-    _mark_point(ax, xx, yy, '')
-save_graph(fig, 'u1_s2_mn3_sqrt_table.png')
+make_piecewise_graph(ax, [
+    {'expr': lambda x: 0.5*x + 2, 'deriv': lambda x: np.zeros_like(x) + 0.5,
+     'domain': (-10, 2), 'include_left': True, 'include_right': False,
+     'arrow_left': True, 'arrow_right': False},
+    {'expr': lambda x: -0.5*x + 4, 'deriv': lambda x: np.zeros_like(x) - 0.5,
+     'domain': (2, 10), 'include_left': False, 'include_right': True,
+     'arrow_left': False, 'arrow_right': True},
+], title=r'Two one-sided approaches at $x=2$')
+save_graph(fig, 'u1_s2_one_sided_compare.png')
 plt.close(fig)

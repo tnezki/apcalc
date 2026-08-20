@@ -1,0 +1,18 @@
+direct substitution works when, expression is defined at approach value
+factoring is useful for, cancelable polynomial factors
+conjugate is useful for, radical difference forms
+$\lim_{x\to0}\sin x/x$, 1
+$\lim_{x\to0}\sin(3x)/x$, 3
+0 over 0 is, an indeterminate form
+Squeeze Theorem uses, matching bounding limits
+$\lim_{x\to2}(x+4)$, 6
+$\lim_{x\to3}(x^2-9)/(x-3)$, 6 after factoring
+$\lim_{x\to0}(\sqrt{x+4}-2)/x$, 1/4
+limit laws require, supported component limits
+canceling a factor changes, the point value but not nearby values
+rationalizing multiplies by, a conjugate over itself
+factored form preserves, nearby equivalence
+squeeze bounds both approach 0, middle limit 0
+substitution gives finite value, that value is the limit when laws apply
+method selection depends on, the form of the expression
+after simplification, evaluate the resulting limit

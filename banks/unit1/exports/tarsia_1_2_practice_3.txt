@@ -1,0 +1,18 @@
+left-hand notation, $x\to a^-$
+right-hand notation, $x\to a^+$
+equal finite one-sided limits, finite two-sided limit
+unequal one-sided limits, two-sided limit DNE
+inputs below a approach a, left-hand limit
+inputs above a approach a, right-hand limit
+filled point alone determines, function value only
+hole alone implies about limit, nothing by itself
+table from both sides, two-sided numerical evidence
+graph from left only, left-hand graphical evidence
+DNE abbreviation, does not exist
+one-sided limits 3 and 3, two-sided limit 3
+one-sided limits 3 and 4, DNE because 3 differs from 4
+calculator table supports, numerical estimate
+two-sided limit asks about, both approach directions
+f(a) undefined but sides agree, limit may still exist
+approach directions disagree, no finite two-sided limit
+directional superscript minus, approach from the left

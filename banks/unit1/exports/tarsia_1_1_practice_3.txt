@@ -1,0 +1,18 @@
+$\lim_{x\to2}f(x)=5$ means, f(x) approaches 5 near x=2
+average rate of change uses, a secant line
+instantaneous rate of change uses, a limiting tangent slope
+limit notation symbol, lim
+nearby values approach 7, limit 7
+function value at the point, may differ from the limit
+undefined point value, does not force DNE
+approach from both sides, two-sided behavior
+input variable approaches a, x approaches a
+output approaches L, f(x) approaches L
+shrinking secant intervals, estimate instantaneous rate
+table values near a, numerical limit evidence
+graph near a, graphical limit evidence
+limit depends on, nearby function values
+value f(a) describes, the assigned point value
+secant slope formula, change in y over change in x
+limit statement needs, approach point and output
+a finite limit can exist with, a hole at the point
