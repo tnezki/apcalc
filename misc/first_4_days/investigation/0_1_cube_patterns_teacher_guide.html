@@ -3,76 +3,182 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AP Calculus AB — Chase the Tangent Teacher Guide</title>
+<title>AP Calculus AB — Chase the Tangent — Teacher Guide</title>
 <style>
-:root{--ink:#17232d;--muted:#5a6975;--navy:#1f4e79;--gold:#d8a63f;--green:#1f7a67;--paper:#fff;--bg:#eef3f7;--line:#c5d1db;--soft:#edf4fa;--warm:#fff5dd;--good:#eaf5f0}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.48}.guide{max-width:980px;margin:28px auto;background:var(--paper);padding:40px 48px 58px;box-shadow:0 10px 28px rgba(28,53,72,.12)}.kicker{text-transform:uppercase;letter-spacing:.08em;font-weight:850;font-size:12px;color:var(--navy)}h1{font-size:34px;line-height:1.08;margin:5px 0 7px}.subtitle{color:var(--muted);font-size:16px;margin:0 0 22px}.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 28px}.quick>div{background:var(--soft);border:1px solid #d3e0e9;border-radius:12px;padding:12px 14px}.quick strong{display:block;color:var(--navy);font-size:12px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}h2{margin:30px 0 10px;border-bottom:3px solid var(--navy);padding-bottom:5px;font-size:23px}h3{font-size:18px;margin:20px 0 6px}p,li,td,th{font-size:14px}.callout{border-left:5px solid var(--gold);background:var(--warm);padding:13px 15px;border-radius:9px;margin:16px 0}.good{border-left-color:var(--green);background:var(--good)}table{width:100%;border-collapse:collapse;margin:12px 0 22px}th,td{border:1px solid var(--line);padding:9px 10px;vertical-align:top}th{background:#edf3f7;text-align:left}.math{font-family:Cambria,"Times New Roman",serif}ul,ol{padding-left:22px}li{margin:6px 0}.small{font-size:12px;color:var(--muted)}@page{size:letter;margin:.55in}@media print{body{background:white}.guide{max-width:none;margin:0;padding:0;box-shadow:none}h2{break-after:avoid}table,.callout{break-inside:avoid}}
+:root{
+  --ink:#14212b; --muted:#566775; --navy:#1f4e79; --navy2:#153a5a;
+  --green:#1f7a67; --red:#b5413d; --gold:#d8a63f; --paper:#fff;
+  --bg:#eef3f7; --line:#c1cfda; --soft:#edf4fa; --warm:#fff5dd; --good:#eaf5f0;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}
+.guide{max-width:980px;margin:28px auto;background:var(--paper);padding:42px 48px 58px;border:1px solid #c8d5df;border-radius:18px;box-shadow:0 12px 30px rgba(34,61,82,.12)}
+.kicker{text-transform:uppercase;letter-spacing:.08em;font-weight:850;font-size:12px;color:var(--navy)}
+h1{font-size:36px;line-height:1.08;margin:5px 0 8px;color:#14212b}
+.subtitle{margin:0 0 22px;color:var(--muted);font-size:16px}
+h2{font-size:23px;color:var(--navy2);margin:30px 0 10px;padding-bottom:6px;border-bottom:3px solid var(--navy)}
+h3{font-size:18px;margin:18px 0 7px}
+p{margin:8px 0}
+ul,ol{margin:8px 0 8px 22px;padding:0}li{margin:5px 0}
+.quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0 24px}
+.quick{background:var(--soft);border:1px solid #cad7e1;border-radius:12px;padding:12px 14px}
+.quick strong{display:block;color:var(--navy);font-size:12px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:3px}
+.callout{border-left:5px solid var(--gold);background:var(--warm);padding:13px 15px;border-radius:10px;margin:14px 0}
+.callout.good{border-left-color:var(--green);background:var(--good)}
+.callout.warn{border-left-color:var(--red);background:#fdeceb}
+.math{font-family:Cambria,"Times New Roman",serif}
+.formula{font-family:Cambria,"Times New Roman",serif;font-size:21px;font-weight:700;color:#173f65;background:#edf4fb;border-radius:10px;padding:10px 12px;margin:10px 0;text-align:center}
+table{width:100%;border-collapse:collapse;margin:12px 0 20px}
+th,td{border:1px solid var(--line);padding:9px 10px;vertical-align:top;font-size:14px}
+th{background:#edf3f7;text-align:left;color:#183e5d}
+.screen-row{border:1px solid #cad6df;border-radius:13px;margin:12px 0;padding:14px 16px;background:#fff}
+.screen-tag{display:inline-block;background:var(--navy);color:white;border-radius:999px;padding:3px 9px;font-size:12px;font-weight:800;margin-bottom:6px}
+.answer{background:#f8fbfd;border-left:4px solid var(--green);padding:10px 12px;border-radius:8px;margin-top:8px}
+.small{font-size:13px;color:var(--muted)}
+@page{size:letter;margin:.55in}
+@media print{body{background:white}.guide{max-width:none;margin:0;padding:0;border:0;border-radius:0;box-shadow:none}h2{break-after:avoid}.screen-row,.callout,table{break-inside:avoid}}
+@media(max-width:720px){.guide{margin:0;padding:26px 20px;border-radius:0}.quick-grid{grid-template-columns:1fr}h1{font-size:30px}}
 </style>
 </head>
 <body>
 <main class="guide">
-  <div class="kicker">AP Calculus AB · 0.1 Get Acquainted · Teacher Guide</div>
+  <div class="kicker">AP Calculus AB · First 4 Days · Teacher Guide</div>
   <h1>Chase the Tangent</h1>
-  <p class="subtitle">A First 4 Days investigation that lets students experience secant slopes approaching a tangent slope before formal derivative notation or rules.</p>
+  <p class="subtitle">Teacher guidance for the interactive secant-to-tangent investigation. The legacy filename is retained only so existing course links continue to work.</p>
 
-  <div class="quick">
-    <div><strong>Time</strong>35–45 minutes</div>
-    <div><strong>Grouping</strong>Pairs work well</div>
-    <div><strong>Technology</strong>Browser on each device</div>
+  <div class="quick-grid">
+    <div class="quick"><strong>Purpose</strong>Preview instantaneous rate of change through moving secant lines.</div>
+    <div class="quick"><strong>Student mode</strong>Pairs are ideal; each student should record their own reasoning.</div>
+    <div class="quick"><strong>Time</strong>About 30–40 minutes, depending on discussion.</div>
   </div>
 
-  <div class="callout"><strong>Scope guard:</strong> Do not turn this into a derivative-rules lesson. The goal is for students to notice that nearby secant slopes stabilize toward a tangent slope, see why <span class="math">h=0</span> causes a problem, and connect tangent slope to instantaneous change.</div>
+  <div class="callout"><strong>Scope guard:</strong> This is a conceptual preview, not the formal derivative definition lesson. Students should experience the need for “getting closer to 0” before you name limits, derivatives, or derivative rules.</div>
 
-  <h2>Learning job</h2>
-  <p>Students manipulate <span class="math">h</span> on three different functions, use secant-slope evidence to estimate tangent slopes, then use point-slope form to write candidate tangent-line equations. The activity intentionally delays formal derivative notation.</p>
+  <h2>Learning Job</h2>
+  <p>Students use a movable second point <span class="math">B=(a+h,f(a+h))</span> to see how a secant line changes as <span class="math">h</span> becomes small. They then use the apparent limiting slope to estimate a tangent line and write that line with point-slope form.</p>
+  <div class="formula">y = m(x - x<sub>1</sub>) + y<sub>1</sub></div>
+  <p>The investigation deliberately shows the current <em>secant</em> slope but does not reveal a tangent slope or completed tangent-line equation.</p>
 
-  <h2>Before class</h2>
+  <h2>Before Class</h2>
   <ul>
-    <li>Open the student page on a projector and confirm the sliders move.</li>
-    <li>Students need a device capable of running ordinary HTML/JavaScript in the browser.</li>
-    <li>No Desmos class code is required for this version; the interaction is built directly into the page.</li>
-    <li>Decide whether students will type responses into the page, discuss with a partner, or record work separately.</li>
+    <li>Open the student investigation once on the same type of device students will use and confirm the sliders respond.</li>
+    <li>Students need no Desmos account or external graphing page; the graphs and sliders are built into the HTML.</li>
+    <li>Plan to pause briefly after Screens 1–3 and again after Screen 7. Those are the strongest discussion points.</li>
+    <li>If students work in pairs, have them discuss while moving sliders but require each student to write their own responses.</li>
   </ul>
 
-  <h2>Suggested flow</h2>
+  <h2>Mathematics at a Glance</h2>
   <table>
-    <thead><tr><th>Screen</th><th>Student job</th><th>Teacher move</th><th>What to listen for</th></tr></thead>
+    <thead><tr><th>Function / point</th><th>Tangent slope for teacher</th><th>Tangent line for teacher</th></tr></thead>
     <tbody>
-      <tr><td><strong>1 — Quadratic</strong></td><td>Define <span class="math">h</span> as the horizontal change from A to B; move B from both sides and watch the secant slope.</td><td>Ask, “What changes when h changes? What stays fixed?”</td><td>B approaches A as <span class="math">|h|</span> shrinks; secant slopes appear to settle near one value.</td></tr>
-      <tr><td><strong>2 — Cubic</strong></td><td>Repeat the same process on <span class="math">g(x)=0.35x^3-x+3</span> at A = (2, 3.8).</td><td>Press for evidence from both positive and negative h.</td><td>Students should see slopes approaching about 3.2 from both sides.</td></tr>
-      <tr><td><strong>3 — Sine</strong></td><td>Track positive and negative h deliberately on <span class="math">p(x)=\sin x</span> at <span class="math">x=\pi/4</span>.</td><td>Keep the conversation on the process, not on trig derivative rules.</td><td>Students should see slopes approaching about 0.71.</td></tr>
-      <tr><td><strong>4 — Why care?</strong></td><td>Connect tangent slope to describing change at one instant.</td><td>Invite examples of quantities whose rates are not constant.</td><td>Tangent slope as a local/instantaneous rate, not merely “a line that touches once.”</td></tr>
-      <tr><td><strong>5 — Quadratic tangent estimate</strong></td><td>Choose a candidate slope and write a tangent-line estimate through (1,1) using point-slope form.</td><td>Ask students to justify the slope from earlier secant evidence before adjusting visually.</td><td>Reasonable slope near 2; equation equivalent to <span class="math">y-1\approx2(x-1)</span>.</td></tr>
-      <tr><td><strong>6 — Cubic tangent estimate</strong></td><td>Repeat with less support at A = (2,3.8).</td><td>Do not simplify the point-slope form for them.</td><td>Reasonable slope near 3.2; equation equivalent to <span class="math">y-3.8\approx3.2(x-2)</span>.</td></tr>
-      <tr><td><strong>7 — Why not h = 0?</strong></td><td>Set h exactly to 0 and examine the secant-slope fraction.</td><td>Ask, “What is useful about getting close to zero even though zero itself fails?”</td><td>At h = 0, numerator and denominator are both 0; the quotient is unusable, but nearby values show a stable trend.</td></tr>
-      <tr><td><strong>8 — Synthesis</strong></td><td>Explain secant → tangent, the role of h, instantaneous change, and the h = 0 issue.</td><td>Select a few contrasting responses for discussion rather than simply confirming an answer.</td><td>Students connect graphical movement, numerical slope evidence, and verbal meaning.</td></tr>
+      <tr><td><span class="math">f(x)=x²</span> at <span class="math">A=(1,1)</span></td><td><span class="math">m=2</span></td><td><span class="math">y=2(x-1)+1</span></td></tr>
+      <tr><td><span class="math">g(x)=0.35x³-x+3</span> at <span class="math">A=(2,3.8)</span></td><td><span class="math">m=3.2</span></td><td><span class="math">y=3.2(x-2)+3.8</span></td></tr>
+      <tr><td><span class="math">s(x)=sin(x)</span> at <span class="math">A=(π/4,√2/2)</span></td><td><span class="math">m≈0.707</span></td><td>Not required in the student activity.</td></tr>
+    </tbody>
+  </table>
+  <p class="small">For the quadratic, the secant slope simplifies to <span class="math">2+h</span> when <span class="math">h≠0</span>. For the cubic, the secant slope is <span class="math">3.2+2.1h+0.35h²</span>. These are useful teacher checks, not formulas to give students during the investigation.</p>
+
+  <h2>Screen-by-Screen Facilitation</h2>
+
+  <div class="screen-row">
+    <span class="screen-tag">Screen 1</span>
+    <h3>Quadratic — What does h control?</h3>
+    <p><strong>Student job:</strong> Predict first, then move <span class="math">h</span> from both positive and negative values toward 0.</p>
+    <p><strong>Listen for:</strong> B moves toward A; the secant line settles toward one direction; secant slopes appear to settle near 2.</p>
+    <p><strong>Teacher move:</strong> Ask, “What does the sign of h change? What does the size of |h| change?”</p>
+    <div class="answer"><strong>Do not reveal yet:</strong> “The derivative is 2.” Let students describe the observed approach first.</div>
+  </div>
+
+  <div class="screen-row">
+    <span class="screen-tag">Screen 2</span>
+    <h3>Cubic — Does the same idea survive?</h3>
+    <p><strong>Student job:</strong> Repeat the experiment on a graph with changing curvature and a target point away from the axes.</p>
+    <p><strong>Expected observation:</strong> Secant slopes from both sides approach about <span class="math">3.2</span>.</p>
+    <p><strong>Teacher move:</strong> Ask students to compare the behavior to Screen 1 rather than focus only on getting a decimal.</p>
+  </div>
+
+  <div class="screen-row">
+    <span class="screen-tag">Screen 3</span>
+    <h3>Sine — What is h doing now?</h3>
+    <p><strong>Student job:</strong> Use the same h-process on a non-polynomial curve.</p>
+    <p><strong>Expected observation:</strong> The secant slope appears to approach about <span class="math">0.707</span> from either side.</p>
+    <p><strong>Teacher move:</strong> Emphasize that the procedure is the same even though the function family changed.</p>
+    <div class="callout good"><strong>Key generalization:</strong> The useful idea is not “quadratics have tangent lines.” It is that nearby secant slopes can reveal a local rate of change on very different smooth curves.</div>
+  </div>
+
+  <div class="screen-row">
+    <span class="screen-tag">Screen 4</span>
+    <h3>Why did anyone care about tangent lines?</h3>
+    <p><strong>Student job:</strong> Connect the mathematical need to motion, astronomy, growth, and optimization.</p>
+    <p><strong>Teacher move:</strong> Keep this brief. The goal is motivation: curved phenomena change from moment to moment, so average change over an interval is not enough when the question is “what is happening right now?”</p>
+    <p><strong>Good debrief question:</strong> “What did the h-experiment give us that one large secant interval could not?”</p>
+  </div>
+
+  <div class="screen-row">
+    <span class="screen-tag">Screen 5</span>
+    <h3>Build a tangent-line estimate — quadratic</h3>
+    <p><strong>Student job:</strong> Use their secant evidence to choose a candidate tangent slope <span class="math">m</span>, then write the line through <span class="math">A=(1,1)</span> with point-slope form.</p>
+    <div class="formula">y = m(x - x<sub>1</sub>) + y<sub>1</sub></div>
+    <p><strong>Expected estimate:</strong> <span class="math">m≈2</span>, so a strong equation is <span class="math">y=2(x-1)+1</span>.</p>
+    <p><strong>Teacher move:</strong> If students struggle, point to the fixed point and ask, “Which two numbers belong in <span class="math">x₁,y₁</span>?” Avoid supplying m.</p>
+    <div class="callout warn"><strong>Important:</strong> The slider only changes the candidate line. Students must write the equation themselves; the page should not auto-complete it for them.</div>
+  </div>
+
+  <div class="screen-row">
+    <span class="screen-tag">Screen 6</span>
+    <h3>Use point-slope form again — cubic</h3>
+    <p><strong>Student job:</strong> Repeat the same process with less scaffolding at <span class="math">A=(2,3.8)</span>.</p>
+    <p><strong>Expected estimate:</strong> <span class="math">m≈3.2</span>, giving <span class="math">y=3.2(x-2)+3.8</span>.</p>
+    <p><strong>Why this point:</strong> Neither coordinate is 0, so students actually use the full point-slope structure rather than a simplified special case.</p>
+    <p><strong>Look for:</strong> Students noticing that a tangent line is a good local model near A but separates from the curve farther away.</p>
+  </div>
+
+  <div class="screen-row">
+    <span class="screen-tag">Screen 7</span>
+    <h3>Why not just set h = 0?</h3>
+    <p><strong>Student job:</strong> Move h all the way to 0 and observe the secant-slope fraction.</p>
+    <p>For <span class="math">f(x)=x²</span> at <span class="math">x=1</span>, the numerator and denominator both become 0, so the displayed secant fraction is <span class="math">0/0</span>, undefined.</p>
+    <p><strong>Teacher move:</strong> Ask, “So why was getting close to 0 productive even though plugging in 0 fails?”</p>
+    <div class="answer"><strong>Desired idea:</strong> We can study what the secant slopes are approaching without needing a distinct second point at h=0.</div>
+  </div>
+
+  <div class="screen-row">
+    <span class="screen-tag">Screen 8</span>
+    <h3>Synthesis</h3>
+    <p>Students should connect four ideas:</p>
+    <ol>
+      <li>As <span class="math">|h|</span> shrinks, B approaches A.</li>
+      <li>The secant line approaches a stable local direction.</li>
+      <li>Nearby secant slopes can estimate the tangent slope.</li>
+      <li>The tangent slope describes instantaneous change and gives a useful local linear model.</li>
+    </ol>
+  </div>
+
+  <h2>Common Misconceptions / Watch For</h2>
+  <table>
+    <thead><tr><th>What students may say/do</th><th>Teacher response</th></tr></thead>
+    <tbody>
+      <tr><td>“h is the slope.”</td><td>Return to the graph: h is horizontal change from A to B; the secant slope is calculated from the two points.</td></tr>
+      <tr><td>Only approaches from positive h.</td><td>Ask them to test a similar negative h and compare the secant slopes.</td></tr>
+      <tr><td>Chooses a line that looks close globally.</td><td>Ask them to zoom their attention near A. A tangent is a local match, not a line that follows the whole curve.</td></tr>
+      <tr><td>Writes <span class="math">y=mx+b</span> and guesses b.</td><td>Redirect to the fixed point and the displayed point-slope form.</td></tr>
+      <tr><td>Thinks h=0 should produce the tangent slope directly.</td><td>Have them read numerator and denominator at h=0 and articulate why the secant construction requires two distinct points.</td></tr>
+      <tr><td>Uses “tangent touches once” as the definition.</td><td>Do not reinforce it. The important idea here is the limiting local direction/rate of change.</td></tr>
     </tbody>
   </table>
 
-  <h2>Expected mathematical landmarks</h2>
-  <table>
-    <thead><tr><th>Function / target</th><th>Tangent slope</th><th>Teacher reference</th></tr></thead>
-    <tbody>
-      <tr><td><span class="math">f(x)=x^2</span> at <span class="math">x=1</span></td><td>2</td><td><span class="math">y-1=2(x-1)</span></td></tr>
-      <tr><td><span class="math">g(x)=0.35x^3-x+3</span> at <span class="math">x=2</span></td><td>3.2</td><td><span class="math">y-3.8=3.2(x-2)</span></td></tr>
-      <tr><td><span class="math">p(x)=\sin x</span> at <span class="math">x=\pi/4</span></td><td><span class="math">\sqrt2/2\approx0.707</span></td><td>Use only as a teacher check; do not introduce the cosine derivative rule here.</td></tr>
-    </tbody>
-  </table>
+  <h2>Suggested Debrief</h2>
+  <p>Keep the close centered on student observations rather than formal notation. A useful sequence is:</p>
+  <ol>
+    <li>“What stayed fixed in every secant experiment?”</li>
+    <li>“What did h control?”</li>
+    <li>“What happened to the secant slope as |h| became very small?”</li>
+    <li>“Why was h=0 itself a problem?”</li>
+    <li>“Why would scientists care about the slope of a tangent line?”</li>
+    <li>“How did point-slope form let us turn that slope into an actual line?”</li>
+  </ol>
 
-  <h2>Common issues</h2>
-  <ul>
-    <li><strong>“The tangent line touches the curve once.”</strong> Counter with Screen 6: the useful idea is local slope, not a one-touch rule.</li>
-    <li><strong>Students only approach from one side.</strong> Send them back to positive and negative h.</li>
-    <li><strong>Students think h is the slope.</strong> Re-anchor h as the horizontal change from A to B.</li>
-    <li><strong>Students jump to derivative formulas they remember.</strong> Ask them to justify their estimate from the secant data visible in the activity.</li>
-    <li><strong>Students simplify point-slope form incorrectly.</strong> Keep the target point visible and have them substitute into <span class="math">y=m(x-x_1)+y_1</span> one piece at a time.</li>
-  </ul>
-
-  <h2>Debrief</h2>
-  <div class="callout good"><strong>Strong closing question:</strong> “If we cannot use h = 0 in the secant-slope fraction, what mathematical idea would let us describe the number the slopes are approaching anyway?”</div>
-  <p>That question creates a natural bridge into limits and the derivative without formally teaching either during the First 4 Days investigation.</p>
-
-  <p class="small">Files intentionally retain the existing 0_1_cube_patterns filenames so the current course links continue to resolve after the folder is replaced.</p>
+  <div class="callout good"><strong>Successful first-day outcome:</strong> Students leave with an intuitive need for a limiting process and a concrete picture of tangent slope as instantaneous rate of change. They do not need formal limit notation, derivative notation, or derivative rules yet.</div>
 </main>
 </body>
 </html>
