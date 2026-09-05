@@ -24,18 +24,30 @@ DAY_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 MARKER_COLS = [2, 4, 6, 8, 10]   # B, D, F, H, J
 CONTENT_COLS = [3, 5, 7, 9, 11]  # C, E, G, I, K
 
+# Keep this list in sync with the Calc Resources sheet.
 RESOURCE_LINKS = [
     ('Overview', 'https://docs.google.com/document/d/1rrToxZ84-VGe-75JeIofcH6FXqdCFiE-MNlwDZNvMs4/edit?usp=sharing'),
+    ('Website', 'https://tnezki.github.io/apcalc/'),
     ('Agenda', 'https://tnezki.github.io/apcalc/agenda/index.html'),
-    ('Web Site', 'https://tnezki.github.io/apcalc/'),
-    ('Textbook', 'https://tnezki.github.io/textbooks/apcalc/index.html'),
     ('AP Classroom', 'https://myap.collegeboard.org/login'),
     ('AP Central', 'https://apcentral.collegeboard.org/courses/ap-calculus-ab'),
-    ('Printables', 'https://tnezki.github.io/apcalc/misc/printables/aaagallery_index.html'),
-    ('Upload Spot', 'https://drive.google.com/drive/folders/10CsdXTol83A22hUiwB6c45CyY5eVCAxn'),
+    ('Textbook', 'https://tnezki.github.io/textbooks/apcalc/index.html'),
+    ('Printables', 'https://tnezki.github.io/algebra/misc/printables/aaagallery_index.html'),
     ('Desmos', 'https://www.desmos.com/calculator'),
-    ('GeoGebra', 'https://www.geogebra.org/graphing'),
+    ('Geogebra', 'https://www.geogebra.org/graphing'),
     ('Canvas', 'https://mariners.instructure.com/'),
+    ('Upload Spot', 'https://drive.google.com/drive/folders/10CsdXTol83A22hUiwB6c45CyY5eVCAxn?usp=drive_link'),
+    ('When You See', 'https://drive.google.com/open?id=0B6fznOHK0RHAWHAwVjhIQmN2UEE'),
+    ('Cheat Sheet', 'https://drive.google.com/open?id=0B6fznOHK0RHAczRoVkw3QkEyc1U'),
+    ('Note Cards', 'https://drive.google.com/open?id=0B6fznOHK0RHAZGtQZWZmZHFJM00'),
+    ('Parent Functions', 'https://tnezki.github.io/pc/resources/parent_fuctions.pdf'),
+    ('Slope Fields', 'https://www.geogebra.org/m/Pd4Hn4BR'),
+    ('Cross Sections', 'https://www.geogebra.org/m/XFgMaKTy'),
+    ('Volumes of Revolution I', 'https://www.geogebra.org/m/RyGPhBtU'),
+    ('Volumes of Revolution II', 'https://tentotwelvemath.com/middle-plus/integral-calculus/volume-of-revolution-visual/'),
+    ('Calc in 20 Minutes', 'https://www.youtube.com/watch?v=SOkMGWCLqoc'),
+    ('Khan Academy', 'https://www.khanacademy.org/math/calculus-1'),
+    ('FRQ Videos', 'https://www.youtube.com/playlist?list=PL3Gnjw2fQSnH_Okp7aPcH71yC8SqHKc-o'),
 ]
 
 
