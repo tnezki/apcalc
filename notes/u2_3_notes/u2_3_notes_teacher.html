@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Section 2.3 Teacher Guide — Continuity</title>
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
+</script>
+<script async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/notes_calc.css" rel="stylesheet"/>
+<link href="../../css/textbook_notes.css" rel="stylesheet"/>
+</head>
+<body class="teacher-copy">
+<main class="notes-page"><div class="teacher-banner">TEACHER COPY · Student prompts are preserved; yellow callouts provide answers, reasoning, and teaching moves. AP alignment is summarized at the end.</div>
+<header class="title">
+<div class="kicker">AP Calculus AB · Unit 2 · Limits and Continuity</div>
+<div class="title-banner"><div class="sec">2.3</div><h1>Continuity</h1></div>
+<p class="quote">Continuity connects what a function approaches to the value it actually has.</p>
+</header>
+<section class="top-intro-grid">
+<aside class="learning-sidebar">
+<h2>What you'll learn about</h2>
+<p class="lt"><strong>Learning Target:</strong> Determine and justify continuity at points and on intervals, then apply the Intermediate Value Theorem.</p>
+<ul><li>I can test continuity by comparing $f(c)$ with $\displaystyle\lim_{x\to c}f(x)$.</li><li>I can distinguish removable from non-removable discontinuities.</li><li>I can choose a parameter to make a function continuous and use the Intermediate Value Theorem to guarantee an output.</li></ul>
+<div class="why-label">...and why</div>
+<p class="why-copy">Continuity tells us when local behavior fits together without a break and gives us conditions that guarantee intermediate values must occur.</p>
+</aside>
+<section class="section-intro">
+<p class="eyebrow">Section Introduction</p>
+<h2>Nearby behavior and the point itself must agree</h2>
+<p>A graph can look smooth, have a hole, jump, or break near a vertical asymptote. Continuity gives us a precise way to describe those possibilities rather than relying only on the idea of drawing without lifting a pencil.</p><p>At an interior point, continuity requires the function value to exist, the two-sided limit to exist, and those two values to be equal. If a discontinuity can be repaired by redefining one function value, it is removable.</p><p>Once continuity is established on a closed interval, the Intermediate Value Theorem lets us guarantee that the function reaches every value between its endpoint outputs.</p>
+<p class="intro-close">To prove continuity at a point, check the value, check the limit, and then show they are equal.</p>
+</section>
+</section>
+<section class="block vocab-preview-section">
+<h2 class="red-heading">Vocabulary / Key Notation Preview</h2>
+<p class="vocab-list">continuity · continuous at $x=c$ · removable discontinuity · non-removable discontinuity · endpoint continuity · Intermediate Value Theorem</p>
+<div class="vocab-box">
+<p>Sort the vocabulary. Write each vocabulary word in the column that best matches what you know right now. You may move a word later.</p>
+<table class="sort-table"><thead><tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
+</div>
+</section>
+<section class="block wtc">
+<h2>What's To Come</h2>
+<p class="wtc-lead"><strong>PREVIEW / DECOMPOSE.</strong> Use the connected parts to see where this section is headed.</p>
+<div class="wtc-layout">
+<div class="wtc-stimulus"><p>Let $f(x)=\begin{cases}x+1,&amp;x&lt;2\\k,&amp;x=2\\5-x,&amp;x&gt;2.\end{cases}$</p></div>
+<div class="wtc-parts"><div class="wtc-part"><h4>Part A</h4><p>Find $\displaystyle\lim_{x\to2^-}f(x)$.</p><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> $\lim_{x\to2^-}f(x)=3$.</li>
+<li><strong>Reasoning:</strong> The left-hand piece is $x+1$, so nearby left-side values approach $3$.</li>
+<li><strong>Teaching move / listen for:</strong> Have students explicitly select the left-side formula from its domain condition.</li>
+</ul></div></div><div class="wtc-part"><h4>Part B</h4><p>Find $\displaystyle\lim_{x\to2^+}f(x)$. Does the two-sided limit exist?</p><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> $\lim_{x\to2^+}f(x)=3$, so the two-sided limit exists and equals $3$.</li>
+<li><strong>Reasoning:</strong> The right-hand piece is $5-x$, which also approaches $3$.</li>
+<li><strong>Teaching move / listen for:</strong> Require the one-sided limits to agree before writing the two-sided limit.</li>
+</ul></div></div><div class="wtc-part"><h4>Part C</h4><p>What must $f(2)$ equal for the function to be continuous at $x=2$?</p><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> For continuity, $f(2)$ must equal the two-sided limit, so $f(2)=3$.</li>
+<li><strong>Reasoning:</strong> Continuity at a point requires the function value to exist and equal the limit.</li>
+<li><strong>Teaching move / listen for:</strong> Use this to transition from “limit exists” to the stronger requirement “continuous.”</li>
+</ul></div></div><div class="wtc-part"><h4>Part D</h4><p>Determine the value of $k$ that makes the three continuity requirements agree.</p><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> $k=3$.</li>
+<li><strong>Reasoning:</strong> The piecewise definition assigns $f(2)=k$, so set $k$ equal to the common limiting value.</li>
+<li><strong>Teaching move / listen for:</strong> Ask students which of the three continuity conditions the parameter controls.</li>
+</ul></div></div></div>
+</div>
+</section>
+<section class="task example"><h3>Example 1 · Removable and non-removable discontinuities</h3>
+<p>Which, if any, of the three graphs has a removable discontinuity?</p>
+<figure class="graph-block graph-lg"><img alt="Three graphs showing a hole, a vertical asymptote, and a jump" src="figures/discontinuity_types.png"/></figure><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> Graph A has the removable discontinuity. Graph B has an infinite discontinuity/vertical asymptote, and Graph C has a jump discontinuity.</li>
+<li><strong>Reasoning:</strong> A removable discontinuity has a single missing/misassigned point while the two-sided limit still exists.</li>
+<li><strong>Teaching move / listen for:</strong> Have students classify all three graphs, not just identify the removable one.</li>
+</ul></div></section>
+<section class="task example"><h3>Example 2 · Continuity from a graph</h3>
+<p>For the function shown, identify the points or intervals where the function is continuous and the points where it is discontinuous.</p>
+<figure class="graph-block graph-lg"><img alt="Piecewise graph with discontinuities at x equals 1 and x equals 2" src="figures/continuity_reference.png"/></figure><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> From the displayed graph, the function is discontinuous at $x=1$ and $x=2$. It is continuous on $[0,1)$, $(1,2)$, and $(2,4]$ (using one-sided continuity at the endpoints of the shown domain).</li>
+<li><strong>Reasoning:</strong> At $x=1$ the one-sided limits disagree; at $x=2$ the two-sided limit is $1$ but the plotted function value is $2$.</li>
+<li><strong>Teaching move / listen for:</strong> Ask students to separate endpoint continuity from interior-point continuity.</li>
+</ul></div></section>
+<section aria-label="Definition Continuity at a Point" class="textbook-note">
+<div class="textbook-note-head"><span class="textbook-note-kind">Definition</span><span class="textbook-note-title">Continuity at a Point</span></div>
+<div class="textbook-note-body">
+<p><strong>Interior Point:</strong> A function $y=f(x)$ is continuous at an interior point $c$ of its domain if</p>
+<div class="display-math">$$\lim_{x\to c}f(x)=f(c).$$</div>
+<p><strong>Endpoint:</strong> A function $y=f(x)$ is continuous at a left endpoint $a$ or at a right endpoint $b$ of its domain if</p>
+<div class="display-math">$$\lim_{x\to a^+}f(x)=f(a) \qquad\text{or}\qquad \lim_{x\to b^-}f(x)=f(b),$$</div>
+<p>respectively.</p>
+</div>
+</section>
+<section class="task example"><h3>Example 3 · Testing continuity at specific points</h3>
+<p>Use the same graph. For $c=1$, $2$, and $3$, find each quantity when it exists:</p>
+$$f(c),\qquad\lim_{x\to c^+}f(x),\qquad\lim_{x\to c^-}f(x),\qquad\lim_{x\to c}f(x).$$
+<figure class="graph-block graph-lg"><img alt="Piecewise graph reused to test continuity at c equals 1, 2, and 3" src="figures/continuity_reference.png"/></figure><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> At $c=1$: $f(1)=1$, right-hand limit $=1$, left-hand limit $=0$, so the two-sided limit DNE. At $c=2$: $f(2)=2$, both one-sided limits $=1$, so the two-sided limit is $1$. At $c=3$: $f(3)=2$ and both one-sided limits and the two-sided limit equal $2$.</li>
+<li><strong>Reasoning:</strong> The same graph displays a jump-type failure, a removable failure, and a continuous point.</li>
+<li><strong>Teaching move / listen for:</strong> Have students complete the four quantities in the same order each time; the routine supports accurate continuity decisions.</li>
+</ul></div></section>
+<section class="task example"><h3>Example 4 · Discussing continuity algebraically</h3>
+<p>Discuss the continuity of each function.</p>
+<ol type="a">
+<li>$\displaystyle f(x)=\frac1{x-1}$</li>
+<li>$\displaystyle g(x)=\frac{2x^2+x-6}{x+2}$</li>
+<li>$\displaystyle h(x)=\begin{cases}-2x+3,&amp;x&lt;1\\x^2,&amp;x\ge1.\end{cases}$</li>
+</ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> $f(x)=\frac1{x-1}$ is continuous on $(-\infty,1)$ and $(1,\infty)$ and discontinuous at $1$. $g(x)=\frac{2x^2+x-6}{x+2}=2x-3$ for $x\ne-2$, so it has a removable discontinuity at $x=-2$ and is continuous elsewhere. The piecewise $h$ is continuous for all real $x$ because both pieces approach $1$ at $x=1$ and $h(1)=1$.</li>
+<li><strong>Reasoning:</strong> Use rational-function domain restrictions and the three-part continuity test at the piecewise boundary.</li>
+<li><strong>Teaching move / listen for:</strong> Ask students to justify continuity, not merely state “polynomials are continuous.”</li>
+</ul></div></section>
+<section class="task example"><h3>Example 5 · Choosing k for continuity at a piecewise boundary</h3>
+<p>Determine the value of $k$ that makes the function continuous on the entire real line:</p>
+$$g(x)=\begin{cases}x^2+7,&amp;x\ge1\\x+k,&amp;x&lt;1.\end{cases}$$<div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> $k=7$.</li>
+<li><strong>Reasoning:</strong> At $x=1$, the defined/right-side value is $1^2+7=8$ and the left-hand limit is $1+k$. Set $1+k=8$.</li>
+<li><strong>Teaching move / listen for:</strong> Have students identify which side contains the equality sign and therefore determines $g(1)$.</li>
+</ul></div></section>
+<section class="task example"><h3>Example 6 · Filling a removable discontinuity</h3>
+<p>Determine the value of $k$ that makes the function continuous for all real numbers:</p>
+$$h(x)=\begin{cases}\dfrac{x^4-1}{x-1},&amp;x\ne1\\k,&amp;x=1.\end{cases}$$<div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> $k=4$.</li>
+<li><strong>Reasoning:</strong> For $x\ne1$, $\frac{x^4-1}{x-1}=x^3+x^2+x+1$, whose limit at $1$ is $4$. Assigning $h(1)=4$ removes the hole.</li>
+<li><strong>Teaching move / listen for:</strong> Connect the algebraic cancellation directly to AP Topic 1.13: removing a discontinuity.</li>
+</ul></div></section>
+<section aria-label="Theorem 6 Properties of Continuous Functions" class="textbook-note">
+<div class="textbook-note-head"><span class="textbook-note-kind">Theorem 6</span><span class="textbook-note-title">Properties of Continuous Functions</span></div>
+<div class="textbook-note-body">
+<p>If $f$ and $g$ are continuous at $x=c$, then the following combinations are also continuous at $c$:</p>
+<ol>
+<li><span class="rule-name">Sums:</span> $f+g$</li>
+<li><span class="rule-name">Differences:</span> $f-g$</li>
+<li><span class="rule-name">Products:</span> $fg$</li>
+<li><span class="rule-name">Constant multiples:</span> $kf$, for any number $k$</li>
+<li><span class="rule-name">Quotients:</span> $f/g$, provided $g(c)\ne0$</li>
+</ol>
+</div>
+</section>
+<section aria-label="Theorem 7 Composite of Continuous Functions" class="textbook-note">
+<div class="textbook-note-head"><span class="textbook-note-kind">Theorem 7</span><span class="textbook-note-title">Composite of Continuous Functions</span></div>
+<div class="textbook-note-body">
+<p>If $f$ is continuous at $c$ and $g$ is continuous at $f(c)$, then the composite $g\circ f$ is continuous at $c$.</p>
+</div>
+</section>
+<section aria-label="Theorem 8 Intermediate Value Theorem for Continuous Functions" class="textbook-note">
+<div class="textbook-note-head"><span class="textbook-note-kind">Theorem 8</span><span class="textbook-note-title">Intermediate Value Theorem for Continuous Functions</span></div>
+<div class="textbook-note-body">
+<p>A function $y=f(x)$ that is continuous on a closed interval $[a,b]$ takes on every value between $f(a)$ and $f(b)$.</p>
+<p>In other words, if $y_0$ is between $f(a)$ and $f(b)$, then there is at least one number $c$ in $[a,b]$ such that</p>
+<div class="display-math">$$f(c)=y_0.$$</div>
+</div>
+</section>
+<section class="task example"><h3>Example 7 · Reading the Intermediate Value Theorem</h3>
+<p>For the Intermediate Value Theorem:</p>
+<ol type="a">
+<li>What requirements must be satisfied before the theorem can be applied?</li>
+<li>$k$ lies on which axis?</li>
+<li>$c$ lies on which axis?</li>
+</ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> The function must be continuous on the closed interval $[a,b]$, and the target value $k$ (or $y_0$) must lie between $f(a)$ and $f(b)$. The target output $k$ is a $y$-value; the guaranteed $c$ is an $x$-value.</li>
+<li><strong>Reasoning:</strong> IVT guarantees at least one input whose output equals the chosen intermediate value; it does not locate the input unless additional work is done.</li>
+<li><strong>Teaching move / listen for:</strong> Listen for students who swap $c$ and $k$ or claim uniqueness.</li>
+</ul></div></section>
+<section class="task example"><h3>Example 8 · Interpreting the Intermediate Value Theorem from a graph</h3>
+<p>Consider the continuous function shown on the interval $[a,b]$.</p>
+<figure class="graph-block graph-lg"><img alt="Continuous wavy function on the interval from a to b with horizontal levels f(a), k, and f(b)" src="figures/ivt_reference.png"/></figure>
+<ol><li>Is $f$ continuous on $[a,b]$?</li><li>Is $k$ between $f(a)$ and $f(b)$?</li><li>If $a&lt;c&lt;b$, how many values of $c$ in this example satisfy $f(c)=k$?</li><li>Label those values on the graph as $c_1,c_2,\ldots$.</li></ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> Yes, the displayed function is continuous on $[a,b]$, and $k$ lies between $f(a)$ and $f(b)$. The graph crosses the horizontal level $y=k$ three times between $a$ and $b$, so there are three displayed values $c_1,c_2,c_3$ satisfying $f(c)=k$.</li>
+<li><strong>Reasoning:</strong> IVT guarantees at least one crossing; the graph happens to show three, illustrating that the theorem does not guarantee uniqueness.</li>
+<li><strong>Teaching move / listen for:</strong> Use the multiple crossings to emphasize “at least one,” not “exactly one.”</li>
+</ul></div></section>
+<section class="task example"><h3>Example 9 · Applying the Intermediate Value Theorem</h3>
+<p>Let</p>
+$$f(x)=\frac{x^2+x}{x-1}.$$
+<p>Verify that the Intermediate Value Theorem applies on $\left[\frac52,4\right]$, and find the value of $c$ guaranteed by the theorem if $f(c)=6$.</p><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> On $[\frac52,4]$, the denominator $x-1$ is never zero, so $f$ is continuous. $f(\frac52)=\frac{35}{6}&lt;6$ and $f(4)=\frac{20}{3}&gt;6$, so IVT guarantees a $c$ with $f(c)=6$. Solving $\frac{c^2+c}{c-1}=6$ gives $(c-2)(c-3)=0$; the value in the interval is $c=3$.</li>
+<li><strong>Reasoning:</strong> The theorem first establishes existence; algebra then identifies the guaranteed value.</li>
+<li><strong>Teaching move / listen for:</strong> Require the continuity statement and the between-ness check before students solve the equation.</li>
+</ul></div></section><section class="summary ap-alignment-summary">
+<h2>AP Alignment Summary</h2>
+<p><strong>Important numbering note:</strong> This textbook's Section 2.3 numbering is independent of the College Board AP unit/topic numbering.</p>
+<table class="values"><thead><tr><th>AP Topic</th><th>College Board Topic</th><th>How this section covers it</th></tr></thead><tbody><tr><td><strong>1.10</strong></td><td>Exploring Types of Discontinuities</td><td>Graph classification and algebraic examples distinguish removable, jump, and infinite discontinuities.</td></tr><tr><td><strong>1.11</strong></td><td>Defining Continuity at a Point</td><td>The formal point-continuity definition is used repeatedly with function values and one-/two-sided limits.</td></tr><tr><td><strong>1.12</strong></td><td>Confirming Continuity over an Interval</td><td>Graph and algebra examples identify intervals of continuity, including endpoint behavior.</td></tr><tr><td><strong>1.13</strong></td><td>Removing Discontinuities</td><td>Parameter problems repair holes by matching a function value to the existing limit.</td></tr><tr><td><strong>1.16</strong></td><td>Working with the Intermediate Value Theorem (IVT)</td><td>Requirements, graphical interpretation, existence reasoning, and an algebraic application are all included.</td></tr></tbody></table>
+<p>This section supplies the continuity/IVT portion of College Board AP Unit 1, with strong Mathematical Practice 3 justification whenever a theorem is invoked.</p>
+<p><strong>Alignment reference:</strong> <a href="https://apcentral.collegeboard.org/courses/ap-calculus-ab">AP Calculus AB — AP Central</a> and the <a href="https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf">AP Calculus AB and BC Course and Exam Description</a>. College Board notes that the 2026–27 update contains clarifications but does not change course content.</p>
+</section></main>
+</body>
+</html>

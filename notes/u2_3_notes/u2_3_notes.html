@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Section 2.3 Notes — Continuity</title>
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../css/base.css"/>
+<link rel="stylesheet" href="../../css/notes_calc.css"/>
+<link rel="stylesheet" href="../../css/textbook_notes.css"/>
+</head>
+<body>
+<main class="notes-page">
+<header class="title">
+  <div class="kicker">AP Calculus AB · Unit 2 · Limits and Continuity</div>
+  <div class="title-banner"><div class="sec">2.3</div><h1>Continuity</h1></div>
+  <p class="quote">Continuity connects what a function approaches to the value it actually has.</p>
+</header>
+<section class="top-intro-grid">
+  <aside class="learning-sidebar">
+    <h2>What you'll learn about</h2>
+    <p class="lt"><strong>Learning Target:</strong> Determine and justify continuity at points and on intervals, then apply the Intermediate Value Theorem.</p>
+    <ul><li>I can test continuity by comparing $f(c)$ with $\displaystyle\lim_{x\to c}f(x)$.</li><li>I can distinguish removable from non-removable discontinuities.</li><li>I can choose a parameter to make a function continuous and use the Intermediate Value Theorem to guarantee an output.</li></ul>
+    <div class="why-label">...and why</div>
+    <p class="why-copy">Continuity tells us when local behavior fits together without a break and gives us conditions that guarantee intermediate values must occur.</p>
+  </aside>
+  <section class="section-intro">
+    <p class="eyebrow">Section Introduction</p>
+    <h2>Nearby behavior and the point itself must agree</h2>
+    <p>A graph can look smooth, have a hole, jump, or break near a vertical asymptote. Continuity gives us a precise way to describe those possibilities rather than relying only on the idea of drawing without lifting a pencil.</p><p>At an interior point, continuity requires the function value to exist, the two-sided limit to exist, and those two values to be equal. If a discontinuity can be repaired by redefining one function value, it is removable.</p><p>Once continuity is established on a closed interval, the Intermediate Value Theorem lets us guarantee that the function reaches every value between its endpoint outputs.</p>
+    <p class="intro-close">To prove continuity at a point, check the value, check the limit, and then show they are equal.</p>
+  </section>
+</section>
+<section class="block vocab-preview-section">
+  <h2 class="red-heading">Vocabulary / Key Notation Preview</h2>
+  <p class="vocab-list">continuity · continuous at $x=c$ · removable discontinuity · non-removable discontinuity · endpoint continuity · Intermediate Value Theorem</p>
+  <div class="vocab-box">
+    <p>Sort the vocabulary. Write each vocabulary word in the column that best matches what you know right now. You may move a word later.</p>
+    <table class="sort-table"><thead><tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
+  </div>
+</section>
+<section class="block wtc">
+  <h2>What's To Come</h2>
+  <p class="wtc-lead"><strong>PREVIEW / DECOMPOSE.</strong> Use the connected parts to see where this section is headed.</p>
+  <div class="wtc-layout">
+    <div class="wtc-stimulus"><p>Let $f(x)=\begin{cases}x+1,&x<2\\k,&x=2\\5-x,&x>2.\end{cases}$</p></div>
+    <div class="wtc-parts"><div class="wtc-part"><h4>Part A</h4><p>Find $\displaystyle\lim_{x\to2^-}f(x)$.</p></div><div class="wtc-part"><h4>Part B</h4><p>Find $\displaystyle\lim_{x\to2^+}f(x)$. Does the two-sided limit exist?</p></div><div class="wtc-part"><h4>Part C</h4><p>What must $f(2)$ equal for the function to be continuous at $x=2$?</p></div><div class="wtc-part"><h4>Part D</h4><p>Determine the value of $k$ that makes the three continuity requirements agree.</p></div></div>
+  </div>
+</section>
+<section class="task example"><h3>Example 1 · Removable and non-removable discontinuities</h3>
+<p>Which, if any, of the three graphs has a removable discontinuity?</p>
+<figure class="graph-block graph-lg"><img src="figures/discontinuity_types.png" alt="Three graphs showing a hole, a vertical asymptote, and a jump"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 2 · Continuity from a graph</h3>
+<p>For the function shown, identify the points or intervals where the function is continuous and the points where it is discontinuous.</p>
+<figure class="graph-block graph-lg"><img src="figures/continuity_reference.png" alt="Piecewise graph with discontinuities at x equals 1 and x equals 2"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="textbook-note" aria-label="Definition Continuity at a Point">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Definition</span><span class="textbook-note-title">Continuity at a Point</span></div>
+  <div class="textbook-note-body">
+    <p><strong>Interior Point:</strong> A function $y=f(x)$ is continuous at an interior point $c$ of its domain if</p>
+    <div class="display-math">$$\lim_{x\to c}f(x)=f(c).$$</div>
+    <p><strong>Endpoint:</strong> A function $y=f(x)$ is continuous at a left endpoint $a$ or at a right endpoint $b$ of its domain if</p>
+    <div class="display-math">$$\lim_{x\to a^+}f(x)=f(a) \qquad\text{or}\qquad \lim_{x\to b^-}f(x)=f(b),$$</div>
+    <p>respectively.</p>
+  </div>
+</section>
+<section class="task example"><h3>Example 3 · Testing continuity at specific points</h3>
+<p>Use the same graph. For $c=1$, $2$, and $3$, find each quantity when it exists:</p>
+$$f(c),\qquad\lim_{x\to c^+}f(x),\qquad\lim_{x\to c^-}f(x),\qquad\lim_{x\to c}f(x).$$
+<figure class="graph-block graph-lg"><img src="figures/continuity_reference.png" alt="Piecewise graph reused to test continuity at c equals 1, 2, and 3"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 4 · Discussing continuity algebraically</h3>
+<p>Discuss the continuity of each function.</p>
+<ol type="a">
+<li>$\displaystyle f(x)=\frac1{x-1}$</li>
+<li>$\displaystyle g(x)=\frac{2x^2+x-6}{x+2}$</li>
+<li>$\displaystyle h(x)=\begin{cases}-2x+3,&x<1\\x^2,&x\ge1.\end{cases}$</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 5 · Choosing k for continuity at a piecewise boundary</h3>
+<p>Determine the value of $k$ that makes the function continuous on the entire real line:</p>
+$$g(x)=\begin{cases}x^2+7,&x\ge1\\x+k,&x<1.\end{cases}$$<div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 6 · Filling a removable discontinuity</h3>
+<p>Determine the value of $k$ that makes the function continuous for all real numbers:</p>
+$$h(x)=\begin{cases}\dfrac{x^4-1}{x-1},&x\ne1\\k,&x=1.\end{cases}$$<div class="workspace" aria-label="Student work space"></div></section>
+<section class="textbook-note" aria-label="Theorem 6 Properties of Continuous Functions">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Theorem 6</span><span class="textbook-note-title">Properties of Continuous Functions</span></div>
+  <div class="textbook-note-body">
+    <p>If $f$ and $g$ are continuous at $x=c$, then the following combinations are also continuous at $c$:</p>
+    <ol>
+      <li><span class="rule-name">Sums:</span> $f+g$</li>
+      <li><span class="rule-name">Differences:</span> $f-g$</li>
+      <li><span class="rule-name">Products:</span> $fg$</li>
+      <li><span class="rule-name">Constant multiples:</span> $kf$, for any number $k$</li>
+      <li><span class="rule-name">Quotients:</span> $f/g$, provided $g(c)\ne0$</li>
+    </ol>
+  </div>
+</section>
+<section class="textbook-note" aria-label="Theorem 7 Composite of Continuous Functions">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Theorem 7</span><span class="textbook-note-title">Composite of Continuous Functions</span></div>
+  <div class="textbook-note-body">
+    <p>If $f$ is continuous at $c$ and $g$ is continuous at $f(c)$, then the composite $g\circ f$ is continuous at $c$.</p>
+  </div>
+</section>
+<section class="textbook-note" aria-label="Theorem 8 Intermediate Value Theorem for Continuous Functions">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Theorem 8</span><span class="textbook-note-title">Intermediate Value Theorem for Continuous Functions</span></div>
+  <div class="textbook-note-body">
+    <p>A function $y=f(x)$ that is continuous on a closed interval $[a,b]$ takes on every value between $f(a)$ and $f(b)$.</p>
+    <p>In other words, if $y_0$ is between $f(a)$ and $f(b)$, then there is at least one number $c$ in $[a,b]$ such that</p>
+    <div class="display-math">$$f(c)=y_0.$$</div>
+  </div>
+</section>
+<section class="task example"><h3>Example 7 · Reading the Intermediate Value Theorem</h3>
+<p>For the Intermediate Value Theorem:</p>
+<ol type="a">
+<li>What requirements must be satisfied before the theorem can be applied?</li>
+<li>$k$ lies on which axis?</li>
+<li>$c$ lies on which axis?</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 8 · Interpreting the Intermediate Value Theorem from a graph</h3>
+<p>Consider the continuous function shown on the interval $[a,b]$.</p>
+<figure class="graph-block graph-lg"><img src="figures/ivt_reference.png" alt="Continuous wavy function on the interval from a to b with horizontal levels f(a), k, and f(b)"/></figure>
+<ol>
+<li>Is $f$ continuous on $[a,b]$?</li>
+<li>Is $k$ between $f(a)$ and $f(b)$?</li>
+<li>If $a<c<b$, how many values of $c$ in this example satisfy $f(c)=k$?</li>
+<li>Label those values on the graph as $c_1,c_2,\ldots$.</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 9 · Applying the Intermediate Value Theorem</h3>
+<p>Let</p>
+$$f(x)=\frac{x^2+x}{x-1}.$$
+<p>Verify that the Intermediate Value Theorem applies on $\left[\frac52,4\right]$, and find the value of $c$ guaranteed by the theorem if $f(c)=6$.</p><div class="workspace" aria-label="Student work space"></div></section></main>
+</body>
+</html>

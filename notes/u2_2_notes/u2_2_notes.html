@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Section 2.2 Notes — Limits Involving Infinity</title>
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../css/base.css"/>
+<link rel="stylesheet" href="../../css/notes_calc.css"/>
+<link rel="stylesheet" href="../../css/textbook_notes.css"/>
+</head>
+<body>
+<main class="notes-page">
+<header class="title">
+  <div class="kicker">AP Calculus AB · Unit 2 · Limits and Continuity</div>
+  <div class="title-banner"><div class="sec">2.2</div><h1>Limits Involving Infinity</h1></div>
+  <p class="quote">Infinity describes a direction of behavior, not a number to substitute.</p>
+</header>
+<section class="top-intro-grid">
+  <aside class="learning-sidebar">
+    <h2>What you'll learn about</h2>
+    <p class="lt"><strong>Learning Target:</strong> Analyze end behavior and infinite limits and connect them to asymptotes.</p>
+    <ul><li>I can evaluate finite limits as $x\to\infty$ and $x\to-\infty$.</li><li>I can use end-behavior models to identify horizontal or slant asymptotes.</li><li>I can interpret one-sided infinite behavior and identify vertical asymptotes.</li></ul>
+    <div class="why-label">...and why</div>
+    <p class="why-copy">Limits involving infinity describe what a function does far beyond the visible graph and near inputs where the function grows without bound.</p>
+  </aside>
+  <section class="section-intro">
+    <p class="eyebrow">Section Introduction</p>
+    <h2>Two different ways infinity enters a limit</h2>
+    <p>There are two distinct ideas in this section. We can let the input move farther and farther to the right or left and ask what the function approaches, or we can let the input approach a fixed value while the output grows without bound.</p><p>For rational functions, the highest-power terms control long-run behavior. End-behavior models make that comparison visible and help identify horizontal or slant asymptotes.</p><p>Near a vertical asymptote, one-sided limits matter because the function may increase or decrease without bound differently on the two sides.</p>
+    <p class="intro-close">Keep the two roles of infinity separate: sometimes the input goes to infinity; other times the output does.</p>
+  </section>
+</section>
+<section class="block vocab-preview-section">
+  <h2 class="red-heading">Vocabulary / Key Notation Preview</h2>
+  <p class="vocab-list">end behavior · horizontal asymptote · vertical asymptote · end-behavior model · slant (oblique) asymptote · infinite limit</p>
+  <div class="vocab-box">
+    <p>Sort the vocabulary. Write each vocabulary word in the column that best matches what you know right now. You may move a word later.</p>
+    <table class="sort-table"><thead><tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
+  </div>
+</section>
+<section class="block wtc">
+  <h2>What's To Come</h2>
+  <p class="wtc-lead"><strong>PREVIEW / DECOMPOSE.</strong> Use the connected parts to see where this section is headed.</p>
+  <div class="wtc-layout">
+    <div class="wtc-stimulus"><p>Consider $r(x)=\dfrac{2x+1}{x-3}$. Use the structure of the expression before reaching for a calculator.</p></div>
+    <div class="wtc-parts"><div class="wtc-part"><h4>Part A</h4><p>As $x\to\infty$, which terms control the fraction? Predict the limiting value.</p></div><div class="wtc-part"><h4>Part B</h4><p>Make the same prediction as $x\to-\infty$. Should the two end-behavior limits match?</p></div><div class="wtc-part"><h4>Part C</h4><p>What happens to the denominator as $x\to3^-$ and as $x\to3^+$? Predict the sign of $r(x)$ on each side.</p></div><div class="wtc-part"><h4>Part D</h4><p>From your predictions, identify the horizontal and vertical asymptotes you expect to see on a graph.</p></div></div>
+  </div>
+</section>
+<section class="task example"><h3>Example 1 · Finite limits as x approaches infinity</h3>
+<p>Investigate both end-behavior limits for $f(x)=\frac1x$:</p>
+$$\lim_{x\to\infty}f(x)\qquad\text{and}\qquad\lim_{x\to-\infty}f(x).$$
+<figure class="graph-block"><img src="figures/blank_standard.png" alt="Blank coordinate plane for investigating one over x"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 2 · End behavior of a rational function</h3>
+<p>Investigate both end-behavior limits for</p>
+$$f(x)=\frac{2x-1}{x+3}:$$
+$$\lim_{x\to\infty}f(x)\qquad\text{and}\qquad\lim_{x\to-\infty}f(x).$$
+<figure class="graph-block"><img src="figures/blank_standard.png" alt="Blank coordinate plane for investigating a rational function"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="textbook-note" aria-label="Definition Horizontal Asymptote">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Definition</span><span class="textbook-note-title">Horizontal Asymptote</span></div>
+  <div class="textbook-note-body">
+    <p>The line $y=b$ is a horizontal asymptote of the graph of a function $y=f(x)$ if either</p>
+    <div class="display-math">$$\lim_{x\to\infty}f(x)=b \qquad\text{or}\qquad \lim_{x\to-\infty}f(x)=b.$$</div>
+  </div>
+</section>
+<section class="textbook-note" aria-label="Theorem 5 Properties of Limits as $x\to\pm\infty$">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Theorem 5</span><span class="textbook-note-title">Properties of Limits as $x\to\pm\infty$</span></div>
+  <div class="textbook-note-body">
+    <p>If $L$, $M$, and $k$ are real numbers and $\displaystyle\lim_{x\to\pm\infty}f(x)=L$ and $\displaystyle\lim_{x\to\pm\infty}g(x)=M$, then:</p>
+    <ol>
+      <li><span class="rule-name">Sum Rule:</span> $\displaystyle \lim_{x\to\pm\infty}[f(x)+g(x)]=L+M$</li>
+      <li><span class="rule-name">Difference Rule:</span> $\displaystyle \lim_{x\to\pm\infty}[f(x)-g(x)]=L-M$</li>
+      <li><span class="rule-name">Product Rule:</span> $\displaystyle \lim_{x\to\pm\infty}[f(x)g(x)]=LM$</li>
+      <li><span class="rule-name">Constant Multiple Rule:</span> $\displaystyle \lim_{x\to\pm\infty}[k f(x)]=kL$</li>
+      <li><span class="rule-name">Quotient Rule:</span> $\displaystyle \lim_{x\to\pm\infty}\frac{f(x)}{g(x)}=\frac{L}{M}$, provided $M\ne0$</li>
+      <li><span class="rule-name">Power Rule:</span> If $r$ and $s$ are integers with $s\ne0$, then $\displaystyle \lim_{x\to\pm\infty}[f(x)]^{r/s}=L^{r/s}$, provided $L^{r/s}$ is a real number.</li>
+    </ol>
+  </div>
+</section>
+<section class="textbook-note" aria-label="Definition End Behavior Model">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Definition</span><span class="textbook-note-title">End Behavior Model</span></div>
+  <div class="textbook-note-body">
+    <p>The function $g$ is</p>
+    <ol type="a">
+      <li>a <strong>right end behavior model</strong> for $f$ if and only if $\displaystyle\lim_{x\to\infty}\frac{f(x)}{g(x)}=1$;</li>
+      <li>a <strong>left end behavior model</strong> for $f$ if and only if $\displaystyle\lim_{x\to-\infty}\frac{f(x)}{g(x)}=1$.</li>
+    </ol>
+  </div>
+</section>
+<section class="task example"><h3>Example 3 · End behavior models and asymptotes</h3>
+<p>For each function:</p>
+<ol type="i"><li>write the end-behavior model;</li><li>evaluate the limit;</li><li>determine whether a horizontal asymptote exists and, if so, give its equation;</li><li>determine whether a slant (oblique) asymptote exists and, if so, give its equation.</li></ol>
+<ol type="a">
+<li>$\displaystyle\lim_{x\to\infty}\frac{2x+5}{3x^2-6x+1}$</li>
+<li>$\displaystyle\lim_{x\to\infty}\frac{2x^2-3x+5}{x^2+1}$</li>
+<li>$\displaystyle\lim_{x\to\infty}\frac{x^4+x^3+9}{3x-3}$</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 4 · A function with more than one horizontal asymptote</h3>
+<p>Investigate</p>
+$$\lim_{x\to\infty}\frac{5+2^x}{3-2^x}\qquad\text{and}\qquad\lim_{x\to-\infty}\frac{5+2^x}{3-2^x}.$$
+<figure class="graph-block"><img src="figures/blank_standard.png" alt="Blank coordinate plane for investigating a function with two horizontal asymptotes"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 5 · A bounded numerator over an unbounded denominator</h3>
+<p>In the previous section, we proved $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$. Investigate</p>
+$$\lim_{x\to\infty}\frac{\sin x}{x}.$$
+<figure class="graph-block"><img src="figures/blank_standard.png" alt="Blank coordinate plane for investigating sine x over x as x approaches infinity"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 6 · Infinite one-sided limits</h3>
+<p>Investigate</p>
+$$\lim_{x\to0^+}\frac1x\qquad\text{and}\qquad\lim_{x\to0^-}\frac1x.$$
+<figure class="graph-block"><img src="figures/blank_standard.png" alt="Blank coordinate plane for investigating the one-sided behavior of one over x"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="textbook-note" aria-label="Definition Vertical Asymptote">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Definition</span><span class="textbook-note-title">Vertical Asymptote</span></div>
+  <div class="textbook-note-body">
+    <p>The line $x=a$ is a vertical asymptote of the graph of a function $y=f(x)$ if a one-sided limit at $a$ is unbounded; that is, if at least one of</p>
+    <div class="display-math">$$\lim_{x\to a^+}f(x) \qquad\text{or}\qquad \lim_{x\to a^-}f(x)$$</div>
+    <p>is $+\infty$ or $-\infty$.</p>
+  </div>
+</section>
+<section class="task example"><h3>Example 7 · Vertical asymptotes and one-sided behavior</h3>
+<p>For each function, find all vertical asymptotes and describe the behavior of the function to the left and right of each asymptote.</p>
+<ol type="a">
+<li>$\displaystyle f(x)=\frac{x^2-1}{2x+4}$</li>
+<li>$\displaystyle f(x)=\frac{1-x}{2x^2-5x-3}$</li>
+<li>$\displaystyle f(x)=\frac{x-2}{3x^2-5x-2}$</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section></main>
+</body>
+</html>

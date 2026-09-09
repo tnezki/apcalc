@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Section 2.4 Notes — Rates of Change and Tangent Lines</title>
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../css/base.css"/>
+<link rel="stylesheet" href="../../css/notes_calc.css"/>
+<link rel="stylesheet" href="../../css/textbook_notes.css"/>
+</head>
+<body>
+<main class="notes-page">
+<header class="title">
+  <div class="kicker">AP Calculus AB · Unit 2 · Limits and Continuity</div>
+  <div class="title-banner"><div class="sec">2.4</div><h1>Rates of Change and Tangent Lines</h1></div>
+  <p class="quote">A tangent slope is the value approached by slopes of nearby secant lines.</p>
+</header>
+<section class="top-intro-grid">
+  <aside class="learning-sidebar">
+    <h2>What you'll learn about</h2>
+    <p class="lt"><strong>Learning Target:</strong> Connect average rates of change to tangent slopes and use a difference quotient to find instantaneous rates.</p>
+    <ul><li>I can interpret average rate of change as the slope of a secant line.</li><li>I can use a limit of a difference quotient to find the slope of a curve at a point.</li><li>I can write tangent and normal line equations and recognize vertical tangents.</li></ul>
+    <div class="why-label">...and why</div>
+    <p class="why-copy">The slope of a curve at one point is the central idea behind the derivative and gives an instantaneous rate of change.</p>
+  </aside>
+  <section class="section-intro">
+    <p class="eyebrow">Section Introduction</p>
+    <h2>Secant slopes move toward a tangent slope</h2>
+    <p>The slope of a line is constant, but the slope of a curve changes from point to point. To measure the slope of a curve at one point, we begin with something familiar: the slope through two points.</p><p>A secant line gives an average rate of change over an interval. As the second point moves closer to the point of interest, the interval shrinks and the secant slopes can approach one limiting value.</p><p>That limiting slope is the instantaneous rate of change. Algebraically, the same process appears in the difference quotient.</p>
+    <p class="intro-close">The interval shrinks toward zero; the denominator is never replaced by zero inside the difference quotient.</p>
+  </section>
+</section>
+<section class="block vocab-preview-section">
+  <h2 class="red-heading">Vocabulary / Key Notation Preview</h2>
+  <p class="vocab-list">average rate of change · secant line · tangent line · difference quotient · instantaneous rate of change · normal line · vertical tangent</p>
+  <div class="vocab-box">
+    <p>Sort the vocabulary. Write each vocabulary word in the column that best matches what you know right now. You may move a word later.</p>
+    <table class="sort-table"><thead><tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
+  </div>
+</section>
+<section class="block wtc">
+  <h2>What's To Come</h2>
+  <p class="wtc-lead"><strong>PREVIEW / DECOMPOSE.</strong> Use the connected parts to see where this section is headed.</p>
+  <div class="wtc-layout">
+    <div class="wtc-stimulus"><p>Let $f(x)=x^2$. Fix the point $P=(2,4)$ and let $Q=(2+h,(2+h)^2)$ be a nearby point on the curve.</p></div>
+    <div class="wtc-parts"><div class="wtc-part"><h4>Part A</h4><p>Write the slope of the secant line through $P$ and $Q$ in terms of $h$.</p></div><div class="wtc-part"><h4>Part B</h4><p>Simplify the secant-slope expression as far as possible.</p></div><div class="wtc-part"><h4>Part C</h4><p>What value does the simplified slope approach as $h\to0$?</p></div><div class="wtc-part"><h4>Part D</h4><p>What does that limiting value represent geometrically on the graph of $f$?</p></div></div>
+  </div>
+</section>
+<section class="task example"><h3>Example 1 · Average rate of change from a graph</h3>
+<p>Return to Wile E. Coyote falling from a 900-foot cliff. His height is modeled by</p>
+$$s(t)=-16t^2+900.$$
+<figure class="graph-block graph-lg"><img src="figures/wile_position.png" alt="Graph of Wile E. Coyote position s of t equals negative 16 t squared plus 900"/></figure>
+<ol type="a">
+<li>Find the points on the graph corresponding to Wile E.'s position at $t=0$ and $t=5$ seconds.</li>
+<li>Draw the line through those points and find its slope. What does that value mean?</li>
+<li>Find Wile E.'s average velocity from $t=4$ to $t=5$ seconds. Show this graphically.</li>
+<li>Find his average velocity from $t=4.5$ to $t=5$ seconds. Show this graphically.</li>
+<li>Find his average velocity from $t=4.9$ to $t=5$ seconds. Show this graphically.</li>
+<li>What do you think is the graphical interpretation of the velocity at exactly $t=5$ seconds?</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 2 · Slope of a secant line</h3>
+<p>For the curve shown, $P(a,f(a))$ is the point of tangency and $Q(a+h,f(a+h))$ is another point on the curve. Find the slope of the secant line through $P$ and $Q$.</p>
+<figure class="graph-block graph-lg"><img src="figures/secant_reference.png" alt="Curve with points P and Q, horizontal change h, vertical change f of a plus h minus f of a, and the secant line"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 3 · Secant lines approaching a tangent line</h3>
+<p>How do we get closer and closer to the point of tangency? On the same diagram, draw at least three more secant lines, choosing a point closer to $P$ each time.</p>
+<figure class="graph-block graph-lg"><img src="figures/secant_reference.png" alt="Curve and secant line diagram for drawing additional secant lines"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="textbook-note" aria-label="Definition Slope of a Curve at a Point">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Definition</span><span class="textbook-note-title">Slope of a Curve at a Point</span></div>
+  <div class="textbook-note-body">
+    <p>The slope of the curve $y=f(x)$ at the point $P(a,f(a))$ is the number</p>
+    <div class="display-math">$$m=\lim_{h\to0}\frac{f(a+h)-f(a)}{h},$$</div>
+    <p>provided the limit exists.</p>
+  </div>
+</section>
+<section class="task example"><h3>Example 4 · Vertical tangent lines</h3>
+<p>What types of graphs would have vertical tangent lines?</p><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 5 · Working with f(a+h)</h3>
+<p>For each function, find both $f(a)$ and $f(a+h)$.</p>
+<ol type="a">
+<li>$\displaystyle f(x)=\frac1x$</li>
+<li>$\displaystyle f(x)=x^2-4x$</li>
+<li>$\displaystyle f(x)=\sqrt{4x+1}$</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 6 · Slope of Wile E. Coyote’s position curve</h3>
+<p>Return to Example 1. Let</p>
+$$f(x)=-16x^2+900.$$
+<p>Use the difference quotient and a limit to find the slope of the curve at $x=5$.</p><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 7 · Tangent and normal lines</h3>
+<p>Let</p>
+$$f(x)=\frac1{x+1}.$$
+<ol type="a">
+<li>Find the slope of the curve at $x=a$.</li>
+<li>Find the slope of the curve at $x=2$.</li>
+<li>Write the equation of the tangent line to the curve at $x=2$.</li>
+<li>Write the equation of the normal line to the curve at $x=2$.</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section></main>
+</body>
+</html>

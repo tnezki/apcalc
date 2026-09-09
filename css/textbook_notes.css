@@ -1,0 +1,49 @@
+/* Textbook-style mathematical definition/theorem boxes.
+   Recreated for AP Calculus notes from the course textbook visual language. */
+.textbook-note {
+  margin: 1.25rem 0 1.55rem;
+  padding: 1rem 1.2rem 1.05rem;
+  border: 1.5px solid #1d5da7;
+  background: #fbf5e6;
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+.textbook-note-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .45rem 1rem;
+  margin: 0 0 .55rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.1;
+}
+.textbook-note-kind {
+  color: #222;
+  font-size: 1.05rem;
+  font-weight: 900;
+  letter-spacing: .015em;
+  text-transform: uppercase;
+}
+.textbook-note-title {
+  color: #0b4f8a;
+  font-size: 1.12rem;
+  font-weight: 850;
+}
+.textbook-note-body {
+  color: #222;
+  font-size: 1.04rem;
+  line-height: 1.5;
+}
+.textbook-note-body p { margin: .45rem 0; }
+.textbook-note-body .display-math { text-align: center; margin: .7rem 0; }
+.textbook-note-body ol { margin: .5rem 0 .2rem 1.45rem; padding-left: .55rem; }
+.textbook-note-body li { margin: .48rem 0; padding-left: .16rem; }
+.textbook-note-body .rule-name { font-weight: 800; }
+.textbook-note-body mark {
+  background: #fff0a8;
+  color: inherit;
+  padding: 0 .05em;
+}
+@media print {
+  .textbook-note { break-inside: avoid-page; page-break-inside: avoid; }
+}

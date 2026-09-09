@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Section 2.1 Notes — Rates of Change and Limits</title>
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../css/base.css"/>
+<link rel="stylesheet" href="../../css/notes_calc.css"/>
+<link rel="stylesheet" href="../../css/textbook_notes.css"/>
+</head>
+<body>
+<main class="notes-page">
+<header class="title">
+  <div class="kicker">AP Calculus AB · Unit 2 · Limits and Continuity</div>
+  <div class="title-banner"><div class="sec">2.1</div><h1>Rates of Change and Limits</h1></div>
+  <p class="quote">A limit lets nearby behavior reveal the value a function or rate is approaching.</p>
+</header>
+<section class="top-intro-grid">
+  <aside class="learning-sidebar">
+    <h2>What you'll learn about</h2>
+    <p class="lt"><strong>Learning Target:</strong> Evaluate and interpret limits using graphical, numerical, and algebraic evidence.</p>
+    <ul><li>I can connect average versus instantaneous change to the idea of a limit.</li><li>I can estimate and evaluate limits from graphs, tables, and algebraic expressions.</li><li>I can use one-sided behavior to decide whether a two-sided limit exists.</li></ul>
+    <div class="why-label">...and why</div>
+    <p class="why-copy">Limits are the foundation for instantaneous rates of change, tangent slopes, continuity, derivatives, and integrals.</p>
+  </aside>
+  <section class="section-intro">
+    <p class="eyebrow">Section Introduction</p>
+    <h2>Getting close can reveal a precise value</h2>
+    <p>Calculus often asks what is happening <em>at</em> an instant even though ordinary arithmetic measures change across an interval. Limits bridge that gap by tracking what a function or rate approaches as the input moves closer to a target.</p><p>A limit can be supported numerically with a table, visually with a graph, or algebraically. The function value at the target may agree with the limit, but it does not have to.</p><p>This section also develops the situations in which limits fail and the algebraic tools that let us evaluate many limits efficiently.</p>
+    <p class="intro-close">Read limit notation as an approach statement: the input approaches a target while the output approaches a value.</p>
+  </section>
+</section>
+<section class="block vocab-preview-section">
+  <h2 class="red-heading">Vocabulary / Key Notation Preview</h2>
+  <p class="vocab-list">limit · one-sided limit · direct substitution · limit properties · does not exist (DNE) · Squeeze Theorem</p>
+  <div class="vocab-box">
+    <p>Sort the vocabulary. Write each vocabulary word in the column that best matches what you know right now. You may move a word later.</p>
+    <table class="sort-table"><thead><tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
+  </div>
+</section>
+<section class="block wtc">
+  <h2>What's To Come</h2>
+  <p class="wtc-lead"><strong>PREVIEW / DECOMPOSE.</strong> Use the connected parts to see where this section is headed.</p>
+  <div class="wtc-layout">
+    <div class="wtc-stimulus"><p>Consider the function $f(x)=\dfrac{x^2-9}{x-3}$ for $x\ne3$.</p></div>
+    <div class="wtc-parts"><div class="wtc-part"><h4>Part A</h4><p>What happens if you try to substitute $x=3$ directly into the original expression?</p></div><div class="wtc-part"><h4>Part B</h4><p>For $x\ne3$, simplify the expression. What does the simplified form suggest about nearby values of $f(x)$?</p></div><div class="wtc-part"><h4>Part C</h4><p>Predict $\displaystyle\lim_{x\to3^-}f(x)$ and $\displaystyle\lim_{x\to3^+}f(x)$. What does that imply about $\displaystyle\lim_{x\to3}f(x)$?</p></div><div class="wtc-part"><h4>Part D</h4><p>Explain why a limit can exist even though the original expression is not defined at the target input.</p></div></div>
+  </div>
+</section>
+<section class="task example"><h3>Example 1 · Average and instantaneous velocity</h3>
+<p>Wile E. Coyote waits atop a 900-foot cliff for the Road Runner. When he jumps, his rocket pack fails and he falls toward the road below. For an object dropped from an initial height $h_0$, its height after $t$ seconds is modeled by</p>
+$$s(t)=-16t^2+h_0.$$
+<p>For Wile E., $h_0=900$.</p>
+<ol>
+<li>Write Wile E.'s position function.</li>
+<li>Find his average velocity during the first 3 seconds.</li>
+<li>Find his average velocity from $t=2$ to $t=3$ seconds.</li>
+<li>We want Wile E.'s velocity at the instant $t=3$. To investigate that value, find the average velocity over each interval: $[2.5,3]$, $[2.9,3]$, $[2.99,3]$, and $[2.999,3]$.</li>
+<li>What value do these average velocities appear to approach as the starting time moves closer to $t=3$?</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 2 · A limit near a hole</h3>
+<p>Sketch the graph of</p>
+$$f(x)=\frac{x^2-4}{x-2},\qquad x\ne2.$$
+<figure class="graph-block"><img src="figures/blank_standard.png" alt="Blank coordinate plane for sketching the function"/></figure>
+<ol>
+<li>What happens at $x=2$?</li>
+<li>Complete the table to determine what happens as $x$ gets close to 2.</li>
+</ol>
+<table class="values"><tr><th>$x$</th><th>1.5</th><th>1.75</th><th>1.9</th><th>1.99</th><th>1.999</th><th>2</th><th>2.001</th><th>2.01</th><th>2.1</th><th>2.25</th><th>2.5</th></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>
+<p>Use the graph and table to find $\displaystyle\lim_{x\to2}f(x)$.</p><div class="workspace" aria-label="Student work space"></div></section>
+<section class="textbook-note" aria-label="Definition Limit">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Definition</span><span class="textbook-note-title">Limit</span></div>
+  <div class="textbook-note-body">
+    <p>Assume $f$ is defined in a neighborhood of $c$ and let $c$ and $L$ be real numbers. The function <mark>$f$ has limit $L$ as $x$ approaches $c$</mark> if, given any positive number $\varepsilon$, there is a positive number $\delta$ such that for all $x$,</p>
+    <div class="display-math">$$0&lt;|x-c|&lt;\delta \;\Longrightarrow\; |f(x)-L|&lt;\varepsilon.$$</div>
+    <p>We write</p>
+    <div class="display-math">$$\lim_{x\to c}f(x)=L.$$</div>
+  </div>
+</section>
+<section class="task example"><h3>Example 3 · The limit can exist even when the function value is different</h3>
+<p>Use the graph to find $\displaystyle\lim_{x\to2}g(x)$, where</p>
+$$g(x)=\begin{cases}1,&x\ne2\\0,&x=2.\end{cases}$$
+<figure class="graph-block"><img src="figures/g_limit_point.png" alt="Graph of g equals 1 except g of 2 equals 0"/></figure><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 4 · Three ways a limit can fail</h3>
+<p>Investigate the existence of each limit using a graph and/or table.</p>
+<p><strong>a.</strong> $\displaystyle\lim_{x\to0}\frac{|x|}{x}$</p>
+<figure class="graph-block"><img src="figures/blank_standard.png" alt="Blank coordinate plane for investigating absolute value x over x"/></figure><table class="values"><tr><th>$x$</th><th>-0.5</th><th>-0.25</th><th>-0.1</th><th>-0.01</th><th>-0.001</th><th>0</th><th>0.001</th><th>0.01</th><th>0.1</th><th>0.25</th><th>0.5</th></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>
+<p><strong>b.</strong> $\displaystyle\lim_{x\to1}\frac{1}{(x-1)^2}$</p>
+<figure class="graph-block"><img src="figures/blank_standard.png" alt="Blank coordinate plane for investigating one over x minus one squared"/></figure><table class="values"><tr><th>$x$</th><th>0</th><th>0.5</th><th>0.9</th><th>0.99</th><th>0.999</th><th>1</th><th>1.001</th><th>1.01</th><th>1.1</th><th>1.5</th><th>2</th></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>
+<p><strong>c.</strong> $\displaystyle\lim_{x\to0}\sin\!\left(\frac1x\right)$</p>
+<p>First convince yourself that the listed $x$-values get closer and closer to 0 as you move to the right.</p>
+<table class="values"><tr><th>$x$</th><th>$\frac2\pi$</th><th>$\frac2{3\pi}$</th><th>$\frac2{5\pi}$</th><th>$\frac2{7\pi}$</th><th>$\frac2{9\pi}$</th><th>$\frac2{11\pi}$</th><th>$\frac2{13\pi}$</th><th>$x\to0$</th></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table><div class="workspace" aria-label="Student work space"></div></section>
+<section class="textbook-note" aria-label="Theorem 1 Properties of Limits">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Theorem 1</span><span class="textbook-note-title">Properties of Limits</span></div>
+  <div class="textbook-note-body">
+    <p>If $L$, $M$, $c$, and $k$ are real numbers and</p>
+    <div class="display-math">$$\lim_{x\to c}f(x)=L \qquad\text{and}\qquad \lim_{x\to c}g(x)=M,$$</div>
+    <p>then:</p>
+    <ol>
+      <li><span class="rule-name">Sum Rule:</span> $\displaystyle \lim_{x\to c}[f(x)+g(x)]=L+M$</li>
+      <li><span class="rule-name">Difference Rule:</span> $\displaystyle \lim_{x\to c}[f(x)-g(x)]=L-M$</li>
+      <li><span class="rule-name">Product Rule:</span> $\displaystyle \lim_{x\to c}[f(x)g(x)]=LM$</li>
+      <li><span class="rule-name">Constant Multiple Rule:</span> $\displaystyle \lim_{x\to c}[k f(x)]=kL$</li>
+      <li><span class="rule-name">Quotient Rule:</span> $\displaystyle \lim_{x\to c}\frac{f(x)}{g(x)}=\frac{L}{M}$, provided $M\ne0$</li>
+      <li><span class="rule-name">Power Rule:</span> If $r$ and $s$ are integers with $s\ne0$, then $\displaystyle \lim_{x\to c}[f(x)]^{r/s}=L^{r/s}$, provided $L^{r/s}$ is a real number.</li>
+    </ol>
+  </div>
+</section>
+<section class="task example"><h3>Example 5 · Properties of limits</h3>
+<p>Given $\displaystyle\lim_{x\to c}f(x)=2$ and $\displaystyle\lim_{x\to c}g(x)=3$, evaluate:</p>
+<ol>
+<li>$\displaystyle\lim_{x\to c}[5g(x)]$</li>
+<li>$\displaystyle\lim_{x\to c}[f(x)+g(x)]$</li>
+<li>$\displaystyle\lim_{x\to c}[f(x)g(x)]$</li>
+<li>$\displaystyle\lim_{x\to c}\frac{f(x)}{g(x)}$</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="textbook-note" aria-label="Theorem 2 Polynomial and Rational Functions">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Theorem 2</span><span class="textbook-note-title">Polynomial and Rational Functions</span></div>
+  <div class="textbook-note-body">
+    <ol>
+      <li>If $p(x)$ is any polynomial function and $c$ is any real number, then
+        <div class="display-math">$$\lim_{x\to c}p(x)=p(c).$$</div>
+      </li>
+      <li>If $p(x)$ and $q(x)$ are polynomials, then
+        <div class="display-math">$$\lim_{x\to c}\frac{p(x)}{q(x)}=\frac{p(c)}{q(c)},$$</div>
+        provided $q(c)\ne0$.
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="task example"><h3>Example 6 · Direct substitution</h3>
+<p>Find each limit.</p>
+<ol>
+<li>$\displaystyle\lim_{x\to1}(-x^2+1)$</li>
+<li>$\displaystyle\lim_{x\to3}\frac{\sqrt{x+1}}{x-4}$</li>
+<li>$\displaystyle\lim_{h\to0}(3h^2+2h)$</li>
+<li>$\displaystyle\lim_{h\to0}(3x^2-2xh+5h)$</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 7 · Other strategies for finding limits</h3>
+<p>Find each limit, if it exists.</p>
+<ol>
+<li>$\displaystyle\lim_{x\to-1}\frac{2x^2-x-3}{x+1}$</li>
+<li>$\displaystyle\lim_{x\to3}\frac{\sqrt{x+1}-2}{x-3}$</li>
+<li>$\displaystyle\lim_{x\to0}\frac{\frac1{x+4}-\frac14}{x}$</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="textbook-note" aria-label="Theorem 3 One-Sided and Two-Sided Limits">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Theorem 3</span><span class="textbook-note-title">One-Sided and Two-Sided Limits</span></div>
+  <div class="textbook-note-body">
+    <p>A function $f(x)$ has a limit as $x$ approaches $c$ if and only if the right-hand and left-hand limits at $c$ exist and are equal. In symbols,</p>
+    <div class="display-math">$$\lim_{x\to c}f(x)=L\;\Longleftrightarrow\;\lim_{x\to c^+}f(x)=L\text{ and }\lim_{x\to c^-}f(x)=L.$$</div>
+  </div>
+</section>
+<section class="task example"><h3>Example 8 · One-sided limits</h3>
+<p>Let</p>
+$$f(x)=\begin{cases}5-2x,&x>2\\3x+1,&x\le2.\end{cases}$$
+<ol>
+<li>Graph $f(x)$.</li>
+</ol>
+<figure class="graph-block"><img src="figures/blank_standard.png" alt="Blank coordinate plane for graphing the piecewise function"/></figure>
+<ol start="2">
+<li>Find $\displaystyle\lim_{x\to2^+}f(x)$.</li>
+<li>Find $\displaystyle\lim_{x\to2^-}f(x)$.</li>
+<li>What can you say about $\displaystyle\lim_{x\to2}f(x)$?</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 9 · Investigating the fundamental trigonometric limit</h3>
+<p>Investigate</p>
+$$\lim_{x\to0}\frac{\sin x}{x}$$
+<p>by sketching a graph and making a table.</p>
+<figure class="graph-block"><img src="figures/blank_standard.png" alt="Blank coordinate plane for investigating sine x over x"/></figure><table class="values"><tr><th>$x$</th><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><th>$f(x)$</th><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table><div class="workspace" aria-label="Student work space"></div></section>
+<section class="task example"><h3>Example 10 · Using the limit of sine over its angle</h3>
+<p>Evaluate each limit, showing all work where appropriate.</p>
+<ol>
+<li>$\displaystyle\lim_{\theta\to0}\frac{\sin\theta}{\theta}$</li>
+<li>$\displaystyle\lim_{x\to0}\frac{\sin(5x)}{4x}$</li>
+<li>$\displaystyle\lim_{x\to0}\frac{\sin x}{5x^2+x}$</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section>
+<section class="textbook-note" aria-label="Theorem 4 Sandwich Theorem">
+  <div class="textbook-note-head"><span class="textbook-note-kind">Theorem 4</span><span class="textbook-note-title">Sandwich Theorem</span></div>
+  <div class="textbook-note-body">
+    <p>If $g(x)\le f(x)\le h(x)$ for all $x\ne c$ in some interval about $c$, and</p>
+    <div class="display-math">$$\lim_{x\to c}g(x)=\lim_{x\to c}h(x)=L,$$</div>
+    <p>then</p>
+    <div class="display-math">$$\lim_{x\to c}f(x)=L.$$</div>
+  </div>
+</section>
+<section class="task example"><h3>Example 11 · Proving the sine limit with the Squeeze Theorem</h3>
+<p>Use the unit-circle figure to prove</p>
+$$\lim_{\theta\to0}\frac{\sin\theta}{\theta}=1.$$
+<p>First consider the right-hand limit and restrict $\theta$ so that $0<\theta<\frac{\pi}{2}$.</p>
+<figure class="graph-block graph-lg"><img src="figures/squeeze_unit_circle.png" alt="Unit-circle geometry with points O, Q, A, P, and T used in the squeeze theorem proof"/></figure>
+<ol type="a">
+<li>Find the area of $\triangle OAP$.</li>
+<li>Find the area of sector $OAP$.</li>
+<li>Find the area of $\triangle OAT$.</li>
+<li>Set up an inequality using the three areas from parts a–c.</li>
+<li>Divide all three parts by $\frac12\sin\theta$. Why do the inequality signs stay the same?</li>
+<li>Rewrite the middle term so that it contains $\frac{\sin\theta}{\theta}$.</li>
+<li>Use the Squeeze Theorem to show $\displaystyle\lim_{\theta\to0^+}\frac{\sin\theta}{\theta}=1$.</li>
+<li>Show that $f(\theta)=\frac{\sin\theta}{\theta}$ is an even function.</li>
+<li>Use evenness to conclude what happens to $\displaystyle\lim_{\theta\to0^-}\frac{\sin\theta}{\theta}$.</li>
+<li>Explain why $\displaystyle\lim_{\theta\to0}\frac{\sin\theta}{\theta}=1$.</li>
+</ol><div class="workspace" aria-label="Student work space"></div></section></main>
+</body>
+</html>

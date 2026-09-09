@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Section 2.4 Teacher Guide — Rates of Change and Tangent Lines</title>
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], processEscapes: true } };
+</script>
+<script async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/notes_calc.css" rel="stylesheet"/>
+<link href="../../css/textbook_notes.css" rel="stylesheet"/>
+</head>
+<body class="teacher-copy">
+<main class="notes-page"><div class="teacher-banner">TEACHER COPY · Student prompts are preserved; yellow callouts provide answers, reasoning, and teaching moves. AP alignment is summarized at the end.</div>
+<header class="title">
+<div class="kicker">AP Calculus AB · Unit 2 · Limits and Continuity</div>
+<div class="title-banner"><div class="sec">2.4</div><h1>Rates of Change and Tangent Lines</h1></div>
+<p class="quote">A tangent slope is the value approached by slopes of nearby secant lines.</p>
+</header>
+<section class="top-intro-grid">
+<aside class="learning-sidebar">
+<h2>What you'll learn about</h2>
+<p class="lt"><strong>Learning Target:</strong> Connect average rates of change to tangent slopes and use a difference quotient to find instantaneous rates.</p>
+<ul><li>I can interpret average rate of change as the slope of a secant line.</li><li>I can use a limit of a difference quotient to find the slope of a curve at a point.</li><li>I can write tangent and normal line equations and recognize vertical tangents.</li></ul>
+<div class="why-label">...and why</div>
+<p class="why-copy">The slope of a curve at one point is the central idea behind the derivative and gives an instantaneous rate of change.</p>
+</aside>
+<section class="section-intro">
+<p class="eyebrow">Section Introduction</p>
+<h2>Secant slopes move toward a tangent slope</h2>
+<p>The slope of a line is constant, but the slope of a curve changes from point to point. To measure the slope of a curve at one point, we begin with something familiar: the slope through two points.</p><p>A secant line gives an average rate of change over an interval. As the second point moves closer to the point of interest, the interval shrinks and the secant slopes can approach one limiting value.</p><p>That limiting slope is the instantaneous rate of change. Algebraically, the same process appears in the difference quotient.</p>
+<p class="intro-close">The interval shrinks toward zero; the denominator is never replaced by zero inside the difference quotient.</p>
+</section>
+</section>
+<section class="block vocab-preview-section">
+<h2 class="red-heading">Vocabulary / Key Notation Preview</h2>
+<p class="vocab-list">average rate of change · secant line · tangent line · difference quotient · instantaneous rate of change · normal line · vertical tangent</p>
+<div class="vocab-box">
+<p>Sort the vocabulary. Write each vocabulary word in the column that best matches what you know right now. You may move a word later.</p>
+<table class="sort-table"><thead><tr><th>Know for sure</th><th>Recognize</th><th>Don't know yet</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
+</div>
+</section>
+<section class="block wtc">
+<h2>What's To Come</h2>
+<p class="wtc-lead"><strong>PREVIEW / DECOMPOSE.</strong> Use the connected parts to see where this section is headed.</p>
+<div class="wtc-layout">
+<div class="wtc-stimulus"><p>Let $f(x)=x^2$. Fix the point $P=(2,4)$ and let $Q=(2+h,(2+h)^2)$ be a nearby point on the curve.</p></div>
+<div class="wtc-parts"><div class="wtc-part"><h4>Part A</h4><p>Write the slope of the secant line through $P$ and $Q$ in terms of $h$.</p><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> The secant slope is $\displaystyle\frac{(2+h)^2-4}{h}$.</li>
+<li><strong>Reasoning:</strong> Use the slope formula between $P=(2,4)$ and $Q=(2+h,(2+h)^2)$.</li>
+<li><strong>Teaching move / listen for:</strong> Keep the geometric meaning visible before simplifying algebraically.</li>
+</ul></div></div><div class="wtc-part"><h4>Part B</h4><p>Simplify the secant-slope expression as far as possible.</p><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> The expression simplifies to $4+h$.</li>
+<li><strong>Reasoning:</strong> Expand the numerator: $4+4h+h^2-4=h(4+h)$, then cancel $h$ for $h\ne0$.</li>
+<li><strong>Teaching move / listen for:</strong> Reinforce that $h$ is approaching zero, not equal to zero during cancellation.</li>
+</ul></div></div><div class="wtc-part"><h4>Part C</h4><p>What value does the simplified slope approach as $h\to0$?</p><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> As $h\to0$, the secant slope approaches $4$.</li>
+<li><strong>Reasoning:</strong> The simplified expression $4+h$ has limit $4$.</li>
+<li><strong>Teaching move / listen for:</strong> Ask students to connect the limiting number to the changing secant lines.</li>
+</ul></div></div><div class="wtc-part"><h4>Part D</h4><p>What does that limiting value represent geometrically on the graph of $f$?</p><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> The limiting value $4$ is the slope of the tangent line to $y=x^2$ at $(2,4)$—the instantaneous rate of change there.</li>
+<li><strong>Reasoning:</strong> The tangent slope is defined as the limit of secant slopes.</li>
+<li><strong>Teaching move / listen for:</strong> This is the bridge from limits into derivatives; name both the geometric and rate-of-change interpretations.</li>
+</ul></div></div></div>
+</div>
+</section>
+<section class="task example"><h3>Example 1 · Average rate of change from a graph</h3>
+<p>Return to Wile E. Coyote falling from a 900-foot cliff. His height is modeled by</p>
+$$s(t)=-16t^2+900.$$
+<figure class="graph-block graph-lg"><img alt="Graph of Wile E. Coyote position s of t equals negative 16 t squared plus 900" src="figures/wile_position.png"/></figure>
+<ol type="a">
+<li>Find the points on the graph corresponding to Wile E.'s position at $t=0$ and $t=5$ seconds.</li>
+<li>Draw the line through those points and find its slope. What does that value mean?</li>
+<li>Find Wile E.'s average velocity from $t=4$ to $t=5$ seconds. Show this graphically.</li>
+<li>Find his average velocity from $t=4.5$ to $t=5$ seconds. Show this graphically.</li>
+<li>Find his average velocity from $t=4.9$ to $t=5$ seconds. Show this graphically.</li>
+<li>What do you think is the graphical interpretation of the velocity at exactly $t=5$ seconds?</li>
+</ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> At $t=0$, Wile E. is at $(0,900)$; at $t=5$, he is at $(5,500)$. The slope of that secant line is $-80$ ft/s. Average velocity from $4$ to $5$ is $-144$ ft/s; from $4.5$ to $5$ is $-152$ ft/s; from $4.9$ to $5$ is $-158.4$ ft/s. These secant slopes approach $-160$ ft/s, represented graphically by the tangent slope at $t=5$.</li>
+<li><strong>Reasoning:</strong> For an interval $[a,5]$, the secant slope approaches the tangent slope as $a\to5$.</li>
+<li><strong>Teaching move / listen for:</strong> Keep units attached to every slope and ask students what the negative sign means physically.</li>
+</ul></div></section>
+<section class="task example"><h3>Example 2 · Slope of a secant line</h3>
+<p>For the curve shown, $P(a,f(a))$ is the point of tangency and $Q(a+h,f(a+h))$ is another point on the curve. Find the slope of the secant line through $P$ and $Q$.</p>
+<figure class="graph-block graph-lg"><img alt="Curve with points P and Q, horizontal change h, vertical change f of a plus h minus f of a, and the secant line" src="figures/secant_reference.png"/></figure><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> The secant slope is $\displaystyle\frac{f(a+h)-f(a)}{(a+h)-a}=\frac{f(a+h)-f(a)}{h}$.</li>
+<li><strong>Reasoning:</strong> The horizontal change is exactly $h$.</li>
+<li><strong>Teaching move / listen for:</strong> This generic form is the difference quotient students must recognize later in derivative notation.</li>
+</ul></div></section>
+<section class="task example"><h3>Example 3 · Secant lines approaching a tangent line</h3>
+<p>How do we get closer and closer to the point of tangency? On the same diagram, draw at least three more secant lines, choosing a point closer to $P$ each time.</p>
+<figure class="graph-block graph-lg"><img alt="Curve and secant line diagram for drawing additional secant lines" src="figures/secant_reference.png"/></figure><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> Choose points $Q$ progressively closer to $P$ and draw the corresponding secant lines. Their slopes should visibly approach the slope of the tangent line at $P$.</li>
+<li><strong>Reasoning:</strong> The changing secant line is the graphical version of letting $h\to0$.</li>
+<li><strong>Teaching move / listen for:</strong> Ask students whether $Q$ ever has to equal $P$; the answer is no—the limit handles the approach.</li>
+</ul></div></section>
+<section aria-label="Definition Slope of a Curve at a Point" class="textbook-note">
+<div class="textbook-note-head"><span class="textbook-note-kind">Definition</span><span class="textbook-note-title">Slope of a Curve at a Point</span></div>
+<div class="textbook-note-body">
+<p>The slope of the curve $y=f(x)$ at the point $P(a,f(a))$ is the number</p>
+<div class="display-math">$$m=\lim_{h\to0}\frac{f(a+h)-f(a)}{h},$$</div>
+<p>provided the limit exists.</p>
+</div>
+</section>
+<section class="task example"><h3>Example 4 · Vertical tangent lines</h3>
+<p>What types of graphs would have vertical tangent lines?</p><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> Graphs with a vertical tangent have tangent lines parallel to the $y$-axis, so the secant slopes grow without bound in magnitude. Examples include $y=\sqrt[3]{x}$ at the origin or the left/right points of a circle.</li>
+<li><strong>Reasoning:</strong> A vertical tangent corresponds to an infinite/undefined ordinary slope rather than a finite tangent slope.</li>
+<li><strong>Teaching move / listen for:</strong> Distinguish a vertical tangent from a corner or cusp, where the two-sided derivative behavior may fail for a different reason.</li>
+</ul></div></section>
+<section class="task example"><h3>Example 5 · Working with f(a+h)</h3>
+<p>For each function, find both $f(a)$ and $f(a+h)$.</p>
+<ol type="a">
+<li>$\displaystyle f(x)=\frac1x$</li>
+<li>$\displaystyle f(x)=x^2-4x$</li>
+<li>$\displaystyle f(x)=\sqrt{4x+1}$</li>
+</ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> For $f(x)=1/x$: $f(a)=1/a$ and $f(a+h)=1/(a+h)$. For $f(x)=x^2-4x$: $f(a)=a^2-4a$ and $f(a+h)=a^2+2ah+h^2-4a-4h$. For $f(x)=\sqrt{4x+1}$: $f(a)=\sqrt{4a+1}$ and $f(a+h)=\sqrt{4a+4h+1}$.</li>
+<li><strong>Reasoning:</strong> Substitute the entire input expression $a+h$ everywhere $x$ appears.</li>
+<li><strong>Teaching move / listen for:</strong> Watch for the common error of replacing only one occurrence of $x$ or failing to distribute through parentheses.</li>
+</ul></div></section>
+<section class="task example"><h3>Example 6 · Slope of Wile E. Coyote’s position curve</h3>
+<p>Return to Example 1. Let</p>
+$$f(x)=-16x^2+900.$$
+<p>Use the difference quotient and a limit to find the slope of the curve at $x=5$.</p><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> The slope at $x=5$ is $\displaystyle\lim_{h\to0}\frac{f(5+h)-f(5)}{h}=-160$.</li>
+<li><strong>Reasoning:</strong> Expanding $f(5+h)=-16(5+h)^2+900$ and simplifying the quotient gives $-160-16h$, whose limit is $-160$.</li>
+<li><strong>Teaching move / listen for:</strong> Reconnect the exact limit result to the secant estimates in Example 1.</li>
+</ul></div></section>
+<section class="task example"><h3>Example 7 · Tangent and normal lines</h3>
+<p>Let</p>
+$$f(x)=\frac1{x+1}.$$
+<ol type="a">
+<li>Find the slope of the curve at $x=a$.</li>
+<li>Find the slope of the curve at $x=2$.</li>
+<li>Write the equation of the tangent line to the curve at $x=2$.</li>
+<li>Write the equation of the normal line to the curve at $x=2$.</li>
+</ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<li><strong>Answer:</strong> For $f(x)=\frac1{x+1}$, the slope at $x=a$ is $-\frac1{(a+1)^2}$. At $x=2$, the slope is $-\frac19$ and the point is $(2,\frac13)$. Tangent line: $y-\frac13=-\frac19(x-2)$. Normal line: $y-\frac13=9(x-2)$.</li>
+<li><strong>Reasoning:</strong> The normal slope is the negative reciprocal of the nonzero tangent slope.</li>
+<li><strong>Teaching move / listen for:</strong> Require point-slope form first; it keeps the geometry visible and reduces algebra errors.</li>
+</ul></div></section><section class="summary ap-alignment-summary">
+<h2>AP Alignment Summary</h2>
+<p><strong>Important numbering note:</strong> This textbook's Section 2.4 numbering is independent of the College Board AP unit/topic numbering.</p>
+<table class="values"><thead><tr><th>AP Topic</th><th>College Board Topic</th><th>How this section covers it</th></tr></thead><tbody><tr><td><strong>2.1</strong></td><td>Defining Average and Instantaneous Rates of Change at a Point</td><td>Secant slopes, average velocity, shrinking intervals, tangent slope, and instantaneous velocity are developed graphically and analytically.</td></tr><tr><td><strong>2.2</strong></td><td>Defining the Derivative of a Function and Using Derivative Notation</td><td>Conceptual bridge/partial coverage: the difference quotient and tangent-slope limit are fully developed, but formal derivative notation is intentionally not yet the focus of these notes.</td></tr></tbody></table>
+<p>This section transitions from College Board AP Unit 1 into AP Unit 2. Across textbook Sections 2.1–2.3, all AP Unit 1 topics 1.1–1.16 have now been addressed; Section 2.4 begins the AP differentiation sequence.</p><p><strong>Unit-level checkpoint:</strong> Textbook Sections 2.1–2.3 collectively address the complete College Board AP Unit 1 topic sequence (1.1–1.16). Textbook Section 2.4 then begins College Board AP Unit 2.</p>
+<p><strong>Alignment reference:</strong> <a href="https://apcentral.collegeboard.org/courses/ap-calculus-ab">AP Calculus AB — AP Central</a> and the <a href="https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf">AP Calculus AB and BC Course and Exam Description</a>. College Board notes that the 2026–27 update contains clarifications but does not change course content.</p>
+</section></main>
+</body>
+</html>
