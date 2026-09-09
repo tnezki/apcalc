@@ -1,0 +1,2516 @@
+{
+  "schema": "question-instance-metadata-v1",
+  "course": "AP Calculus AB",
+  "textbook_unit": 2,
+  "textbook_section": "2.4",
+  "section_title": "Rates of Change and Tangent Lines",
+  "authored_question_instances": 96,
+  "render_reuse": {
+    "practice_2": "exact mirror of activity_set_1; no workspace",
+    "practice_3": "exact mirror of activity_set_2; no workspace",
+    "stations": "reuse activity sets",
+    "find_someone_who": "reuse activity sets"
+  },
+  "records": [
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 1",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-1",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-01",
+      "surface": "practice_1",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 2",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-2",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-02",
+      "surface": "practice_1",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 3",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-3",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-03",
+      "surface": "practice_1",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 4",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-4",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-04",
+      "surface": "practice_1",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 5a",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-5a",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-05",
+      "surface": "practice_1",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 5b",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-5b",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-06",
+      "surface": "practice_1",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 5c",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-5c",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-07",
+      "surface": "practice_1",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 5d",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-5d",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-08",
+      "surface": "practice_1",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 6a",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-6a",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-09",
+      "surface": "practice_1",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 6b",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-6b",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-10",
+      "surface": "practice_1",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 6c",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-6c",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-11",
+      "surface": "practice_1",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 6d",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-6d",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-12",
+      "surface": "practice_1",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 7a",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-7a",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-13",
+      "surface": "practice_1",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 8a",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-8a",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-14",
+      "surface": "practice_1",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 10",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-10",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-15",
+      "surface": "practice_1",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 11",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-11",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-16",
+      "surface": "practice_1",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 12",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "free-fall-instant-rate",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-17",
+      "surface": "practice_1",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 13",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "geometric-rate",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-18",
+      "surface": "practice_1",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 14",
+      "topics": [
+        "2.2"
+      ],
+      "family": "horizontal-tangent",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-19",
+      "surface": "practice_1",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 15",
+      "topics": [
+        "2.1"
+      ],
+      "family": "ap-like-average-rate-sr",
+      "task_verb": "determine",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-20",
+      "surface": "practice_1",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 16",
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-like-tangent-sr",
+      "task_verb": "determine",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-21",
+      "surface": "practice_1",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 9",
+      "topics": [
+        "2.3"
+      ],
+      "family": "derivative-table-estimate",
+      "task_verb": "estimate",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "released_like",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-22",
+      "surface": "practice_1",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Estimating Derivatives of a Function at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 1-6",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "derivative-definition-context",
+      "task_verb": "calculate",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-23",
+      "surface": "practice_1",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 2",
+      "topics": [
+        "2.2"
+      ],
+      "family": "derivative-definition-identify",
+      "task_verb": "identify",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP4",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-PRACTICE_1-24",
+      "surface": "practice_1",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf"
+      ],
+      "topics": [
+        "2.1"
+      ],
+      "family": "ap-average-rate",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-01",
+      "surface": "extra_practice",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf"
+      ],
+      "topics": [
+        "2.1"
+      ],
+      "family": "ap-difference-quotient",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-02",
+      "surface": "extra_practice",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf"
+      ],
+      "topics": [
+        "2.1"
+      ],
+      "family": "ap-rate-units",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-03",
+      "surface": "extra_practice",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-derivative-definition",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-04",
+      "surface": "extra_practice",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-derivative-meaning",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-05",
+      "surface": "extra_practice",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-tangent-geometry",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-06",
+      "surface": "extra_practice",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-3-3-20260818-015810-fc7636c8-0fd5-4841-bef2-1888d3cab5e5.pdf"
+      ],
+      "topics": [
+        "2.3"
+      ],
+      "family": "ap-derivative-table",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-07",
+      "surface": "extra_practice",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Estimating Derivatives of a Function at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf",
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "ap-derivative-units",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-08",
+      "surface": "extra_practice",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-definition-evaluate",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-09",
+      "surface": "extra_practice",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-definition-rational",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-10",
+      "surface": "extra_practice",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-3-3-20260818-015810-fc7636c8-0fd5-4841-bef2-1888d3cab5e5.pdf"
+      ],
+      "topics": [
+        "2.3"
+      ],
+      "family": "ap-table-central",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-11",
+      "surface": "extra_practice",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Estimating Derivatives of a Function at a Point"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf",
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "ap-secant-to-tangent",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-12",
+      "surface": "extra_practice",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-context-derivative",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-13",
+      "surface": "extra_practice",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-tangent-form",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-14",
+      "surface": "extra_practice",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-derivative-existence",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-15",
+      "surface": "extra_practice",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-differentiability-continuity",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-16",
+      "surface": "extra_practice",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-3-3-20260818-015810-fc7636c8-0fd5-4841-bef2-1888d3cab5e5.pdf"
+      ],
+      "topics": [
+        "2.3"
+      ],
+      "family": "ap-table-best-estimate",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-17",
+      "surface": "extra_practice",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Estimating Derivatives of a Function at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf",
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "ap-average-vs-instant",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-18",
+      "surface": "extra_practice",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-definition-error",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-19",
+      "surface": "extra_practice",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-tangent-line-data",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-20",
+      "surface": "extra_practice",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-normal-line-data",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-21",
+      "surface": "extra_practice",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-rate-sign-preview",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-22",
+      "surface": "extra_practice",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf",
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "ap-equivalent-definitions",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-23",
+      "surface": "extra_practice",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-3-3-20260818-015810-fc7636c8-0fd5-4841-bef2-1888d3cab5e5.pdf"
+      ],
+      "topics": [
+        "2.3"
+      ],
+      "family": "ap-technology-interpret",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-EXTRA_PRACTICE-24",
+      "surface": "extra_practice",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Estimating Derivatives of a Function at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 1",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-1",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-01",
+      "surface": "activity_set_1",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 2",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-2",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-02",
+      "surface": "activity_set_1",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 3",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-3",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-03",
+      "surface": "activity_set_1",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 4",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-4",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-04",
+      "surface": "activity_set_1",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 5a",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-5a",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-05",
+      "surface": "activity_set_1",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 5b",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-5b",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-06",
+      "surface": "activity_set_1",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 5c",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-5c",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-07",
+      "surface": "activity_set_1",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 5d",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-intro-5d",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-08",
+      "surface": "activity_set_1",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 6a",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-6a",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-09",
+      "surface": "activity_set_1",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 6b",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-6b",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-10",
+      "surface": "activity_set_1",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 6c",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-6c",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-11",
+      "surface": "activity_set_1",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 6d",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-6d",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-12",
+      "surface": "activity_set_1",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 7a",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-7a",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-13",
+      "surface": "activity_set_1",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 8a",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-8a",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-14",
+      "surface": "activity_set_1",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 10",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-10",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-15",
+      "surface": "activity_set_1",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 11",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "rate-tangent-review-11",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-16",
+      "surface": "activity_set_1",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 12",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "free-fall-instant-rate",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-17",
+      "surface": "activity_set_1",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 13",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "geometric-rate",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-18",
+      "surface": "activity_set_1",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 14",
+      "topics": [
+        "2.2"
+      ],
+      "family": "horizontal-tangent",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-19",
+      "surface": "activity_set_1",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 15",
+      "topics": [
+        "2.1"
+      ],
+      "family": "ap-like-average-rate-sr",
+      "task_verb": "determine",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-20",
+      "surface": "activity_set_1",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 16",
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-like-tangent-sr",
+      "task_verb": "determine",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-21",
+      "surface": "activity_set_1",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 9",
+      "topics": [
+        "2.3"
+      ],
+      "family": "derivative-table-estimate",
+      "task_verb": "estimate",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "released_like",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-22",
+      "surface": "activity_set_1",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Estimating Derivatives of a Function at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 1-6",
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "derivative-definition-context",
+      "task_verb": "calculate",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-23",
+      "surface": "activity_set_1",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.4 \u2014 item 2",
+      "topics": [
+        "2.2"
+      ],
+      "family": "derivative-definition-identify",
+      "task_verb": "identify",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP4",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_1-24",
+      "surface": "activity_set_1",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf"
+      ],
+      "topics": [
+        "2.1"
+      ],
+      "family": "ap-average-rate",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-01",
+      "surface": "activity_set_2",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf"
+      ],
+      "topics": [
+        "2.1"
+      ],
+      "family": "ap-difference-quotient",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-02",
+      "surface": "activity_set_2",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf"
+      ],
+      "topics": [
+        "2.1"
+      ],
+      "family": "ap-rate-units",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-03",
+      "surface": "activity_set_2",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-derivative-definition",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-04",
+      "surface": "activity_set_2",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-derivative-meaning",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-05",
+      "surface": "activity_set_2",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-tangent-geometry",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-06",
+      "surface": "activity_set_2",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-3-3-20260818-015810-fc7636c8-0fd5-4841-bef2-1888d3cab5e5.pdf"
+      ],
+      "topics": [
+        "2.3"
+      ],
+      "family": "ap-derivative-table",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-07",
+      "surface": "activity_set_2",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Estimating Derivatives of a Function at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf",
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "ap-derivative-units",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-08",
+      "surface": "activity_set_2",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-definition-evaluate",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-09",
+      "surface": "activity_set_2",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-definition-rational",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-10",
+      "surface": "activity_set_2",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-3-3-20260818-015810-fc7636c8-0fd5-4841-bef2-1888d3cab5e5.pdf"
+      ],
+      "topics": [
+        "2.3"
+      ],
+      "family": "ap-table-central",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-11",
+      "surface": "activity_set_2",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Estimating Derivatives of a Function at a Point"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf",
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "ap-secant-to-tangent",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-12",
+      "surface": "activity_set_2",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-context-derivative",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-13",
+      "surface": "activity_set_2",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-tangent-form",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-14",
+      "surface": "activity_set_2",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-derivative-existence",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-15",
+      "surface": "activity_set_2",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-differentiability-continuity",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-16",
+      "surface": "activity_set_2",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-3-3-20260818-015810-fc7636c8-0fd5-4841-bef2-1888d3cab5e5.pdf"
+      ],
+      "topics": [
+        "2.3"
+      ],
+      "family": "ap-table-best-estimate",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-17",
+      "surface": "activity_set_2",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Estimating Derivatives of a Function at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf",
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "ap-average-vs-instant",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-18",
+      "surface": "activity_set_2",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-definition-error",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-19",
+      "surface": "activity_set_2",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-tangent-line-data",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-20",
+      "surface": "activity_set_2",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-normal-line-data",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-21",
+      "surface": "activity_set_2",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.2"
+      ],
+      "family": "ap-rate-sign-preview",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-22",
+      "surface": "activity_set_2",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-1-1-20260818-015629-32b28e31-99ba-4dfd-953f-6948b914c4e1.pdf",
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-2--20260818-015745-a003e143-b4f3-40e1-ae1f-5514d7ff72dd.pdf"
+      ],
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "family": "ap-equivalent-definitions",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-23",
+      "surface": "activity_set_2",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Defining Average and Instantaneous Rates of Change at a Point",
+        "Defining the Derivative of a Function and Using Derivative Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_2_AP_Topics/SG_2-3-3-20260818-015810-fc7636c8-0fd5-4841-bef2-1888d3cab5e5.pdf"
+      ],
+      "topics": [
+        "2.3"
+      ],
+      "family": "ap-technology-interpret",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.4-ACTIVITY_SET_2-24",
+      "surface": "activity_set_2",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Estimating Derivatives of a Function at a Point"
+      ]
+    }
+  ]
+}

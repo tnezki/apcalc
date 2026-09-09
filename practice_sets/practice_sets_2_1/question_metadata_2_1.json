@@ -1,0 +1,2566 @@
+{
+  "schema": "question-instance-metadata-v1",
+  "course": "AP Calculus AB",
+  "textbook_unit": 2,
+  "textbook_section": "2.1",
+  "section_title": "Rates of Change and Limits",
+  "authored_question_instances": 96,
+  "render_reuse": {
+    "practice_2": "exact mirror of activity_set_1; no workspace",
+    "practice_3": "exact mirror of activity_set_2; no workspace",
+    "stations": "reuse activity sets",
+    "find_someone_who": "reuse activity sets"
+  },
+  "records": [
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 1",
+      "topics": [
+        "1.3",
+        "1.4"
+      ],
+      "family": "limit-investigation",
+      "task_verb": "describe",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 1,
+      "bloom": "understand",
+      "question_key": "U2-S2.1-PRACTICE_1-01",
+      "surface": "practice_1",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Estimating Limit Values from Graphs",
+        "Estimating Limit Values from Tables"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 2",
+      "topics": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "family": "limit-procedure-selection",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 1,
+      "bloom": "remember",
+      "question_key": "U2-S2.1-PRACTICE_1-02",
+      "surface": "practice_1",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits",
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 4a",
+      "topics": [
+        "1.1"
+      ],
+      "family": "average-rate-context",
+      "task_verb": "calculate",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-03",
+      "surface": "practice_1",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Introducing Calculus: Can Change Occur at an Instant?"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 4b",
+      "topics": [
+        "1.1",
+        "1.2"
+      ],
+      "family": "instantaneous-rate-limit",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-04",
+      "surface": "practice_1",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Introducing Calculus: Can Change Occur at an Instant?",
+        "Defining Limits and Using Limit Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 5",
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "limit-dne-classification",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 1,
+      "bloom": "understand",
+      "question_key": "U2-S2.1-PRACTICE_1-05",
+      "surface": "practice_1",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 6",
+      "topics": [
+        "1.5"
+      ],
+      "family": "direct-substitution-polynomial",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-06",
+      "surface": "practice_1",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 6",
+      "topics": [
+        "1.5"
+      ],
+      "family": "direct-substitution-rational",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-07",
+      "surface": "practice_1",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 13",
+      "topics": [
+        "1.5"
+      ],
+      "family": "direct-substitution-power",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-08",
+      "surface": "practice_1",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 18",
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "factor-cancel",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-09",
+      "surface": "practice_1",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 19",
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "factor-cancel",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-10",
+      "surface": "practice_1",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 21",
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "rationalize",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-11",
+      "surface": "practice_1",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 22",
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "expand-cancel",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-12",
+      "surface": "practice_1",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 23",
+      "topics": [
+        "1.6",
+        "1.7",
+        "1.8"
+      ],
+      "family": "trig-standard-limit",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-13",
+      "surface": "practice_1",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits",
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 24",
+      "topics": [
+        "1.6",
+        "1.7",
+        "1.8"
+      ],
+      "family": "trig-standard-limit",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-14",
+      "surface": "practice_1",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits",
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 26",
+      "topics": [
+        "1.6",
+        "1.7",
+        "1.8"
+      ],
+      "family": "trig-squeeze",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-15",
+      "surface": "practice_1",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits",
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 27",
+      "topics": [
+        "1.6",
+        "1.7",
+        "1.8"
+      ],
+      "family": "trig-standard-limit",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-16",
+      "surface": "practice_1",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits",
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 28-33",
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "one-sided-piecewise",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "piecewise",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-17",
+      "surface": "practice_1",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 28-33",
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "limit-vs-function-value",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-18",
+      "surface": "practice_1",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 28-33",
+      "topics": [
+        "1.4",
+        "1.9"
+      ],
+      "family": "table-limit-estimate",
+      "task_verb": "estimate",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-19",
+      "surface": "practice_1",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Estimating Limit Values from Tables",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 26",
+      "topics": [
+        "1.8"
+      ],
+      "family": "squeeze-theorem",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "analyze",
+      "question_key": "U2-S2.1-PRACTICE_1-20",
+      "surface": "practice_1",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 18",
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "ap-like-selected-limit",
+      "task_verb": "evaluate",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-21",
+      "surface": "practice_1",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 28-33",
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "parameter-limit-exists",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "analyze",
+      "question_key": "U2-S2.1-PRACTICE_1-22",
+      "surface": "practice_1",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 4",
+      "topics": [
+        "1.1",
+        "1.9"
+      ],
+      "family": "rate-connection-context",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-23",
+      "surface": "practice_1",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Introducing Calculus: Can Change Occur at an Instant?",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 29-33",
+      "topics": [
+        "1.4",
+        "1.9"
+      ],
+      "family": "multi-rep-limit",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-PRACTICE_1-24",
+      "surface": "practice_1",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Estimating Limit Values from Tables",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf"
+      ],
+      "topics": [
+        "1.1"
+      ],
+      "family": "ap-change-instant",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "verbal",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-01",
+      "surface": "extra_practice",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Introducing Calculus: Can Change Occur at an Instant?"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf"
+      ],
+      "topics": [
+        "1.2"
+      ],
+      "family": "limit-notation-language",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 1,
+      "bloom": "understand",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-02",
+      "surface": "extra_practice",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf"
+      ],
+      "topics": [
+        "1.4"
+      ],
+      "family": "ap-table-estimate",
+      "task_verb": "estimate",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-03",
+      "surface": "extra_practice",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Estimating Limit Values from Tables"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf"
+      ],
+      "topics": [
+        "1.2",
+        "1.3"
+      ],
+      "family": "limit-from-verbal-graph",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "verbal",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-04",
+      "surface": "extra_practice",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Estimating Limit Values from Graphs"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.5"
+      ],
+      "family": "ap-properties-direct",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-05",
+      "surface": "extra_practice",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.5"
+      ],
+      "family": "ap-limit-laws",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-06",
+      "surface": "extra_practice",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "ap-procedure-select",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-07",
+      "surface": "extra_practice",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6"
+      ],
+      "family": "ap-factor-limit",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-08",
+      "surface": "extra_practice",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6"
+      ],
+      "family": "ap-rationalize",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-09",
+      "surface": "extra_practice",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6"
+      ],
+      "family": "ap-trig-limit",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-10",
+      "surface": "extra_practice",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6",
+        "1.8"
+      ],
+      "family": "ap-trig-squeeze",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-11",
+      "surface": "extra_practice",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "ap-one-sided",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-12",
+      "surface": "extra_practice",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.7"
+      ],
+      "family": "ap-select-procedure",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-13",
+      "surface": "extra_practice",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.7"
+      ],
+      "family": "ap-select-procedure",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-14",
+      "surface": "extra_practice",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.8"
+      ],
+      "family": "ap-squeeze",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-15",
+      "surface": "extra_practice",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.9"
+      ],
+      "family": "ap-connect-reps",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "multiple",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-16",
+      "surface": "extra_practice",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "ap-limit-point-value-sr",
+      "task_verb": "determine",
+      "response_mode": "selected_response",
+      "representation_mode": "verbal",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-17",
+      "surface": "extra_practice",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "ap-error-analysis",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-18",
+      "surface": "extra_practice",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "ap-piecewise-parameter",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-19",
+      "surface": "extra_practice",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.7"
+      ],
+      "family": "ap-procedure-and-evaluate",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-20",
+      "surface": "extra_practice",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.8"
+      ],
+      "family": "ap-squeeze-justify",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-21",
+      "surface": "extra_practice",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.9"
+      ],
+      "family": "ap-multiple-rep-construct",
+      "task_verb": "represent",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-22",
+      "surface": "extra_practice",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf"
+      ],
+      "topics": [
+        "1.1",
+        "1.2"
+      ],
+      "family": "ap-instant-rate-setup",
+      "task_verb": "represent",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP4",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-23",
+      "surface": "extra_practice",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Introducing Calculus: Can Change Occur at an Instant?",
+        "Defining Limits and Using Limit Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "ap-oscillation-dne",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-EXTRA_PRACTICE-24",
+      "surface": "extra_practice",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 1",
+      "topics": [
+        "1.3",
+        "1.4"
+      ],
+      "family": "limit-investigation",
+      "task_verb": "describe",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 1,
+      "bloom": "understand",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-01",
+      "surface": "activity_set_1",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Estimating Limit Values from Graphs",
+        "Estimating Limit Values from Tables"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 2",
+      "topics": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "family": "limit-procedure-selection",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 1,
+      "bloom": "remember",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-02",
+      "surface": "activity_set_1",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits",
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 4a",
+      "topics": [
+        "1.1"
+      ],
+      "family": "average-rate-context",
+      "task_verb": "calculate",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-03",
+      "surface": "activity_set_1",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Introducing Calculus: Can Change Occur at an Instant?"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 4b",
+      "topics": [
+        "1.1",
+        "1.2"
+      ],
+      "family": "instantaneous-rate-limit",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-04",
+      "surface": "activity_set_1",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Introducing Calculus: Can Change Occur at an Instant?",
+        "Defining Limits and Using Limit Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 5",
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "limit-dne-classification",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 1,
+      "bloom": "understand",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-05",
+      "surface": "activity_set_1",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 6",
+      "topics": [
+        "1.5"
+      ],
+      "family": "direct-substitution-polynomial",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-06",
+      "surface": "activity_set_1",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 6",
+      "topics": [
+        "1.5"
+      ],
+      "family": "direct-substitution-rational",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-07",
+      "surface": "activity_set_1",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 13",
+      "topics": [
+        "1.5"
+      ],
+      "family": "direct-substitution-power",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-08",
+      "surface": "activity_set_1",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 18",
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "factor-cancel",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-09",
+      "surface": "activity_set_1",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 19",
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "factor-cancel",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-10",
+      "surface": "activity_set_1",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 21",
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "rationalize",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-11",
+      "surface": "activity_set_1",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 22",
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "expand-cancel",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-12",
+      "surface": "activity_set_1",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 23",
+      "topics": [
+        "1.6",
+        "1.7",
+        "1.8"
+      ],
+      "family": "trig-standard-limit",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-13",
+      "surface": "activity_set_1",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits",
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 24",
+      "topics": [
+        "1.6",
+        "1.7",
+        "1.8"
+      ],
+      "family": "trig-standard-limit",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-14",
+      "surface": "activity_set_1",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits",
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 26",
+      "topics": [
+        "1.6",
+        "1.7",
+        "1.8"
+      ],
+      "family": "trig-squeeze",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-15",
+      "surface": "activity_set_1",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits",
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 27",
+      "topics": [
+        "1.6",
+        "1.7",
+        "1.8"
+      ],
+      "family": "trig-standard-limit",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-16",
+      "surface": "activity_set_1",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits",
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 28-33",
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "one-sided-piecewise",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "piecewise",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-17",
+      "surface": "activity_set_1",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 28-33",
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "limit-vs-function-value",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-18",
+      "surface": "activity_set_1",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 28-33",
+      "topics": [
+        "1.4",
+        "1.9"
+      ],
+      "family": "table-limit-estimate",
+      "task_verb": "estimate",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-19",
+      "surface": "activity_set_1",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Estimating Limit Values from Tables",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 26",
+      "topics": [
+        "1.8"
+      ],
+      "family": "squeeze-theorem",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "analyze",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-20",
+      "surface": "activity_set_1",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 18",
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "ap-like-selected-limit",
+      "task_verb": "evaluate",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-21",
+      "surface": "activity_set_1",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 28-33",
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "parameter-limit-exists",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "analyze",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-22",
+      "surface": "activity_set_1",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 4",
+      "topics": [
+        "1.1",
+        "1.9"
+      ],
+      "family": "rate-connection-context",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "context",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-23",
+      "surface": "activity_set_1",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Introducing Calculus: Can Change Occur at an Instant?",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.1 \u2014 item 29-33",
+      "topics": [
+        "1.4",
+        "1.9"
+      ],
+      "family": "multi-rep-limit",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_1-24",
+      "surface": "activity_set_1",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Estimating Limit Values from Tables",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf"
+      ],
+      "topics": [
+        "1.1"
+      ],
+      "family": "ap-change-instant",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "verbal",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-01",
+      "surface": "activity_set_2",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Introducing Calculus: Can Change Occur at an Instant?"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf"
+      ],
+      "topics": [
+        "1.2"
+      ],
+      "family": "limit-notation-language",
+      "task_verb": "interpret",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 1,
+      "bloom": "understand",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-02",
+      "surface": "activity_set_2",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf"
+      ],
+      "topics": [
+        "1.4"
+      ],
+      "family": "ap-table-estimate",
+      "task_verb": "estimate",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-03",
+      "surface": "activity_set_2",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Estimating Limit Values from Tables"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf"
+      ],
+      "topics": [
+        "1.2",
+        "1.3"
+      ],
+      "family": "limit-from-verbal-graph",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "verbal",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-04",
+      "surface": "activity_set_2",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Estimating Limit Values from Graphs"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.5"
+      ],
+      "family": "ap-properties-direct",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-05",
+      "surface": "activity_set_2",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.5"
+      ],
+      "family": "ap-limit-laws",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-06",
+      "surface": "activity_set_2",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Properties of Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "ap-procedure-select",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-07",
+      "surface": "activity_set_2",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6"
+      ],
+      "family": "ap-factor-limit",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-08",
+      "surface": "activity_set_2",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6"
+      ],
+      "family": "ap-rationalize",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-09",
+      "surface": "activity_set_2",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6"
+      ],
+      "family": "ap-trig-limit",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-10",
+      "surface": "activity_set_2",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6",
+        "1.8"
+      ],
+      "family": "ap-trig-squeeze",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-11",
+      "surface": "activity_set_2",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "ap-one-sided",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-12",
+      "surface": "activity_set_2",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.7"
+      ],
+      "family": "ap-select-procedure",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-13",
+      "surface": "activity_set_2",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.7"
+      ],
+      "family": "ap-select-procedure",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-14",
+      "surface": "activity_set_2",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.8"
+      ],
+      "family": "ap-squeeze",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-15",
+      "surface": "activity_set_2",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.9"
+      ],
+      "family": "ap-connect-reps",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "multiple",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-16",
+      "surface": "activity_set_2",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "ap-limit-point-value-sr",
+      "task_verb": "determine",
+      "response_mode": "selected_response",
+      "representation_mode": "verbal",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-17",
+      "surface": "activity_set_2",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.6",
+        "1.7"
+      ],
+      "family": "ap-error-analysis",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-18",
+      "surface": "activity_set_2",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Determining Limits Using Algebraic Manipulation",
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "ap-piecewise-parameter",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-19",
+      "surface": "activity_set_2",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.7"
+      ],
+      "family": "ap-procedure-and-evaluate",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-20",
+      "surface": "activity_set_2",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf"
+      ],
+      "topics": [
+        "1.8"
+      ],
+      "family": "ap-squeeze-justify",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-21",
+      "surface": "activity_set_2",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Determining Limits Using the Squeeze Theorem"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.9"
+      ],
+      "family": "ap-multiple-rep-construct",
+      "task_verb": "represent",
+      "response_mode": "constructed",
+      "representation_mode": "table",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP2",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-22",
+      "surface": "activity_set_2",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf"
+      ],
+      "topics": [
+        "1.1",
+        "1.2"
+      ],
+      "family": "ap-instant-rate-setup",
+      "task_verb": "represent",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP4",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-23",
+      "surface": "activity_set_2",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Introducing Calculus: Can Change Occur at an Instant?",
+        "Defining Limits and Using Limit Notation"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 1-4-20260817-234653-5e22c91d-0702-4ff7-982c-742559a758aa.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.2",
+        "1.9"
+      ],
+      "family": "ap-oscillation-dne",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.1-ACTIVITY_SET_2-24",
+      "surface": "activity_set_2",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Defining Limits and Using Limit Notation",
+        "Connecting Multiple Representations of Limits"
+      ]
+    }
+  ]
+}

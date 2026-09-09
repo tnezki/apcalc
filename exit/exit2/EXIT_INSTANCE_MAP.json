@@ -1,0 +1,1742 @@
+{
+  "schema_version": "apcalc-exit-instance-map/1.0",
+  "course": "AP Calculus AB",
+  "textbook_unit": 2,
+  "architecture": {
+    "tickets_per_section": 2,
+    "evidence_slots": [
+      "N1",
+      "N2",
+      "R1",
+      "R2"
+    ],
+    "rolling_rule": "Each ticket carries its N1/N2 forward as the next official ticket's R1/R2; 2.1 Ticket A uses two opening-new jobs in R positions.",
+    "print_versions": 4,
+    "version_rotation": {
+      "1": [
+        "N1",
+        "N2",
+        "R1",
+        "R2"
+      ],
+      "2": [
+        "N2",
+        "R1",
+        "R2",
+        "N1"
+      ],
+      "3": [
+        "R1",
+        "R2",
+        "N1",
+        "N2"
+      ],
+      "4": [
+        "R2",
+        "N1",
+        "N2",
+        "R1"
+      ]
+    }
+  },
+  "source_basis": [
+    "Video Notes.pdf \u2014 taught Unit 2 sequence and example architecture",
+    "Exercises.pdf \u2014 Unit 2 exercise bank",
+    "Textbook Student Edition.pdf \u2014 Chapter 2 supporting mathematical content",
+    "Algebra 1 current exit-ticket philosophy \u2014 two tickets, 2 new + 2 reassess, rolling carryforward, four rotated print versions"
+  ],
+  "tickets": [
+    {
+      "section_id": "2.1",
+      "ticket": "A",
+      "textbook_title": "Rates of Change and Limits",
+      "evidence": [
+        {
+          "evidence_slot": "N1",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-21",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Evaluate a finite limit algebraically by selecting and executing an appropriate simplification strategy.",
+          "family_id": "CALC-U2-S21-LIMIT-ALG",
+          "family_label": "S21 LIMIT ALG",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.5",
+            "1.6",
+            "1.7"
+          ],
+          "mathematical_practice": "Procedures / Representations",
+          "textbook_section": "2.1",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-21-A-SCR-N1",
+          "screen_instance_signature": "factor-limit:a=12",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-21-A-V1-N1",
+              "compact_instance_signature": "factor-limit:a=3"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-21-A-V2-N1",
+              "compact_instance_signature": "factor-limit:a=4"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-21-A-V3-N1",
+              "compact_instance_signature": "factor-limit:a=5"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-21-A-V4-N1",
+              "compact_instance_signature": "factor-limit:a=6"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "N2",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-21",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Connect average rates on shrinking intervals to an instantaneous rate of change.",
+          "family_id": "CALC-U2-S21-RATE-INSTANT",
+          "family_label": "S21 RATE INSTANT",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.1",
+            "1.2",
+            "1.3"
+          ],
+          "mathematical_practice": "Representations / Communication",
+          "textbook_section": "2.1",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-21-A-SCR-N2",
+          "screen_instance_signature": "rate-shrink:k=1;b=2;a=1",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-21-A-V1-N2",
+              "compact_instance_signature": "rate-shrink:k=2;b=7;a=1"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-21-A-V2-N2",
+              "compact_instance_signature": "rate-shrink:k=3;b=7;a=1"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-21-A-V3-N2",
+              "compact_instance_signature": "rate-shrink:k=4;b=7;a=1"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-21-A-V4-N2",
+              "compact_instance_signature": "rate-shrink:k=5;b=7;a=1"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "R1",
+          "role": "opening_new",
+          "mastery_goal_id": "CALC-U2-21",
+          "primary_i_can_id": "O1",
+          "evidence_job": "Distinguish the limiting value from the actual function value at the approached input.",
+          "family_id": "CALC-U2-S21-LIMIT-VS-VALUE",
+          "family_label": "S21 LIMIT VS VALUE",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.2",
+            "1.4"
+          ],
+          "mathematical_practice": "Communication / Reasoning",
+          "textbook_section": "2.1",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-21-A-SCR-R1",
+          "screen_instance_signature": "limit-vs-value:a=3;m=4;c=1;special=0",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-21-A-V1-R1",
+              "compact_instance_signature": "limit-vs-value:a=2;m=2;c=2;special=0"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-21-A-V2-R1",
+              "compact_instance_signature": "limit-vs-value:a=3;m=2;c=2;special=0"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-21-A-V3-R1",
+              "compact_instance_signature": "limit-vs-value:a=4;m=2;c=2;special=0"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-21-A-V4-R1",
+              "compact_instance_signature": "limit-vs-value:a=5;m=2;c=2;special=0"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "R2",
+          "role": "opening_new",
+          "mastery_goal_id": "CALC-U2-21",
+          "primary_i_can_id": "O2",
+          "evidence_job": "Use one-sided behavior to determine whether a two-sided limit exists.",
+          "family_id": "CALC-U2-S21-DNE-ONESIDED",
+          "family_label": "S21 DNE ONESIDED",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.4",
+            "1.7"
+          ],
+          "mathematical_practice": "Reasoning / Communication",
+          "textbook_section": "2.1",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-21-A-SCR-R2",
+          "screen_instance_signature": "one-sided-jump:a=-2;L=-4;R=2",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-21-A-V1-R2",
+              "compact_instance_signature": "one-sided-jump:a=3;L=-2;R=2"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-21-A-V2-R2",
+              "compact_instance_signature": "one-sided-jump:a=-2;L=1;R=2"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-21-A-V3-R2",
+              "compact_instance_signature": "one-sided-jump:a=-1;L=1;R=2"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-21-A-V4-R2",
+              "compact_instance_signature": "one-sided-jump:a=0;L=1;R=2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "ticket": "B",
+      "textbook_title": "Rates of Change and Limits",
+      "evidence": [
+        {
+          "evidence_slot": "N1",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-21",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Evaluate a finite limit algebraically by selecting and executing an appropriate simplification strategy.",
+          "family_id": "CALC-U2-S21-LIMIT-ALG",
+          "family_label": "S21 LIMIT ALG",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.5",
+            "1.6",
+            "1.7"
+          ],
+          "mathematical_practice": "Procedures / Representations",
+          "textbook_section": "2.1",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-21-B-SCR-N1",
+          "screen_instance_signature": "factor-limit:a=21",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-21-B-V1-N1",
+              "compact_instance_signature": "factor-limit:a=19"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-21-B-V2-N1",
+              "compact_instance_signature": "factor-limit:a=13"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-21-B-V3-N1",
+              "compact_instance_signature": "factor-limit:a=14"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-21-B-V4-N1",
+              "compact_instance_signature": "factor-limit:a=15"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "N2",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-21",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Connect average rates on shrinking intervals to an instantaneous rate of change.",
+          "family_id": "CALC-U2-S21-RATE-INSTANT",
+          "family_label": "S21 RATE INSTANT",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.1",
+            "1.2",
+            "1.3"
+          ],
+          "mathematical_practice": "Representations / Communication",
+          "textbook_section": "2.1",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-21-B-SCR-N2",
+          "screen_instance_signature": "rate-shrink:k=5;b=2;a=2",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-21-B-V1-N2",
+              "compact_instance_signature": "rate-shrink:k=1;b=-3;a=3"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-21-B-V2-N2",
+              "compact_instance_signature": "rate-shrink:k=2;b=-3;a=3"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-21-B-V3-N2",
+              "compact_instance_signature": "rate-shrink:k=3;b=-3;a=3"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-21-B-V4-N2",
+              "compact_instance_signature": "rate-shrink:k=4;b=-3;a=3"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "R1",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-21",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Evaluate a finite limit algebraically by selecting and executing an appropriate simplification strategy.",
+          "family_id": "CALC-U2-S21-LIMIT-ALG",
+          "family_label": "S21 LIMIT ALG",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.5",
+            "1.6",
+            "1.7"
+          ],
+          "mathematical_practice": "Procedures / Representations",
+          "textbook_section": "2.1",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-21-B-SCR-R1",
+          "screen_instance_signature": "factor-limit:a=10",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-21-B-V1-R1",
+              "compact_instance_signature": "factor-limit:a=8"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-21-B-V2-R1",
+              "compact_instance_signature": "factor-limit:a=2"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-21-B-V3-R1",
+              "compact_instance_signature": "factor-limit:a=17"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-21-B-V4-R1",
+              "compact_instance_signature": "factor-limit:a=11"
+            }
+          ],
+          "source_section_id": "2.1",
+          "source_ticket": "A",
+          "source_evidence_slot": "N1",
+          "source_family_id": "CALC-U2-S21-LIMIT-ALG"
+        },
+        {
+          "evidence_slot": "R2",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-21",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Connect average rates on shrinking intervals to an instantaneous rate of change.",
+          "family_id": "CALC-U2-S21-RATE-INSTANT",
+          "family_label": "S21 RATE INSTANT",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.1",
+            "1.2",
+            "1.3"
+          ],
+          "mathematical_practice": "Representations / Communication",
+          "textbook_section": "2.1",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-21-B-SCR-R2",
+          "screen_instance_signature": "rate-shrink:k=4;b=4;a=3",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-21-B-V1-R2",
+              "compact_instance_signature": "rate-shrink:k=5;b=-3;a=4"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-21-B-V2-R2",
+              "compact_instance_signature": "rate-shrink:k=1;b=-1;a=4"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-21-B-V3-R2",
+              "compact_instance_signature": "rate-shrink:k=2;b=-1;a=4"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-21-B-V4-R2",
+              "compact_instance_signature": "rate-shrink:k=3;b=-1;a=4"
+            }
+          ],
+          "source_section_id": "2.1",
+          "source_ticket": "A",
+          "source_evidence_slot": "N2",
+          "source_family_id": "CALC-U2-S21-RATE-INSTANT"
+        }
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "ticket": "A",
+      "textbook_title": "Limits Involving Infinity",
+      "evidence": [
+        {
+          "evidence_slot": "N1",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-22",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Determine finite limits at positive and negative infinity and connect them to horizontal asymptotes/end behavior.",
+          "family_id": "CALC-U2-S22-END-BEHAVIOR",
+          "family_label": "S22 END BEHAVIOR",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.14",
+            "1.15"
+          ],
+          "mathematical_practice": "Procedures / Representations",
+          "textbook_section": "2.2",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-22-A-SCR-N1",
+          "screen_instance_signature": "end-equal-deg:p=8;q=3",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-22-A-V1-N1",
+              "compact_instance_signature": "end-equal-deg:p=3;q=5"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-22-A-V2-N1",
+              "compact_instance_signature": "end-equal-deg:p=4;q=5"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-22-A-V3-N1",
+              "compact_instance_signature": "end-equal-deg:p=5;q=5"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-22-A-V4-N1",
+              "compact_instance_signature": "end-equal-deg:p=6;q=5"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "N2",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-22",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Determine infinite one-sided limits at a vertical asymptote and describe left/right behavior.",
+          "family_id": "CALC-U2-S22-VERTICAL-BEHAVIOR",
+          "family_label": "S22 VERTICAL BEHAVIOR",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.14",
+            "1.15"
+          ],
+          "mathematical_practice": "Representations / Communication",
+          "textbook_section": "2.2",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-22-A-SCR-N2",
+          "screen_instance_signature": "vertical:a=-2;A=-1",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-22-A-V1-N2",
+              "compact_instance_signature": "vertical:a=2;A=-2"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-22-A-V2-N2",
+              "compact_instance_signature": "vertical:a=3;A=-2"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-22-A-V3-N2",
+              "compact_instance_signature": "vertical:a=4;A=-2"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-22-A-V4-N2",
+              "compact_instance_signature": "vertical:a=-4;A=-3"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "R1",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-21",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Evaluate a finite limit algebraically by selecting and executing an appropriate simplification strategy.",
+          "family_id": "CALC-U2-S21-LIMIT-ALG",
+          "family_label": "S21 LIMIT ALG",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.5",
+            "1.6",
+            "1.7"
+          ],
+          "mathematical_practice": "Procedures / Representations",
+          "textbook_section": "2.1",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-22-A-SCR-R1",
+          "screen_instance_signature": "factor-limit:a=20",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-22-A-V1-R1",
+              "compact_instance_signature": "factor-limit:a=9"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-22-A-V2-R1",
+              "compact_instance_signature": "factor-limit:a=18"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-22-A-V3-R1",
+              "compact_instance_signature": "factor-limit:a=7"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-22-A-V4-R1",
+              "compact_instance_signature": "factor-limit:a=16"
+            }
+          ],
+          "source_section_id": "2.1",
+          "source_ticket": "B",
+          "source_evidence_slot": "N1",
+          "source_family_id": "CALC-U2-S21-LIMIT-ALG"
+        },
+        {
+          "evidence_slot": "R2",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-21",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Connect average rates on shrinking intervals to an instantaneous rate of change.",
+          "family_id": "CALC-U2-S21-RATE-INSTANT",
+          "family_label": "S21 RATE INSTANT",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.1",
+            "1.2",
+            "1.3"
+          ],
+          "mathematical_practice": "Representations / Communication",
+          "textbook_section": "2.1",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-22-A-SCR-R2",
+          "screen_instance_signature": "rate-shrink:k=3;b=7;a=4",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-22-A-V1-R2",
+              "compact_instance_signature": "rate-shrink:k=4;b=-1;a=1"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-22-A-V2-R2",
+              "compact_instance_signature": "rate-shrink:k=5;b=-1;a=1"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-22-A-V3-R2",
+              "compact_instance_signature": "rate-shrink:k=2;b=-3;a=2"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-22-A-V4-R2",
+              "compact_instance_signature": "rate-shrink:k=2;b=2;a=1"
+            }
+          ],
+          "source_section_id": "2.1",
+          "source_ticket": "B",
+          "source_evidence_slot": "N2",
+          "source_family_id": "CALC-U2-S21-RATE-INSTANT"
+        }
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "ticket": "B",
+      "textbook_title": "Limits Involving Infinity",
+      "evidence": [
+        {
+          "evidence_slot": "N1",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-22",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Determine finite limits at positive and negative infinity and connect them to horizontal asymptotes/end behavior.",
+          "family_id": "CALC-U2-S22-END-BEHAVIOR",
+          "family_label": "S22 END BEHAVIOR",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.14",
+            "1.15"
+          ],
+          "mathematical_practice": "Procedures / Representations",
+          "textbook_section": "2.2",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-22-B-SCR-N1",
+          "screen_instance_signature": "end-equal-deg:p=8;q=2",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-22-B-V1-N1",
+              "compact_instance_signature": "end-equal-deg:p=3;q=4"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-22-B-V2-N1",
+              "compact_instance_signature": "end-equal-deg:p=4;q=4"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-22-B-V3-N1",
+              "compact_instance_signature": "end-equal-deg:p=5;q=4"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-22-B-V4-N1",
+              "compact_instance_signature": "end-equal-deg:p=6;q=4"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "N2",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-22",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Determine infinite one-sided limits at a vertical asymptote and describe left/right behavior.",
+          "family_id": "CALC-U2-S22-VERTICAL-BEHAVIOR",
+          "family_label": "S22 VERTICAL BEHAVIOR",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.14",
+            "1.15"
+          ],
+          "mathematical_practice": "Representations / Communication",
+          "textbook_section": "2.2",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-22-B-SCR-N2",
+          "screen_instance_signature": "vertical:a=-2;A=3",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-22-B-V1-N2",
+              "compact_instance_signature": "vertical:a=2;A=-1"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-22-B-V2-N2",
+              "compact_instance_signature": "vertical:a=4;A=3"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-22-B-V3-N2",
+              "compact_instance_signature": "vertical:a=-4;A=-1"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-22-B-V4-N2",
+              "compact_instance_signature": "vertical:a=-3;A=-1"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "R1",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-22",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Determine finite limits at positive and negative infinity and connect them to horizontal asymptotes/end behavior.",
+          "family_id": "CALC-U2-S22-END-BEHAVIOR",
+          "family_label": "S22 END BEHAVIOR",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.14",
+            "1.15"
+          ],
+          "mathematical_practice": "Procedures / Representations",
+          "textbook_section": "2.2",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-22-B-SCR-R1",
+          "screen_instance_signature": "end-equal-deg:p=8;q=6",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-22-B-V1-R1",
+              "compact_instance_signature": "end-equal-deg:p=3;q=1"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-22-B-V2-R1",
+              "compact_instance_signature": "end-equal-deg:p=4;q=1"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-22-B-V3-R1",
+              "compact_instance_signature": "end-equal-deg:p=5;q=1"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-22-B-V4-R1",
+              "compact_instance_signature": "end-equal-deg:p=6;q=1"
+            }
+          ],
+          "source_section_id": "2.2",
+          "source_ticket": "A",
+          "source_evidence_slot": "N1",
+          "source_family_id": "CALC-U2-S22-END-BEHAVIOR"
+        },
+        {
+          "evidence_slot": "R2",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-22",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Determine infinite one-sided limits at a vertical asymptote and describe left/right behavior.",
+          "family_id": "CALC-U2-S22-VERTICAL-BEHAVIOR",
+          "family_label": "S22 VERTICAL BEHAVIOR",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.14",
+            "1.15"
+          ],
+          "mathematical_practice": "Representations / Communication",
+          "textbook_section": "2.2",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-22-B-SCR-R2",
+          "screen_instance_signature": "vertical:a=-1;A=3",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-22-B-V1-R2",
+              "compact_instance_signature": "vertical:a=3;A=-1"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-22-B-V2-R2",
+              "compact_instance_signature": "vertical:a=4;A=-1"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-22-B-V3-R2",
+              "compact_instance_signature": "vertical:a=-4;A=-2"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-22-B-V4-R2",
+              "compact_instance_signature": "vertical:a=-3;A=-2"
+            }
+          ],
+          "source_section_id": "2.2",
+          "source_ticket": "A",
+          "source_evidence_slot": "N2",
+          "source_family_id": "CALC-U2-S22-VERTICAL-BEHAVIOR"
+        }
+      ]
+    },
+    {
+      "section_id": "2.3",
+      "ticket": "A",
+      "textbook_title": "Continuity",
+      "evidence": [
+        {
+          "evidence_slot": "N1",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-23",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Apply the definition of continuity to determine a parameter or extension value that makes a function continuous.",
+          "family_id": "CALC-U2-S23-CONTINUITY-PARAMETER",
+          "family_label": "S23 CONTINUITY PARAMETER",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.10",
+            "1.11",
+            "1.12"
+          ],
+          "mathematical_practice": "Procedures / Reasoning",
+          "textbook_section": "2.3",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-23-A-SCR-N1",
+          "screen_instance_signature": "continuity-k:a=3;r=2;scale=3",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-23-A-V1-N1",
+              "compact_instance_signature": "continuity-k:a=2;r=1;scale=4"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-23-A-V2-N1",
+              "compact_instance_signature": "continuity-k:a=3;r=1;scale=4"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-23-A-V3-N1",
+              "compact_instance_signature": "continuity-k:a=4;r=1;scale=4"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-23-A-V4-N1",
+              "compact_instance_signature": "continuity-k:a=1;r=2;scale=4"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "N2",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-23",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Use the Intermediate Value Theorem to justify existence of an input producing a specified output.",
+          "family_id": "CALC-U2-S23-IVT-EXISTENCE",
+          "family_label": "S23 IVT EXISTENCE",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.13",
+            "1.16"
+          ],
+          "mathematical_practice": "Reasoning / Communication",
+          "textbook_section": "2.3",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-23-A-SCR-N2",
+          "screen_instance_signature": "ivt:a=2;b=7;fa=-2;fb=2;k=0",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-23-A-V1-N2",
+              "compact_instance_signature": "ivt:a=1;b=5;fa=-1;fb=2;k=0"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-23-A-V2-N2",
+              "compact_instance_signature": "ivt:a=2;b=6;fa=-1;fb=2;k=0"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-23-A-V3-N2",
+              "compact_instance_signature": "ivt:a=3;b=7;fa=-1;fb=2;k=0"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-23-A-V4-N2",
+              "compact_instance_signature": "ivt:a=0;b=5;fa=-1;fb=2;k=0"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "R1",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-22",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Determine finite limits at positive and negative infinity and connect them to horizontal asymptotes/end behavior.",
+          "family_id": "CALC-U2-S22-END-BEHAVIOR",
+          "family_label": "S22 END BEHAVIOR",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.14",
+            "1.15"
+          ],
+          "mathematical_practice": "Procedures / Representations",
+          "textbook_section": "2.2",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-23-A-SCR-R1",
+          "screen_instance_signature": "end-equal-deg:p=8;q=4",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-23-A-V1-R1",
+              "compact_instance_signature": "end-equal-deg:p=3;q=6"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-23-A-V2-R1",
+              "compact_instance_signature": "end-equal-deg:p=4;q=6"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-23-A-V3-R1",
+              "compact_instance_signature": "end-equal-deg:p=5;q=6"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-23-A-V4-R1",
+              "compact_instance_signature": "end-equal-deg:p=6;q=6"
+            }
+          ],
+          "source_section_id": "2.2",
+          "source_ticket": "B",
+          "source_evidence_slot": "N1",
+          "source_family_id": "CALC-U2-S22-END-BEHAVIOR"
+        },
+        {
+          "evidence_slot": "R2",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-22",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Determine infinite one-sided limits at a vertical asymptote and describe left/right behavior.",
+          "family_id": "CALC-U2-S22-VERTICAL-BEHAVIOR",
+          "family_label": "S22 VERTICAL BEHAVIOR",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.14",
+            "1.15"
+          ],
+          "mathematical_practice": "Representations / Communication",
+          "textbook_section": "2.2",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-23-A-SCR-R2",
+          "screen_instance_signature": "vertical:a=-2;A=1",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-23-A-V1-R2",
+              "compact_instance_signature": "vertical:a=2;A=2"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-23-A-V2-R2",
+              "compact_instance_signature": "vertical:a=3;A=2"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-23-A-V3-R2",
+              "compact_instance_signature": "vertical:a=4;A=2"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-23-A-V4-R2",
+              "compact_instance_signature": "vertical:a=-4;A=3"
+            }
+          ],
+          "source_section_id": "2.2",
+          "source_ticket": "B",
+          "source_evidence_slot": "N2",
+          "source_family_id": "CALC-U2-S22-VERTICAL-BEHAVIOR"
+        }
+      ]
+    },
+    {
+      "section_id": "2.3",
+      "ticket": "B",
+      "textbook_title": "Continuity",
+      "evidence": [
+        {
+          "evidence_slot": "N1",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-23",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Apply the definition of continuity to determine a parameter or extension value that makes a function continuous.",
+          "family_id": "CALC-U2-S23-CONTINUITY-PARAMETER",
+          "family_label": "S23 CONTINUITY PARAMETER",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.10",
+            "1.11",
+            "1.12"
+          ],
+          "mathematical_practice": "Procedures / Reasoning",
+          "textbook_section": "2.3",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-23-B-SCR-N1",
+          "screen_instance_signature": "continuity-k:a=3;r=7;scale=5",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-23-B-V1-N1",
+              "compact_instance_signature": "continuity-k:a=2;r=5;scale=6"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-23-B-V2-N1",
+              "compact_instance_signature": "continuity-k:a=3;r=5;scale=6"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-23-B-V3-N1",
+              "compact_instance_signature": "continuity-k:a=4;r=5;scale=6"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-23-B-V4-N1",
+              "compact_instance_signature": "continuity-k:a=1;r=7;scale=6"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "N2",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-23",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Use the Intermediate Value Theorem to justify existence of an input producing a specified output.",
+          "family_id": "CALC-U2-S23-IVT-EXISTENCE",
+          "family_label": "S23 IVT EXISTENCE",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.13",
+            "1.16"
+          ],
+          "mathematical_practice": "Reasoning / Communication",
+          "textbook_section": "2.3",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-23-B-SCR-N2",
+          "screen_instance_signature": "ivt:a=2;b=5;fa=-3;fb=2;k=0",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-23-B-V1-N2",
+              "compact_instance_signature": "ivt:a=1;b=7;fa=-3;fb=2;k=0"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-23-B-V2-N2",
+              "compact_instance_signature": "ivt:a=2;b=8;fa=-3;fb=2;k=0"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-23-B-V3-N2",
+              "compact_instance_signature": "ivt:a=3;b=9;fa=-3;fb=2;k=0"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-23-B-V4-N2",
+              "compact_instance_signature": "ivt:a=0;b=3;fa=-2;fb=2;k=0"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "R1",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-23",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Apply the definition of continuity to determine a parameter or extension value that makes a function continuous.",
+          "family_id": "CALC-U2-S23-CONTINUITY-PARAMETER",
+          "family_label": "S23 CONTINUITY PARAMETER",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.10",
+            "1.11",
+            "1.12"
+          ],
+          "mathematical_practice": "Procedures / Reasoning",
+          "textbook_section": "2.3",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-23-B-SCR-R1",
+          "screen_instance_signature": "continuity-k:a=3;r=2;scale=6",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-23-B-V1-R1",
+              "compact_instance_signature": "continuity-k:a=2;r=1;scale=1"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-23-B-V2-R1",
+              "compact_instance_signature": "continuity-k:a=3;r=1;scale=1"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-23-B-V3-R1",
+              "compact_instance_signature": "continuity-k:a=4;r=1;scale=1"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-23-B-V4-R1",
+              "compact_instance_signature": "continuity-k:a=1;r=2;scale=1"
+            }
+          ],
+          "source_section_id": "2.3",
+          "source_ticket": "A",
+          "source_evidence_slot": "N1",
+          "source_family_id": "CALC-U2-S23-CONTINUITY-PARAMETER"
+        },
+        {
+          "evidence_slot": "R2",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-23",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Use the Intermediate Value Theorem to justify existence of an input producing a specified output.",
+          "family_id": "CALC-U2-S23-IVT-EXISTENCE",
+          "family_label": "S23 IVT EXISTENCE",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.13",
+            "1.16"
+          ],
+          "mathematical_practice": "Reasoning / Communication",
+          "textbook_section": "2.3",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-23-B-SCR-R2",
+          "screen_instance_signature": "ivt:a=2;b=7;fa=-3;fb=8;k=2",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-23-B-V1-R2",
+              "compact_instance_signature": "ivt:a=1;b=5;fa=-2;fb=8;k=2"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-23-B-V2-R2",
+              "compact_instance_signature": "ivt:a=2;b=6;fa=-2;fb=8;k=2"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-23-B-V3-R2",
+              "compact_instance_signature": "ivt:a=3;b=7;fa=-2;fb=8;k=2"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-23-B-V4-R2",
+              "compact_instance_signature": "ivt:a=0;b=5;fa=-2;fb=8;k=2"
+            }
+          ],
+          "source_section_id": "2.3",
+          "source_ticket": "A",
+          "source_evidence_slot": "N2",
+          "source_family_id": "CALC-U2-S23-IVT-EXISTENCE"
+        }
+      ]
+    },
+    {
+      "section_id": "2.4",
+      "ticket": "A",
+      "textbook_title": "Rates of Change and Tangent Lines",
+      "evidence": [
+        {
+          "evidence_slot": "N1",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-24",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Use a difference quotient limit to find the instantaneous slope/rate at a point.",
+          "family_id": "CALC-U2-S24-DIFFERENCE-QUOTIENT",
+          "family_label": "S24 DIFFERENCE QUOTIENT",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "2.1",
+            "2.2"
+          ],
+          "mathematical_practice": "Procedures / Reasoning",
+          "textbook_section": "2.4",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-24-A-SCR-N1",
+          "screen_instance_signature": "diffquot:a=1;c=1",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-24-A-V1-N1",
+              "compact_instance_signature": "diffquot:a=2;c=5"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-24-A-V2-N1",
+              "compact_instance_signature": "diffquot:a=3;c=5"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-24-A-V3-N1",
+              "compact_instance_signature": "diffquot:a=4;c=5"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-24-A-V4-N1",
+              "compact_instance_signature": "diffquot:a=5;c=5"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "N2",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-24",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Use the slope at a point to write tangent and normal line equations.",
+          "family_id": "CALC-U2-S24-TANGENT-NORMAL",
+          "family_label": "S24 TANGENT NORMAL",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "2.1",
+            "2.2"
+          ],
+          "mathematical_practice": "Procedures / Communication",
+          "textbook_section": "2.4",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-24-A-SCR-N2",
+          "screen_instance_signature": "tangent-normal:a=3;c=2;k=4",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-24-A-V1-N2",
+              "compact_instance_signature": "tangent-normal:a=2;c=-1;k=1"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-24-A-V2-N2",
+              "compact_instance_signature": "tangent-normal:a=3;c=-1;k=1"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-24-A-V3-N2",
+              "compact_instance_signature": "tangent-normal:a=4;c=-1;k=1"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-24-A-V4-N2",
+              "compact_instance_signature": "tangent-normal:a=1;c=2;k=1"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "R1",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-23",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Apply the definition of continuity to determine a parameter or extension value that makes a function continuous.",
+          "family_id": "CALC-U2-S23-CONTINUITY-PARAMETER",
+          "family_label": "S23 CONTINUITY PARAMETER",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.10",
+            "1.11",
+            "1.12"
+          ],
+          "mathematical_practice": "Procedures / Reasoning",
+          "textbook_section": "2.3",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-24-A-SCR-R1",
+          "screen_instance_signature": "continuity-k:a=3;r=7;scale=4",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-24-A-V1-R1",
+              "compact_instance_signature": "continuity-k:a=2;r=5;scale=5"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-24-A-V2-R1",
+              "compact_instance_signature": "continuity-k:a=3;r=5;scale=5"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-24-A-V3-R1",
+              "compact_instance_signature": "continuity-k:a=4;r=5;scale=5"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-24-A-V4-R1",
+              "compact_instance_signature": "continuity-k:a=1;r=7;scale=5"
+            }
+          ],
+          "source_section_id": "2.3",
+          "source_ticket": "B",
+          "source_evidence_slot": "N1",
+          "source_family_id": "CALC-U2-S23-CONTINUITY-PARAMETER"
+        },
+        {
+          "evidence_slot": "R2",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-23",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Use the Intermediate Value Theorem to justify existence of an input producing a specified output.",
+          "family_id": "CALC-U2-S23-IVT-EXISTENCE",
+          "family_label": "S23 IVT EXISTENCE",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "1.13",
+            "1.16"
+          ],
+          "mathematical_practice": "Reasoning / Communication",
+          "textbook_section": "2.3",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-24-A-SCR-R2",
+          "screen_instance_signature": "ivt:a=2;b=5;fa=-5;fb=2;k=0",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-24-A-V1-R2",
+              "compact_instance_signature": "ivt:a=1;b=7;fa=-5;fb=2;k=0"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-24-A-V2-R2",
+              "compact_instance_signature": "ivt:a=2;b=8;fa=-5;fb=2;k=0"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-24-A-V3-R2",
+              "compact_instance_signature": "ivt:a=3;b=9;fa=-5;fb=2;k=0"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-24-A-V4-R2",
+              "compact_instance_signature": "ivt:a=0;b=3;fa=-3;fb=2;k=0"
+            }
+          ],
+          "source_section_id": "2.3",
+          "source_ticket": "B",
+          "source_evidence_slot": "N2",
+          "source_family_id": "CALC-U2-S23-IVT-EXISTENCE"
+        }
+      ]
+    },
+    {
+      "section_id": "2.4",
+      "ticket": "B",
+      "textbook_title": "Rates of Change and Tangent Lines",
+      "evidence": [
+        {
+          "evidence_slot": "N1",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-24",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Use a difference quotient limit to find the instantaneous slope/rate at a point.",
+          "family_id": "CALC-U2-S24-DIFFERENCE-QUOTIENT",
+          "family_label": "S24 DIFFERENCE QUOTIENT",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "2.1",
+            "2.2"
+          ],
+          "mathematical_practice": "Procedures / Reasoning",
+          "textbook_section": "2.4",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-24-B-SCR-N1",
+          "screen_instance_signature": "diffquot:a=5;c=1",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-24-B-V1-N1",
+              "compact_instance_signature": "diffquot:a=1;c=-4"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-24-B-V2-N1",
+              "compact_instance_signature": "diffquot:a=2;c=-4"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-24-B-V3-N1",
+              "compact_instance_signature": "diffquot:a=3;c=-4"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-24-B-V4-N1",
+              "compact_instance_signature": "diffquot:a=4;c=-4"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "N2",
+          "role": "new",
+          "mastery_goal_id": "CALC-U2-24",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Use the slope at a point to write tangent and normal line equations.",
+          "family_id": "CALC-U2-S24-TANGENT-NORMAL",
+          "family_label": "S24 TANGENT NORMAL",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "2.1",
+            "2.2"
+          ],
+          "mathematical_practice": "Procedures / Communication",
+          "textbook_section": "2.4",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-24-B-SCR-N2",
+          "screen_instance_signature": "tangent-normal:a=3;c=-3;k=3",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-24-B-V1-N2",
+              "compact_instance_signature": "tangent-normal:a=2;c=4;k=3"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-24-B-V2-N2",
+              "compact_instance_signature": "tangent-normal:a=3;c=4;k=3"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-24-B-V3-N2",
+              "compact_instance_signature": "tangent-normal:a=4;c=4;k=3"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-24-B-V4-N2",
+              "compact_instance_signature": "tangent-normal:a=1;c=-3;k=4"
+            }
+          ]
+        },
+        {
+          "evidence_slot": "R1",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-24",
+          "primary_i_can_id": "N1",
+          "evidence_job": "Use a difference quotient limit to find the instantaneous slope/rate at a point.",
+          "family_id": "CALC-U2-S24-DIFFERENCE-QUOTIENT",
+          "family_label": "S24 DIFFERENCE QUOTIENT",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "2.1",
+            "2.2"
+          ],
+          "mathematical_practice": "Procedures / Reasoning",
+          "textbook_section": "2.4",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-24-B-SCR-R1",
+          "screen_instance_signature": "diffquot:a=4;c=3",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-24-B-V1-R1",
+              "compact_instance_signature": "diffquot:a=5;c=-4"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-24-B-V2-R1",
+              "compact_instance_signature": "diffquot:a=1;c=-2"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-24-B-V3-R1",
+              "compact_instance_signature": "diffquot:a=2;c=-2"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-24-B-V4-R1",
+              "compact_instance_signature": "diffquot:a=3;c=-2"
+            }
+          ],
+          "source_section_id": "2.4",
+          "source_ticket": "A",
+          "source_evidence_slot": "N1",
+          "source_family_id": "CALC-U2-S24-DIFFERENCE-QUOTIENT"
+        },
+        {
+          "evidence_slot": "R2",
+          "role": "reassessment",
+          "mastery_goal_id": "CALC-U2-24",
+          "primary_i_can_id": "N2",
+          "evidence_job": "Use the slope at a point to write tangent and normal line equations.",
+          "family_id": "CALC-U2-S24-TANGENT-NORMAL",
+          "family_label": "S24 TANGENT NORMAL",
+          "question_structure_id": "constructed_response",
+          "response_mode": "constructed_response",
+          "representation_mode": "text/equation/table as rendered",
+          "ap_topics": [
+            "2.1",
+            "2.2"
+          ],
+          "mathematical_practice": "Procedures / Communication",
+          "textbook_section": "2.4",
+          "source_type": "adapted_parallel",
+          "source_reference": "Video Notes / Exercises / Textbook Chapter 2",
+          "source_treatment": "Fresh parallel preserving the source mathematical job; not verbatim.",
+          "screen_question_id": "CALC-U2-24-B-SCR-R2",
+          "screen_instance_signature": "tangent-normal:a=3;c=2;k=3",
+          "print_versions": [
+            {
+              "version": 1,
+              "visible_question_position": 4,
+              "question_id": "CALC-U2-24-B-V1-R2",
+              "compact_instance_signature": "tangent-normal:a=2;c=-1;k=4"
+            },
+            {
+              "version": 2,
+              "visible_question_position": 3,
+              "question_id": "CALC-U2-24-B-V2-R2",
+              "compact_instance_signature": "tangent-normal:a=3;c=-1;k=4"
+            },
+            {
+              "version": 3,
+              "visible_question_position": 2,
+              "question_id": "CALC-U2-24-B-V3-R2",
+              "compact_instance_signature": "tangent-normal:a=4;c=-1;k=4"
+            },
+            {
+              "version": 4,
+              "visible_question_position": 1,
+              "question_id": "CALC-U2-24-B-V4-R2",
+              "compact_instance_signature": "tangent-normal:a=1;c=2;k=4"
+            }
+          ],
+          "source_section_id": "2.4",
+          "source_ticket": "A",
+          "source_evidence_slot": "N2",
+          "source_family_id": "CALC-U2-S24-TANGENT-NORMAL"
+        }
+      ]
+    }
+  ]
+}

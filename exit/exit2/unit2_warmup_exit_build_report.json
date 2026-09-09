@@ -1,0 +1,133 @@
+{
+  "build": "AP Calculus AB Textbook Unit 2 Warm-Ups + Exit Tickets",
+  "warmup_rule": "Section 2.1 Day 1 exactly preserves the current Unit 1 Day 1 algebra readiness warm-up. All later warm-ups use a rolling Unit 2 rotation, mixing the newest section with retrieval from earlier Unit 2 sections.",
+  "exit_rule": "Algebra 1 philosophy adapted directly: two tickets per section; N1/N2 are current-section evidence; R1/R2 reassess the immediately previous official ticket N1/N2; four same-day print versions rotate evidence positions cyclically. Section 2.1 Ticket A uses two opening-new jobs because no prior AP Calculus exit chain exists.",
+  "evidence_jobs": {
+    "2.1": {
+      "N1": {
+        "family": "CALC-U2-S21-LIMIT-ALG",
+        "job": "Evaluate a finite limit algebraically by selecting and executing an appropriate simplification strategy.",
+        "ap_topics": [
+          "1.5",
+          "1.6",
+          "1.7"
+        ],
+        "practice": "Procedures / Representations"
+      },
+      "N2": {
+        "family": "CALC-U2-S21-RATE-INSTANT",
+        "job": "Connect average rates on shrinking intervals to an instantaneous rate of change.",
+        "ap_topics": [
+          "1.1",
+          "1.2",
+          "1.3"
+        ],
+        "practice": "Representations / Communication"
+      },
+      "O1": {
+        "family": "CALC-U2-S21-LIMIT-VS-VALUE",
+        "job": "Distinguish the limiting value from the actual function value at the approached input.",
+        "ap_topics": [
+          "1.2",
+          "1.4"
+        ],
+        "practice": "Communication / Reasoning"
+      },
+      "O2": {
+        "family": "CALC-U2-S21-DNE-ONESIDED",
+        "job": "Use one-sided behavior to determine whether a two-sided limit exists.",
+        "ap_topics": [
+          "1.4",
+          "1.7"
+        ],
+        "practice": "Reasoning / Communication"
+      }
+    },
+    "2.2": {
+      "N1": {
+        "family": "CALC-U2-S22-END-BEHAVIOR",
+        "job": "Determine finite limits at positive and negative infinity and connect them to horizontal asymptotes/end behavior.",
+        "ap_topics": [
+          "1.14",
+          "1.15"
+        ],
+        "practice": "Procedures / Representations"
+      },
+      "N2": {
+        "family": "CALC-U2-S22-VERTICAL-BEHAVIOR",
+        "job": "Determine infinite one-sided limits at a vertical asymptote and describe left/right behavior.",
+        "ap_topics": [
+          "1.14",
+          "1.15"
+        ],
+        "practice": "Representations / Communication"
+      }
+    },
+    "2.3": {
+      "N1": {
+        "family": "CALC-U2-S23-CONTINUITY-PARAMETER",
+        "job": "Apply the definition of continuity to determine a parameter or extension value that makes a function continuous.",
+        "ap_topics": [
+          "1.10",
+          "1.11",
+          "1.12"
+        ],
+        "practice": "Procedures / Reasoning"
+      },
+      "N2": {
+        "family": "CALC-U2-S23-IVT-EXISTENCE",
+        "job": "Use the Intermediate Value Theorem to justify existence of an input producing a specified output.",
+        "ap_topics": [
+          "1.13",
+          "1.16"
+        ],
+        "practice": "Reasoning / Communication"
+      }
+    },
+    "2.4": {
+      "N1": {
+        "family": "CALC-U2-S24-DIFFERENCE-QUOTIENT",
+        "job": "Use a difference quotient limit to find the instantaneous slope/rate at a point.",
+        "ap_topics": [
+          "2.1",
+          "2.2"
+        ],
+        "practice": "Procedures / Reasoning"
+      },
+      "N2": {
+        "family": "CALC-U2-S24-TANGENT-NORMAL",
+        "job": "Use the slope at a point to write tangent and normal line equations.",
+        "ap_topics": [
+          "2.1",
+          "2.2"
+        ],
+        "practice": "Procedures / Communication"
+      }
+    }
+  },
+  "qa": {
+    "warmup_sections": 4,
+    "warmup_days": 12,
+    "warmup_questions": 48,
+    "day1_exact_same": true,
+    "tickets": 8,
+    "screen_questions": 32,
+    "print_versions": 32,
+    "print_question_instances": 128,
+    "rotation_ok": true,
+    "exit_instances_total": 160,
+    "exit_instance_signatures_unique": true,
+    "rolling_chain_ok": true,
+    "files_exist": true,
+    "warmup_css_links": true,
+    "exit_css_link": true,
+    "mathjax_all": true,
+    "no_exit_answers_exposed": true,
+    "all_pass": true,
+    "notation_cleanup_pass": true,
+    "malformed_double_signs": 0,
+    "explicit_unit_variable_coefficients": 0,
+    "first_power_variable_notation": 0
+  },
+  "repair_note": "Notation cleanup: simplified subtraction of negative constants (for example x--2 to x+2), omitted coefficient 1 on variable terms (for example 1x^2 to x^2 and -1t to -t), and removed first-power notation if present. Mathematical values, evidence jobs, ticket rotation, and warm-up content are unchanged."
+}

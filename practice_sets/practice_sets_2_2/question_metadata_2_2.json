@@ -1,0 +1,2540 @@
+{
+  "schema": "question-instance-metadata-v1",
+  "course": "AP Calculus AB",
+  "textbook_unit": 2,
+  "textbook_section": "2.2",
+  "section_title": "Limits Involving Infinity",
+  "authored_question_instances": 96,
+  "render_reuse": {
+    "practice_2": "exact mirror of activity_set_1; no workspace",
+    "practice_3": "exact mirror of activity_set_2; no workspace",
+    "stations": "reuse activity sets",
+    "find_someone_who": "reuse activity sets"
+  },
+  "records": [
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 3a",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-3a",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-01",
+      "surface": "practice_1",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 4",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-4",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-02",
+      "surface": "practice_1",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 5",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-5",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-03",
+      "surface": "practice_1",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 6",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-6",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-04",
+      "surface": "practice_1",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 8",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-8",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-05",
+      "surface": "practice_1",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 9",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-9",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-06",
+      "surface": "practice_1",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 10",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-10",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-07",
+      "surface": "practice_1",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 11",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-11",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-08",
+      "surface": "practice_1",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 12",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-12",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-09",
+      "surface": "practice_1",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 13",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-13",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-10",
+      "surface": "practice_1",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 14",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-14",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-11",
+      "surface": "practice_1",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 14",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-14",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-12",
+      "surface": "practice_1",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 15",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-15",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-13",
+      "surface": "practice_1",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 16",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-16",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-14",
+      "surface": "practice_1",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 17",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-17",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-15",
+      "surface": "practice_1",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 18",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-18",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-16",
+      "surface": "practice_1",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 20",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "piecewise-four-limits",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "piecewise",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-17",
+      "surface": "practice_1",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 21",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "piecewise-four-limits",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "piecewise",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-18",
+      "surface": "practice_1",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 7-10",
+      "topics": [
+        "1.15"
+      ],
+      "family": "radical-end-limits",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-19",
+      "surface": "practice_1",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 14-15",
+      "topics": [
+        "1.14"
+      ],
+      "family": "va-justify",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-20",
+      "surface": "practice_1",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 16-19",
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-like-end-limit-sr",
+      "task_verb": "determine",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-21",
+      "surface": "practice_1",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 3e",
+      "topics": [
+        "1.15"
+      ],
+      "family": "slant-asymptote",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-22",
+      "surface": "practice_1",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 14-19",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "asymptote-synthesis",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-23",
+      "surface": "practice_1",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 16-19",
+      "topics": [
+        "1.15"
+      ],
+      "family": "end-behavior-model",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-PRACTICE_1-24",
+      "surface": "practice_1",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-va-meaning",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-01",
+      "surface": "extra_practice",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-ha-meaning",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-02",
+      "surface": "extra_practice",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-end-degree",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-03",
+      "surface": "extra_practice",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-end-leading",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-04",
+      "surface": "extra_practice",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-va-basic",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-05",
+      "surface": "extra_practice",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-one-sided-infinite",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-06",
+      "surface": "extra_practice",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.7",
+        "1.15"
+      ],
+      "family": "ap-procedure-infinity",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-07",
+      "surface": "extra_practice",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-degree-reasoning",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-08",
+      "surface": "extra_practice",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-va-sides",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-09",
+      "surface": "extra_practice",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-va-concept",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-10",
+      "surface": "extra_practice",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-ha-leading",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-11",
+      "surface": "extra_practice",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-two-ha",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-12",
+      "surface": "extra_practice",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.15",
+        "1.9"
+      ],
+      "family": "ap-bounded-over-growth",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-13",
+      "surface": "extra_practice",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-hole-vs-va",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-14",
+      "surface": "extra_practice",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "ap-both-asymptotes",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-15",
+      "surface": "extra_practice",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "ap-asymptote-language",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-16",
+      "surface": "extra_practice",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-removable-vs-va-parameter",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-17",
+      "surface": "extra_practice",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "ap-asymptote-justify",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-18",
+      "surface": "extra_practice",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-infinite-limit-conclusion",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-19",
+      "surface": "extra_practice",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.7",
+        "1.15"
+      ],
+      "family": "ap-infinity-rationalize",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-20",
+      "surface": "extra_practice",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-absolute-value-end",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-21",
+      "surface": "extra_practice",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.7",
+        "1.15"
+      ],
+      "family": "ap-end-error-analysis",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-22",
+      "surface": "extra_practice",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-slant-model",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-23",
+      "surface": "extra_practice",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "ap-construct-asymptotes",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-EXTRA_PRACTICE-24",
+      "surface": "extra_practice",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 3a",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-3a",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-01",
+      "surface": "activity_set_1",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 4",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-4",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-02",
+      "surface": "activity_set_1",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 5",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-5",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-03",
+      "surface": "activity_set_1",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 6",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-6",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-04",
+      "surface": "activity_set_1",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 8",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-8",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-05",
+      "surface": "activity_set_1",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 9",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-9",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-06",
+      "surface": "activity_set_1",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 10",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-10",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-07",
+      "surface": "activity_set_1",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 11",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-intro-11",
+      "task_verb": "evaluate",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-08",
+      "surface": "activity_set_1",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 12",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-12",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-09",
+      "surface": "activity_set_1",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 13",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-13",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-10",
+      "surface": "activity_set_1",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 14",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-14",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-11",
+      "surface": "activity_set_1",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 14",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-14",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-12",
+      "surface": "activity_set_1",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 15",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-15",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-13",
+      "surface": "activity_set_1",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 16",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-16",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-14",
+      "surface": "activity_set_1",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 17",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-17",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-15",
+      "surface": "activity_set_1",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 18",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "infinity-review-18",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-16",
+      "surface": "activity_set_1",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 20",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "piecewise-four-limits",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "piecewise",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-17",
+      "surface": "activity_set_1",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 21",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "piecewise-four-limits",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "piecewise",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-18",
+      "surface": "activity_set_1",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 7-10",
+      "topics": [
+        "1.15"
+      ],
+      "family": "radical-end-limits",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-19",
+      "surface": "activity_set_1",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 14-15",
+      "topics": [
+        "1.14"
+      ],
+      "family": "va-justify",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-20",
+      "surface": "activity_set_1",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 16-19",
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-like-end-limit-sr",
+      "task_verb": "determine",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-21",
+      "surface": "activity_set_1",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 3e",
+      "topics": [
+        "1.15"
+      ],
+      "family": "slant-asymptote",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-22",
+      "surface": "activity_set_1",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 14-19",
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "asymptote-synthesis",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-23",
+      "surface": "activity_set_1",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.2 \u2014 item 16-19",
+      "topics": [
+        "1.15"
+      ],
+      "family": "end-behavior-model",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_1-24",
+      "surface": "activity_set_1",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-va-meaning",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-01",
+      "surface": "activity_set_2",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-ha-meaning",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-02",
+      "surface": "activity_set_2",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-end-degree",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-03",
+      "surface": "activity_set_2",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-end-leading",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-04",
+      "surface": "activity_set_2",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-va-basic",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-05",
+      "surface": "activity_set_2",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-one-sided-infinite",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-06",
+      "surface": "activity_set_2",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.7",
+        "1.15"
+      ],
+      "family": "ap-procedure-infinity",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-07",
+      "surface": "activity_set_2",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-degree-reasoning",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-08",
+      "surface": "activity_set_2",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-va-sides",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-09",
+      "surface": "activity_set_2",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-va-concept",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-10",
+      "surface": "activity_set_2",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-ha-leading",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-11",
+      "surface": "activity_set_2",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-two-ha",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-12",
+      "surface": "activity_set_2",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.15",
+        "1.9"
+      ],
+      "family": "ap-bounded-over-growth",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-13",
+      "surface": "activity_set_2",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes",
+        "Connecting Multiple Representations of Limits"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-hole-vs-va",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-14",
+      "surface": "activity_set_2",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "ap-both-asymptotes",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-15",
+      "surface": "activity_set_2",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "ap-asymptote-language",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-16",
+      "surface": "activity_set_2",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-removable-vs-va-parameter",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-17",
+      "surface": "activity_set_2",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "ap-asymptote-justify",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-18",
+      "surface": "activity_set_2",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf"
+      ],
+      "topics": [
+        "1.14"
+      ],
+      "family": "ap-infinite-limit-conclusion",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-19",
+      "surface": "activity_set_2",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.7",
+        "1.15"
+      ],
+      "family": "ap-infinity-rationalize",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-20",
+      "surface": "activity_set_2",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-absolute-value-end",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-21",
+      "surface": "activity_set_2",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 5-8-20260818-000148-0defdc17-5ddb-4949-b426-9acdd5d607c8.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.7",
+        "1.15"
+      ],
+      "family": "ap-end-error-analysis",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-22",
+      "surface": "activity_set_2",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Selecting Procedures for Determining Limits",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.15"
+      ],
+      "family": "ap-slant-model",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-23",
+      "surface": "activity_set_2",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 14-20260818-000458-85807ef4-3f53-4f4e-95c8-6663d9c888c7.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 15-20260818-000317-bd47b586-3f15-4469-862f-4631d6b9c4a3.pdf"
+      ],
+      "topics": [
+        "1.14",
+        "1.15"
+      ],
+      "family": "ap-construct-asymptotes",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.2-ACTIVITY_SET_2-24",
+      "surface": "activity_set_2",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Connecting Infinite Limits and Vertical Asymptotes",
+        "Connecting Limits at Infinity and Horizontal Asymptotes"
+      ]
+    }
+  ]
+}

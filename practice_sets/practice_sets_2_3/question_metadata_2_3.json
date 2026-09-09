@@ -1,0 +1,2632 @@
+{
+  "schema": "question-instance-metadata-v1",
+  "course": "AP Calculus AB",
+  "textbook_unit": 2,
+  "textbook_section": "2.3",
+  "section_title": "Continuity",
+  "authored_question_instances": 96,
+  "render_reuse": {
+    "practice_2": "exact mirror of activity_set_1; no workspace",
+    "practice_3": "exact mirror of activity_set_2; no workspace",
+    "stations": "reuse activity sets",
+    "find_someone_who": "reuse activity sets"
+  },
+  "records": [
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 1",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-1",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-01",
+      "surface": "practice_1",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 6",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-6",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-02",
+      "surface": "practice_1",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 7",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-7",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-03",
+      "surface": "practice_1",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 8",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-8",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-04",
+      "surface": "practice_1",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 8",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-8",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-05",
+      "surface": "practice_1",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 9",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-9",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-06",
+      "surface": "practice_1",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 10",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-10",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-07",
+      "surface": "practice_1",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 11",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-11",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-08",
+      "surface": "practice_1",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 12",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-12",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-09",
+      "surface": "practice_1",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 21",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-21",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-10",
+      "surface": "practice_1",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 22",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-22",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-11",
+      "surface": "practice_1",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 23",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-23",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-12",
+      "surface": "practice_1",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 24",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-24",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-13",
+      "surface": "practice_1",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 25",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-25",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-14",
+      "surface": "practice_1",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 26",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-26",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-15",
+      "surface": "practice_1",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 27",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-27",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-16",
+      "surface": "practice_1",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 28",
+      "topics": [
+        "1.11",
+        "1.13"
+      ],
+      "family": "continuity-parameter",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-17",
+      "surface": "practice_1",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Defining Continuity at a Point",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 29",
+      "topics": [
+        "1.11",
+        "1.13"
+      ],
+      "family": "continuity-parameter",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-18",
+      "surface": "practice_1",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Defining Continuity at a Point",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 9",
+      "topics": [
+        "1.16"
+      ],
+      "family": "ivt-root",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-19",
+      "surface": "practice_1",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 9",
+      "topics": [
+        "1.16"
+      ],
+      "family": "ivt-hypothesis-failure",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-20",
+      "surface": "practice_1",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 1",
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-like-continuity-sr",
+      "task_verb": "determine",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-21",
+      "surface": "practice_1",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item properties",
+      "topics": [
+        "1.12"
+      ],
+      "family": "composition-continuity",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-22",
+      "surface": "practice_1",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Confirming Continuity over an Interval"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 9",
+      "topics": [
+        "1.16"
+      ],
+      "family": "ivt-target-value",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-23",
+      "surface": "practice_1",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 21-27",
+      "topics": [
+        "1.10",
+        "1.13"
+      ],
+      "family": "discontinuity-repair-compare",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "uploaded_exercises",
+      "source_treatment": "adapted_from_user_source",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-PRACTICE_1-24",
+      "surface": "practice_1",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.10"
+      ],
+      "family": "ap-discontinuity-type",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-01",
+      "surface": "extra_practice",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.10"
+      ],
+      "family": "ap-discontinuity-type",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-02",
+      "surface": "extra_practice",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-continuity-definition",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-03",
+      "surface": "extra_practice",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.12"
+      ],
+      "family": "ap-continuity-class",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-04",
+      "surface": "extra_practice",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Confirming Continuity over an Interval"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-continuity-parameter",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-05",
+      "surface": "extra_practice",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.13"
+      ],
+      "family": "ap-remove-hole",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-06",
+      "surface": "extra_practice",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-hypotheses",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-07",
+      "surface": "extra_practice",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-range",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-08",
+      "surface": "extra_practice",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.12"
+      ],
+      "family": "ap-rational-continuity",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-09",
+      "surface": "extra_practice",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Confirming Continuity over an Interval"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.12"
+      ],
+      "family": "ap-domain-continuity",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-10",
+      "surface": "extra_practice",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Confirming Continuity over an Interval"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.10",
+        "1.13"
+      ],
+      "family": "ap-classify-rational",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-11",
+      "surface": "extra_practice",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-piecewise-continuity",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-12",
+      "surface": "extra_practice",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-target",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-13",
+      "surface": "extra_practice",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-limitations",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-14",
+      "surface": "extra_practice",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.12"
+      ],
+      "family": "ap-continuity-properties",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-15",
+      "surface": "extra_practice",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Confirming Continuity over an Interval"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.13"
+      ],
+      "family": "ap-repair-rule",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-16",
+      "surface": "extra_practice",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.13"
+      ],
+      "family": "ap-parameter-extension",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-17",
+      "surface": "extra_practice",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-error",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-18",
+      "surface": "extra_practice",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-contrapositive",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-19",
+      "surface": "extra_practice",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.13"
+      ],
+      "family": "ap-removable-algebra",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-20",
+      "surface": "extra_practice",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-continuity-condition-diagnose",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-21",
+      "surface": "extra_practice",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-verify-continuity",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-22",
+      "surface": "extra_practice",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-multiple-targets",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-23",
+      "surface": "extra_practice",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.10",
+        "1.13"
+      ],
+      "family": "ap-construct-discontinuity",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "ap_topic_packet",
+      "source_treatment": "original_ap_aligned_adaptation",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-EXTRA_PRACTICE-24",
+      "surface": "extra_practice",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 1",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-1",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-01",
+      "surface": "activity_set_1",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 6",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-6",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-02",
+      "surface": "activity_set_1",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 7",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-7",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-03",
+      "surface": "activity_set_1",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 8",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-8",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-04",
+      "surface": "activity_set_1",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 8",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-8",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-05",
+      "surface": "activity_set_1",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 9",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-9",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-06",
+      "surface": "activity_set_1",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 10",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-10",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-07",
+      "surface": "activity_set_1",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 11",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.13",
+        "1.16"
+      ],
+      "family": "continuity-intro-11",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-08",
+      "surface": "activity_set_1",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Removing Discontinuities",
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 12",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-12",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-09",
+      "surface": "activity_set_1",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 21",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-21",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-10",
+      "surface": "activity_set_1",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 22",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-22",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-11",
+      "surface": "activity_set_1",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 23",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-23",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-12",
+      "surface": "activity_set_1",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 24",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-24",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-13",
+      "surface": "activity_set_1",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 25",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-25",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-14",
+      "surface": "activity_set_1",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 26",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-26",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-15",
+      "surface": "activity_set_1",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 27",
+      "topics": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+      ],
+      "family": "continuity-review-27",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-16",
+      "surface": "activity_set_1",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Defining Continuity at a Point",
+        "Confirming Continuity over an Interval",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 28",
+      "topics": [
+        "1.11",
+        "1.13"
+      ],
+      "family": "continuity-parameter",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-17",
+      "surface": "activity_set_1",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Defining Continuity at a Point",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 29",
+      "topics": [
+        "1.11",
+        "1.13"
+      ],
+      "family": "continuity-parameter",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-18",
+      "surface": "activity_set_1",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Defining Continuity at a Point",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 9",
+      "topics": [
+        "1.16"
+      ],
+      "family": "ivt-root",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-19",
+      "surface": "activity_set_1",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 9",
+      "topics": [
+        "1.16"
+      ],
+      "family": "ivt-hypothesis-failure",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-20",
+      "surface": "activity_set_1",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 1",
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-like-continuity-sr",
+      "task_verb": "determine",
+      "response_mode": "selected_response",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "released_like",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-21",
+      "surface": "activity_set_1",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item properties",
+      "topics": [
+        "1.12"
+      ],
+      "family": "composition-continuity",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-22",
+      "surface": "activity_set_1",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Confirming Continuity over an Interval"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 9",
+      "topics": [
+        "1.16"
+      ],
+      "family": "ivt-target-value",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-23",
+      "surface": "activity_set_1",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": "Exercises.pdf \u2014 EXERCISES 2.3 \u2014 item 21-27",
+      "topics": [
+        "1.10",
+        "1.13"
+      ],
+      "family": "discontinuity-repair-compare",
+      "task_verb": "explain",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "course",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_1-24",
+      "surface": "activity_set_1",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.10"
+      ],
+      "family": "ap-discontinuity-type",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-01",
+      "surface": "activity_set_2",
+      "question_number": 1,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.10"
+      ],
+      "family": "ap-discontinuity-type",
+      "task_verb": "identify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-02",
+      "surface": "activity_set_2",
+      "question_number": 2,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-continuity-definition",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-03",
+      "surface": "activity_set_2",
+      "question_number": 3,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.12"
+      ],
+      "family": "ap-continuity-class",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-04",
+      "surface": "activity_set_2",
+      "question_number": 4,
+      "ap_topic_names": [
+        "Confirming Continuity over an Interval"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-continuity-parameter",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-05",
+      "surface": "activity_set_2",
+      "question_number": 5,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.13"
+      ],
+      "family": "ap-remove-hole",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-06",
+      "surface": "activity_set_2",
+      "question_number": 6,
+      "ap_topic_names": [
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-hypotheses",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-07",
+      "surface": "activity_set_2",
+      "question_number": 7,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Intro",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-range",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-08",
+      "surface": "activity_set_2",
+      "question_number": 8,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.12"
+      ],
+      "family": "ap-rational-continuity",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-09",
+      "surface": "activity_set_2",
+      "question_number": 9,
+      "ap_topic_names": [
+        "Confirming Continuity over an Interval"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.12"
+      ],
+      "family": "ap-domain-continuity",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-10",
+      "surface": "activity_set_2",
+      "question_number": 10,
+      "ap_topic_names": [
+        "Confirming Continuity over an Interval"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.10",
+        "1.13"
+      ],
+      "family": "ap-classify-rational",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-11",
+      "surface": "activity_set_2",
+      "question_number": 11,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-piecewise-continuity",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-12",
+      "surface": "activity_set_2",
+      "question_number": 12,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-target",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-13",
+      "surface": "activity_set_2",
+      "question_number": 13,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-limitations",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-14",
+      "surface": "activity_set_2",
+      "question_number": 14,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.12"
+      ],
+      "family": "ap-continuity-properties",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-15",
+      "surface": "activity_set_2",
+      "question_number": 15,
+      "ap_topic_names": [
+        "Confirming Continuity over an Interval"
+      ]
+    },
+    {
+      "stage": "Review",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.13"
+      ],
+      "family": "ap-repair-rule",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP1",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 2,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-16",
+      "surface": "activity_set_2",
+      "question_number": 16,
+      "ap_topic_names": [
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.13"
+      ],
+      "family": "ap-parameter-extension",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-17",
+      "surface": "activity_set_2",
+      "question_number": 17,
+      "ap_topic_names": [
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-error",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-18",
+      "surface": "activity_set_2",
+      "question_number": 18,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-contrapositive",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-19",
+      "surface": "activity_set_2",
+      "question_number": 19,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.13"
+      ],
+      "family": "ap-removable-algebra",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-20",
+      "surface": "activity_set_2",
+      "question_number": 20,
+      "ap_topic_names": [
+        "Removing Discontinuities"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-continuity-condition-diagnose",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-21",
+      "surface": "activity_set_2",
+      "question_number": 21,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf"
+      ],
+      "topics": [
+        "1.11"
+      ],
+      "family": "ap-verify-continuity",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-22",
+      "surface": "activity_set_2",
+      "question_number": 22,
+      "ap_topic_names": [
+        "Defining Continuity at a Point"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 16-20260818-000339-06bc398b-aed4-4b76-8c7e-bd5d1fb142f2.pdf"
+      ],
+      "topics": [
+        "1.16"
+      ],
+      "family": "ap-ivt-multiple-targets",
+      "task_verb": "justify",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-23",
+      "surface": "activity_set_2",
+      "question_number": 23,
+      "ap_topic_names": [
+        "Working with the Intermediate Value Theorem (IVT)"
+      ]
+    },
+    {
+      "stage": "Mastery",
+      "source_ref": [
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 9-12-20260818-000229-eb3a7a6c-b92a-41f7-a283-ba417406e2fe.pdf",
+        "resources/aptopics/Unit_1_AP_Topics/SG_Unit 1 AP Topics 12-13-20260818-000220-8d3988de-a191-47d5-b7a7-ebe631b4a8a3.pdf"
+      ],
+      "topics": [
+        "1.10",
+        "1.13"
+      ],
+      "family": "ap-construct-discontinuity",
+      "task_verb": "determine",
+      "response_mode": "constructed",
+      "representation_mode": "analytic",
+      "calculator_policy": "not_permitted",
+      "ap_practice": "MP3",
+      "ap_exam_style": "ap_style",
+      "source_type": "teacher_authored_parallel",
+      "source_treatment": "parallel_original",
+      "dok": 3,
+      "bloom": "apply",
+      "question_key": "U2-S2.3-ACTIVITY_SET_2-24",
+      "surface": "activity_set_2",
+      "question_number": 24,
+      "ap_topic_names": [
+        "Exploring Types of Discontinuities",
+        "Removing Discontinuities"
+      ]
+    }
+  ]
+}
