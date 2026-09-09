@@ -75,7 +75,7 @@ $$f(x)=\frac{x^2-4}{x-2},\qquad x\ne2.$$
   <div class="textbook-note-head"><span class="textbook-note-kind">Definition</span><span class="textbook-note-title">Limit</span></div>
   <div class="textbook-note-body">
     <p>Assume $f$ is defined in a neighborhood of $c$ and let $c$ and $L$ be real numbers. The function <mark>$f$ has limit $L$ as $x$ approaches $c$</mark> if, given any positive number $\varepsilon$, there is a positive number $\delta$ such that for all $x$,</p>
-    <div class="display-math">$$0&lt;|x-c|&lt;\delta \;\Longrightarrow\; |f(x)-L|&lt;\varepsilon.$$</div>
+    <div class="display-math">$$0\lt |x-c|\lt \delta \;\Longrightarrow\; |f(x)-L|\lt \varepsilon.$$</div>
     <p>We write</p>
     <div class="display-math">$$\lim_{x\to c}f(x)=L.$$</div>
   </div>
@@ -155,7 +155,7 @@ $$g(x)=\begin{cases}1,&x\ne2\\0,&x=2.\end{cases}$$
 </section>
 <section class="task example"><h3>Example 8 · One-sided limits</h3>
 <p>Let</p>
-$$f(x)=\begin{cases}5-2x,&x>2\\3x+1,&x\le2.\end{cases}$$
+$$f(x)=\begin{cases}5-2x,&x\gt 2\\3x+1,&x\le2.\end{cases}$$
 <ol>
 <li>Graph $f(x)$.</li>
 </ol>
@@ -189,7 +189,7 @@ $$\lim_{x\to0}\frac{\sin x}{x}$$
 <section class="task example"><h3>Example 11 · Proving the sine limit with the Squeeze Theorem</h3>
 <p>Use the unit-circle figure to prove</p>
 $$\lim_{\theta\to0}\frac{\sin\theta}{\theta}=1.$$
-<p>First consider the right-hand limit and restrict $\theta$ so that $0<\theta<\frac{\pi}{2}$.</p>
+<p>First consider the right-hand limit and restrict $\theta$ so that $0\lt \theta\lt \frac{\pi}{2}$.</p>
 <figure class="graph-block graph-lg"><img src="figures/squeeze_unit_circle.png" alt="Unit-circle geometry with points O, Q, A, P, and T used in the squeeze theorem proof"/></figure>
 <ol type="a">
 <li>Find the area of $\triangle OAP$.</li>

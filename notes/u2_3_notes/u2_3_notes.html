@@ -46,7 +46,7 @@ window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], p
   <h2>What's To Come</h2>
   <p class="wtc-lead"><strong>PREVIEW / DECOMPOSE.</strong> Use the connected parts to see where this section is headed.</p>
   <div class="wtc-layout">
-    <div class="wtc-stimulus"><p>Let $f(x)=\begin{cases}x+1,&x<2\\k,&x=2\\5-x,&x>2.\end{cases}$</p></div>
+    <div class="wtc-stimulus"><p>Let $f(x)=\begin{cases}x+1,&x\lt 2\\k,&x=2\\5-x,&x\gt 2.\end{cases}$</p></div>
     <div class="wtc-parts"><div class="wtc-part"><h4>Part A</h4><p>Find $\displaystyle\lim_{x\to2^-}f(x)$.</p></div><div class="wtc-part"><h4>Part B</h4><p>Find $\displaystyle\lim_{x\to2^+}f(x)$. Does the two-sided limit exist?</p></div><div class="wtc-part"><h4>Part C</h4><p>What must $f(2)$ equal for the function to be continuous at $x=2$?</p></div><div class="wtc-part"><h4>Part D</h4><p>Determine the value of $k$ that makes the three continuity requirements agree.</p></div></div>
   </div>
 </section>
@@ -75,11 +75,11 @@ $$f(c),\qquad\lim_{x\to c^+}f(x),\qquad\lim_{x\to c^-}f(x),\qquad\lim_{x\to c}f(
 <ol type="a">
 <li>$\displaystyle f(x)=\frac1{x-1}$</li>
 <li>$\displaystyle g(x)=\frac{2x^2+x-6}{x+2}$</li>
-<li>$\displaystyle h(x)=\begin{cases}-2x+3,&x<1\\x^2,&x\ge1.\end{cases}$</li>
+<li>$\displaystyle h(x)=\begin{cases}-2x+3,&x\lt 1\\x^2,&x\ge1.\end{cases}$</li>
 </ol><div class="workspace" aria-label="Student work space"></div></section>
 <section class="task example"><h3>Example 5 · Choosing k for continuity at a piecewise boundary</h3>
 <p>Determine the value of $k$ that makes the function continuous on the entire real line:</p>
-$$g(x)=\begin{cases}x^2+7,&x\ge1\\x+k,&x<1.\end{cases}$$<div class="workspace" aria-label="Student work space"></div></section>
+$$g(x)=\begin{cases}x^2+7,&x\ge1\\x+k,&x\lt 1.\end{cases}$$<div class="workspace" aria-label="Student work space"></div></section>
 <section class="task example"><h3>Example 6 · Filling a removable discontinuity</h3>
 <p>Determine the value of $k$ that makes the function continuous for all real numbers:</p>
 $$h(x)=\begin{cases}\dfrac{x^4-1}{x-1},&x\ne1\\k,&x=1.\end{cases}$$<div class="workspace" aria-label="Student work space"></div></section>
@@ -123,7 +123,7 @@ $$h(x)=\begin{cases}\dfrac{x^4-1}{x-1},&x\ne1\\k,&x=1.\end{cases}$$<div class="w
 <ol>
 <li>Is $f$ continuous on $[a,b]$?</li>
 <li>Is $k$ between $f(a)$ and $f(b)$?</li>
-<li>If $a<c<b$, how many values of $c$ in this example satisfy $f(c)=k$?</li>
+<li>If $a\lt c\lt b$, how many values of $c$ in this example satisfy $f(c)=k$?</li>
 <li>Label those values on the graph as $c_1,c_2,\ldots$.</li>
 </ol><div class="workspace" aria-label="Student work space"></div></section>
 <section class="task example"><h3>Example 9 · Applying the Intermediate Value Theorem</h3>

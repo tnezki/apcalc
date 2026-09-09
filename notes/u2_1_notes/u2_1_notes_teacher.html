@@ -79,7 +79,7 @@ $$s(t)=-16t^2+h_0.$$
 <li>What value do these average velocities appear to approach as the starting time moves closer to $t=3$?</li>
 </ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
 <li><strong>Answer:</strong> Position: $s(t)=-16t^2+900$. Average velocity on $[0,3]$ is $-48$ ft/s; on $[2,3]$ it is $-80$ ft/s. On $[2.5,3]$, $[2.9,3]$, $[2.99,3]$, and $[2.999,3]$ the average velocities are $-88$, $-94.4$, $-95.84$, and $-95.984$ ft/s, approaching $-96$ ft/s.</li>
-<li><strong>Reasoning:</strong> For a starting time $a&lt;3$, the average velocity to $t=3$ simplifies to $\frac{s(3)-s(a)}{3-a}=-16(a+3)$, which approaches $-96$ as $a\to3$.</li>
+<li><strong>Reasoning:</strong> For a starting time $a\lt 3$, the average velocity to $t=3$ simplifies to $\frac{s(3)-s(a)}{3-a}=-16(a+3)$, which approaches $-96$ as $a\to3$.</li>
 <li><strong>Teaching move / listen for:</strong> Keep the negative sign tied to direction: velocity is downward, not “negative speed.”</li>
 </ul></div></section>
 <section class="task example"><h3>Example 2 · A limit near a hole</h3>
@@ -100,7 +100,7 @@ $$f(x)=\frac{x^2-4}{x-2},\qquad x\ne2.$$
 <div class="textbook-note-head"><span class="textbook-note-kind">Definition</span><span class="textbook-note-title">Limit</span></div>
 <div class="textbook-note-body">
 <p>Assume $f$ is defined in a neighborhood of $c$ and let $c$ and $L$ be real numbers. The function <mark>$f$ has limit $L$ as $x$ approaches $c$</mark> if, given any positive number $\varepsilon$, there is a positive number $\delta$ such that for all $x$,</p>
-<div class="display-math">$$0&lt;|x-c|&lt;\delta \;\Longrightarrow\; |f(x)-L|&lt;\varepsilon.$$</div>
+<div class="display-math">$$0\lt |x-c|\lt \delta \;\Longrightarrow\; |f(x)-L|\lt \varepsilon.$$</div>
 <p>We write</p>
 <div class="display-math">$$\lim_{x\to c}f(x)=L.$$</div>
 </div>
@@ -200,7 +200,7 @@ $$g(x)=\begin{cases}1,&amp;x\ne2\\0,&amp;x=2.\end{cases}$$
 </section>
 <section class="task example"><h3>Example 8 · One-sided limits</h3>
 <p>Let</p>
-$$f(x)=\begin{cases}5-2x,&amp;x&gt;2\\3x+1,&amp;x\le2.\end{cases}$$
+$$f(x)=\begin{cases}5-2x,&amp;x\gt 2\\3x+1,&amp;x\le2.\end{cases}$$
 <ol>
 <li>Graph $f(x)$.</li>
 </ol>
@@ -246,7 +246,7 @@ $$\lim_{x\to0}\frac{\sin x}{x}$$
 <section class="task example"><h3>Example 11 · Proving the sine limit with the Squeeze Theorem</h3>
 <p>Use the unit-circle figure to prove</p>
 $$\lim_{\theta\to0}\frac{\sin\theta}{\theta}=1.$$
-<p>First consider the right-hand limit and restrict $\theta$ so that $0&lt;\theta&lt;\frac{\pi}{2}$.</p>
+<p>First consider the right-hand limit and restrict $\theta$ so that $0\lt \theta\lt \frac{\pi}{2}$.</p>
 <figure class="graph-block graph-lg"><img alt="Unit-circle geometry with points O, Q, A, P, and T used in the squeeze theorem proof" src="figures/squeeze_unit_circle.png"/></figure>
 <ol type="a">
 <li>Find the area of $\triangle OAP$.</li>
@@ -260,7 +260,7 @@ $$\lim_{\theta\to0}\frac{\sin\theta}{\theta}=1.$$
 <li>Use evenness to conclude what happens to $\displaystyle\lim_{\theta\to0^-}\frac{\sin\theta}{\theta}$.</li>
 <li>Explain why $\displaystyle\lim_{\theta\to0}\frac{\sin\theta}{\theta}=1$.</li>
 </ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
-<li><strong>Answer:</strong> For $0&lt;\theta&lt;\frac\pi2$: area $\triangle OAP=\frac12\sin\theta$, sector $OAP=\frac12\theta$, and area $\triangle OAT=\frac12\tan\theta$. Thus $\frac12\sin\theta&lt;\frac12\theta&lt;\frac12\tan\theta$. Dividing by the positive quantity $\frac12\sin\theta$ gives $1&lt;\frac\theta{\sin\theta}&lt;\frac1{\cos\theta}$; taking reciprocals yields $\cos\theta&lt;\frac{\sin\theta}{\theta}&lt;1$. Both outside expressions approach $1$, so the right-hand limit is $1$. Also $\frac{\sin(-\theta)}{-\theta}=\frac{\sin\theta}{\theta}$, so the function is even and the left-hand limit is also $1$. Therefore the two-sided limit is $1$.</li>
+<li><strong>Answer:</strong> For $0\lt \theta\lt \frac\pi2$: area $\triangle OAP=\frac12\sin\theta$, sector $OAP=\frac12\theta$, and area $\triangle OAT=\frac12\tan\theta$. Thus $\frac12\sin\theta\lt \frac12\theta\lt \frac12\tan\theta$. Dividing by the positive quantity $\frac12\sin\theta$ gives $1\lt \frac\theta{\sin\theta}\lt \frac1{\cos\theta}$; taking reciprocals yields $\cos\theta\lt \frac{\sin\theta}{\theta}\lt 1$. Both outside expressions approach $1$, so the right-hand limit is $1$. Also $\frac{\sin(-\theta)}{-\theta}=\frac{\sin\theta}{\theta}$, so the function is even and the left-hand limit is also $1$. Therefore the two-sided limit is $1$.</li>
 <li><strong>Reasoning:</strong> The geometric area inequality creates the squeeze; positivity justifies division and reciprocal inequality handling.</li>
 <li><strong>Teaching move / listen for:</strong> Slow down at the inequality transformations. Students often reverse an inequality incorrectly or forget why all quantities are positive.</li>
 </ul></div></section><section class="summary ap-alignment-summary">

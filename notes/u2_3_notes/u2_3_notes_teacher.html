@@ -47,7 +47,7 @@ window.MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']], p
 <h2>What's To Come</h2>
 <p class="wtc-lead"><strong>PREVIEW / DECOMPOSE.</strong> Use the connected parts to see where this section is headed.</p>
 <div class="wtc-layout">
-<div class="wtc-stimulus"><p>Let $f(x)=\begin{cases}x+1,&amp;x&lt;2\\k,&amp;x=2\\5-x,&amp;x&gt;2.\end{cases}$</p></div>
+<div class="wtc-stimulus"><p>Let $f(x)=\begin{cases}x+1,&amp;x\lt 2\\k,&amp;x=2\\5-x,&amp;x\gt 2.\end{cases}$</p></div>
 <div class="wtc-parts"><div class="wtc-part"><h4>Part A</h4><p>Find $\displaystyle\lim_{x\to2^-}f(x)$.</p><div class="teacher-support"><strong>Teacher support</strong><ul>
 <li><strong>Answer:</strong> $\lim_{x\to2^-}f(x)=3$.</li>
 <li><strong>Reasoning:</strong> The left-hand piece is $x+1$, so nearby left-side values approach $3$.</li>
@@ -104,7 +104,7 @@ $$f(c),\qquad\lim_{x\to c^+}f(x),\qquad\lim_{x\to c^-}f(x),\qquad\lim_{x\to c}f(
 <ol type="a">
 <li>$\displaystyle f(x)=\frac1{x-1}$</li>
 <li>$\displaystyle g(x)=\frac{2x^2+x-6}{x+2}$</li>
-<li>$\displaystyle h(x)=\begin{cases}-2x+3,&amp;x&lt;1\\x^2,&amp;x\ge1.\end{cases}$</li>
+<li>$\displaystyle h(x)=\begin{cases}-2x+3,&amp;x\lt 1\\x^2,&amp;x\ge1.\end{cases}$</li>
 </ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
 <li><strong>Answer:</strong> $f(x)=\frac1{x-1}$ is continuous on $(-\infty,1)$ and $(1,\infty)$ and discontinuous at $1$. $g(x)=\frac{2x^2+x-6}{x+2}=2x-3$ for $x\ne-2$, so it has a removable discontinuity at $x=-2$ and is continuous elsewhere. The piecewise $h$ is continuous for all real $x$ because both pieces approach $1$ at $x=1$ and $h(1)=1$.</li>
 <li><strong>Reasoning:</strong> Use rational-function domain restrictions and the three-part continuity test at the piecewise boundary.</li>
@@ -112,7 +112,7 @@ $$f(c),\qquad\lim_{x\to c^+}f(x),\qquad\lim_{x\to c^-}f(x),\qquad\lim_{x\to c}f(
 </ul></div></section>
 <section class="task example"><h3>Example 5 · Choosing k for continuity at a piecewise boundary</h3>
 <p>Determine the value of $k$ that makes the function continuous on the entire real line:</p>
-$$g(x)=\begin{cases}x^2+7,&amp;x\ge1\\x+k,&amp;x&lt;1.\end{cases}$$<div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+$$g(x)=\begin{cases}x^2+7,&amp;x\ge1\\x+k,&amp;x\lt 1.\end{cases}$$<div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
 <li><strong>Answer:</strong> $k=7$.</li>
 <li><strong>Reasoning:</strong> At $x=1$, the defined/right-side value is $1^2+7=8$ and the left-hand limit is $1+k$. Set $1+k=8$.</li>
 <li><strong>Teaching move / listen for:</strong> Have students identify which side contains the equality sign and therefore determines $g(1)$.</li>
@@ -165,7 +165,7 @@ $$h(x)=\begin{cases}\dfrac{x^4-1}{x-1},&amp;x\ne1\\k,&amp;x=1.\end{cases}$$<div 
 <section class="task example"><h3>Example 8 · Interpreting the Intermediate Value Theorem from a graph</h3>
 <p>Consider the continuous function shown on the interval $[a,b]$.</p>
 <figure class="graph-block graph-lg"><img alt="Continuous wavy function on the interval from a to b with horizontal levels f(a), k, and f(b)" src="figures/ivt_reference.png"/></figure>
-<ol><li>Is $f$ continuous on $[a,b]$?</li><li>Is $k$ between $f(a)$ and $f(b)$?</li><li>If $a&lt;c&lt;b$, how many values of $c$ in this example satisfy $f(c)=k$?</li><li>Label those values on the graph as $c_1,c_2,\ldots$.</li></ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
+<ol><li>Is $f$ continuous on $[a,b]$?</li><li>Is $k$ between $f(a)$ and $f(b)$?</li><li>If $a\lt c\lt b$, how many values of $c$ in this example satisfy $f(c)=k$?</li><li>Label those values on the graph as $c_1,c_2,\ldots$.</li></ol><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
 <li><strong>Answer:</strong> Yes, the displayed function is continuous on $[a,b]$, and $k$ lies between $f(a)$ and $f(b)$. The graph crosses the horizontal level $y=k$ three times between $a$ and $b$, so there are three displayed values $c_1,c_2,c_3$ satisfying $f(c)=k$.</li>
 <li><strong>Reasoning:</strong> IVT guarantees at least one crossing; the graph happens to show three, illustrating that the theorem does not guarantee uniqueness.</li>
 <li><strong>Teaching move / listen for:</strong> Use the multiple crossings to emphasize “at least one,” not “exactly one.”</li>
@@ -174,7 +174,7 @@ $$h(x)=\begin{cases}\dfrac{x^4-1}{x-1},&amp;x\ne1\\k,&amp;x=1.\end{cases}$$<div 
 <p>Let</p>
 $$f(x)=\frac{x^2+x}{x-1}.$$
 <p>Verify that the Intermediate Value Theorem applies on $\left[\frac52,4\right]$, and find the value of $c$ guaranteed by the theorem if $f(c)=6$.</p><div aria-label="Student work space" class="workspace"></div><div class="teacher-support"><strong>Teacher support</strong><ul>
-<li><strong>Answer:</strong> On $[\frac52,4]$, the denominator $x-1$ is never zero, so $f$ is continuous. $f(\frac52)=\frac{35}{6}&lt;6$ and $f(4)=\frac{20}{3}&gt;6$, so IVT guarantees a $c$ with $f(c)=6$. Solving $\frac{c^2+c}{c-1}=6$ gives $(c-2)(c-3)=0$; the value in the interval is $c=3$.</li>
+<li><strong>Answer:</strong> On $[\frac52,4]$, the denominator $x-1$ is never zero, so $f$ is continuous. $f(\frac52)=\frac{35}{6}\lt 6$ and $f(4)=\frac{20}{3}\gt 6$, so IVT guarantees a $c$ with $f(c)=6$. Solving $\frac{c^2+c}{c-1}=6$ gives $(c-2)(c-3)=0$; the value in the interval is $c=3$.</li>
 <li><strong>Reasoning:</strong> The theorem first establishes existence; algebra then identifies the guaranteed value.</li>
 <li><strong>Teaching move / listen for:</strong> Require the continuity statement and the between-ness check before students solve the equation.</li>
 </ul></div></section><section class="summary ap-alignment-summary">
