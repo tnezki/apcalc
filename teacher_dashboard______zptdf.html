@@ -1,17 +1,20 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 
 <!-- ============================================================
      AP CALCULUS AB — TEACHER DASHBOARD
      File: dashboard.html
-     Lives at the ROOT of the algebra repo — same level as index.html.
+     Lives at the ROOT of the apcalc repo — same level as index.html.
      Rename this file to anything to obscure it from students.
+
 
      All links are RELATIVE — no leading slash, no domain, no repo
      name. The file works identically:
-       • locally  (python3 -m http.server from the algebra folder)
-       • GitHub Pages  (tnezki.github.io/algebra/...)
+       • locally  (python3 -m http.server from the apcalc folder)
+       • GitHub Pages  (tnezki.github.io/apcalc/...)
        • any other host or folder rename
+
 
      ── HOW TO EDIT ──────────────────────────────────────────────
      1. UNIT names/titles   →  edit the `units` array in <script>
@@ -23,14 +26,17 @@
      6. COLORS              →  edit :root variables in <style>
      ============================================================ -->
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AP Calculus AB — Teacher Dashboard</title>
 
+
     <!-- Tabler Icons -->
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
 
     <style>
         /* --------------------------------------------------------
@@ -51,7 +57,9 @@
             --teacher-light: #eaf3ea;
         }
 
+
         * { box-sizing: border-box; margin: 0; padding: 0; }
+
 
         body {
             font-family: Georgia, 'Times New Roman', serif;
@@ -61,11 +69,13 @@
             line-height: 1.5;
         }
 
+
         .page-wrap {
             max-width: 900px;
             margin: 0 auto;
             padding: 2rem 1.5rem 4rem;
         }
+
 
         /* ── Teacher banner ── */
         .teacher-banner {
@@ -81,6 +91,7 @@
             border-radius: 4px;
             margin-bottom: 1rem;
         }
+
 
         /* ── Page header ── */
         .page-header {
@@ -100,6 +111,7 @@
             color: var(--text-muted);
             margin-top: 4px;
         }
+
 
         /* ── Resources bar ── */
         .resources-bar {
@@ -131,8 +143,10 @@
         }
         .res-chip:hover { background: var(--gold-mid); }
 
+
         /* ── Unit block ── */
         .unit-block { margin-bottom: 2.5rem; }
+
 
         .unit-header {
             background: var(--navy);
@@ -171,6 +185,7 @@
         .unit-collapsible { display: none; }
         .unit-collapsible.open { display: block; }
 
+
         .unit-meta {
             background: #f0f3f8;
             border-left: 1px solid #c5cfe0;
@@ -198,6 +213,7 @@
         }
         .unit-meta-chip.teacher:hover { background: #c8e6c8; }
 
+
         .unit-body {
             border: 1px solid #c5cfe0;
             border-top: none;
@@ -205,9 +221,11 @@
             overflow: hidden;
         }
 
+
         /* ── Section rows ── */
         .section-row { border-top: 1px solid var(--border); }
         .section-row:first-child { border-top: none; }
+
 
         .section-head {
             display: flex;
@@ -243,6 +261,7 @@
         }
         .section-chevron.open { transform: rotate(180deg); }
 
+
         .section-body {
             display: none;
             padding: 0.6rem 1rem 0.75rem;
@@ -250,6 +269,7 @@
             border-top: 1px solid var(--border);
         }
         .section-body.open { display: block; }
+
 
         .btn-row {
             display: flex;
@@ -267,6 +287,7 @@
             width: 100%;
             margin-bottom: 3px;
         }
+
 
         /* ── Resource buttons ── */
         .r-btn {
@@ -300,13 +321,16 @@
     </style>
 </head>
 
+
 <body>
 <div class="page-wrap">
+
 
     <!-- Teacher banner -->
     <div class="teacher-banner">
         <i class="ti ti-lock" aria-hidden="true"></i>&nbsp; Teacher View
     </div>
+
 
     <!-- Page header -->
     <div class="page-header">
@@ -314,12 +338,14 @@
         <div class="page-subtitle">Manistee High School &nbsp;&middot;&nbsp; Teacher Dashboard</div>
     </div>
 
+
     <!-- ============================================================
          TOP RESOURCES BAR
          Edit hrefs below. All paths are relative to this file's
-         location (root of the algebra folder).
+         location (root of the apcalc folder).
          ============================================================ -->
     <div class="resources-bar">
+
 
         <div class="resources-bar-label">Resources</div>
         <div class="resources-bar-links">
@@ -344,9 +370,12 @@
             <a href="https://www.youtube.com/playlist?list=PL3Gnjw2fQSnH_Okp7aPcH71yC8SqHKc-o" class="res-chip" target="_blank">FRQ Videos</a>
         </div>
 
+
         <!-- ── Teacher Resources ── -->
         <div class="resources-bar-label" style="margin-top:10px;">Teacher Resources</div>
         <div class="resources-bar-links">
+            <a href="portfolio___p9rtf2/portfolio_control_panel.html?unit=1" class="res-chip" target="_blank"><b>Portfolio</b></a>
+            <a href="https://script.google.com/a/macros/manistee.org/s/AKfycbxcnTY-TfNiiPbmJh9XY-yqb9AWxwiEEhi-Fsc-NAK6cFprXVtKZ11Wye_Da0hpuRRlyQ/exec?course=AP%20Calculus%20AB" class="res-chip" target="_blank"><b>Email Portfolio Reports</b></a>
             <a href="https://docs.google.com/document/d/1QvXUsWFheXsYBYnz3dk3_YMlkLDRNXAj06kYKm--pyU/edit?usp=sharing" class="res-chip" target="_blank">Year at a Glance</a>
             <a href="https://docs.google.com/document/d/18imPwnYQjblasMS8x97DjKeNDjWNKTnOa3iBoTwCYVA/edit?usp=sharing" class="res-chip" target="_blank">Activity Structures</a>
             <a href="misc/welcomes/welcome.html" class="res-chip" target="_blank">Welcomes</a>
@@ -355,18 +384,25 @@
             <a href="https://www.flippedmath.com/" class="res-chip" target="_blank">Flipped Math</a>
         </div>
 
+
     </div><!-- end .resources-bar -->
+
+
 
 
     <!-- Units container — filled by script below -->
     <div id="units"></div>
 
+
 </div><!-- end .page-wrap -->
+
+
 
 
 <!-- ============================================================
      UNIT DATA
      ============================================================
+
 
      HOW IT WORKS
      ------------
@@ -381,13 +417,16 @@
                             studentResources  array  (navy buttons)
                             teacherResources  array  (green buttons)
 
+
      Each resource item has:
        label   string   button text
        cls     string   "primary" for bold emphasis, "" for normal
        icon    string   Tabler icon name  e.g. "ti-notes"
-       href    string   RELATIVE path from algebra root
+       href    string   RELATIVE path from apcalc root
+
 
      teacherResources skip `cls` — they always render green.
+
 
      TO ADD A SECTION LINK: find the section by title, update href.
      TO ADD A UNIT: copy a unit block, paste before the closing ],
@@ -395,9 +434,13 @@
      ============================================================ -->
 <script>
 
+
 const units = [
 
+
     
+
+
 
 
     // ============================================================
@@ -507,6 +550,7 @@ const units = [
         ]
     },
 
+
     // ============================================================
     // UNIT 2 — Linear Functions and Modeling
     // ============================================================
@@ -530,6 +574,7 @@ const units = [
             { title: "Product, Quotient, and Core Functions",               studentResources: [ { label: "Notes", cls: "primary", icon: "ti-notes", href: "notes/u2_5_notes/u2_5_notes.html" }, { label: "Practice Set", cls: "primary", icon: "ti-pencil", href: "practice_sets/practice_sets_2_5/practice_set_2_5.html" }, { label: "Demo", cls: "", icon: "ti-search", href: "demo/u2_5_demo/u2_5_demo.html" }, { label: "Investigation", cls: "", icon: "ti-search", href: "investigations/u2_5_investigation/u2_5_investigation.html" }, { label: "Activities", cls: "", icon: "ti-puzzle", href: "activities/u2_5_act1/u2_5_act1.html" }, { label: "Tarsia", cls: "", icon: "ti-puzzle", href: "practice_sets/practice_sets_2_5/tarsia_2_5_practice_3.txt" }, { label: "Blooket", cls: "", icon: "ti-puzzle", href: "practice_sets/practice_sets_2_5/blooket_2_5_practice_3.csv" }, { label: "Extra Practice", cls: "", icon: "ti-plus", href: "practice_sets/practice_sets_2_5/extra_practice_2_5.html" }, { label: "C.Y.U.", cls: "", icon: "ti-checkbox", href: "practice_sets/practice_sets_2_5/cyu_2_5.html" } ], teacherResources: [ { label: "Notes Teacher", icon: "ti-chalkboard", href: "notes/u2_5_notes/u2_5_notes_teacher.html" }, { label: "Demo Teacher", icon: "ti-search", href: "demo/u2_5_demo/u2_5_demo_teacher_guide.html" }, { label: "Invest Teacher", icon: "ti-search", href: "investigations/u2_5_investigation/u2_5_investigation_teacher_guide.html" }, { label: "PT Teacher", icon: "ti-target", href: "performance_task___5134zrt/u2_5_performance_task/u2_5_performance_task_teacher_guide.html" }, { label: "Perform Task", icon: "ti-target", href: "performance_task___5134zrt/u2_5_performance_task/u2_5_performance_task.html" }, { label: "Quick Check", icon: "ti-bolt", href: "quick_check____htq5855/u2_5_quick_check/u2_5_quick_check.html" }, { label: "Practice Set 2", icon: "ti-pencil", href: "practice_sets/practice_sets_2_5/practice_set_2_5_2.html" }, { label: "Practice Set 3", icon: "ti-pencil", href: "practice_sets/practice_sets_2_5/practice_set_2_5_3.html" }, ] },
         ]
     },
+
 
     // ============================================================
     // UNIT 3 — Systems and Constraints
@@ -555,6 +600,7 @@ const units = [
         ]
     },
 
+
     // ============================================================
     // UNIT 4 — Function Families and Transformations
     // ============================================================
@@ -578,6 +624,7 @@ const units = [
             { title: "Linearization and L'Hospital's Rule", studentResources: [ { label: "Notes", cls: "primary", icon: "ti-notes", href: "notes/u4_5_notes/u4_5_notes.html" }, { label: "Practice Set", cls: "primary", icon: "ti-pencil", href: "practice_sets/practice_sets_4_5/practice_set_4_5.html" }, { label: "Demo", cls: "", icon: "ti-search", href: "demo/u4_5_demo/u4_5_demo.html" }, { label: "Investigation", cls: "", icon: "ti-search", href: "investigations/u4_5_investigation/u4_5_investigation.html" }, { label: "Activities", cls: "", icon: "ti-puzzle", href: "activities/u4_5_act1/u4_5_act1.html" }, { label: "Tarsia", cls: "", icon: "ti-puzzle", href: "practice_sets/practice_sets_4_5/tarsia_4_5_practice_3.txt" }, { label: "Blooket", cls: "", icon: "ti-puzzle", href: "practice_sets/practice_sets_4_5/blooket_4_5_practice_3.csv" }, { label: "Extra Practice", cls: "", icon: "ti-plus", href: "practice_sets/practice_sets_4_5/extra_practice_4_5.html" }, { label: "C.Y.U.", cls: "", icon: "ti-checkbox", href: "practice_sets/practice_sets_4_5/cyu_4_5.html" } ], teacherResources: [ { label: "Notes Teacher", icon: "ti-chalkboard", href: "notes/u4_5_notes/u4_5_notes_teacher.html" }, { label: "Demo Teacher", icon: "ti-search", href: "demo/u4_5_demo/u4_5_demo_teacher_guide.html" }, { label: "Invest Teacher", icon: "ti-search", href: "investigations/u4_5_investigation/u4_5_investigation_teacher_guide.html" }, { label: "PT Teacher", icon: "ti-target", href: "performance_task___5134zrt/u4_5_performance_task/u4_5_performance_task_teacher_guide.html" }, { label: "Perform Task", icon: "ti-target", href: "performance_task___5134zrt/u4_5_performance_task/u4_5_performance_task.html" }, { label: "Quick Check", icon: "ti-bolt", href: "quick_check____htq5855/u4_5_quick_check/u4_5_quick_check.html" }, { label: "Practice Set 2", icon: "ti-pencil", href: "practice_sets/practice_sets_4_5/practice_set_4_5_2.html" }, { label: "Practice Set 3", icon: "ti-pencil", href: "practice_sets/practice_sets_4_5/practice_set_4_5_3.html" }, ] },
         ]
     },
+
 
     // ============================================================
     // UNIT 5 — Factoring and Quadratic Functions
@@ -603,6 +650,7 @@ const units = [
         ]
     },
 
+
     // ============================================================
     // UNIT 6 — Solving and Modeling with Quadratics
     // ============================================================
@@ -626,6 +674,7 @@ const units = [
             { title: "u-Substitution and Strategy",        studentResources: [ { label: "Notes", cls: "primary", icon: "ti-notes", href: "notes/u6_5_notes/u6_5_notes.html" }, { label: "Practice Set", cls: "primary", icon: "ti-pencil", href: "practice_sets/practice_sets_6_5/practice_set_6_5.html" }, { label: "Demo", cls: "", icon: "ti-search", href: "demo/u6_5_demo/u6_5_demo.html" }, { label: "Investigation", cls: "", icon: "ti-search", href: "investigations/u6_5_investigation/u6_5_investigation.html" }, { label: "Activities", cls: "", icon: "ti-puzzle", href: "activities/u6_5_act1/u6_5_act1.html" }, { label: "Tarsia", cls: "", icon: "ti-puzzle", href: "practice_sets/practice_sets_6_5/tarsia_6_5_practice_3.txt" }, { label: "Blooket", cls: "", icon: "ti-puzzle", href: "practice_sets/practice_sets_6_5/blooket_6_5_practice_3.csv" }, { label: "Extra Practice", cls: "", icon: "ti-plus", href: "practice_sets/practice_sets_6_5/extra_practice_6_5.html" }, { label: "C.Y.U.", cls: "", icon: "ti-checkbox", href: "practice_sets/practice_sets_6_5/cyu_6_5.html" } ], teacherResources: [ { label: "Notes Teacher", icon: "ti-chalkboard", href: "notes/u6_5_notes/u6_5_notes_teacher.html" }, { label: "Demo Teacher", icon: "ti-search", href: "demo/u6_5_demo/u6_5_demo_teacher_guide.html" }, { label: "Invest Teacher", icon: "ti-search", href: "investigations/u6_5_investigation/u6_5_investigation_teacher_guide.html" }, { label: "PT Teacher", icon: "ti-target", href: "performance_task___5134zrt/u6_5_performance_task/u6_5_performance_task_teacher_guide.html" }, { label: "Perform Task", icon: "ti-target", href: "performance_task___5134zrt/u6_5_performance_task/u6_5_performance_task.html" }, { label: "Quick Check", icon: "ti-bolt", href: "quick_check____htq5855/u6_5_quick_check/u6_5_quick_check.html" }, { label: "Practice Set 2", icon: "ti-pencil", href: "practice_sets/practice_sets_6_5/practice_set_6_5_2.html" }, { label: "Practice Set 3", icon: "ti-pencil", href: "practice_sets/practice_sets_6_5/practice_set_6_5_3.html" }, ] },
         ]
     },
+
 
     // ============================================================
     // UNIT 7 — Exponential Functions and Modeling
@@ -651,6 +700,7 @@ const units = [
         ]
     },
 
+
     // ============================================================
     // UNIT 8 — Function Analysis, Modeling, and Synthesis
     // ============================================================
@@ -675,12 +725,16 @@ const units = [
         ]
     },
 
+
 ]; // end units array
+
+
 
 
 // ============================================================
 // RENDERING — no need to edit below here
 // ============================================================
+
 
 function buildUnit(u) {
     const metaHTML = u.meta.map(function(m) {
@@ -688,9 +742,11 @@ function buildUnit(u) {
         return '<a href="' + m.href + '" class="' + cls + '" target="_blank">' + m.label + '</a>';
     }).join(' ');
 
+
     const sectionsHTML = u.sections.map(function(sec, i) {
         return buildSection(u.id, i + 1, sec);
     }).join('');
+
 
     const block = document.createElement('div');
     block.className = 'unit-block';
@@ -707,18 +763,22 @@ function buildUnit(u) {
     return block;
 }
 
+
 function buildSection(unitId, index, sec) {
     const num = unitId + '.' + index;
+
 
     const studentBtns = sec.studentResources.map(function(r) {
         return '<a href="' + r.href + '" class="r-btn ' + r.cls + '" target="_blank">' +
                '<i class="ti ' + r.icon + '"></i>' + r.label + '</a>';
     }).join(' ');
 
+
     const teacherBtns = sec.teacherResources.map(function(r) {
         return '<a href="' + r.href + '" class="r-btn teacher" target="_blank">' +
                '<i class="ti ' + r.icon + '"></i>' + r.label + '</a>';
     }).join(' ');
+
 
     return '<div class="section-row">' +
                '<div class="section-head" onclick="toggleSection(this)">' +
@@ -733,11 +793,13 @@ function buildSection(unitId, index, sec) {
            '</div>';
 }
 
+
 function toggleUnit(header) {
     const c = header.nextElementSibling;
     const v = c.classList.toggle('open');
     header.querySelector('.unit-chevron').classList.toggle('open', v);
 }
+
 
 function toggleSection(header) {
     const b = header.nextElementSibling;
@@ -745,8 +807,10 @@ function toggleSection(header) {
     header.querySelector('.section-chevron').classList.toggle('open', v);
 }
 
+
 const container = document.getElementById('units');
 units.forEach(function(u) { container.appendChild(buildUnit(u)); });
+
 
 </script>
 </body>
