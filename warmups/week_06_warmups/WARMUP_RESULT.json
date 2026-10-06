@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "package_type": "apcalc_warmup_result",
+  "week_number": 6,
+  "request_id": "seed-week-06-20261005",
+  "student_html": "week_06_warmups.html",
+  "plan": {
+    "week_number": 6,
+    "week_index": 5,
+    "school_year": "2026-2027",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-09",
+    "scheduled_instructional_warmups": 4,
+    "slots": [
+      {"number":1,"date":"2026-10-06","display_date":"10/6","source":"planner","strengthen":{"section_code":"3.1","section_title":"3.1: Derivative of a Function","calculator_policy":"No Calculator","representation":"analytic"},"retain":{"section_code":"2.4","section_title":"2.4: Rates & Tangents","calculator_policy":"Calculator Permitted","representation":"graph"}},
+      {"number":2,"date":"2026-10-07","display_date":"10/7","source":"planner","strengthen":{"section_code":"3.1","section_title":"3.1: Derivative of a Function","calculator_policy":"Calculator Permitted","representation":"numerical model"},"retain":{"section_code":"2.3","section_title":"2.3: Continuity","calculator_policy":"No Calculator","representation":"analytic"}},
+      {"number":3,"date":"2026-10-08","display_date":"10/8","source":"planner","strengthen":{"section_code":"3.2","section_title":"3.2: Differentiability","calculator_policy":"No Calculator","representation":"conceptual"},"retain":{"section_code":"2.2","section_title":"2.2: Infinity Limits","calculator_policy":"Calculator Permitted","representation":"context/model"}},
+      {"number":4,"date":"2026-10-09","display_date":"10/9","source":"planner","strengthen":{"section_code":"3.2","section_title":"3.2: Differentiability","calculator_policy":"Calculator Permitted","representation":"graph"},"retain":{"section_code":"3.1","section_title":"3.1: Derivative of a Function","calculator_policy":"No Calculator","representation":"conceptual"}},
+      {"number":5,"date":null,"display_date":"Flex","source":"flex","strengthen":{"section_code":"3.2","section_title":"3.2: Differentiability","calculator_policy":"No Calculator","representation":"mixed reasoning"},"retain":{"section_code":"2.1","section_title":"2.1: Rates & Limits","calculator_policy":"Calculator Permitted","representation":"numerical model"}}
+    ],
+    "rule": "Question 1 strengthens the current/recent Planner skill. Question 2 deliberately retains an older taught skill. One question is No Calculator and one is Calculator Permitted."
+  }
+}
