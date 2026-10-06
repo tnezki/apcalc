@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "section": "3.9",
+  "title": "Derivatives of Exponential and Logarithmic Functions",
+  "settings": {
+    "spacing": "normal",
+    "margins": "normal",
+    "workspace": 1.0,
+    "show_title": true
+  },
+  "printables": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $y=e^{2x-1}$."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.1,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $g(x)=5^{3x+1}$."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.1,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $f(x)=\\ln(1+x^2)$."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.2,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $h(x)=\\log_4(x^2+1)$."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.25,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $y=x e^{-x}$."
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.15,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $g(t)=\\ln(\\ln t)$."
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.5,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Use logarithmic differentiation to find $dy/dx$ for $y=x^{\\ln x}$, $x>0$."
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.7,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Use logarithmic differentiation to find $dy/dx$ for $y=\\dfrac{x^2(x+1)^3}{\\sqrt{x-2}}$."
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.4,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "A population is modeled by $P(t)=\\dfrac{200}{1+e^{5-t}}$. Find $P'(t)$."
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Explain what $P'(4)$ means in the context of Question 9, including units."
+        }
+      ]
+    }
+  ]
+}

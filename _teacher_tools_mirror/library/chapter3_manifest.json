@@ -1,0 +1,67 @@
+{
+  "schema": "apcalc-local-curriculum/1",
+  "chapter": 3,
+  "sections": [
+    {
+      "section": "3.1",
+      "title": "Derivative of a Function",
+      "notes": "notes/u3_1_notes/u3_1_notes.html",
+      "exercises": "exercises/u3_1_exercises/u3_1_exercises.html"
+    },
+    {
+      "section": "3.2",
+      "title": "Differentiability",
+      "notes": "notes/u3_2_notes/u3_2_notes.html",
+      "exercises": "exercises/u3_2_exercises/u3_2_exercises.html"
+    },
+    {
+      "section": "3.3",
+      "title": "Rules for Differentiation",
+      "notes": "notes/u3_3_notes/u3_3_notes.html",
+      "exercises": "exercises/u3_3_exercises/u3_3_exercises.html"
+    },
+    {
+      "section": "3.4",
+      "title": "Velocity and Other Rates of Change",
+      "notes": "notes/u3_4_notes/u3_4_notes.html",
+      "exercises": "exercises/u3_4_exercises/u3_4_exercises.html"
+    },
+    {
+      "section": "3.5",
+      "title": "Derivatives of Trigonometric Functions",
+      "notes": "notes/u3_5_notes/u3_5_notes.html",
+      "exercises": "exercises/u3_5_exercises/u3_5_exercises.html"
+    },
+    {
+      "section": "3.6",
+      "title": "The Chain Rule",
+      "notes": "notes/u3_6_notes/u3_6_notes.html",
+      "exercises": "exercises/u3_6_exercises/u3_6_exercises.html"
+    },
+    {
+      "section": "3.7",
+      "title": "Implicit Differentiation",
+      "notes": "notes/u3_7_notes/u3_7_notes.html",
+      "exercises": "exercises/u3_7_exercises/u3_7_exercises.html"
+    },
+    {
+      "section": "3.8",
+      "title": "Derivatives of Inverse Trigonometric Functions",
+      "notes": "notes/u3_8_notes/u3_8_notes.html",
+      "exercises": "exercises/u3_8_exercises/u3_8_exercises.html"
+    },
+    {
+      "section": "3.9",
+      "title": "Derivatives of Exponential and Logarithmic Functions",
+      "notes": "notes/u3_9_notes/u3_9_notes.html",
+      "exercises": "exercises/u3_9_exercises/u3_9_exercises.html"
+    }
+  ],
+  "placeholder_categories": [
+    "sets",
+    "explore",
+    "lab",
+    "warmups"
+  ],
+  "source_note": "Built from supplied Chapter 3 notes, textbook chapter, and Unit 3 exercise packet."
+}

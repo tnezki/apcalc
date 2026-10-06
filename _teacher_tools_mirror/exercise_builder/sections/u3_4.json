@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "section": "3.4",
+  "title": "Velocity and Other Rates of Change",
+  "settings": {
+    "spacing": "normal",
+    "margins": "normal",
+    "workspace": 1.0,
+    "show_title": true
+  },
+  "printables": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.1,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "A particle has position $s(t)=t^3-6t^2+9t$. Find velocity and acceleration."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.5,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "For the same particle, determine when it is moving right, moving left, and stopped for $t\\ge0$."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 0.9,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Find the particle's speed at $t=4$."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.6,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Determine when the particle from Question 1 is speeding up and slowing down."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.4,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "A projectile has height $s(t)=-16t^2+80t+6$. Find the time and height at its maximum."
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.4,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "The length of a rectangle is $2t+1$ and the height is $\\sqrt t$. Find $dA/dt$ at $t=4$ and give units."
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.15,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "If $C(x)=0.002x^3+0.1x^2+42x+300$, find and interpret $C'(40)$."
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 0.9,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "A velocity graph is below the axis on $(1,4)$ and above the axis on $(4,7)$. At what time does the particle change direction? Explain."
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 0.9,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "If $v(3)<0$ and $a(3)>0$, is the particle speeding up or slowing down? Explain."
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.25,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Boyle's Law can be written $P=k/V$. Find $dP/dV$ and explain why the rate of change of pressure is proportional to $1/V^2$."
+        }
+      ]
+    }
+  ]
+}

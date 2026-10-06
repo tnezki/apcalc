@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "section": "3.5",
+  "title": "Derivatives of Trigonometric Functions",
+  "settings": {
+    "spacing": "normal",
+    "margins": "normal",
+    "workspace": 1.0,
+    "show_title": true
+  },
+  "printables": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $y=3\\sin x-4\\cos x+2\\tan x$."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.2,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $f(x)=x^2\\sin x$."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.2,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $g(x)=\\dfrac{\\cos x}{x}$."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $h(x)=5\\sec x-2\\csc x$."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.15,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Find the tangent line to $y=\\sec x$ at $x=0$."
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "A spring has position $s(t)=5\\sin t$. Find velocity and acceleration."
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.3,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "For the spring in Question 6, find velocity, speed, and acceleration at $t=\\pi/4$."
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.15,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $y=x\\tan x+\\cos x$."
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.1,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Find $d^2y/dx^2$ if $y=\\sin x+\\cos x$."
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Explain why the standard derivative formulas for trig functions require radian measure."
+        }
+      ]
+    }
+  ]
+}

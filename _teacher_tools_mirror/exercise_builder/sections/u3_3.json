@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "section": "3.3",
+  "title": "Rules for Differentiation",
+  "settings": {
+    "spacing": "normal",
+    "margins": "normal",
+    "workspace": 1.0,
+    "show_title": true
+  },
+  "printables": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $f(x)=7x^5-4x^3+2x-9$."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.25,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Rewrite with exponents, then differentiate $g(x)=3/x^4+5\\sqrt{x}$."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.4,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Find the tangent line to $f(x)=4x^3-6x+5$ at $x=2$."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.25,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $h(x)=(x^2+1)(2x-5)$ using the product rule."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.35,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $p(x)=x^3\\sqrt{x}$ two ways: by the product rule and by simplifying first."
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.4,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $q(x)=\\dfrac{x^2+3}{x-1}$ using the quotient rule."
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.4,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $r(x)=\\dfrac{5x-2}{x^2+1}$."
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.35,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Find all points where $f(x)=x^3-3x^2-9x+4$ has a horizontal tangent."
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.5,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Find $f''(x)$ for $f(x)=x/(x-1)$."
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.25,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Find the fourth derivative of $f(x)=-5x^8+2x^6-9x^3+32x-1$."
+        }
+      ]
+    }
+  ]
+}

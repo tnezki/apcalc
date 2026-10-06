@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "section": "3.2",
+  "title": "Differentiability",
+  "settings": {
+    "spacing": "normal",
+    "margins": "normal",
+    "workspace": 1.0,
+    "show_title": true
+  },
+  "printables": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.25,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Classify the nondifferentiability of $f(x)=|x-2|$ at $x=2$: corner, cusp, vertical tangent, or discontinuity. Justify using one-sided derivatives."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.25,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Explain why $f(x)=x^{2/3}$ is continuous but not differentiable at $x=0$."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Explain why $f(x)=x^{1/3}$ has a vertical tangent at $x=0$."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.5,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Determine whether $f(x)=\\begin{cases}x+1,&x<0\\\\x^2+1,&x\\ge0\\end{cases}$ is continuous and differentiable at $0$."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.75,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Find $a$ and $b$ so that $f(x)=\\begin{cases}ax+b,&x<1\\\\x^2+1,&x\\ge1\\end{cases}$ is continuous and differentiable at $x=1$."
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "A function is differentiable at $x=5$. List three facts that must be true about limits or continuity at $x=5$."
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Give an example of a function that is continuous at $x=0$ but not differentiable there, and explain why."
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 0.9,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "If $f$ is not continuous at $x=c$, what can you conclude about differentiability at $c$? State the logical principle you are using."
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "A graph has left-hand slope approaching $+\\infty$ and right-hand slope approaching $-\\infty$ at $x=2$. Name the feature and decide whether a derivative exists."
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "A graph has left- and right-hand derivative limits both equal to $-4$. What additional condition must hold before you may conclude $f'(c)=-4$?"
+        }
+      ]
+    }
+  ]
+}

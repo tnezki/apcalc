@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AP Calculus Warmups</title>
+<style>
+:root{--navy:#173f6d;--blue:#245f91;--gold:#e0bd4f;--pale:#fff8dc;--ink:#1f2937;--muted:#64748b;--line:#d7dee8;--bg:#f4f6f9;--green:#167647;--red:#9c2f2f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Arial,Helvetica,sans-serif;color:var(--ink)}
+.wrap{width:min(1120px,calc(100% - 28px));margin:22px auto 48px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;background:var(--navy);color:#fff;border-radius:16px 16px 0 0;padding:17px 20px}.top h1{margin:0;font-size:1.4rem}.top p{margin:5px 0 0;color:#e6edf5;font-size:.83rem}.topnav{display:flex;gap:8px;flex-wrap:wrap}.topnav a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:7px 11px;font-size:.78rem;font-weight:850}
+.panel{background:#fff;border:1px solid var(--line);border-top:0;padding:20px}.purpose{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:18px}.purpose-card{border:1px solid var(--line);border-radius:13px;padding:14px 15px;background:#fbfcfe}.purpose-card strong{display:block;color:var(--navy);font-size:1rem;margin-bottom:5px}.purpose-card p{margin:0;color:var(--muted);font-size:.83rem;line-height:1.45}
+.controls{display:flex;align-items:end;gap:10px;flex-wrap:wrap;border-top:1px solid #e6e9ee;padding-top:18px}.field{display:flex;flex-direction:column;gap:5px}.field label{font-size:.75rem;font-weight:900;color:var(--navy);text-transform:uppercase;letter-spacing:.04em}select,input[type=file]{font:inherit;border:1px solid #bfc9d6;border-radius:9px;padding:9px;background:#fff}.btn{border:0;border-radius:9px;background:var(--navy);color:#fff;padding:10px 14px;font:inherit;font-weight:900;cursor:pointer}.btn:hover{background:#245f91}.btn.secondary{background:#fff;color:var(--navy);border:1px solid var(--navy)}.btn:disabled{opacity:.5;cursor:not-allowed}.spacer{flex:1}
+.status{margin:14px 0 0;padding:11px 13px;border-radius:10px;background:#f8fafc;border:1px solid var(--line);font-size:.82rem;color:#52606f;line-height:1.4}.status.good{border-color:#b7ddc8;background:#f0faf4;color:#145b37}.status.bad{border-color:#e3baba;background:#fff4f4;color:var(--red)}
+.plan{margin-top:18px}.plan h2{margin:0 0 5px;color:var(--navy);font-size:1.15rem}.plan .sub{color:var(--muted);font-size:.8rem;margin-bottom:10px}.grid{display:grid;grid-template-columns:52px 100px minmax(0,1fr) minmax(0,1fr);border:1px solid var(--line);border-radius:11px;overflow:hidden}.cell{padding:10px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);font-size:.8rem;line-height:1.4}.cell:nth-child(4n){border-right:0}.grid .head{background:#f2f5f9;font-weight:900;color:var(--navy)}.num{font-size:1.15rem;font-weight:900;color:var(--navy);text-align:center}.role{display:block;font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;font-weight:900;margin-bottom:3px;color:#6b7280}.topic{font-weight:850;color:#26364e}.badge{display:inline-block;margin-top:5px;margin-right:4px;border:1px solid #d4dbe5;border-radius:999px;padding:3px 6px;font-size:.65rem;font-weight:850;color:#52606f;background:#fff}.badge.calc{border-color:#b8cce0;color:#205680;background:#f4f8fd}.badge.no{border-color:#e0c76b;color:#725d14;background:#fffaf0}.flex{color:#8a6b0c;font-weight:800}
+.download{display:none;margin-top:12px;padding:12px 14px;border:1px solid #a8c9b5;background:#f1faf5;border-radius:10px}.download a{font-weight:900;color:var(--green)}.importbox{margin-top:20px;border-top:1px solid #e6e9ee;padding-top:18px}.importbox h2{color:var(--navy);font-size:1rem;margin:0 0 6px}.importbox p{color:var(--muted);font-size:.8rem;line-height:1.4;margin:0 0 10px}.published-link{display:none;margin-left:8px;font-weight:900;color:var(--navy)}
+@media(max-width:800px){.purpose{grid-template-columns:1fr}.grid{grid-template-columns:48px 86px 1fr}.grid .retain,.grid .retain-head{grid-column:3/4;border-top:1px dashed #d8dee7}.grid .cell:nth-child(4n){border-right:1px solid var(--line)}.grid .cell:nth-child(3n){border-right:0}}@media(max-width:560px){.wrap{width:100%;margin:0}.top{border-radius:0;align-items:flex-start;flex-direction:column}.panel{border-left:0;border-right:0}.grid{display:block}.cell{border-right:0}.head{display:none}.num{text-align:left}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><div><h1>AP Calculus Warmups</h1><p>Pace-aware weekly retrieval built from the Planner.</p></div><nav class="topnav"><a href="/warmup_builder/editor.html">Edit Warmups</a><a href="/library/?type=warmups">Library</a><a href="/planner/">Planner</a><a href="/">AP Calculus Tools</a></nav></header>
+<main class="panel">
+<section class="purpose">
+  <div class="purpose-card"><strong>Question 1 · Recent Review</strong><p>Targets the most recently taught skill before that warmup day. It never previews the lesson scheduled for that day.</p></div>
+  <div class="purpose-card"><strong>Question 2 · Spiral Review</strong><p>Spirals an older skill students have already learned. Warmup history brings neglected skills back on purpose instead of choosing randomly.</p></div>
+</section>
+<section class="controls">
+  <div class="field"><label for="week">Planner week</label><select id="week"></select></div>
+  <button class="btn secondary" id="refresh">Refresh Plan</button>
+  <div class="spacer"></div>
+  <button class="btn" id="build">Generate ChatGPT Request ZIP</button>
+</section>
+<div id="status" class="status">Loading Planner weeks…</div>
+<section class="plan" aria-live="polite">
+  <h2 id="planTitle">Warmup Plan</h2>
+  <div id="planSub" class="sub"></div>
+  <div id="planGrid" class="grid"></div>
+</section>
+<div id="download" class="download"></div>
+<section class="importbox">
+  <h2>Import finished warmups</h2>
+  <p>After ChatGPT returns the warmup result ZIP, choose it here. The app installs it into the local Library, publishes the student page into the <code>apcalc</code> repository, records the recurrence history, and refreshes the Student Agenda. GitHub Sync remains your final push step.</p>
+  <div class="controls" style="padding-top:0;border-top:0">
+    <div class="field"><label for="resultFile">Warmup result ZIP</label><input id="resultFile" type="file" accept=".zip,application/zip"></div>
+    <button class="btn" id="import">Import + Publish</button>
+    <a id="publishedLink" class="published-link" target="_blank" rel="noopener">Open published warmups ↗</a>
+  </div>
+</section>
+</main>
+</div>
+<script>
+const $=id=>document.getElementById(id);let weeks=[];let selected=0;
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function setStatus(msg,kind=''){const el=$('status');el.className='status'+(kind?' '+kind:'');el.textContent=msg}
+function badge(policy){const cls=policy==='Calculator Permitted'?'calc':'no';return `<span class="badge ${cls}">${esc(policy)}</span>`}
+function renderPlan(plan){
+  $('planTitle').textContent=`Week ${plan.week_number} Warmups`;
+  const flex=plan.slots.filter(x=>x.source==='flex').length;
+  $('planSub').textContent=`Planner week ${plan.week_start} to ${plan.week_end}. ${plan.scheduled_instructional_warmups} scheduled warmup day${plan.scheduled_instructional_warmups===1?'':'s'}${flex?`; ${flex} flex slot${flex===1?'':'s'} keep the weekly 1–5 routine consistent.`:'.'}`;
+  let html='<div class="cell head">#</div><div class="cell head">Day</div><div class="cell head">Question 1 · Recent Review</div><div class="cell head retain-head">Question 2 · Spiral Review</div>';
+  for(const s of plan.slots){
+    html+=`<div class="cell num">${s.number}</div><div class="cell ${s.source==='flex'?'flex':''}">${esc(s.display_date||'Flex')}</div>`;
+    html+=`<div class="cell"><span class="role">Recent Review</span><span class="topic">${esc(s.strengthen.section_title)}</span><br>${badge(s.strengthen.calculator_policy)}<span class="badge">${esc(s.strengthen.representation)}</span></div>`;
+    html+=`<div class="cell retain"><span class="role">Spiral Review</span><span class="topic">${esc(s.retain.section_title)}</span><br>${badge(s.retain.calculator_policy)}<span class="badge">${esc(s.retain.representation)}</span></div>`;
+  }
+  $('planGrid').innerHTML=html;
+}
+async function loadWeeks(){
+  setStatus('Loading Planner weeks…');
+  const r=await fetch('/api/warmups/weeks',{cache:'no-store'});const j=await r.json();if(!r.ok||!j.ok)throw new Error(j.error||`HTTP ${r.status}`);
+  weeks=j.weeks||[];selected=selected||j.current_week_number;
+  const sel=$('week');sel.innerHTML=weeks.map(w=>`<option value="${w.week_number}" ${w.week_number===selected?'selected':''}>Week ${w.week_number} · ${esc(w.start)}–${esc(w.end)}${w.published?' · PUBLISHED':''}</option>`).join('');
+  if(!weeks.some(w=>w.week_number===selected)&&weeks.length)selected=weeks[0].week_number;
+  sel.value=String(selected);sel.onchange=()=>{selected=Number(sel.value);loadPlan()};
+  await loadPlan();
+}
+async function loadPlan(){
+  selected=Number($('week').value||selected);setStatus(`Reading Week ${selected} from the Planner…`);
+  const r=await fetch(`/api/warmups/plan?week=${selected}`,{cache:'no-store'});const j=await r.json();if(!r.ok||!j.ok)throw new Error(j.error||`HTTP ${r.status}`);renderPlan(j.plan);
+  const info=weeks.find(w=>w.week_number===selected);if(info?.published){setStatus(`Week ${selected} is already published. Generate a new request only if you want to revise it.`,'good');$('publishedLink').style.display='inline';$('publishedLink').href=info.public_url}else{setStatus(`Week ${selected} plan is ready. Generate the request ZIP when you want ChatGPT to write the questions.`);$('publishedLink').style.display='none'}
+}
+$('refresh').onclick=()=>loadPlan().catch(e=>setStatus(e.message,'bad'));
+$('build').onclick=async()=>{try{$('build').disabled=true;setStatus(`Building Week ${selected} request ZIP…`);const r=await fetch('/api/warmups/request',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({week_number:selected})});const j=await r.json();if(!r.ok||!j.ok)throw new Error(j.error||`HTTP ${r.status}`);renderPlan(j.plan);$('download').style.display='block';$('download').innerHTML=`<strong>Request ready.</strong> <a href="${esc(j.download_url)}" download>${esc(j.filename)}</a><br><span style="font-size:.78rem;color:#52606f">Upload that ZIP to ChatGPT. The request already contains the Planner schedule, recurrence rules, and available source materials.</span>`;setStatus(j.message,'good')}catch(e){setStatus(e.message,'bad')}finally{$('build').disabled=false}};
+$('import').onclick=async()=>{const f=$('resultFile').files[0];if(!f){setStatus('Choose the warmup result ZIP first.','bad');return}try{$('import').disabled=true;setStatus(`Importing Week ${selected} warmups…`);const r=await fetch(`/api/warmups/import?week=${selected}`,{method:'POST',headers:{'Content-Type':'application/zip'},body:f});const j=await r.json();if(!r.ok||!j.ok)throw new Error(j.error||`HTTP ${r.status}`);setStatus(j.message,'good');$('publishedLink').href=j.public_url;$('publishedLink').style.display='inline';await loadWeeks()}catch(e){setStatus(e.message,'bad')}finally{$('import').disabled=false}};
+loadWeeks().catch(e=>setStatus(e.message,'bad'));
+</script>
+</body>
+</html>

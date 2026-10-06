@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "week_number": 6,
+  "title": "Week 6 Warmups",
+  "intro": "Warmups look backward, not ahead. Question 1 reviews the most recently taught skill before that day; Question 2 spirals an older skill. The lesson scheduled for that day is never previewed here.",
+  "settings": {
+    "workspace": 0.55
+  },
+  "warmups": [
+    {
+      "number": 1,
+      "label": "10/6 \u00b7 Before 3.1",
+      "questions": [
+        {
+          "id": "w1q1",
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "2.4 Rates & Tangents",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "For $f(x)=x^2+1$, which limit gives the slope of the tangent line to the graph of $f$ at $x=2$?",
+              "choices": [
+                "$\\displaystyle \\lim_{h\\to0}\\frac{f(2+h)-f(2)}{h}$",
+                "$\\displaystyle \\lim_{h\\to0}\\frac{f(2+h)-f(h)}{2}$",
+                "$\\displaystyle \\lim_{h\\to2}\\frac{f(h)-f(2)}{h}$",
+                "$\\displaystyle \\lim_{h\\to0}\\frac{f(h)-f(0)}{h}$",
+                "$\\displaystyle \\lim_{h\\to2}\\frac{f(2+h)-f(2)}{h-2}$"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "w1q2",
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "2.3 Continuity",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "A function $g$ is defined by $g(x)=\\dfrac{\\sin(x-1)}{x-1}$ for $x\\ne1$. Using numerical values near $x=1$, which value of $g(1)$ would make $g$ continuous at $x=1$?",
+              "choices": [
+                "$-1$",
+                "$0$",
+                "$0.5$",
+                "$1$",
+                "No value makes $g$ continuous."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "10/7 \u00b7 After first 3.1 lesson",
+      "questions": [
+        {
+          "id": "w2q1",
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "3.1 Derivative of a Function",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "A table gives $f(2.99)=7.9301$ and $f(3.01)=8.0701$. Which is the best estimate of the instantaneous rate of change of $f$ at $x=3$?",
+              "choices": [
+                "$0.07$",
+                "$1.40$",
+                "$7.00$",
+                "$8.00$",
+                "$14.00$"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "w2q2",
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "2.4 Rates & Tangents",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "For $p(t)=t^2-4t+7$, what is the average rate of change of $p$ on $[1,3]$?",
+              "choices": [
+                "$-4$",
+                "$-2$",
+                "$0$",
+                "$2$",
+                "$4$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "label": "10/8 \u00b7 Before 3.2",
+      "questions": [
+        {
+          "id": "w3q1",
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "3.1 Derivative of a Function",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "If $f'(x)<0$ on $(1,4)$, which statement must be true?",
+              "choices": [
+                "$f(x)<0$ on $(1,4)$",
+                "$f$ is decreasing on $(1,4)$",
+                "$f$ is concave down on $(1,4)$",
+                "$f$ has a minimum at $x=4$",
+                "$f'(x)$ is decreasing on $(1,4)$"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "w3q2",
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "2.2 Limits at Infinity",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "For $h(x)=\\dfrac{5x^2-3x+1}{2x^2+7}$, which value best describes $\\displaystyle\\lim_{x\\to\\infty}h(x)$?",
+              "choices": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$2.5$",
+                "The limit does not exist."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "10/9 \u00b7 After first 3.2 lesson",
+      "questions": [
+        {
+          "id": "w4q1",
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "3.2 Differentiability",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "A graphing calculator shows that $f(x)=|x^3-2x-1|$ has zeros near $x=-1.000$, $x=-0.618$, and $x=1.618$. At which of these values does the graph of $f$ have a corner?",
+              "choices": [
+                "$-1.000$ only",
+                "$-0.618$ only",
+                "$1.618$ only",
+                "$-1.000$ and $1.618$ only",
+                "All three values"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "w4q2",
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "3.1 Derivative Meaning",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "If $f'(c)=0$, which statement must be true?",
+              "choices": [
+                "$f(c)=0$",
+                "$f$ has a local maximum at $c$",
+                "$f$ has a local minimum at $c$",
+                "The tangent line to $y=f(x)$ at $x=c$ is horizontal",
+                "$f''(c)=0$"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "Flex \u00b7 after 3.2",
+      "questions": [
+        {
+          "id": "w5q1",
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "3.2 Differentiability",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "Suppose $f$ is differentiable at $x=4$. Which statement must be true?",
+              "choices": [
+                "$f(4)=0$",
+                "$f'(4)=0$",
+                "$f$ is continuous at $x=4$",
+                "$f$ has a local extremum at $x=4$",
+                "$f''(4)$ exists"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "w5q2",
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "2.1 Rates & Limits",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "Using a graph or table, which value is the best estimate of $\\displaystyle\\lim_{x\\to0}\\frac{e^x-1}{x}$?",
+              "choices": [
+                "$-1$",
+                "$0$",
+                "$0.5$",
+                "$1$",
+                "The limit does not exist."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

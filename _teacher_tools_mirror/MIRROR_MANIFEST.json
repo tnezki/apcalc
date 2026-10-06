@@ -1,0 +1,463 @@
+{
+  "destination": "apcalc/_teacher_tools_mirror",
+  "file_count": 91,
+  "files": [
+    {
+      "bytes": 708,
+      "path": "README.md",
+      "sha256": "93ced68fbea5470f2b2b94417059979648c0ac6694d630835407b9eb62dee755"
+    },
+    {
+      "bytes": 2975,
+      "path": "Refresh AP Calc GitHub Mirror.command",
+      "sha256": "1c998434119b24b61754d809272da561012c93c92fb089867fc4f2efeb9d8b19"
+    },
+    {
+      "bytes": 1431,
+      "path": "Restart AP Calculus Tools.command",
+      "sha256": "e0b5927f9faded1f33ab661f6a2d47a35cb8c3ce624dc119a358d70160c85fd3"
+    },
+    {
+      "bytes": 4207,
+      "path": "index.html",
+      "sha256": "46b0d53467868f3efcfe9c3a773b24df36d0fa7e57eb29d44b59d84e91f66068"
+    },
+    {
+      "bytes": 776,
+      "path": "AP Calculus Tools.app/Contents/Info.plist",
+      "sha256": "5e9c54e45427f2114b4281daf97b5fcaac9a7e01bbf7962bd001dd287e7246d1"
+    },
+    {
+      "bytes": 125,
+      "path": "AP Calculus Tools.app/Contents/MacOS/AP Calculus Tools.command",
+      "sha256": "c75952a4a4ae9693401885ab2dfa2ac540d1dddaf4a6e93faa8a6e41a94bec7a"
+    },
+    {
+      "bytes": 111361,
+      "path": "AP Calculus Tools.app/Contents/Resources/APCalcTools.icns",
+      "sha256": "01653f1efe3a6f136fd6489fe41c719efcbcb6173d1aea5dcbec09aff7190f4c"
+    },
+    {
+      "bytes": 127710,
+      "path": "app/server.py",
+      "sha256": "2ecee2f4a9e4710d3ebd24c73167d6dbdeeffc5d7e33f4028b19bfd597e4e103"
+    },
+    {
+      "bytes": 12479,
+      "path": "app/warmup_editor.py",
+      "sha256": "be77eb273747510dc0bace52a27f9aac79b7eb3ada52ade749009d3e95ba9937"
+    },
+    {
+      "bytes": 12490,
+      "path": "app/pages/exercise_builder.html",
+      "sha256": "720412da5b42d13808df0e6213cbd7125361245484ad95b1b9fc72ea57028b52"
+    },
+    {
+      "bytes": 4207,
+      "path": "app/pages/index.html",
+      "sha256": "46b0d53467868f3efcfe9c3a773b24df36d0fa7e57eb29d44b59d84e91f66068"
+    },
+    {
+      "bytes": 8361,
+      "path": "app/pages/library.html",
+      "sha256": "e6fdba4b94b9f9682441256ee70e204d3b367e51dc13f4e5e38ea5b662bce187"
+    },
+    {
+      "bytes": 30603,
+      "path": "app/pages/planner.html",
+      "sha256": "e5b451372c7722aa56974c1edb94d8556c7dd44f5ad9e806544197b0e969146f"
+    },
+    {
+      "bytes": 11442,
+      "path": "app/pages/warmup_editor.html",
+      "sha256": "e7ca0f1655aac8e43461321176a3779d2050ef98b32909338f701bc1679b3d73"
+    },
+    {
+      "bytes": 11429,
+      "path": "app/pages/warmup_generator.html",
+      "sha256": "ae139c422c3d4f803b6370853fdfb8341f3508f9f1e220500843f92d37f664e9"
+    },
+    {
+      "bytes": 782,
+      "path": "course_tools_v2/AP Calculus Tools.app/Contents/Info.plist",
+      "sha256": "f92dd0dee11de9568dce64c428077ddcab25596d327060a7f3b149fcc5131e45"
+    },
+    {
+      "bytes": 128,
+      "path": "course_tools_v2/AP Calculus Tools.app/Contents/MacOS/AP Calculus Tools.command",
+      "sha256": "3e6e16c10a2d9d85935e403c43726a38517daadf042b1b39778004acbf9b4f00"
+    },
+    {
+      "bytes": 111361,
+      "path": "course_tools_v2/AP Calculus Tools.app/Contents/Resources/APCalcTools.icns",
+      "sha256": "01653f1efe3a6f136fd6489fe41c719efcbcb6173d1aea5dcbec09aff7190f4c"
+    },
+    {
+      "bytes": 12490,
+      "path": "exercise_builder/index.html",
+      "sha256": "720412da5b42d13808df0e6213cbd7125361245484ad95b1b9fc72ea57028b52"
+    },
+    {
+      "bytes": 3892,
+      "path": "exercise_builder/sections/u3_1.json",
+      "sha256": "2998abbd03f31509a10d14edfbb0582c8df9944f43ab55734b4eb5ed29f475d0"
+    },
+    {
+      "bytes": 4058,
+      "path": "exercise_builder/sections/u3_2.json",
+      "sha256": "5718588b8313f05a39c8640f2609779eebba26fc50513193e29aee7392c446c5"
+    },
+    {
+      "bytes": 3466,
+      "path": "exercise_builder/sections/u3_3.json",
+      "sha256": "0daa4a50e1cb68108b78f070d02a664f9e25f0d3166149633e9042a3099d0989"
+    },
+    {
+      "bytes": 3773,
+      "path": "exercise_builder/sections/u3_4.json",
+      "sha256": "afc5533f2fcaf2d282ad8c4ffd7d5416fa675c4a86cf92b53a56e6f7a15545a0"
+    },
+    {
+      "bytes": 3426,
+      "path": "exercise_builder/sections/u3_5.json",
+      "sha256": "4583f2a92f65f99cff66f5675b3d43368a784b143d4c8a5eb0873751e45d688f"
+    },
+    {
+      "bytes": 3430,
+      "path": "exercise_builder/sections/u3_6.json",
+      "sha256": "a54003bb70f3273cef41cc6a116b66b179c19ae2d77741c605a08313c7732bbb"
+    },
+    {
+      "bytes": 3427,
+      "path": "exercise_builder/sections/u3_7.json",
+      "sha256": "8da4292947c531f52773238a68c48a54f4adf13181a3e61a5d911fe4fa406f17"
+    },
+    {
+      "bytes": 3445,
+      "path": "exercise_builder/sections/u3_8.json",
+      "sha256": "9abfaf64ccaa640d75466bcbc7c8c8e9bad61d0abe4234eb83337d932a4e0422"
+    },
+    {
+      "bytes": 3417,
+      "path": "exercise_builder/sections/u3_9.json",
+      "sha256": "18e84500fa5127eb63343867d33b701bfd85ea8a624dd563a64f6a98ef97ae2f"
+    },
+    {
+      "bytes": 2101,
+      "path": "library/chapter3_manifest.json",
+      "sha256": "5ca795d1852e64086ff8401cf103163207eee1be269dc966b295e0b51f91a39a"
+    },
+    {
+      "bytes": 8361,
+      "path": "library/index.html",
+      "sha256": "e6fdba4b94b9f9682441256ee70e204d3b367e51dc13f4e5e38ea5b662bce187"
+    },
+    {
+      "bytes": 2928,
+      "path": "library/exercises/index.html",
+      "sha256": "a38500f19a71b534c08743785a8e1eee792c7a8871db35570292cd2225a0ac02"
+    },
+    {
+      "bytes": 2642,
+      "path": "library/exercises/assets/student_exercises.css",
+      "sha256": "79085e759b947a4ffa1eb5b1f7a0d67ac98b3790b9d2ff4b44525e67a6b4193c"
+    },
+    {
+      "bytes": 4014,
+      "path": "library/exercises/u3_1_exercises/u3_1_exercises.html",
+      "sha256": "ed086f12b25132b89763dc312f38c721a556b6c80c8ae519bf8456e65f64975d"
+    },
+    {
+      "bytes": 4170,
+      "path": "library/exercises/u3_2_exercises/u3_2_exercises.html",
+      "sha256": "bba5be8c9c93aa921a0ae42aff806f123f7e616a01c1ab3b54a8857462f23cb1"
+    },
+    {
+      "bytes": 3594,
+      "path": "library/exercises/u3_3_exercises/u3_3_exercises.html",
+      "sha256": "e6beae70af2b52e2c044cb123989da0864386ccce28099bf8b4a04fdb2db2681"
+    },
+    {
+      "bytes": 3905,
+      "path": "library/exercises/u3_4_exercises/u3_4_exercises.html",
+      "sha256": "4df96679ba64615af4c9227bfed738b14a433ed12a30a23b9e7a6a905b820162"
+    },
+    {
+      "bytes": 3537,
+      "path": "library/exercises/u3_5_exercises/u3_5_exercises.html",
+      "sha256": "f15fc8f428598c5a10fa22a9863ec44cab455f1e8ff82833bcf9100efb3e6d54"
+    },
+    {
+      "bytes": 3551,
+      "path": "library/exercises/u3_6_exercises/u3_6_exercises.html",
+      "sha256": "b0a0d4ab3ba00dd73eab323a4fed0f2dd51337511014eb8d998d99bf91519983"
+    },
+    {
+      "bytes": 3555,
+      "path": "library/exercises/u3_7_exercises/u3_7_exercises.html",
+      "sha256": "3279fa510d3430e535e57fb0908001a81c0ef4b61f3b4143e8319833af5f6bb1"
+    },
+    {
+      "bytes": 3570,
+      "path": "library/exercises/u3_8_exercises/u3_8_exercises.html",
+      "sha256": "572135d96090b554d4c64c404d76eb59c9216c93f4deb1820dec30ce6ed6cccc"
+    },
+    {
+      "bytes": 3539,
+      "path": "library/exercises/u3_9_exercises/u3_9_exercises.html",
+      "sha256": "4b5113228adfeb85938924f0d58fcd74747e0707755703b932f55210682aaa5e"
+    },
+    {
+      "bytes": 2942,
+      "path": "library/explore/index.html",
+      "sha256": "1dc4c9a1ea0bf25b13de01c629d2c34b7f068dd45c58a6e28a0d1931968bd0c2"
+    },
+    {
+      "bytes": 864,
+      "path": "library/explore/u3_1_explore/u3_1_explore.html",
+      "sha256": "c709693c844ced6a30c5cef513689791aca9a4e8d108f0068c23e9f559f88c83"
+    },
+    {
+      "bytes": 857,
+      "path": "library/explore/u3_2_explore/u3_2_explore.html",
+      "sha256": "e08809fe5fcc5d305b57857f47c7d147f13ea1ccb41718ce89979795f761d45a"
+    },
+    {
+      "bytes": 865,
+      "path": "library/explore/u3_3_explore/u3_3_explore.html",
+      "sha256": "caab277e32ff2e416b349ba901c31155588b2e94915994ba1f0f59e8c500d13c"
+    },
+    {
+      "bytes": 874,
+      "path": "library/explore/u3_4_explore/u3_4_explore.html",
+      "sha256": "f652c19618637018e9e660772233e3f7ceab394499604e049b447d57f6fb7c3e"
+    },
+    {
+      "bytes": 878,
+      "path": "library/explore/u3_5_explore/u3_5_explore.html",
+      "sha256": "a17accf8a864277f39b108c804f9f16951cf23cf024ed1d109c8f2f07ae36bc8"
+    },
+    {
+      "bytes": 854,
+      "path": "library/explore/u3_6_explore/u3_6_explore.html",
+      "sha256": "ff83d210b587afd9bba5dbf15a0d141617e803e303d402f613d750008fc5d407"
+    },
+    {
+      "bytes": 864,
+      "path": "library/explore/u3_7_explore/u3_7_explore.html",
+      "sha256": "b0a9b219c03e1da41569d888d391ab98082579d717ad56cc1287729b96f6780e"
+    },
+    {
+      "bytes": 886,
+      "path": "library/explore/u3_8_explore/u3_8_explore.html",
+      "sha256": "ff46eedf4a426c59648bb22fe545b2c1994fca2c67f2d448a75755ffdb8c0add"
+    },
+    {
+      "bytes": 892,
+      "path": "library/explore/u3_9_explore/u3_9_explore.html",
+      "sha256": "d4e4ac1a186ab9db91c07d1f8dee53222a5f6768583aeefc58eec00a48d1d10a"
+    },
+    {
+      "bytes": 2862,
+      "path": "library/lab/index.html",
+      "sha256": "cdcf8ae0529f18c4a5d395ac272b07aacd35429424d9e92f1d946971da3a9cc6"
+    },
+    {
+      "bytes": 848,
+      "path": "library/lab/u3_1_lab/u3_1_lab.html",
+      "sha256": "ba92a3893ea605d4de20bef4742db6ffd6c8bda6c0fdd7bc12794bb8511332c6"
+    },
+    {
+      "bytes": 841,
+      "path": "library/lab/u3_2_lab/u3_2_lab.html",
+      "sha256": "38106037989c083eabf7793a166ef08db867ec56135f0d72b12d3350229c8957"
+    },
+    {
+      "bytes": 849,
+      "path": "library/lab/u3_3_lab/u3_3_lab.html",
+      "sha256": "d136143cc960d45a03f96addbfa54efd427c520441b2d673646579ace5331576"
+    },
+    {
+      "bytes": 858,
+      "path": "library/lab/u3_4_lab/u3_4_lab.html",
+      "sha256": "d981665b77c5f052a990603c35157b1813d4c843c25739ce434102e1e4f3c40d"
+    },
+    {
+      "bytes": 862,
+      "path": "library/lab/u3_5_lab/u3_5_lab.html",
+      "sha256": "d91b0994a72100d7eb27435a91d398ddd19fe7446c0c54e30fc67fbebfdeb33a"
+    },
+    {
+      "bytes": 838,
+      "path": "library/lab/u3_6_lab/u3_6_lab.html",
+      "sha256": "df2083e4eb888d9d338fd0fe85b63f0cca54b7cf7c31dda3b27c02161fda0cfc"
+    },
+    {
+      "bytes": 848,
+      "path": "library/lab/u3_7_lab/u3_7_lab.html",
+      "sha256": "97aafa629d1bfb1b56a0bf42992da15f643debaabc5551c3eba3ad40fc86e986"
+    },
+    {
+      "bytes": 870,
+      "path": "library/lab/u3_8_lab/u3_8_lab.html",
+      "sha256": "9594a2d18c34b39b40c7b818481c8ba27a78da45a921186c0f43a904ce7983ec"
+    },
+    {
+      "bytes": 876,
+      "path": "library/lab/u3_9_lab/u3_9_lab.html",
+      "sha256": "2d16944d5aa322fa0c12f199ff355d9028587a937b59dd6e54f1ab632b2df575"
+    },
+    {
+      "bytes": 2848,
+      "path": "library/notes/index.html",
+      "sha256": "8950c00ef6e0a3b78d4c2c1c7954f4e1584098fa934a7ecbaca9ae8d9dc25648"
+    },
+    {
+      "bytes": 6114,
+      "path": "library/notes/u3_1_notes/u3_1_notes.html",
+      "sha256": "6516a5262a35a423aef649a90b65ecac87afd2e1b1a27944cc695e40f7e0f21a"
+    },
+    {
+      "bytes": 5874,
+      "path": "library/notes/u3_2_notes/u3_2_notes.html",
+      "sha256": "fc0b53f1acfc8837d0546312f5914f1a7fcab85cf246777690e29e364aca2449"
+    },
+    {
+      "bytes": 5481,
+      "path": "library/notes/u3_3_notes/u3_3_notes.html",
+      "sha256": "8e130ccc4a17854b835306157ba030f1261e8188b91faa8857ed32945aadb8ff"
+    },
+    {
+      "bytes": 5772,
+      "path": "library/notes/u3_4_notes/u3_4_notes.html",
+      "sha256": "840b258222fd7b822dc7ed0d9a5bf9482edd8e589832c868c62e4a343fb4084e"
+    },
+    {
+      "bytes": 5556,
+      "path": "library/notes/u3_5_notes/u3_5_notes.html",
+      "sha256": "94ca589d422858cceaa07b679f899a79253c9676a975a02e77eee91445f6fc8d"
+    },
+    {
+      "bytes": 5321,
+      "path": "library/notes/u3_6_notes/u3_6_notes.html",
+      "sha256": "2b560b3df9e2f861e4e7e0ac1f79cf5671eea1a4617c7a057a9853a77d1fcd86"
+    },
+    {
+      "bytes": 5467,
+      "path": "library/notes/u3_7_notes/u3_7_notes.html",
+      "sha256": "cdae51295961d93da9a152415ee3158414fb5ad51b1bf80933eb8fcc2493cf35"
+    },
+    {
+      "bytes": 5633,
+      "path": "library/notes/u3_8_notes/u3_8_notes.html",
+      "sha256": "949575bfea77871f676d74f8cef23bafd3c1b844a44947d77b0ea11bb6c3f2f4"
+    },
+    {
+      "bytes": 5708,
+      "path": "library/notes/u3_9_notes/u3_9_notes.html",
+      "sha256": "3b11af835e6f3c87642995ee2e4c15519de995d5f890bb352a8f8e01a3bc7297"
+    },
+    {
+      "bytes": 2882,
+      "path": "library/sets/index.html",
+      "sha256": "97246e92495ae64f88cca90f26a75d82558f4903c3ddaa39a6726359fe5201e5"
+    },
+    {
+      "bytes": 852,
+      "path": "library/sets/u3_1_sets/u3_1_sets.html",
+      "sha256": "9e86e91deeca6d1e21187c501a489b159f138b97da0de8a3aade4f20fc4046ee"
+    },
+    {
+      "bytes": 845,
+      "path": "library/sets/u3_2_sets/u3_2_sets.html",
+      "sha256": "8a720c27cac20b5a155bf18b137c92b07076d198303ada09dbbd65178201794f"
+    },
+    {
+      "bytes": 853,
+      "path": "library/sets/u3_3_sets/u3_3_sets.html",
+      "sha256": "f875ac831b17e732087e30a8f23f35ca3541b59503bad9b18123c176e0ad3ad4"
+    },
+    {
+      "bytes": 862,
+      "path": "library/sets/u3_4_sets/u3_4_sets.html",
+      "sha256": "1e0d04cc465749f11f8900a9796df0b27c0ef1b45cffaaada110261d78525da5"
+    },
+    {
+      "bytes": 866,
+      "path": "library/sets/u3_5_sets/u3_5_sets.html",
+      "sha256": "2467ce9717acf21cb19fe8d30c62f7afb1088dc2180fe456ef2dbb3e3a853596"
+    },
+    {
+      "bytes": 842,
+      "path": "library/sets/u3_6_sets/u3_6_sets.html",
+      "sha256": "0ec83694136d1c027df3e9af149ce05f380fb36e33d1c94e35f371b541622462"
+    },
+    {
+      "bytes": 852,
+      "path": "library/sets/u3_7_sets/u3_7_sets.html",
+      "sha256": "6cd0c383161b33356c2b3a3bbbf1ae3799b29d08bc9c10bdc9c7671ff5893db7"
+    },
+    {
+      "bytes": 874,
+      "path": "library/sets/u3_8_sets/u3_8_sets.html",
+      "sha256": "ebfe1b8688ebfd939ec309a145d6212721d6d065b196540f04e8b6fc580f3359"
+    },
+    {
+      "bytes": 880,
+      "path": "library/sets/u3_9_sets/u3_9_sets.html",
+      "sha256": "0f48b1440015d44482b94f549043037392aa13f1c22615eff6b980d60a584b5a"
+    },
+    {
+      "bytes": 2942,
+      "path": "library/warmups/index.html",
+      "sha256": "5f08f3e8081ed73aa353e3b861f957ce25c6fa46f304eb069a49e7ba4bcb66be"
+    },
+    {
+      "bytes": 3703,
+      "path": "library/warmups/week_06_warmups/WARMUP_RESULT.json",
+      "sha256": "43753853731c3fb847d9bc41625bda90415afa1758e5f9b132e4f7f749070578"
+    },
+    {
+      "bytes": 9411,
+      "path": "library/warmups/week_06_warmups/week_06_warmups.html",
+      "sha256": "103c782645086c99df761408002d7b279354f8a316a5174322d17329fd25a78b"
+    },
+    {
+      "bytes": 30603,
+      "path": "planner/index.html",
+      "sha256": "e5b451372c7722aa56974c1edb94d8556c7dd44f5ad9e806544197b0e969146f"
+    },
+    {
+      "bytes": 126077,
+      "path": "planner/planner_server.py",
+      "sha256": "65066c4b9ad57b26543ce7d0613464fc790df0f9e1e1661e13e99639d94f1d38"
+    },
+    {
+      "bytes": 166745,
+      "path": "planner/planner_state.json",
+      "sha256": "26099ddd9b963394955e6d7421027e507b65e226d4561daed94c3fae70e070db"
+    },
+    {
+      "bytes": 12479,
+      "path": "planner/warmup_editor.py",
+      "sha256": "be77eb273747510dc0bace52a27f9aac79b7eb3ada52ade749009d3e95ba9937"
+    },
+    {
+      "bytes": 11442,
+      "path": "warmup_builder/editor.html",
+      "sha256": "e7ca0f1655aac8e43461321176a3779d2050ef98b32909338f701bc1679b3d73"
+    },
+    {
+      "bytes": 11429,
+      "path": "warmup_builder/index.html",
+      "sha256": "ae139c422c3d4f803b6370853fdfb8341f3508f9f1e220500843f92d37f664e9"
+    },
+    {
+      "bytes": 7716,
+      "path": "warmup_builder/weeks/week_06.json",
+      "sha256": "bcd909f803de6275915f3eb54ecf4b3d0b7926b67dafb3126919d39d5c8d9f4b"
+    }
+  ],
+  "schema_version": 1,
+  "source": "_apcalc_teacher_tools"
+}

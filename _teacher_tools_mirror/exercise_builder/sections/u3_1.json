@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "section": "3.1",
+  "title": "Derivative of a Function",
+  "settings": {
+    "spacing": "normal",
+    "margins": "normal",
+    "workspace": 1.0,
+    "show_title": true
+  },
+  "printables": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.1,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "State both limit definitions of the derivative and explain what each quotient represents geometrically."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.5,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Use the definition to find $f'(x)$ for $f(x)=x^2+2x$."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.25,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Use the alternate definition to find $f'(3)$ for $f(x)=x^2-4x+1$."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.5,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "For $f(x)=1/x$, write a difference-quotient limit for $f'(2)$ and evaluate it."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "A smooth graph is increasing on $(-\\infty,-1)$, has a horizontal tangent at $x=-1$, and is decreasing on $(-1,3)$. State the sign of $f'$ on each interval and the value of $f'(-1)$."
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Sketch a possible graph of a function whose derivative is always negative."
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.25,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Suppose $f'(x)=2$ for $x<1$ and $f'(x)=-1$ for $x>1$, with $f(0)=0$ and $f$ continuous. Sketch a possible $f$."
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.5,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "For $f(x)=\\begin{cases}x^2,&x<0\\\\3x,&x\\ge0\\end{cases}$, find the one-sided derivatives at $0$ and decide whether $f'(0)$ exists."
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.0,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "The table gives $s(2.9)=8.41$ and $s(3.1)=9.61$. Estimate $s'(3)$ with a symmetric difference quotient."
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 0.9,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Explain why knowing $f'(4)>0$ does not by itself tell you whether $f(4)$ is positive or negative."
+        }
+      ]
+    }
+  ]
+}
