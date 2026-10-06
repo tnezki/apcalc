@@ -38,9 +38,9 @@
       "sha256": "01653f1efe3a6f136fd6489fe41c719efcbcb6173d1aea5dcbec09aff7190f4c"
     },
     {
-      "bytes": 127710,
+      "bytes": 128239,
       "path": "app/server.py",
-      "sha256": "2ecee2f4a9e4710d3ebd24c73167d6dbdeeffc5d7e33f4028b19bfd597e4e103"
+      "sha256": "07299444d8d60235653f46494afe7bad31f06b610d74a23bfefd551534ab9b94"
     },
     {
       "bytes": 12479,
@@ -48,9 +48,9 @@
       "sha256": "be77eb273747510dc0bace52a27f9aac79b7eb3ada52ade749009d3e95ba9937"
     },
     {
-      "bytes": 12490,
+      "bytes": 38204,
       "path": "app/pages/exercise_builder.html",
-      "sha256": "720412da5b42d13808df0e6213cbd7125361245484ad95b1b9fc72ea57028b52"
+      "sha256": "8fb5ada7e0487ee44a6c9be092ea4dc50205c7008a42cbbd1efb547121550e23"
     },
     {
       "bytes": 4207,
@@ -68,9 +68,9 @@
       "sha256": "e5b451372c7722aa56974c1edb94d8556c7dd44f5ad9e806544197b0e969146f"
     },
     {
-      "bytes": 11442,
+      "bytes": 17412,
       "path": "app/pages/warmup_editor.html",
-      "sha256": "e7ca0f1655aac8e43461321176a3779d2050ef98b32909338f701bc1679b3d73"
+      "sha256": "44e0f4746c23b8cc48369a5a010a62915c2362456da1527899755361f2082688"
     },
     {
       "bytes": 11429,
@@ -93,9 +93,9 @@
       "sha256": "01653f1efe3a6f136fd6489fe41c719efcbcb6173d1aea5dcbec09aff7190f4c"
     },
     {
-      "bytes": 12490,
+      "bytes": 38204,
       "path": "exercise_builder/index.html",
-      "sha256": "720412da5b42d13808df0e6213cbd7125361245484ad95b1b9fc72ea57028b52"
+      "sha256": "8fb5ada7e0487ee44a6c9be092ea4dc50205c7008a42cbbd1efb547121550e23"
     },
     {
       "bytes": 3892,
@@ -158,9 +158,9 @@
       "sha256": "a38500f19a71b534c08743785a8e1eee792c7a8871db35570292cd2225a0ac02"
     },
     {
-      "bytes": 2642,
+      "bytes": 2787,
       "path": "library/exercises/assets/student_exercises.css",
-      "sha256": "79085e759b947a4ffa1eb5b1f7a0d67ac98b3790b9d2ff4b44525e67a6b4193c"
+      "sha256": "1952ba16976dd5daafc6d7f8e719dae9b96d1930b2a0ca6205d269336106ed2f"
     },
     {
       "bytes": 4014,
@@ -423,9 +423,9 @@
       "sha256": "103c782645086c99df761408002d7b279354f8a316a5174322d17329fd25a78b"
     },
     {
-      "bytes": 30603,
+      "bytes": 33341,
       "path": "planner/index.html",
-      "sha256": "e5b451372c7722aa56974c1edb94d8556c7dd44f5ad9e806544197b0e969146f"
+      "sha256": "3e33a8c725a9f67c70447d14283d73e4cac6627c2d4a8d833461b4a92de17303"
     },
     {
       "bytes": 126077,
@@ -443,9 +443,9 @@
       "sha256": "be77eb273747510dc0bace52a27f9aac79b7eb3ada52ade749009d3e95ba9937"
     },
     {
-      "bytes": 11442,
+      "bytes": 17412,
       "path": "warmup_builder/editor.html",
-      "sha256": "e7ca0f1655aac8e43461321176a3779d2050ef98b32909338f701bc1679b3d73"
+      "sha256": "44e0f4746c23b8cc48369a5a010a62915c2362456da1527899755361f2082688"
     },
     {
       "bytes": 11429,

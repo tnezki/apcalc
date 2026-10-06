@@ -833,6 +833,10 @@ def _validate_exercise_config(config: dict) -> dict:
         settings["workspace"] = max(0.0, min(5.0, float(settings.get("workspace", 1.0))))
     except Exception:
         settings["workspace"] = 1.0
+    try:
+        settings["figure_width"] = max(0.0, min(704.0, float(settings.get("figure_width", 390.0))))
+    except Exception:
+        settings["figure_width"] = 390.0
     settings["show_title"] = bool(settings.get("show_title", True))
     clean_printables = []
     for raw in config.get("printables") or []:
@@ -863,11 +867,16 @@ def _validate_exercise_config(config: dict) -> dict:
             workspace = max(0.0, min(5.0, float(raw.get("workspace", settings["workspace"]))))
         except Exception:
             workspace = settings["workspace"]
+        try:
+            figure_width = max(0.0, min(704.0, float(raw.get("figure_width", settings["figure_width"]))))
+        except Exception:
+            figure_width = settings["figure_width"]
         clean_questions.append({
             "id": str(raw.get("id") or f"q{idx}"),
             "stage": str(raw.get("stage") or "").strip(),
             "visible": bool(raw.get("visible", True)),
             "workspace": workspace,
+            "figure_width": figure_width,
             "page_break": bool(raw.get("page_break", False)),
             "active_instance": active,
             "instances": instances,
@@ -897,9 +906,9 @@ def render_exercise_student_page(config: dict) -> str:
         number += 1
         stage = f'<div class="stage">{escape(str(q.get("stage") or ""))}</div>' if q.get("stage") else ""
         page_break = " page-break" if q.get("page_break") else ""
-        blocks.append(f'<section class="question{page_break}">{stage}<div class="qtext"><span class="qnum">{number}.</span>{prompt}</div><div class="workspace" style="--local-ws:{float(q.get("workspace", settings["workspace"])):g}in"></div></section>')
+        blocks.append(f'<section class="question{page_break}" style="--local-fig:{float(q.get("figure_width", settings["figure_width"])):g}px">{stage}<div class="qtext"><span class="qnum">{number}.</span>{prompt}</div><div class="workspace" style="--local-ws:{float(q.get("workspace", settings["workspace"])):g}in"></div></section>')
     title_display = "block" if settings.get("show_title", True) else "none"
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AP Calculus AB · {escape(section)} · Exercises</title><script>window.MathJax={{tex:{{inlineMath:[["\\\\(","\\\\)"],["$","$"]],displayMath:[["\\\\[","\\\\]"],["$$","$$"]],processEscapes:true}}}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><link rel="stylesheet" href="../assets/student_exercises.css"></head><body class="{body_cls}" style="--ws:{settings['workspace']:g}in"><div class="screen-tools no-print"><button type="button" onclick="window.print()">Print / Share PDF</button><span>On iPad: use the print preview Share button to send to Notability.</span></div><main class="preview"><article class="sheet"><header class="doc-title" style="display:{title_display}"><div class="kicker">AP Calculus AB · Chapter {escape(section.split('.')[0])}</div><h1>{escape(title)}</h1></header><div class="student-line"><div>Name <span></span></div><div>Date <span></span></div><div>Period <span></span></div></div><p class="directions">Show work and use correct notation. Follow any calculator directions printed with a question.</p>{printables}{''.join(blocks)}</article></main></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AP Calculus AB · {escape(section)} · Exercises</title><script>window.MathJax={{tex:{{inlineMath:[["\\\\(","\\\\)"],["$","$"]],displayMath:[["\\\\[","\\\\]"],["$$","$$"]],processEscapes:true}}}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><link rel="stylesheet" href="../assets/student_exercises.css"></head><body class="{body_cls}" style="--ws:{settings['workspace']:g}in;--fig:{settings['figure_width']:g}px"><div class="screen-tools no-print"><button type="button" onclick="window.print()">Print / Share PDF</button><span>On iPad: use the print preview Share button to send to Notability.</span></div><main class="preview"><article class="sheet"><header class="doc-title" style="display:{title_display}"><div class="kicker">AP Calculus AB · Chapter {escape(section.split('.')[0])}</div><h1>{escape(title)}</h1></header><div class="student-line"><div>Name <span></span></div><div>Date <span></span></div><div>Period <span></span></div></div><p class="directions">Show work and use correct notation. Follow any calculator directions printed with a question.</p>{printables}{''.join(blocks)}</article></main></body></html>'''
 
 
 def save_exercise_config(config: dict, publish: bool = False) -> dict:

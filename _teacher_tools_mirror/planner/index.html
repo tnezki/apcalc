@@ -21,6 +21,7 @@ body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background
 .resource-label.teacher{margin-top:14px}.resources{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
 .resources a,.resources button{color:#17335b;background:#fff;border:1px solid #ead08a;border-radius:999px;padding:8px 14px;text-decoration:none;font-size:.90rem;font-weight:500;white-space:nowrap;font-family:inherit;cursor:pointer}
 .resources a:hover,.resources a:focus-visible,.resources button:hover,.resources button:focus-visible{background:var(--gold-light);border-color:var(--navy);outline:none}
+.tool-strip{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:14px;padding-top:12px;border-top:1px solid #ead08a}.tool-strip a{color:#173f6d;background:#fff;border:1px solid #ead08a;border-radius:999px;padding:8px 12px;text-decoration:none;font-weight:850;white-space:nowrap}.tool-strip a.sync{color:#245f91;border-color:#b7cde4}.tool-strip .spacer{flex:1}.tool-strip button{padding:9px 14px;font-size:.90rem}
 .section-title{margin:18px 0 7px;color:var(--navy);font-size:1.05rem;font-weight:900}
 .note{margin:0 0 8px;padding:8px 12px;background:var(--panel);border:1px solid #d7dde4;color:#425466;font-size:.82rem;font-weight:700}
 .status{display:none;margin:8px 0;padding:9px 12px;border-radius:7px;font-size:.82rem;font-weight:800}.status.show{display:block}
@@ -49,17 +50,48 @@ button{border:1px solid var(--navy);border-radius:8px;background:var(--navy);col
 <body>
 <div class="wrapper">
 <header class="titlebar"><h1>AP Calculus AB – Planner</h1><a class="tools-home-link" href="/">Course Tools</a></header>
-<div class="resource-panel" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
-  <a href="/" style="text-decoration:none;color:#173f6d;background:#fff;border:1px solid #ead08a;border-radius:999px;padding:8px 12px;font-weight:850">AP Calculus Tools</a>
-  <a href="/library/" style="text-decoration:none;color:#173f6d;background:#fff;border:1px solid #ead08a;border-radius:999px;padding:8px 12px;font-weight:850">Library</a>
-  <a href="/warmup_builder/editor.html" style="text-decoration:none;color:#173f6d;background:#fff;border:1px solid #ead08a;border-radius:999px;padding:8px 12px;font-weight:850">Warmup Editor</a>
-  <a href="/exercise_builder/" style="text-decoration:none;color:#173f6d;background:#fff;border:1px solid #ead08a;border-radius:999px;padding:8px 12px;font-weight:850">Exercise Editor</a>
-  <a href="/apcalc/agenda/index.html" target="_blank" rel="noopener" style="text-decoration:none;color:#173f6d;background:#fff;border:1px solid #ead08a;border-radius:999px;padding:8px 12px;font-weight:850">Student Agenda ↗</a>
-  <a href="http://127.0.0.1:8771/" target="_blank" rel="noopener" style="text-decoration:none;color:#245f91;background:#fff;border:1px solid #b7cde4;border-radius:999px;padding:8px 12px;font-weight:850">GitHub Sync ↗</a>
-  <span style="flex:1"></span>
-  <button id="applyBtn" type="button" class="gold">Save + Update Student Agenda</button>
-  <button id="undoBtn" type="button" class="secondary">Undo</button>
-  <button id="jumpBtn" type="button" class="secondary">Current Week</button>
+<div class="resource-panel">
+  <div class="resource-label">Resources</div>
+  <nav class="resources" aria-label="Student course resources">
+    <a href="https://docs.google.com/document/d/1rrToxZ84-VGe-75JeIofcH6FXqdCFiE-MNlwDZNvMs4/edit?usp=sharing" target="_blank" rel="noopener">Overview</a>
+    <a href="https://myap.collegeboard.org/login" target="_blank" rel="noopener">AP Classroom</a>
+    <a href="https://apcentral.collegeboard.org/courses/ap-calculus-ab" target="_blank" rel="noopener">AP Central</a>
+    <a href="https://tnezki.github.io/textbooks/apcalc/index.html" target="_blank" rel="noopener">Textbook</a>
+    <a href="https://tnezki.github.io/algebra/misc/printables/aaagallery_index.html" target="_blank" rel="noopener">Printables</a>
+    <a href="https://drive.google.com/drive/folders/10CsdXTol83A22hUiwB6c45CyY5eVCAxn?usp=drive_link" target="_blank" rel="noopener">Upload Spot</a>
+    <a href="https://www.desmos.com/calculator" target="_blank" rel="noopener">Desmos</a>
+    <a href="https://www.geogebra.org/graphing" target="_blank" rel="noopener">GeoGebra</a>
+    <a href="https://drive.google.com/open?id=0B6fznOHK0RHAWHAwVjhIQmN2UEE" target="_blank" rel="noopener">When You See</a>
+    <a href="https://drive.google.com/open?id=0B6fznOHK0RHAczRoVkw3QkEyc1U" target="_blank" rel="noopener">Cheat Sheet</a>
+    <a href="https://drive.google.com/open?id=0B6fznOHK0RHAZGtQZWZmZHFJM00" target="_blank" rel="noopener">Note Cards</a>
+    <a href="https://tnezki.github.io/pc/resources/parent_fuctions.pdf" target="_blank" rel="noopener">Parent Functions</a>
+    <a href="https://www.geogebra.org/m/Pd4Hn4BR" target="_blank" rel="noopener">Slope Fields</a>
+    <a href="https://www.geogebra.org/m/XFgMaKTy" target="_blank" rel="noopener">Cross Sections</a>
+    <a href="https://www.youtube.com/watch?v=SOkMGWCLqoc" target="_blank" rel="noopener">Calc in 20 Minutes</a>
+    <a href="https://www.khanacademy.org/math/calculus-1" target="_blank" rel="noopener">Khan Academy</a>
+    <a href="https://www.youtube.com/playlist?list=PL3Gnjw2fQSnH_Okp7aPcH71yC8SqHKc-o" target="_blank" rel="noopener">FRQ Videos</a>
+  </nav>
+  <div class="resource-label teacher">Teacher Resources</div>
+  <nav class="resources" aria-label="Teacher resources">
+    <a href="https://docs.google.com/document/d/1QvXUsWFheXsYBYnz3dk3_YMlkLDRNXAj06kYKm--pyU/edit?usp=sharing" target="_blank" rel="noopener">Year at a Glance</a>
+    <a id="teacherLibraryLink" href="https://tnezki.github.io/teacher_shared/calc/library/unit1/index.html" target="_blank" rel="noopener">Teacher Library</a>
+    <a href="https://docs.google.com/document/d/18imPwnYQjblasMS8x97DjKeNDjWNKTnOa3iBoTwCYVA/edit?usp=sharing" target="_blank" rel="noopener">Activity Structures</a>
+    <a href="https://docs.google.com/document/d/1vFhhtZUWGwT5vvVOrHxnkk1lRY_nZe7zCe4bhSPRwBw/edit?usp=drive_link" target="_blank" rel="noopener">Reflections</a>
+    <a href="https://tnezki.github.io/apcalc/misc/welcomes/welcome.html" target="_blank" rel="noopener">Welcomes</a>
+    <a href="/apcalc/agenda/index.html" target="_blank" rel="noopener">Student Agenda</a>
+  </nav>
+  <div class="tool-strip" aria-label="AP Calculus planner tools">
+    <a href="/">AP Calculus Tools</a>
+    <a href="/library/">Library</a>
+    <a href="/warmup_builder/editor.html">Warmup Editor</a>
+    <a href="/exercise_builder/">Exercise Editor</a>
+    <a href="/apcalc/agenda/index.html" target="_blank" rel="noopener">Student Agenda ↗</a>
+    <a class="sync" href="http://127.0.0.1:8771/" target="_blank" rel="noopener">GitHub Sync ↗</a>
+    <span class="spacer"></span>
+    <button id="applyBtn" type="button" class="gold">Save + Update Student Agenda</button>
+    <button id="undoBtn" type="button" class="secondary">Undo</button>
+    <button id="jumpBtn" type="button" class="secondary">Current Week</button>
+  </div>
 </div>
 <div id="connectionStatus" class="status"></div>
 <div class="section-title">Current State</div>
