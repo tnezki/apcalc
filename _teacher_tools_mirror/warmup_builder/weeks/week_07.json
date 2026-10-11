@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "week_number": 7,
+  "title": "Week 7 Warmups",
+  "settings": {
+    "workspace": 0.55
+  },
+  "warmups": [
+    {
+      "number": 1,
+      "label": "10/12 · Before 3.3",
+      "questions": [
+        {
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "3.2 Differentiability",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "Let $f(x)=\\begin{cases}kx^2, & x\\le 1 \\\\ 2x+k-2, & x>1.\\end{cases}$ For which value of $k$ is $f$ differentiable at $x=1$?",
+              "choices": [
+                "$-1$",
+                "$0$",
+                "$1$",
+                "$2$",
+                "No value of $k$ makes $f$ differentiable."
+              ]
+            }
+          ],
+          "id": "w1q1"
+        },
+        {
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "2.3 Continuity",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "For $x\\ne 0$, let $g(x)=\\dfrac{\\sqrt{x+9}-3}{x}$. Use a graph or numerical table near $x=0$ to determine which value of $g(0)$ would make $g$ continuous.",
+              "choices": [
+                "$0$",
+                "$\\dfrac{1}{12}$",
+                "$\\dfrac{1}{6}$",
+                "$\\dfrac{1}{3}$",
+                "No value makes $g$ continuous."
+              ]
+            }
+          ],
+          "id": "w1q2"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "10/13 · After first 3.3 lesson",
+      "questions": [
+        {
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "3.3 Basic Derivative Rules",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "If $f(x)=3x^4-5x^2+7x-9$, what is $f'(1)$?",
+              "choices": [
+                "$-9$",
+                "$-2$",
+                "$4$",
+                "$9$",
+                "$17$"
+              ]
+            }
+          ],
+          "id": "w2q1"
+        },
+        {
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "3.1 Derivative as a Limit",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "Let $r(x)=\\sqrt{2x+3}$. Use $h=0.001$ and the symmetric difference $\\dfrac{r(5+h)-r(5-h)}{2h}$ to estimate $r'(5)$.",
+              "choices": [
+                "$0.000$",
+                "$0.139$",
+                "$0.277$",
+                "$0.555$",
+                "$3.606$"
+              ]
+            }
+          ],
+          "id": "w2q2"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "label": "10/14 · After second 3.3 lesson",
+      "questions": [
+        {
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "3.3 Product Rule",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "Suppose $f(2)=3.6$, $g(2)=-1.4$, $f'(2)=2.5$, and $g'(2)=-0.8$. If $h(x)=f(x)g(x)$, what is $h'(2)$?",
+              "choices": [
+                "$-6.38$",
+                "$-3.50$",
+                "$-2.88$",
+                "$-0.30$",
+                "$6.38$"
+              ]
+            }
+          ],
+          "id": "w3q1"
+        },
+        {
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "2.2 Limits at Infinity",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "What is $\\displaystyle\\lim_{x\\to-\\infty}\\frac{4x^3-x}{2x^3+7}$?",
+              "choices": [
+                "$-2$",
+                "$0$",
+                "$\\dfrac{1}{2}$",
+                "$2$",
+                "The limit does not exist."
+              ]
+            }
+          ],
+          "id": "w3q2"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "10/15 · Before 3.4",
+      "questions": [
+        {
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "3.3 Quotient Rule",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "If $h(x)=\\dfrac{x^2+1}{x-1}$, what is $h'(2)$?",
+              "choices": [
+                "$-5$",
+                "$-1$",
+                "$0$",
+                "$1$",
+                "$9$"
+              ]
+            }
+          ],
+          "id": "w4q1"
+        },
+        {
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "3.2 One-Sided Derivatives",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "Graph $f(x)=|x^2-4|$ near $x=2$ and estimate the left-hand and right-hand slopes. Which ordered pair (left, right) is closest?",
+              "choices": [
+                "$( -4,\\ 4 )$",
+                "$( 4,\\ 4 )$",
+                "$( -2,\\ 2 )$",
+                "$( 0,\\ 0 )$",
+                "Neither one-sided slope exists."
+              ]
+            }
+          ],
+          "id": "w4q2"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "10/16 · After first 3.4 lesson",
+      "questions": [
+        {
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "3.4 Velocity & Rates",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "A particle's position is $s(t)=0.25t^3-2.4t^2+5t$ meters, where $t$ is in seconds. What is its instantaneous velocity at $t=4$ seconds?",
+              "choices": [
+                "$-2.4$ m/s",
+                "$-2.2$ m/s",
+                "$2.2$ m/s",
+                "$4.2$ m/s",
+                "$12.0$ m/s"
+              ]
+            }
+          ],
+          "id": "w5q1"
+        },
+        {
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "2.4 Tangent Line Meaning",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "At $x=1$, a differentiable function satisfies $f(1)=-2$ and $f'(1)=3$. Which equation represents the tangent line at $x=1$?",
+              "choices": [
+                "$y=3x-5$",
+                "$y=3x-2$",
+                "$y=-2x+3$",
+                "$y=x-2$",
+                "$y=-2$"
+              ]
+            }
+          ],
+          "id": "w5q2"
+        }
+      ]
+    }
+  ],
+  "intro": "Warmups look backward, not ahead. Question 1 strengthens a skill taught before this day; Question 2 spirals an older skill. Each day has one No Calculator and one Calculator Permitted AP-style multiple-choice question."
+}

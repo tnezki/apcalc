@@ -1,7 +1,7 @@
 {
   "schema": "apcalc-planner-state/0.4",
   "school_year": "2026-2027",
-  "current_week_index": 5,
+  "current_week_index": 6,
   "days": [
     {
       "week_index": 0,
@@ -9041,5 +9041,5 @@
     "normalize-imported-custom-resources-v1",
     "chapter3-rebuild-20261005-v1"
   ],
-  "updated_at": "2026-10-05T22:27:20"
+  "updated_at": "2026-10-11T13:59:31"
 }
