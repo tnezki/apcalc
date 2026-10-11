@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "package_type": "apcalc_warmup_result",
+  "week_number": 7,
+  "request_id": "apcalc-week-07-20261011-planner-read",
+  "teacher_config": "week_07_warmups.json",
+  "student_html": "week_07_warmups.html",
+  "plan": {
+    "week_number": 7,
+    "week_index": 6,
+    "school_year": "2026-2027",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-16",
+    "scheduled_instructional_warmups": 5,
+    "slots": [
+      {
+        "number": 1,
+        "date": "2026-10-12",
+        "display_date": "10/12",
+        "source": "planner",
+        "scheduled_lesson": "3.3: Rules for Differentiation",
+        "strengthen": {
+          "section_code": "3.2",
+          "section_title": "3.2 Differentiability",
+          "calculator_policy": "No Calculator",
+          "representation": "piecewise analytic"
+        },
+        "retain": {
+          "section_code": "2.3",
+          "section_title": "2.3 Continuity",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "numerical continuity"
+        }
+      },
+      {
+        "number": 2,
+        "date": "2026-10-13",
+        "display_date": "10/13",
+        "source": "planner",
+        "scheduled_lesson": "3.3: Rules for Differentiation",
+        "strengthen": {
+          "section_code": "3.3",
+          "section_title": "3.3 Basic Derivative Rules",
+          "calculator_policy": "No Calculator",
+          "representation": "symbolic"
+        },
+        "retain": {
+          "section_code": "3.1",
+          "section_title": "3.1 Derivative as a Limit",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "symmetric difference"
+        }
+      },
+      {
+        "number": 3,
+        "date": "2026-10-14",
+        "display_date": "10/14",
+        "source": "planner",
+        "scheduled_lesson": "3.3: Rules for Differentiation",
+        "strengthen": {
+          "section_code": "3.3",
+          "section_title": "3.3 Product Rule",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "function data/product rule"
+        },
+        "retain": {
+          "section_code": "2.2",
+          "section_title": "2.2 Limits at Infinity",
+          "calculator_policy": "No Calculator",
+          "representation": "limit at infinity"
+        }
+      },
+      {
+        "number": 4,
+        "date": "2026-10-15",
+        "display_date": "10/15",
+        "source": "planner",
+        "scheduled_lesson": "3.4: Velocity & Rates",
+        "strengthen": {
+          "section_code": "3.3",
+          "section_title": "3.3 Quotient Rule",
+          "calculator_policy": "No Calculator",
+          "representation": "analytic quotient"
+        },
+        "retain": {
+          "section_code": "3.2",
+          "section_title": "3.2 One-Sided Derivatives",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "graphical one-sided slopes"
+        }
+      },
+      {
+        "number": 5,
+        "date": "2026-10-16",
+        "display_date": "10/16",
+        "source": "planner",
+        "scheduled_lesson": "3.4: Velocity & Rates",
+        "strengthen": {
+          "section_code": "3.4",
+          "section_title": "3.4 Velocity & Rates",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "motion context"
+        },
+        "retain": {
+          "section_code": "2.4",
+          "section_title": "2.4 Tangent Line Meaning",
+          "calculator_policy": "No Calculator",
+          "representation": "tangent-line equation"
+        }
+      }
+    ],
+    "rule": "Warmups look backward only. Question 1 strengthens the most recently taught or recently practiced skill before each day. Question 2 spirals an older taught skill. Never use the lesson scheduled for that day until a later warmup. One question is No Calculator and one is Calculator Permitted."
+  }
+}
