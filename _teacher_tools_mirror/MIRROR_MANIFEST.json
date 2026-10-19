@@ -1,6 +1,6 @@
 {
   "destination": "apcalc/_teacher_tools_mirror",
-  "file_count": 94,
+  "file_count": 97,
   "files": [
     {
       "bytes": 708,
@@ -433,6 +433,16 @@
       "sha256": "fc9d7a477f7abebd950c5b506388ba918fd98a6c38298cd535d994e547140b28"
     },
     {
+      "bytes": 3849,
+      "path": "library/warmups/week_08_warmups/WARMUP_RESULT.json",
+      "sha256": "5fbf72b4462478087a2fbc33da2f16add5227e79d5b6e636f76c0fc02fc22447"
+    },
+    {
+      "bytes": 9040,
+      "path": "library/warmups/week_08_warmups/week_08_warmups.html",
+      "sha256": "d9bad5038a738f46adfa1eac6d9fe62bcd9b168016fd45190942ac8456e93bc4"
+    },
+    {
       "bytes": 33341,
       "path": "planner/index.html",
       "sha256": "3e33a8c725a9f67c70447d14283d73e4cac6627c2d4a8d833461b4a92de17303"
@@ -443,9 +453,9 @@
       "sha256": "65066c4b9ad57b26543ce7d0613464fc790df0f9e1e1661e13e99639d94f1d38"
     },
     {
-      "bytes": 166745,
+      "bytes": 166758,
       "path": "planner/planner_state.json",
-      "sha256": "11da295359fd3bf1e39a4b3e6ed52d9f2eb1df31493a398f2e9d35a487fa8ed2"
+      "sha256": "4e77cea558f2ed03e91009277fc90cdb02364bb7a6de7c1549c1fb2a6e8db008"
     },
     {
       "bytes": 12479,
@@ -471,6 +481,11 @@
       "bytes": 7347,
       "path": "warmup_builder/weeks/week_07.json",
       "sha256": "c26f7500574bd0cb214adda3dfe4201c96d04205329aec20277f0c0df2ada038"
+    },
+    {
+      "bytes": 7277,
+      "path": "warmup_builder/weeks/week_08.json",
+      "sha256": "34ecd2c35643c0c058c6fbeef720b430fd21bae300233810767ad5da9a8f43af"
     }
   ],
   "schema_version": 1,

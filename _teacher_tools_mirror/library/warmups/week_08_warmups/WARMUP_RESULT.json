@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "package_type": "apcalc_warmup_result",
+  "week_number": 8,
+  "request_id": "apcalc-week-08-20261018-planner-read",
+  "teacher_config": "week_08_warmups.json",
+  "student_html": "week_08_warmups.html",
+  "plan": {
+    "week_number": 8,
+    "week_index": 7,
+    "school_year": "2026-2027",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-23",
+    "scheduled_instructional_warmups": 5,
+    "slots": [
+      {
+        "number": 1,
+        "date": "2026-10-19",
+        "display_date": "10/19",
+        "source": "planner",
+        "scheduled_lesson": "3.5: Trig Derivatives",
+        "strengthen": {
+          "section_code": "3.4",
+          "section_title": "3.4 Velocity & Rates",
+          "calculator_policy": "No Calculator",
+          "representation": "analytic velocity"
+        },
+        "retain": {
+          "section_code": "2.4",
+          "section_title": "2.4 Average Rates of Change",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "exponential model"
+        }
+      },
+      {
+        "number": 2,
+        "date": "2026-10-20",
+        "display_date": "10/20",
+        "source": "planner",
+        "scheduled_lesson": "3.5: Trig Derivatives",
+        "strengthen": {
+          "section_code": "3.5",
+          "section_title": "3.5 Basic Trig Derivatives",
+          "calculator_policy": "No Calculator",
+          "representation": "symbolic trig"
+        },
+        "retain": {
+          "section_code": "3.3",
+          "section_title": "3.3 Quotient Rule",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "function-value data"
+        }
+      },
+      {
+        "number": 3,
+        "date": "2026-10-21",
+        "display_date": "10/21",
+        "source": "planner",
+        "scheduled_lesson": "3.6: Chain Rule",
+        "strengthen": {
+          "section_code": "3.5",
+          "section_title": "3.5 Trig + Product Rule",
+          "calculator_policy": "No Calculator",
+          "representation": "analytic trig product"
+        },
+        "retain": {
+          "section_code": "3.4",
+          "section_title": "3.4 Average Velocity",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "motion model"
+        }
+      },
+      {
+        "number": 4,
+        "date": "2026-10-22",
+        "display_date": "10/22",
+        "source": "planner",
+        "scheduled_lesson": "3.6: Chain Rule",
+        "strengthen": {
+          "section_code": "3.6",
+          "section_title": "3.6 Basic Chain Rule",
+          "calculator_policy": "No Calculator",
+          "representation": "analytic composition"
+        },
+        "retain": {
+          "section_code": "3.1",
+          "section_title": "3.1 Instantaneous Rate from Data",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "numerical derivative"
+        }
+      },
+      {
+        "number": 5,
+        "date": "2026-10-23",
+        "display_date": "10/23",
+        "source": "planner",
+        "scheduled_lesson": "3.6: Chain Rule",
+        "strengthen": {
+          "section_code": "3.6",
+          "section_title": "3.6 Chain Rule with Trig",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "trig composition"
+        },
+        "retain": {
+          "section_code": "3.3",
+          "section_title": "3.3 Higher-Order Derivatives",
+          "calculator_policy": "No Calculator",
+          "representation": "second derivative"
+        }
+      }
+    ],
+    "rule": "Warmups look backward only. Question 1 strengthens the most recently taught or recently practiced skill before each day. Question 2 spirals an older taught skill. Never use the lesson scheduled for that day until a later warmup. One question is No Calculator and one is Calculator Permitted."
+  }
+}
