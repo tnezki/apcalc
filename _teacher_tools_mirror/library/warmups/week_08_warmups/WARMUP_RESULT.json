@@ -2,7 +2,7 @@
   "schema_version": 1,
   "package_type": "apcalc_warmup_result",
   "week_number": 8,
-  "request_id": "apcalc-week-08-20261018-planner-read",
+  "request_id": "apcalc-week-08-revised-pacing-20261018",
   "teacher_config": "week_08_warmups.json",
   "student_html": "week_08_warmups.html",
   "plan": {
@@ -12,37 +12,38 @@
     "week_start": "2026-10-19",
     "week_end": "2026-10-23",
     "scheduled_instructional_warmups": 5,
+    "pacing_note": "Adjusted by two instructional days after the previous week: 3.4 on Oct 19-20; 3.5 on Oct 21-22; 3.6 begins Oct 23.",
     "slots": [
       {
         "number": 1,
         "date": "2026-10-19",
         "display_date": "10/19",
-        "source": "planner",
-        "scheduled_lesson": "3.5: Trig Derivatives",
+        "source": "revised_pacing",
+        "scheduled_lesson": "3.4: Velocity & Rates",
         "strengthen": {
-          "section_code": "3.4",
-          "section_title": "3.4 Velocity & Rates",
+          "section_code": "3.3",
+          "section_title": "3.3 Product Rule",
           "calculator_policy": "No Calculator",
-          "representation": "analytic velocity"
+          "representation": "analytic/product rule"
         },
         "retain": {
-          "section_code": "2.4",
-          "section_title": "2.4 Average Rates of Change",
+          "section_code": "2.3",
+          "section_title": "2.3 Continuity from Limits",
           "calculator_policy": "Calculator Permitted",
-          "representation": "exponential model"
+          "representation": "numerical limit"
         }
       },
       {
         "number": 2,
         "date": "2026-10-20",
         "display_date": "10/20",
-        "source": "planner",
-        "scheduled_lesson": "3.5: Trig Derivatives",
+        "source": "revised_pacing",
+        "scheduled_lesson": "3.4: Velocity & Rates",
         "strengthen": {
-          "section_code": "3.5",
-          "section_title": "3.5 Basic Trig Derivatives",
+          "section_code": "3.4",
+          "section_title": "3.4 Instantaneous Velocity",
           "calculator_policy": "No Calculator",
-          "representation": "symbolic trig"
+          "representation": "analytic motion"
         },
         "retain": {
           "section_code": "3.3",
@@ -55,51 +56,51 @@
         "number": 3,
         "date": "2026-10-21",
         "display_date": "10/21",
-        "source": "planner",
-        "scheduled_lesson": "3.6: Chain Rule",
+        "source": "revised_pacing",
+        "scheduled_lesson": "3.5: Trig Derivatives",
         "strengthen": {
-          "section_code": "3.5",
-          "section_title": "3.5 Trig + Product Rule",
-          "calculator_policy": "No Calculator",
-          "representation": "analytic trig product"
+          "section_code": "3.4",
+          "section_title": "3.4 Acceleration from Position",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "analytic motion model"
         },
         "retain": {
-          "section_code": "3.4",
-          "section_title": "3.4 Average Velocity",
-          "calculator_policy": "Calculator Permitted",
-          "representation": "motion model"
+          "section_code": "3.2",
+          "section_title": "3.2 Differentiability",
+          "calculator_policy": "No Calculator",
+          "representation": "conceptual graph reasoning"
         }
       },
       {
         "number": 4,
         "date": "2026-10-22",
         "display_date": "10/22",
-        "source": "planner",
-        "scheduled_lesson": "3.6: Chain Rule",
+        "source": "revised_pacing",
+        "scheduled_lesson": "3.5: Trig Derivatives",
         "strengthen": {
-          "section_code": "3.6",
-          "section_title": "3.6 Basic Chain Rule",
+          "section_code": "3.5",
+          "section_title": "3.5 Basic Trig Derivatives",
           "calculator_policy": "No Calculator",
-          "representation": "analytic composition"
+          "representation": "symbolic trig in radians"
         },
         "retain": {
-          "section_code": "3.1",
-          "section_title": "3.1 Instantaneous Rate from Data",
+          "section_code": "3.4",
+          "section_title": "3.4 Average Velocity",
           "calculator_policy": "Calculator Permitted",
-          "representation": "numerical derivative"
+          "representation": "polynomial motion model"
         }
       },
       {
         "number": 5,
         "date": "2026-10-23",
         "display_date": "10/23",
-        "source": "planner",
+        "source": "revised_pacing",
         "scheduled_lesson": "3.6: Chain Rule",
         "strengthen": {
-          "section_code": "3.6",
-          "section_title": "3.6 Chain Rule with Trig",
+          "section_code": "3.5",
+          "section_title": "3.5 Trig + Product Rule",
           "calculator_policy": "Calculator Permitted",
-          "representation": "trig composition"
+          "representation": "trig product model"
         },
         "retain": {
           "section_code": "3.3",
@@ -109,6 +110,6 @@
         }
       }
     ],
-    "rule": "Warmups look backward only. Question 1 strengthens the most recently taught or recently practiced skill before each day. Question 2 spirals an older taught skill. Never use the lesson scheduled for that day until a later warmup. One question is No Calculator and one is Calculator Permitted."
+    "rule": "Warmups look backward only. Q1 strengthens a skill already taught before that date; Q2 spirals an older taught skill. Never preview the lesson scheduled for that date. Exactly one No Calculator and one Calculator Permitted question daily."
   }
 }

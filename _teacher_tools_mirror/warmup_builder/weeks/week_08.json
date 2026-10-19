@@ -2,31 +2,31 @@
   "schema_version": 1,
   "week_number": 8,
   "title": "Week 8 Warmups",
-  "intro": "Warmups look backward, not ahead. Question 1 strengthens a skill taught before this day; Question 2 spirals an older skill. Each day has one No Calculator and one Calculator Permitted AP-style multiple-choice question.",
+  "intro": "Warmups look backward, not ahead. Question 1 reviews the most recently taught skill before that day; Question 2 spirals an older skill. No warmup previews the lesson scheduled for that day.",
   "settings": {
     "workspace": 0.55
   },
   "warmups": [
     {
       "number": 1,
-      "label": "10/19 · Before 3.5",
+      "label": "10/19 · Before 3.4",
       "questions": [
         {
           "visible": true,
           "role": "Recent Review",
-          "topic": "3.4 Velocity & Rates",
+          "topic": "3.3 Product Rule",
           "calculator": "No Calculator",
           "active_instance": 0,
           "instances": [
             {
               "label": "Original",
-              "stem": "A particle moves along a line with position $s(t)=t^3-6t^2+9t+4$ meters. What is its instantaneous velocity at $t=2$ seconds?",
+              "stem": "If $f(x)=x^2(3x-1)$, what is $f'(2)$?",
               "choices": [
-                "$-6$ m/s",
-                "$-3$ m/s",
-                "$0$ m/s",
-                "$3$ m/s",
-                "$6$ m/s"
+                "$12$",
+                "$20$",
+                "$26$",
+                "$32$",
+                "$44$"
               ]
             }
           ],
@@ -35,19 +35,19 @@
         {
           "visible": true,
           "role": "Spiral Review",
-          "topic": "2.4 Average Rates of Change",
+          "topic": "2.3 Continuity from Limits",
           "calculator": "Calculator Permitted",
           "active_instance": 0,
           "instances": [
             {
               "label": "Original",
-              "stem": "The temperature of a cooling object is modeled by $T(t)=68+32e^{-0.25t}$ degrees, where $t$ is in minutes. Which value is closest to the average rate of change of $T$ on $[0,4]$?",
+              "stem": "A function is defined by $g(x)=\\dfrac{\\sqrt{x+4}-2}{x}$ for $x\\ne 0$. Using values of $g(x)$ near $x=0$, which value of $g(0)$ makes $g$ continuous at $0$?",
               "choices": [
-                "$-8.00$ degrees/min",
-                "$-2.94$ degrees/min",
-                "$5.06$ degrees/min",
-                "$-5.06$ degrees/min",
-                "$8.00$ degrees/min"
+                "$-0.25$",
+                "$0$",
+                "$0.25$",
+                "$0.50$",
+                "$1$"
               ]
             }
           ],
@@ -57,24 +57,24 @@
     },
     {
       "number": 2,
-      "label": "10/20 · After first 3.5 lesson",
+      "label": "10/20 · After first 3.4 lesson",
       "questions": [
         {
           "visible": true,
           "role": "Recent Review",
-          "topic": "3.5 Basic Trig Derivatives",
+          "topic": "3.4 Instantaneous Velocity",
           "calculator": "No Calculator",
           "active_instance": 0,
           "instances": [
             {
               "label": "Original",
-              "stem": "If $f(x)=4\\sin x-3\\cos x+2\\tan x$, what is $f'(0)$? All angles are in radians.",
+              "stem": "A particle moves along a straight line with position $s(t)=t^3-3t^2+2t+4$ meters, where $t$ is in seconds. What is its velocity at $t=2$?",
               "choices": [
-                "$-1$",
-                "$0$",
-                "$2$",
-                "$4$",
-                "$6$"
+                "$-2$ m/s",
+                "$0$ m/s",
+                "$2$ m/s",
+                "$4$ m/s",
+                "$8$ m/s"
               ]
             }
           ],
@@ -89,13 +89,13 @@
           "instances": [
             {
               "label": "Original",
-              "stem": "Suppose $f(2)=3.2$, $g(2)=-1.5$, $f'(2)=0.4$, and $g'(2)=2.0$. If $h(x)=\\dfrac{f(x)}{g(x)}$, what is $h'(2)$, to the nearest hundredth?",
+              "stem": "Suppose $f(1)=2.4$, $g(1)=1.2$, $f'(1)=-0.5$, and $g'(1)=1.5$. For $h(x)=\\dfrac{f(x)}{g(x)}$, what is $h'(1)$ to the nearest hundredth?",
               "choices": [
-                "$-0.47$",
-                "$-3.11$",
-                "$-2.13$",
-                "$2.13$",
-                "$3.11$"
+                "$-3.50$",
+                "$-2.92$",
+                "$-1.25$",
+                "$2.92$",
+                "$3.50$"
               ]
             }
           ],
@@ -105,28 +105,76 @@
     },
     {
       "number": 3,
-      "label": "10/21 · Before 3.6",
+      "label": "10/21 · Before 3.5",
       "questions": [
         {
           "visible": true,
           "role": "Recent Review",
-          "topic": "3.5 Trig + Product Rule",
+          "topic": "3.4 Acceleration from Position",
+          "calculator": "Calculator Permitted",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "A particle's position is $s(t)=0.25t^4-2t^2+3t$ meters, where $t$ is in seconds. What is the particle's acceleration at $t=2$?",
+              "choices": [
+                "$-4$ m/s$^2$",
+                "$0$ m/s$^2$",
+                "$4$ m/s$^2$",
+                "$8$ m/s$^2$",
+                "$12$ m/s$^2$"
+              ]
+            }
+          ],
+          "id": "w3q1"
+        },
+        {
+          "visible": true,
+          "role": "Spiral Review",
+          "topic": "3.2 Differentiability",
           "calculator": "No Calculator",
           "active_instance": 0,
           "instances": [
             {
               "label": "Original",
-              "stem": "For $f(x)=x\\sin x$, which value equals $f'(\\pi)$? All angles are in radians.",
+              "stem": "For $f(x)=|x-3|+2$, which statement is true at $x=3$?",
               "choices": [
-                "$-\\pi$",
-                "$-1$",
-                "$0$",
-                "$1$",
-                "$\\pi$"
+                "The function is discontinuous.",
+                "The function is continuous but not differentiable.",
+                "$f'(3)=0$.",
+                "$f'(3)=1$.",
+                "The function is undefined."
               ]
             }
           ],
-          "id": "w3q1"
+          "id": "w3q2"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "10/22 · After first 3.5 lesson",
+      "questions": [
+        {
+          "visible": true,
+          "role": "Recent Review",
+          "topic": "3.5 Basic Trig Derivatives",
+          "calculator": "No Calculator",
+          "active_instance": 0,
+          "instances": [
+            {
+              "label": "Original",
+              "stem": "For $f(x)=2\\sin x-3\\cos x$, what is $f'(\\pi/2)$? Angles are in radians.",
+              "choices": [
+                "$-3$",
+                "$-2$",
+                "$0$",
+                "$2$",
+                "$3$"
+              ]
+            }
+          ],
+          "id": "w4q1"
         },
         {
           "visible": true,
@@ -137,61 +185,13 @@
           "instances": [
             {
               "label": "Original",
-              "stem": "The position of a particle is $s(t)=0.3t^3-2.5t^2+7t$ meters. What is its average velocity on $[1,4]$ seconds?",
+              "stem": "The position of an object is $s(t)=0.2t^3-1.2t^2+4t$ meters. What is its average velocity on $[1,4]$ seconds?",
               "choices": [
-                "$-2.4$ m/s",
-                "$2.4$ m/s",
-                "$0.8$ m/s",
-                "$3.6$ m/s",
-                "$7.2$ m/s"
-              ]
-            }
-          ],
-          "id": "w3q2"
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "label": "10/22 · After first 3.6 lesson",
-      "questions": [
-        {
-          "visible": true,
-          "role": "Recent Review",
-          "topic": "3.6 Basic Chain Rule",
-          "calculator": "No Calculator",
-          "active_instance": 0,
-          "instances": [
-            {
-              "label": "Original",
-              "stem": "If $f(x)=(2x^3-1)^4$, what is $f'(1)$?",
-              "choices": [
-                "$6$",
-                "$8$",
-                "$12$",
-                "$24$",
-                "$32$"
-              ]
-            }
-          ],
-          "id": "w4q1"
-        },
-        {
-          "visible": true,
-          "role": "Spiral Review",
-          "topic": "3.1 Instantaneous Rate from Data",
-          "calculator": "Calculator Permitted",
-          "active_instance": 0,
-          "instances": [
-            {
-              "label": "Original",
-              "stem": "A motion sensor reports $s(2.39)=4.784$ meters and $s(2.41)=4.832$ meters. Which value best estimates the instantaneous velocity at $t=2.40$ seconds?",
-              "choices": [
-                "$2.4$ m/s",
-                "$0.24$ m/s",
-                "$4.8$ m/s",
-                "$24$ m/s",
-                "$0.024$ m/s"
+                "$1.1$ m/s",
+                "$2.2$ m/s",
+                "$3.0$ m/s",
+                "$6.6$ m/s",
+                "$9.6$ m/s"
               ]
             }
           ],
@@ -201,24 +201,24 @@
     },
     {
       "number": 5,
-      "label": "10/23 · After second 3.6 lesson",
+      "label": "10/23 · Before 3.6",
       "questions": [
         {
           "visible": true,
           "role": "Recent Review",
-          "topic": "3.6 Chain Rule with Trig",
+          "topic": "3.5 Trig + Product Rule",
           "calculator": "Calculator Permitted",
           "active_instance": 0,
           "instances": [
             {
               "label": "Original",
-              "stem": "If $h(x)=\\sin(x^2+1)$, what is $h'(2)$, to three decimal places? All angles are in radians.",
+              "stem": "If $f(x)=x^2\\sin x$, what is $f'(0.6)$ to three decimal places? Angles are in radians.",
               "choices": [
-                "$-3.836$",
-                "$-1.135$",
-                "$0.284$",
-                "$1.135$",
-                "$3.836$"
+                "$-0.975$",
+                "$0.204$",
+                "$0.678$",
+                "$0.975$",
+                "$1.175$"
               ]
             }
           ],
@@ -233,13 +233,13 @@
           "instances": [
             {
               "label": "Original",
-              "stem": "If $f(x)=2x^4-3x^3+5x-1$, what is $f''(1)$?",
+              "stem": "For $f(x)=x^3-6x^2+5$, what is $f''(2)$?",
               "choices": [
-                "$-18$",
+                "$-12$",
+                "$-6$",
                 "$0$",
                 "$6$",
-                "$4$",
-                "$24$"
+                "$12$"
               ]
             }
           ],
