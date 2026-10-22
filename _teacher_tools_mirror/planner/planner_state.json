@@ -1482,7 +1482,7 @@
       "section": "3.4: Velocity & Rates",
       "day_number": 1,
       "student_slots": [
-        "Warmups",
+        "Custom Item",
         "Notes",
         "Exercises",
         "",
@@ -1490,8 +1490,8 @@
       ],
       "custom_slots": [
         {
-          "label": "",
-          "url": ""
+          "label": "Warm Ups",
+          "url": "https://mariners.instructure.com/courses/4801/files/651636?module_item_id=283990"
         },
         {
           "label": "",
@@ -9041,5 +9041,5 @@
     "normalize-imported-custom-resources-v1",
     "chapter3-rebuild-20261005-v1"
   ],
-  "updated_at": "2026-10-18T22:58:47"
+  "updated_at": "2026-10-19T11:31:15"
 }
