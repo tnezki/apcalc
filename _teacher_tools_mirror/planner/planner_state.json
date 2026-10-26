@@ -1777,7 +1777,7 @@
       "day_number": 3,
       "student_slots": [
         "Custom Item",
-        "",
+        "Exercises",
         "",
         "",
         ""
@@ -1815,11 +1815,11 @@
       "dow": "Thursday",
       "display_date": "10/29",
       "control": "Regular Day",
-      "section": "3.7: Implicit Differentiation",
+      "section": "3.6: Chain Rule",
       "day_number": 1,
       "student_slots": [
         "Custom Item",
-        "",
+        "Custom Item",
         "",
         "",
         ""
@@ -1830,8 +1830,8 @@
           "url": "https://tnezki.github.io/apcalc/warmups/week_09_warmups/week_09_warmups.html?utm_source=chatgpt.com"
         },
         {
-          "label": "",
-          "url": ""
+          "label": "Extra Practice",
+          "url": "https://tnezki.github.io/apcalc/exercises/u3_6_exercises/u3_6_extra_practice.html?utm_source=chatgpt.com"
         },
         {
           "label": "",
@@ -1861,7 +1861,7 @@
       "day_number": 2,
       "student_slots": [
         "Custom Item",
-        "",
+        "Notes",
         "",
         "",
         ""
@@ -9041,5 +9041,5 @@
     "normalize-imported-custom-resources-v1",
     "chapter3-rebuild-20261005-v1"
   ],
-  "updated_at": "2026-10-26T13:13:46"
+  "updated_at": "2026-10-26T13:40:25"
 }
