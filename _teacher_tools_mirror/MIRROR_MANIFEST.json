@@ -123,9 +123,9 @@
       "sha256": "4583f2a92f65f99cff66f5675b3d43368a784b143d4c8a5eb0873751e45d688f"
     },
     {
-      "bytes": 3430,
+      "bytes": 6911,
       "path": "exercise_builder/sections/u3_6.json",
-      "sha256": "a54003bb70f3273cef41cc6a116b66b179c19ae2d77741c605a08313c7732bbb"
+      "sha256": "19a510f0e97ce32ba0dce420905c92b2aa9864fae90a9b921ab3df6b4fdb1df8"
     },
     {
       "bytes": 3427,
@@ -188,9 +188,9 @@
       "sha256": "f15fc8f428598c5a10fa22a9863ec44cab455f1e8ff82833bcf9100efb3e6d54"
     },
     {
-      "bytes": 3551,
+      "bytes": 6775,
       "path": "library/exercises/u3_6_exercises/u3_6_exercises.html",
-      "sha256": "b0a0d4ab3ba00dd73eab323a4fed0f2dd51337511014eb8d998d99bf91519983"
+      "sha256": "b03d3c8601f28cfcf48ed7647f3aacc673b866a27af22e58fa3c2ce5556f8081"
     },
     {
       "bytes": 3555,
@@ -465,7 +465,7 @@
     {
       "bytes": 167314,
       "path": "planner/planner_state.json",
-      "sha256": "b8e55dd3e5f5742e3123bf139c3200d8e828cb3d978a56c2b7ca6841ab6f18e8"
+      "sha256": "a64bdf85d67ea36463264fed310c0fcab3b1cc95d68877f119e35f137a1a04aa"
     },
     {
       "bytes": 12479,

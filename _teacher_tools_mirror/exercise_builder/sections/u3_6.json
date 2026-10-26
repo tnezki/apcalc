@@ -14,18 +14,60 @@
       "id": "q1",
       "stage": "Foundation",
       "visible": true,
+      "workspace": 1.15,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Identify the inner and outer functions in $y=(5x-2)^6$, then find $\\dfrac{dy}{dx}$."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.15,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $f(x)=(2x^2-3x+4)^4$."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "stage": "Foundation",
+      "visible": true,
+      "workspace": 1.15,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $y=(x^3+4)^{-2}$."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "stage": "Foundation",
+      "visible": true,
       "workspace": 1.2,
       "page_break": false,
       "active_instance": 0,
       "instances": [
         {
           "label": "Original",
-          "html": "Identify the inner and outer functions in $y=(3x^2+1)^5$, then find $dy/dx$."
+          "html": "Differentiate $h(x)=\\sqrt{5x^2+x+3}$."
         }
       ]
     },
     {
-      "id": "q2",
+      "id": "q5",
       "stage": "Foundation",
       "visible": true,
       "workspace": 1.0,
@@ -34,13 +76,13 @@
       "instances": [
         {
           "label": "Original",
-          "html": "Differentiate $y=\\sin(4x-3)$."
+          "html": "Differentiate $y=\\sin(7x-4)$."
         }
       ]
     },
     {
-      "id": "q3",
-      "stage": "Foundation",
+      "id": "q6",
+      "stage": "Practice",
       "visible": true,
       "workspace": 1.1,
       "page_break": false,
@@ -48,40 +90,82 @@
       "instances": [
         {
           "label": "Original",
-          "html": "Differentiate $f(x)=\\cos(x^2+1)$."
+          "html": "Differentiate $f(x)=\\cos(3x^2+x)$."
         }
       ]
     },
     {
-      "id": "q4",
+      "id": "q7",
       "stage": "Practice",
       "visible": true,
-      "workspace": 1.2,
+      "workspace": 1.15,
       "page_break": false,
       "active_instance": 0,
       "instances": [
         {
           "label": "Original",
-          "html": "Differentiate $g(x)=(1+\\sin x)^4$."
+          "html": "Differentiate $g(x)=\\tan(x^3-2x)$."
         }
       ]
     },
     {
-      "id": "q5",
+      "id": "q8",
       "stage": "Practice",
       "visible": true,
-      "workspace": 1.3,
+      "workspace": 1.15,
       "page_break": false,
       "active_instance": 0,
       "instances": [
         {
           "label": "Original",
-          "html": "Differentiate $h(x)=\\sqrt{2x^3-5x+1}$."
+          "html": "Differentiate $h(x)=\\sec(2x^2-1)$."
         }
       ]
     },
     {
-      "id": "q6",
+      "id": "q9",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.25,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $y=[\\cos(2x-1)]^5$."
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.35,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $y=\\sqrt{1+\\tan(3x)}$."
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.35,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Differentiate $p(x)=\\sin\\big((x^2+2)^3\\big)$."
+        }
+      ]
+    },
+    {
+      "id": "q12",
       "stage": "Practice",
       "visible": true,
       "workspace": 1.5,
@@ -90,12 +174,40 @@
       "instances": [
         {
           "label": "Original",
-          "html": "Differentiate $k(x)=(x^2+1)^2(x-3)^4$."
+          "html": "Use the product rule and chain rule to differentiate $f(x)=x(2x^2-1)^4$."
         }
       ]
     },
     {
-      "id": "q7",
+      "id": "q13",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.5,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Use the product rule and chain rule to differentiate $g(x)=\\sin(4x)\\cos(x^2)$."
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "stage": "Practice",
+      "visible": true,
+      "workspace": 1.55,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Use the quotient rule and chain rule to differentiate $h(x)=\\dfrac{(x^2+3)^3}{x^2+1}$."
+        }
+      ]
+    },
+    {
+      "id": "q15",
       "stage": "Practice",
       "visible": true,
       "workspace": 1.6,
@@ -104,40 +216,12 @@
       "instances": [
         {
           "label": "Original",
-          "html": "Differentiate $p(x)=\\dfrac{(2x+1)^3}{x^2+4}$."
+          "html": "Use the quotient rule and chain rule to differentiate $k(x)=\\dfrac{\\sin(3x)}{(x^2+2)^2}$."
         }
       ]
     },
     {
-      "id": "q8",
-      "stage": "AP / Interpretation",
-      "visible": true,
-      "workspace": 1.0,
-      "page_break": false,
-      "active_instance": 0,
-      "instances": [
-        {
-          "label": "Original",
-          "html": "Find the velocity if $s(t)=\\cos(\\pi/2-3t)$."
-        }
-      ]
-    },
-    {
-      "id": "q9",
-      "stage": "AP / Interpretation",
-      "visible": true,
-      "workspace": 1.25,
-      "page_break": false,
-      "active_instance": 0,
-      "instances": [
-        {
-          "label": "Original",
-          "html": "Differentiate $y=\\sec(\\tan x)$."
-        }
-      ]
-    },
-    {
-      "id": "q10",
+      "id": "q16",
       "stage": "AP / Interpretation",
       "visible": true,
       "workspace": 1.3,
@@ -146,7 +230,63 @@
       "instances": [
         {
           "label": "Original",
-          "html": "If $g(5)=-3$, $g'(5)=6$, $h(5)=3$, and $h'(5)=-2$, find the derivative at $x=5$ of $f(x)=g(h(x))$ if the needed values are available. State any missing information if not."
+          "html": "Let $F(x)=h(g(x))$. Given $g(2)=-1$, $g'(2)=5$, and $h'(-1)=-3$, find $F'(2)$. Show the substitution into the chain rule."
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.3,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Let $P(x)=[q(x)]^3$, where $q(0)=-2$ and $q'(0)=4$. Find $P'(0)$ and explain where the value of $q'(0)$ enters your work."
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.4,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "The position of a particle is $s(t)=\\sin(t^2+3t)$ meters, with $t$ in seconds. Find its velocity at $t=2$ seconds. Include units."
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.6,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "Find the equation of the line tangent to $f(x)=(x^2+2)^3$ at $x=1$. Show how you found the slope."
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "stage": "AP / Interpretation",
+      "visible": true,
+      "workspace": 1.5,
+      "page_break": false,
+      "active_instance": 0,
+      "instances": [
+        {
+          "label": "Original",
+          "html": "A student claims that for $y=\\tan(4x^2+1)$, $\\dfrac{dy}{dx}=\\sec^2(4x^2+1)$. Identify the error and write the correct derivative."
         }
       ]
     }

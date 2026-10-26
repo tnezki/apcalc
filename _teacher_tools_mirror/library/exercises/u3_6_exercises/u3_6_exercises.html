@@ -1,1 +1,139 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AP Calculus AB · 3.6 · Exercises</title><script>window.MathJax={tex:{inlineMath:[["\(","\)"],["$","$"]],displayMath:[["\[","\]"],["$$","$$"]],processEscapes:true}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><link rel="stylesheet" href="../assets/student_exercises.css"></head><body class="spacing-normal margin-normal" style="--ws:1.0in"><div class="screen-tools no-print"><button type="button" onclick="window.print()">Print / Share PDF</button><span>On iPad: use the print preview Share button to send to Notability.</span></div><main class="preview"><article class="sheet"><header class="doc-title" style="display:block"><div class="kicker">AP Calculus AB · Chapter 3</div><h1>3.6 · The Chain Rule — Exercises</h1></header><div class="student-line"><div>Name <span></span></div><div>Date <span></span></div><div>Period <span></span></div></div><p class="directions">Show work and use correct derivative notation. Unless a question explicitly says otherwise, work without a calculator.</p><section class="question"><div class="stage">Foundation</div><div class="qtext"><span class="qnum">1.</span>Identify the inner and outer functions in $y=(3x^2+1)^5$, then find $dy/dx$.</div><div class="workspace" style="--local-ws:1.2in"></div></section><section class="question"><div class="stage">Foundation</div><div class="qtext"><span class="qnum">2.</span>Differentiate $y=\sin(4x-3)$.</div><div class="workspace" style="--local-ws:1in"></div></section><section class="question"><div class="stage">Foundation</div><div class="qtext"><span class="qnum">3.</span>Differentiate $f(x)=\cos(x^2+1)$.</div><div class="workspace" style="--local-ws:1.1in"></div></section><section class="question"><div class="stage">Practice</div><div class="qtext"><span class="qnum">4.</span>Differentiate $g(x)=(1+\sin x)^4$.</div><div class="workspace" style="--local-ws:1.2in"></div></section><section class="question"><div class="stage">Practice</div><div class="qtext"><span class="qnum">5.</span>Differentiate $h(x)=\sqrt{2x^3-5x+1}$.</div><div class="workspace" style="--local-ws:1.3in"></div></section><section class="question"><div class="stage">Practice</div><div class="qtext"><span class="qnum">6.</span>Differentiate $k(x)=(x^2+1)^2(x-3)^4$.</div><div class="workspace" style="--local-ws:1.5in"></div></section><section class="question"><div class="stage">Practice</div><div class="qtext"><span class="qnum">7.</span>Differentiate $p(x)=\dfrac{(2x+1)^3}{x^2+4}$.</div><div class="workspace" style="--local-ws:1.6in"></div></section><section class="question"><div class="stage">AP / Interpretation</div><div class="qtext"><span class="qnum">8.</span>Find the velocity if $s(t)=\cos(\pi/2-3t)$.</div><div class="workspace" style="--local-ws:1in"></div></section><section class="question"><div class="stage">AP / Interpretation</div><div class="qtext"><span class="qnum">9.</span>Differentiate $y=\sec(\tan x)$.</div><div class="workspace" style="--local-ws:1.25in"></div></section><section class="question"><div class="stage">AP / Interpretation</div><div class="qtext"><span class="qnum">10.</span>If $g(5)=-3$, $g'(5)=6$, $h(5)=3$, and $h'(5)=-2$, find the derivative at $x=5$ of $f(x)=g(h(x))$ if the needed values are available. State any missing information if not.</div><div class="workspace" style="--local-ws:1.3in"></div></section></article></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AP Calculus AB · 3.6 · Exercises</title>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="stylesheet" href="../assets/student_exercises.css">
+</head>
+<body class="spacing-normal margin-normal" style="--ws:1.0in">
+  <div class="screen-tools no-print">
+    <button type="button" onclick="window.print()">Print / Share PDF</button>
+    <span>On iPad: use the print preview Share button to send to Notability.</span>
+  </div>
+  <main class="preview">
+    <article class="sheet">
+      <header class="doc-title" style="display:block">
+        <div class="kicker">AP Calculus AB · Chapter 3</div>
+        <h1>3.6 · The Chain Rule — Exercises</h1>
+      </header>
+      <div class="student-line">
+        <div>Name <span></span></div>
+        <div>Date <span></span></div>
+        <div>Period <span></span></div>
+      </div>
+      <p class="directions">Show work and use correct derivative notation. Work without a calculator.</p>
+  <section class="question">
+    <div class="stage">Foundation</div>
+    <div class="qtext"><span class="qnum">1.</span> Identify the inner and outer functions in $y=(5x-2)^6$, then find $\dfrac{dy}{dx}$.</div>
+    <div class="workspace" style="--local-ws:1.15in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Foundation</div>
+    <div class="qtext"><span class="qnum">2.</span> Differentiate $f(x)=(2x^2-3x+4)^4$.</div>
+    <div class="workspace" style="--local-ws:1.15in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Foundation</div>
+    <div class="qtext"><span class="qnum">3.</span> Differentiate $y=(x^3+4)^{-2}$.</div>
+    <div class="workspace" style="--local-ws:1.15in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Foundation</div>
+    <div class="qtext"><span class="qnum">4.</span> Differentiate $h(x)=\sqrt{5x^2+x+3}$.</div>
+    <div class="workspace" style="--local-ws:1.2in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Foundation</div>
+    <div class="qtext"><span class="qnum">5.</span> Differentiate $y=\sin(7x-4)$.</div>
+    <div class="workspace" style="--local-ws:1in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Practice</div>
+    <div class="qtext"><span class="qnum">6.</span> Differentiate $f(x)=\cos(3x^2+x)$.</div>
+    <div class="workspace" style="--local-ws:1.1in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Practice</div>
+    <div class="qtext"><span class="qnum">7.</span> Differentiate $g(x)=\tan(x^3-2x)$.</div>
+    <div class="workspace" style="--local-ws:1.15in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Practice</div>
+    <div class="qtext"><span class="qnum">8.</span> Differentiate $h(x)=\sec(2x^2-1)$.</div>
+    <div class="workspace" style="--local-ws:1.15in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Practice</div>
+    <div class="qtext"><span class="qnum">9.</span> Differentiate $y=[\cos(2x-1)]^5$.</div>
+    <div class="workspace" style="--local-ws:1.25in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Practice</div>
+    <div class="qtext"><span class="qnum">10.</span> Differentiate $y=\sqrt{1+\tan(3x)}$.</div>
+    <div class="workspace" style="--local-ws:1.35in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Practice</div>
+    <div class="qtext"><span class="qnum">11.</span> Differentiate $p(x)=\sin\big((x^2+2)^3\big)$.</div>
+    <div class="workspace" style="--local-ws:1.35in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Practice</div>
+    <div class="qtext"><span class="qnum">12.</span> Use the product rule and chain rule to differentiate $f(x)=x(2x^2-1)^4$.</div>
+    <div class="workspace" style="--local-ws:1.5in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Practice</div>
+    <div class="qtext"><span class="qnum">13.</span> Use the product rule and chain rule to differentiate $g(x)=\sin(4x)\cos(x^2)$.</div>
+    <div class="workspace" style="--local-ws:1.5in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Practice</div>
+    <div class="qtext"><span class="qnum">14.</span> Use the quotient rule and chain rule to differentiate $h(x)=\dfrac{(x^2+3)^3}{x^2+1}$.</div>
+    <div class="workspace" style="--local-ws:1.55in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">Practice</div>
+    <div class="qtext"><span class="qnum">15.</span> Use the quotient rule and chain rule to differentiate $k(x)=\dfrac{\sin(3x)}{(x^2+2)^2}$.</div>
+    <div class="workspace" style="--local-ws:1.6in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">AP / Interpretation</div>
+    <div class="qtext"><span class="qnum">16.</span> Let $F(x)=h(g(x))$. Given $g(2)=-1$, $g'(2)=5$, and $h'(-1)=-3$, find $F'(2)$. Show the substitution into the chain rule.</div>
+    <div class="workspace" style="--local-ws:1.3in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">AP / Interpretation</div>
+    <div class="qtext"><span class="qnum">17.</span> Let $P(x)=[q(x)]^3$, where $q(0)=-2$ and $q'(0)=4$. Find $P'(0)$ and explain where the value of $q'(0)$ enters your work.</div>
+    <div class="workspace" style="--local-ws:1.3in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">AP / Interpretation</div>
+    <div class="qtext"><span class="qnum">18.</span> The position of a particle is $s(t)=\sin(t^2+3t)$ meters, with $t$ in seconds. Find its velocity at $t=2$ seconds. Include units.</div>
+    <div class="workspace" style="--local-ws:1.4in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">AP / Interpretation</div>
+    <div class="qtext"><span class="qnum">19.</span> Find the equation of the line tangent to $f(x)=(x^2+2)^3$ at $x=1$. Show how you found the slope.</div>
+    <div class="workspace" style="--local-ws:1.6in"></div>
+  </section>
+  <section class="question">
+    <div class="stage">AP / Interpretation</div>
+    <div class="qtext"><span class="qnum">20.</span> A student claims that for $y=\tan(4x^2+1)$, $\dfrac{dy}{dx}=\sec^2(4x^2+1)$. Identify the error and write the correct derivative.</div>
+    <div class="workspace" style="--local-ws:1.5in"></div>
+  </section>
+    </article>
+  </main>
+</body>
+</html>
