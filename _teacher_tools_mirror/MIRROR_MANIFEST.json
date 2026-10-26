@@ -1,6 +1,6 @@
 {
   "destination": "apcalc/_teacher_tools_mirror",
-  "file_count": 100,
+  "file_count": 101,
   "files": [
     {
       "bytes": 708,
@@ -191,6 +191,11 @@
       "bytes": 6775,
       "path": "library/exercises/u3_6_exercises/u3_6_exercises.html",
       "sha256": "b03d3c8601f28cfcf48ed7647f3aacc673b866a27af22e58fa3c2ce5556f8081"
+    },
+    {
+      "bytes": 8246,
+      "path": "library/exercises/u3_6_exercises/u3_6_extra_practice.html",
+      "sha256": "85e8e84d59efda4a7408fe9ff647c2c95cff5d980028c7d3813399ae31cee4be"
     },
     {
       "bytes": 3555,
