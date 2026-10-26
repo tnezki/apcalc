@@ -1,7 +1,7 @@
 {
   "schema": "apcalc-planner-state/0.4",
   "school_year": "2026-2027",
-  "current_week_index": 7,
+  "current_week_index": 8,
   "days": [
     {
       "week_index": 0,
@@ -1692,16 +1692,16 @@
       "section": "3.6: Chain Rule",
       "day_number": 2,
       "student_slots": [
-        "Warmups",
-        "Explore",
-        "Exercises",
-        "Sets",
+        "Custom Item",
+        "Notes",
+        "",
+        "",
         ""
       ],
       "custom_slots": [
         {
-          "label": "",
-          "url": ""
+          "label": "Warm Ups",
+          "url": "https://tnezki.github.io/apcalc/warmups/week_09_warmups/week_09_warmups.html?utm_source=chatgpt.com"
         },
         {
           "label": "",
@@ -1734,16 +1734,16 @@
       "section": "3.6: Chain Rule",
       "day_number": 3,
       "student_slots": [
-        "Warmups",
-        "Lab",
-        "Exercises",
-        "Sets",
-        "Quick Check"
+        "Custom Item",
+        "",
+        "",
+        "",
+        ""
       ],
       "custom_slots": [
         {
-          "label": "",
-          "url": ""
+          "label": "Warm Ups",
+          "url": "https://tnezki.github.io/apcalc/warmups/week_09_warmups/week_09_warmups.html?utm_source=chatgpt.com"
         },
         {
           "label": "",
@@ -1776,16 +1776,16 @@
       "section": "3.7: Implicit Differentiation",
       "day_number": 1,
       "student_slots": [
-        "Warmups",
-        "Notes",
-        "Exercises",
+        "Custom Item",
+        "",
+        "",
         "",
         ""
       ],
       "custom_slots": [
         {
-          "label": "",
-          "url": ""
+          "label": "Warm Ups",
+          "url": "https://tnezki.github.io/apcalc/warmups/week_09_warmups/week_09_warmups.html?utm_source=chatgpt.com"
         },
         {
           "label": "",
@@ -1818,16 +1818,16 @@
       "section": "3.7: Implicit Differentiation",
       "day_number": 2,
       "student_slots": [
-        "Warmups",
-        "Explore",
-        "Exercises",
-        "Sets",
+        "Custom Item",
+        "",
+        "",
+        "",
         ""
       ],
       "custom_slots": [
         {
-          "label": "",
-          "url": ""
+          "label": "Warm Ups",
+          "url": "https://tnezki.github.io/apcalc/warmups/week_09_warmups/week_09_warmups.html?utm_source=chatgpt.com"
         },
         {
           "label": "",
@@ -1860,16 +1860,16 @@
       "section": "3.8: Inverse Trig Derivatives",
       "day_number": 1,
       "student_slots": [
-        "Warmups",
-        "Notes",
-        "Exercises",
+        "Custom Item",
+        "",
+        "",
         "",
         ""
       ],
       "custom_slots": [
         {
-          "label": "",
-          "url": ""
+          "label": "Warm Ups",
+          "url": "https://tnezki.github.io/apcalc/warmups/week_09_warmups/week_09_warmups.html?utm_source=chatgpt.com"
         },
         {
           "label": "",
@@ -9041,5 +9041,5 @@
     "normalize-imported-custom-resources-v1",
     "chapter3-rebuild-20261005-v1"
   ],
-  "updated_at": "2026-10-23T07:52:52"
+  "updated_at": "2026-10-26T06:32:43"
 }
