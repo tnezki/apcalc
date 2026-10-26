@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "package_type": "apcalc_warmup_result",
+  "week_number": 9,
+  "request_id": "apcalc-week-09-teacher-pacing-20261026",
+  "teacher_config": "week_09_warmups.json",
+  "student_html": "week_09_warmups.html",
+  "plan": {
+    "week_number": 9,
+    "week_index": 8,
+    "school_year": "2026-2027",
+    "week_start": "2026-10-26",
+    "week_end": "2026-10-30",
+    "scheduled_instructional_warmups": 5,
+    "pacing_note": "Teacher-confirmed: 3.6 on Oct 26, 27, 28; 3.7 on Oct 29, 30. Supersedes older Planner schedule.",
+    "slots": [
+      {
+        "number": 1,
+        "date": "2026-10-26",
+        "display_date": "10/26",
+        "source": "teacher_pacing_override",
+        "scheduled_lesson": "3.6: Chain Rule",
+        "strengthen": {
+          "section_code": "3.5",
+          "section_title": "3.5 Trig + Product Rule",
+          "calculator_policy": "No Calculator",
+          "representation": "analytic"
+        },
+        "retain": {
+          "section_code": "3.4",
+          "section_title": "3.4 Instantaneous Velocity",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "numeric/model"
+        }
+      },
+      {
+        "number": 2,
+        "date": "2026-10-27",
+        "display_date": "10/27",
+        "source": "teacher_pacing_override",
+        "scheduled_lesson": "3.6: Chain Rule",
+        "strengthen": {
+          "section_code": "3.6",
+          "section_title": "3.6 Basic Chain Rule",
+          "calculator_policy": "No Calculator",
+          "representation": "analytic"
+        },
+        "retain": {
+          "section_code": "3.3",
+          "section_title": "3.3 Quotient Rule from Function Values",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "numeric/model"
+        }
+      },
+      {
+        "number": 3,
+        "date": "2026-10-28",
+        "display_date": "10/28",
+        "source": "teacher_pacing_override",
+        "scheduled_lesson": "3.6: Chain Rule",
+        "strengthen": {
+          "section_code": "3.6",
+          "section_title": "3.6 Chain Rule with Trigonometry",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "numeric/model"
+        },
+        "retain": {
+          "section_code": "2.3",
+          "section_title": "2.3 Continuity of a Piecewise Function",
+          "calculator_policy": "No Calculator",
+          "representation": "analytic"
+        }
+      },
+      {
+        "number": 4,
+        "date": "2026-10-29",
+        "display_date": "10/29",
+        "source": "teacher_pacing_override",
+        "scheduled_lesson": "3.7: Implicit Differentiation",
+        "strengthen": {
+          "section_code": "3.6",
+          "section_title": "3.6 Product Rule + Chain Rule",
+          "calculator_policy": "No Calculator",
+          "representation": "analytic"
+        },
+        "retain": {
+          "section_code": "2.2",
+          "section_title": "2.2 Limits at Infinity",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "numeric/model"
+        }
+      },
+      {
+        "number": 5,
+        "date": "2026-10-30",
+        "display_date": "10/30",
+        "source": "teacher_pacing_override",
+        "scheduled_lesson": "3.7: Implicit Differentiation",
+        "strengthen": {
+          "section_code": "3.7",
+          "section_title": "3.7 Implicit Differentiation",
+          "calculator_policy": "No Calculator",
+          "representation": "analytic"
+        },
+        "retain": {
+          "section_code": "3.4",
+          "section_title": "3.4 Velocity and Acceleration Signs",
+          "calculator_policy": "Calculator Permitted",
+          "representation": "numeric/model"
+        }
+      }
+    ],
+    "rule": "Warmups look backward. Q1 recent taught skill, Q2 older spiral skill. One no-calculator and one calculator-permitted item daily. No new-lesson preview."
+  }
+}
