@@ -1609,7 +1609,7 @@
       "day_number": 2,
       "student_slots": [
         "Warmups",
-        "Explore",
+        "Notes",
         "Exercises",
         "Sets",
         ""
@@ -1647,12 +1647,12 @@
       "dow": "Friday",
       "display_date": "10/23",
       "control": "Regular Day",
-      "section": "3.6: Chain Rule",
-      "day_number": 1,
+      "section": "3.5: Trig Derivatives",
+      "day_number": 3,
       "student_slots": [
         "Warmups",
-        "Notes",
         "Exercises",
+        "",
         "",
         ""
       ],
@@ -9041,5 +9041,5 @@
     "normalize-imported-custom-resources-v1",
     "chapter3-rebuild-20261005-v1"
   ],
-  "updated_at": "2026-10-19T11:31:15"
+  "updated_at": "2026-10-23T07:52:52"
 }
